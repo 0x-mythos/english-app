@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Кольори беремо з теми Telegram (--tg-theme-*), поза Telegram — власні */
+:root {
+  --background: var(--tg-theme-bg-color, #f6f4ef);
+  --foreground: var(--tg-theme-text-color, #1d1b18);
+  --muted: var(--tg-theme-hint-color, #8a8478);
+  --surface: var(--tg-theme-secondary-bg-color, #ffffff);
+  --accent: var(--tg-theme-button-color, #2f5d50);
+  --accent-fg: var(--tg-theme-button-text-color, #ffffff);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--tg-theme-bg-color, #141412);
+    --foreground: var(--tg-theme-text-color, #ece9e2);
+    --muted: var(--tg-theme-hint-color, #8f8a80);
+    --surface: var(--tg-theme-secondary-bg-color, #1f1e1b);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
