@@ -68,6 +68,30 @@ async function askClaude(word: string, context: string | null): Promise<OwnWordI
   }
 }
 
+/**
+ * Слово з уже готовими перекладом/прикладом (напр. з розмови з AI) → картка без нового виклику Claude.
+ * Дубль → 'exists'; є в наборах → картка з набору.
+ */
+export async function addKnownWord(userId: string, raw: Partial<Record<keyof OwnWordInfo, unknown>>): Promise<AddOwnWordResult> {
+  const word = normalizeOwnWord(raw.word);
+  const translation = typeof raw.translation === "string" ? raw.translation.trim().slice(0, 200) : "";
+  if (!word || !translation) return { status: "invalid" };
+
+  const existing = await findUserCard(userId, word);
+  if (existing) return { status: "exists", card: info(existing) };
+  const fromSet = await addFromSet(userId, word);
+  if (fromSet) return { status: "added", card: fromSet };
+
+  const transcription = typeof raw.transcription === "string" ? raw.transcription.trim().slice(0, 80) : "";
+  const ex = typeof raw.example === "string" ? raw.example.trim().slice(0, 300) : "";
+  const example = ex.toLowerCase().includes(word.toLowerCase()) ? ex : "";
+  const { error } = await db.from("cards").insert({
+    user_id: userId, word, translation, transcription: transcription || null, example: example || null,
+  });
+  if (error) throw error;
+  return { status: "added", card: { word, translation, transcription, example } };
+}
+
 /** Додає юзеру картку зі своїм словом. Дубль (вже є власне або з набору) → status 'exists' без нової картки. */
 export async function addOwnWord(userId: string, rawWord: unknown, rawContext?: unknown): Promise<AddOwnWordResult> {
   const word = normalizeOwnWord(rawWord);

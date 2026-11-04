@@ -25,7 +25,6 @@ type Me = {
 };
 
 const soon = [
-  { title: "Розмова з AI", note: "Співбесіда, стендап, small talk. 1–2 точкові виправлення за раз.", icon: ChatIcon, tone: "bg-sky/15 text-sky" },
   { title: "Читання", note: "Тексти трохи вище твого рівня, тап по слову — і воно в картках.", icon: BookIcon, tone: "bg-mint/15 text-mint" },
 ];
 
@@ -103,6 +102,22 @@ export default function Home() {
       )}
 
       {me && (me.streak || me.progress) && <Stats streak={me.streak} progress={me.progress} />}
+
+      {me && (
+        <Link
+          href="/chat"
+          className="flex items-center gap-3.5 rounded-[24px] bg-sky px-4 py-4 text-white shadow-card transition-transform active:scale-[0.99]"
+        >
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/20">
+            <ChatIcon className="size-6" />
+          </span>
+          <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+            <span className="font-display text-[17px] font-semibold">Розмова з AI</span>
+            <span className="text-[14px] leading-snug opacity-90">Співбесіда, стендап, рев&apos;ю коду, small talk — з 1–2 виправленнями за раз.</span>
+          </span>
+          <span className="shrink-0 text-[20px] font-semibold" aria-hidden>→</span>
+        </Link>
+      )}
 
       {me && <AddWord onAdded={() => load(window.Telegram?.WebApp?.initData ?? "")} />}
 
@@ -195,7 +210,7 @@ function Stats({ streak, progress }: { streak: Streak | null; progress: Me["prog
           {progress.learned} <span className="text-[15px] font-medium">{plural(progress.learned, "слово", "слова", "слів")}</span>
         </span>
         <span className="text-[12px] leading-snug text-muted">
-          {progress.learning > 0 ? `ще ${progress.learning} в процесі` : "слово вивчене, коли перейшло в рідкі повтори"}
+          {progress.learning > 0 ? `ще ${progress.learning} в процесі` : "вивчене — коли згадав його ще раз у повторі"}
         </span>
       </div>
     </section>

@@ -27,9 +27,11 @@ export async function POST(req: Request) {
       .select("vocab_size_est, grammar_level, reading_level, writing_level, weak_topics, tested_at")
       .eq("user_id", user.id)
       .maybeSingle(),
-    // «вивчено» = картка вийшла з навчання в звичайні повтори (FSRS state 2 = Review)
-    db.from("cards").select("id", { count: "exact", head: true }).eq("user_id", user.id).eq("state", 2),
-    db.from("cards").select("id", { count: "exact", head: true }).eq("user_id", user.id).in("state", [1, 3]),
+    // «вивчено» = картка в звичайних повторах (FSRS state 2) і вже хоч раз згадана в повторі (reps ≥ 2):
+    // одне «Легко» на новому слові одразу дає state 2, але це ще не вивчене
+    db.from("cards").select("id", { count: "exact", head: true }).eq("user_id", user.id).eq("state", 2).gte("reps", 2),
+    db.from("cards").select("id", { count: "exact", head: true }).eq("user_id", user.id)
+      .or("state.in.(1,3),and(state.eq.2,reps.lt.2)"),
     streakView(user.id, user.timezone, now).catch(() => null),
   ]);
 
