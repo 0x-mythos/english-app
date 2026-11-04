@@ -1,0 +1,247 @@
+{
+  "topic": "verb_forms",
+  "title": "Форми дієслів",
+  "rule": "Неправильні дієслова мають три форми, їх треба вчити: write – wrote – written, steal – stole – stolen, fly – flew – flown. Прикметники на -ing описують причину враження (a boring lecture), на -ed — відчуття людини (I am bored). Make — створювати результат (make a mistake), do — діяти/виконувати (do homework).",
+  "items": [
+    {
+      "id": "verb_forms-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I have ___ my keys.",
+      "options": [
+        "lose",
+        "lost",
+        "losted",
+        "losing"
+      ],
+      "answer": 1,
+      "explanation": "Present Perfect: have + lost."
+    },
+    {
+      "id": "verb_forms-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "He has ___ his phone at home.",
+      "options": [
+        "forgot",
+        "forgotten",
+        "forgetted",
+        "forgeting"
+      ],
+      "answer": 1,
+      "explanation": "Третя форма від forget — forgotten."
+    },
+    {
+      "id": "verb_forms-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "The movie was so ___ that I fell asleep.",
+      "options": [
+        "bored",
+        "boring",
+        "bore",
+        "boredom"
+      ],
+      "answer": 1,
+      "explanation": "Описуємо фільм (причину) → boring."
+    },
+    {
+      "id": "verb_forms-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I felt ___ during the long meeting.",
+      "options": [
+        "boring",
+        "bored",
+        "bore",
+        "bores"
+      ],
+      "answer": 1,
+      "explanation": "Описуємо свій стан → bored."
+    },
+    {
+      "id": "verb_forms-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "She has to ___ the dishes.",
+      "options": [
+        "make",
+        "do",
+        "put",
+        "take"
+      ],
+      "answer": 1,
+      "explanation": "Do the dishes — усталений вираз."
+    },
+    {
+      "id": "verb_forms-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Do not ___ a mistake in the config.",
+      "options": [
+        "do",
+        "make",
+        "have",
+        "take"
+      ],
+      "answer": 1,
+      "explanation": "Make a mistake — усталений вираз."
+    },
+    {
+      "id": "verb_forms-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I am ___ in AI, so I read a lot about it.",
+      "options": [
+        "interesting",
+        "interested",
+        "interest",
+        "interests"
+      ],
+      "answer": 1,
+      "explanation": "Відчуття людини → interested."
+    },
+    {
+      "id": "verb_forms-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Someone has ___ my laptop!",
+      "options": [
+        "stole",
+        "stolen",
+        "stealed",
+        "stoled"
+      ],
+      "answer": 1,
+      "explanation": "Steal – stole – stolen."
+    },
+    {
+      "id": "verb_forms-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "She has already ___ to Berlin for the conference.",
+      "options": [
+        "flew",
+        "flown",
+        "flied",
+        "fly"
+      ],
+      "answer": 1,
+      "explanation": "Fly – flew – flown."
+    },
+    {
+      "id": "verb_forms-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "He was ___ by the news and could not speak.",
+      "options": [
+        "shocking",
+        "shocked",
+        "shock",
+        "shocks"
+      ],
+      "answer": 1,
+      "explanation": "Стан людини → shocked."
+    },
+    {
+      "id": "verb_forms-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "Have you ever ___ sushi? (eat)",
+      "answers": [
+        "eaten"
+      ],
+      "explanation": "Eat – ate – eaten."
+    },
+    {
+      "id": "verb_forms-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "He has ___ his homework. (do)",
+      "answers": [
+        "done"
+      ],
+      "explanation": "Do – did – done."
+    },
+    {
+      "id": "verb_forms-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "I have not ___ him since 2020. (see)",
+      "answers": [
+        "seen"
+      ],
+      "explanation": "See – saw – seen."
+    },
+    {
+      "id": "verb_forms-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "She has ___ a big mistake in the report. (make)",
+      "answers": [
+        "made"
+      ],
+      "explanation": "Make – made – made."
+    },
+    {
+      "id": "verb_forms-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "The new framework is very ___ — I want to try it. (interest)",
+      "answers": [
+        "interesting"
+      ],
+      "explanation": "Описуємо річ → interesting."
+    },
+    {
+      "id": "verb_forms-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "We were ___ by how fast the app was. (amaze)",
+      "answers": [
+        "amazed"
+      ],
+      "explanation": "Наш стан → amazed."
+    },
+    {
+      "id": "verb_forms-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "This lecture is very bored.",
+      "answers": [
+        "This lecture is very boring."
+      ],
+      "explanation": "Описуємо лекцію → boring."
+    },
+    {
+      "id": "verb_forms-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "I have wrote the tests.",
+      "answers": [
+        "I have written the tests."
+      ],
+      "explanation": "Write – wrote – written."
+    },
+    {
+      "id": "verb_forms-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "He did a mistake in the code.",
+      "answers": [
+        "He made a mistake in the code."
+      ],
+      "explanation": "Помилку «роблять» через make."
+    },
+    {
+      "id": "verb_forms-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "We were very surprising by the results.",
+      "answers": [
+        "We were very surprised by the results."
+      ],
+      "explanation": "Стан людей → surprised."
+    }
+  ]
+}

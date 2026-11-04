@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AddWord } from "@/components/add-word";
-import { BookIcon, CardsIcon, ChatIcon, FlameIcon, SnowIcon, SparkIcon } from "@/components/icons";
+import { BookIcon, CardsIcon, ChatIcon, FlameIcon, PencilIcon, SnowIcon, SparkIcon } from "@/components/icons";
 import { tgInit } from "@/lib/tg-client";
 import { topicLabel } from "@/lib/placement/topics";
 
@@ -114,6 +114,22 @@ export default function Home() {
           <span className="flex min-w-0 flex-1 flex-col gap-0.5">
             <span className="font-display text-[17px] font-semibold">Розмова з AI</span>
             <span className="text-[14px] leading-snug opacity-90">Співбесіда, стендап, рев&apos;ю коду, small talk — з 1–2 виправленнями за раз.</span>
+          </span>
+          <span className="shrink-0 text-[20px] font-semibold" aria-hidden>→</span>
+        </Link>
+      )}
+
+      {me && (
+        <Link
+          href="/grammar"
+          className="flex items-center gap-3.5 rounded-[24px] bg-berry px-4 py-4 text-white shadow-card transition-transform active:scale-[0.99]"
+        >
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/20">
+            <PencilIcon className="size-6" />
+          </span>
+          <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+            <span className="font-display text-[17px] font-semibold">Граматика</span>
+            <span className="text-[14px] leading-snug opacity-90">Короткі вправи на теми, де ти помиляєшся, і твої власні речення з розмов.</span>
           </span>
           <span className="shrink-0 text-[20px] font-semibold" aria-hidden>→</span>
         </Link>

@@ -19,6 +19,9 @@ const LABELS: Record<string, string> = {
   subjunctive: "Subjunctive",
   cleft_sentences: "Cleft sentences",
   word_order: "Порядок слів",
+  question_forms: "Питання",
+  quantifiers: "Much / many / some / any",
+  verb_forms: "Форми дієслів",
   vocabulary: "Лексика",
   spelling: "Правопис",
 };

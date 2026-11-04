@@ -1,0 +1,248 @@
+{
+  "topic": "passive",
+  "title": "Пасивний стан",
+  "rule": "Passive = be + V3. Present: is deployed; Past: was fixed; Present Perfect: has been merged; Continuous: is being tested; Future: will be released; з модальними: must be signed. Виконавця додаємо через by: written by Anna. Вживаємо, коли важлива дія чи результат, а не хто її зробив.",
+  "items": [
+    {
+      "id": "passive-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "The emails ___ automatically.",
+      "options": [
+        "are sent",
+        "send",
+        "sending",
+        "are send"
+      ],
+      "answer": 0,
+      "explanation": "Листи не відправляють самі себе — потрібен Passive: are sent."
+    },
+    {
+      "id": "passive-02",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "The bug ___ yesterday by Olena.",
+      "options": [
+        "was fixed",
+        "fixed",
+        "is fixed",
+        "has been fixed"
+      ],
+      "answer": 0,
+      "explanation": "Yesterday + by → Past Simple Passive: was fixed."
+    },
+    {
+      "id": "passive-03",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Your PR ___ merged into main.",
+      "options": [
+        "has been",
+        "have been",
+        "had be",
+        "has be"
+      ],
+      "answer": 0,
+      "explanation": "Present Perfect Passive: has been + V3."
+    },
+    {
+      "id": "passive-04",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "The new feature ___ at the moment.",
+      "options": [
+        "is being tested",
+        "is testing",
+        "tests",
+        "is tested"
+      ],
+      "answer": 0,
+      "explanation": "At the moment → Present Continuous Passive: is being tested."
+    },
+    {
+      "id": "passive-05",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "The contract ___ by both parties before the project starts.",
+      "options": [
+        "must be signed",
+        "must sign",
+        "must be sign",
+        "must signed"
+      ],
+      "answer": 0,
+      "explanation": "Модальне дієслово + be + V3."
+    },
+    {
+      "id": "passive-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "English ___ in many countries.",
+      "options": [
+        "is spoken",
+        "speaks",
+        "is speaking",
+        "spoken"
+      ],
+      "answer": 0,
+      "explanation": "Мова не говорить сама — Passive: is spoken."
+    },
+    {
+      "id": "passive-07",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "A notification ___ to me when the build failed.",
+      "options": [
+        "was sent",
+        "sent",
+        "has been sent",
+        "is sent"
+      ],
+      "answer": 0,
+      "explanation": "Минула подія (when ... failed) → Past Simple Passive."
+    },
+    {
+      "id": "passive-08",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Passwords should never ___ in plain text.",
+      "options": [
+        "be stored",
+        "store",
+        "be storing",
+        "to be stored"
+      ],
+      "answer": 0,
+      "explanation": "Після should — інфінітив без to: be stored."
+    },
+    {
+      "id": "passive-09",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "The suspect is believed ___ the country last week.",
+      "options": [
+        "to have left",
+        "to had left",
+        "having left",
+        "have left"
+      ],
+      "answer": 0,
+      "explanation": "Is believed + to have + V3 для минулої дії."
+    },
+    {
+      "id": "passive-10",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "This code ___ by a junior developer, so be careful.",
+      "options": [
+        "was written",
+        "wrote",
+        "is wrote",
+        "has wrote"
+      ],
+      "answer": 0,
+      "explanation": "З by-виконавцем потрібен Passive: was written."
+    },
+    {
+      "id": "passive-11",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "The logs ___ (store) in the cloud.",
+      "answers": [
+        "are stored"
+      ],
+      "explanation": "Present Simple Passive: are + V3."
+    },
+    {
+      "id": "passive-12",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "The website ___ (hack) last night.",
+      "answers": [
+        "was hacked"
+      ],
+      "explanation": "Минулий час, Passive: was + V3."
+    },
+    {
+      "id": "passive-13",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "The update ___ (not / install) yet.",
+      "answers": [
+        "hasn't been installed",
+        "has not been installed"
+      ],
+      "explanation": "Present Perfect Passive: has not been + V3."
+    },
+    {
+      "id": "passive-14",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "My laptop ___ (repair) right now.",
+      "answers": [
+        "is being repaired"
+      ],
+      "explanation": "Continuous Passive: is being + V3."
+    },
+    {
+      "id": "passive-15",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "The report must ___ (submit) by Monday.",
+      "answers": [
+        "be submitted"
+      ],
+      "explanation": "Після must — be + V3."
+    },
+    {
+      "id": "passive-16",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "The room ___ (clean) every day.",
+      "answers": [
+        "is cleaned"
+      ],
+      "explanation": "Present Simple Passive: is + V3."
+    },
+    {
+      "id": "passive-17",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "The documents are sending to the client.",
+      "answers": [
+        "The documents are being sent to the client."
+      ],
+      "explanation": "Continuous Passive потребує being + V3."
+    },
+    {
+      "id": "passive-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "The app was developed from our team.",
+      "answers": [
+        "The app was developed by our team."
+      ],
+      "explanation": "Виконавця в Passive вводить by, а не from."
+    },
+    {
+      "id": "passive-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "The package has been delivered yesterday.",
+      "answers": [
+        "The package was delivered yesterday."
+      ],
+      "explanation": "З yesterday вживаємо Past Simple, не Present Perfect."
+    },
+    {
+      "id": "passive-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "The database will be backup tonight.",
+      "answers": [
+        "The database will be backed up tonight."
+      ],
+      "explanation": "Після be потрібна форма V3: backed up."
+    }
+  ]
+}

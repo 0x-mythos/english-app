@@ -1,0 +1,192 @@
+{
+  "topic": "inversion",
+  "title": "Інверсія",
+  "rule": "Після негативних і обмежувальних слів на початку речення (never, rarely, hardly, no sooner, not only, little, only after, under no circumstances) підмет і допоміжне дієслово міняються місцями: Never have I seen it. Not only did she fix it... Умовні речення теж можуть мати інверсію: Should you need help, ask me; Had we known, we would have acted.",
+  "items": [
+    {
+      "id": "inversion-01",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Never ___ such a clean codebase in my career.",
+      "options": [
+        "have I seen",
+        "I have seen",
+        "I did see",
+        "seen I"
+      ],
+      "answer": 0,
+      "explanation": "Never на початку → допоміжне дієслово перед підметом."
+    },
+    {
+      "id": "inversion-02",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Not only ___ the bug, but she also wrote a regression test.",
+      "options": [
+        "did she fix",
+        "she fixed",
+        "she did fix",
+        "fixed she"
+      ],
+      "answer": 0,
+      "explanation": "Not only на початку вимагає did + підмет + дієслово."
+    },
+    {
+      "id": "inversion-03",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Hardly had we deployed the update ___ the alerts started firing.",
+      "options": [
+        "when",
+        "than",
+        "as",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "Hardly had ... when — стала пара."
+    },
+    {
+      "id": "inversion-04",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "No sooner had I sat down ___ the phone rang.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "then"
+      ],
+      "answer": 0,
+      "explanation": "No sooner ... than — стала пара."
+    },
+    {
+      "id": "inversion-05",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "___ any problems with the deployment, contact DevOps.",
+      "options": [
+        "Should you encounter",
+        "You should encounter",
+        "Do you encounter",
+        "Would you encounter"
+      ],
+      "answer": 0,
+      "explanation": "Should you + інфінітив — формальна інверсія замість If you ..."
+    },
+    {
+      "id": "inversion-06",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "Under no circumstances ___ your API keys with anyone.",
+      "options": [
+        "should you share",
+        "you should share",
+        "do you should share",
+        "you share"
+      ],
+      "answer": 0,
+      "explanation": "Under no circumstances на початку → should перед підметом."
+    },
+    {
+      "id": "inversion-07",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "Rarely ___ a candidate who is so well prepared.",
+      "options": [
+        "do we see",
+        "we see",
+        "we do see",
+        "see we"
+      ],
+      "answer": 0,
+      "explanation": "Rarely на початку → do + підмет + дієслово."
+    },
+    {
+      "id": "inversion-08",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "___ about the outage earlier, we would have rolled back.",
+      "options": [
+        "Had we known",
+        "If we would know",
+        "Have we known",
+        "Did we know"
+      ],
+      "answer": 0,
+      "explanation": "Третій тип умовних: Had + підмет + V3 замість If we had known."
+    },
+    {
+      "id": "inversion-09",
+      "level": "C1",
+      "type": "gap",
+      "prompt": "Not until the release went live ___ (we / realize) the config was wrong.",
+      "answers": [
+        "did we realize",
+        "did we realise"
+      ],
+      "explanation": "Not until на початку → did + підмет + базова форма."
+    },
+    {
+      "id": "inversion-10",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "Never before ___ (I / feel) so nervous in an interview.",
+      "answers": [
+        "had I felt",
+        "have I felt"
+      ],
+      "explanation": "Never before про минулий досвід → had + підмет + V3."
+    },
+    {
+      "id": "inversion-11",
+      "level": "C1",
+      "type": "gap",
+      "prompt": "Little ___ (he / know) that the server was already down.",
+      "answers": [
+        "did he know"
+      ],
+      "explanation": "Little на початку (у значенні «зовсім не») → did + підмет + дієслово."
+    },
+    {
+      "id": "inversion-12",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "___ (you / need) more help, just message me.",
+      "answers": [
+        "Should you need",
+        "should you need"
+      ],
+      "explanation": "Should you need — формальна інверсія замість If you need."
+    },
+    {
+      "id": "inversion-13",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "Never I have worked with such a fast team.",
+      "answers": [
+        "Never have I worked with such a fast team."
+      ],
+      "explanation": "Після Never на початку допоміжне дієслово стоїть перед підметом."
+    },
+    {
+      "id": "inversion-14",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "Not only she wrote the docs, but she also recorded a video.",
+      "answers": [
+        "Not only did she write the docs, but she also recorded a video."
+      ],
+      "explanation": "Після Not only потрібна інверсія з did."
+    },
+    {
+      "id": "inversion-15",
+      "level": "C1",
+      "type": "fix",
+      "prompt": "Hardly we had arrived when the meeting started.",
+      "answers": [
+        "Hardly had we arrived when the meeting started."
+      ],
+      "explanation": "Після Hardly Past Perfect має інверсію: had + підмет."
+    }
+  ]
+}

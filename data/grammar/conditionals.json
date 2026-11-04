@@ -1,0 +1,254 @@
+{
+  "topic": "conditionals",
+  "title": "Умовні речення",
+  "rule": "Zero: if + Present, Present (факти): If you heat ice, it melts. First: if + Present, will (реальне майбутнє): If the tests pass, we will deploy. Second: if + Past, would (нереальне теперішнє): If I were you, I would ask. Third: if + Past Perfect, would have + V3 (минуле): If we had written tests, we would have found the bug. Після if (і when, unless, as soon as) НІКОЛИ не став will/would.",
+  "items": [
+    {
+      "id": "conditionals-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "If you heat ice, it ___.",
+      "options": [
+        "melts",
+        "will melt",
+        "would melt",
+        "melted"
+      ],
+      "answer": 0,
+      "explanation": "Zero conditional: загальний факт — Present Simple в обох частинах."
+    },
+    {
+      "id": "conditionals-02",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "If the tests ___, we will deploy tonight.",
+      "options": [
+        "pass",
+        "will pass",
+        "would pass",
+        "passed"
+      ],
+      "answer": 0,
+      "explanation": "У First conditional після if стоїть Present Simple, а не will."
+    },
+    {
+      "id": "conditionals-03",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "If I ___ more money, I would buy a new laptop.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "answer": 0,
+      "explanation": "Second conditional: if + Past Simple, у головній частині would."
+    },
+    {
+      "id": "conditionals-04",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "If we had written tests, the bug ___ production.",
+      "options": [
+        "would not have reached",
+        "would not reach",
+        "does not reach",
+        "had not reached"
+      ],
+      "answer": 0,
+      "explanation": "Third conditional: головна частина — would have + V3."
+    },
+    {
+      "id": "conditionals-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I'll call you as soon as I ___ home.",
+      "options": [
+        "get",
+        "will get",
+        "would get",
+        "got"
+      ],
+      "answer": 0,
+      "explanation": "Після as soon as про майбутнє вживаємо Present Simple, не will."
+    },
+    {
+      "id": "conditionals-06",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Unless you ___ the config, the app won't start.",
+      "options": [
+        "fix",
+        "don't fix",
+        "won't fix",
+        "fixed"
+      ],
+      "answer": 0,
+      "explanation": "Unless уже має негативне значення, тому дієслово стоїть у стверджувальній формі."
+    },
+    {
+      "id": "conditionals-07",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "If I ___ you, I would ask for a code review.",
+      "options": [
+        "were",
+        "am",
+        "will be",
+        "would be"
+      ],
+      "answer": 0,
+      "explanation": "У Second conditional після if вживаємо were (для I/he/she теж)."
+    },
+    {
+      "id": "conditionals-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "What would you do if you ___ your job tomorrow?",
+      "options": [
+        "lost",
+        "lose",
+        "will lose",
+        "would lose"
+      ],
+      "answer": 0,
+      "explanation": "Second conditional: після if — Past Simple, а would лише в головній частині."
+    },
+    {
+      "id": "conditionals-09",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "___ I known about the deadline, I would have started earlier.",
+      "options": [
+        "Had",
+        "If",
+        "Have",
+        "Would"
+      ],
+      "answer": 0,
+      "explanation": "Інверсія в Third conditional: Had I known = If I had known."
+    },
+    {
+      "id": "conditionals-10",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "If you ___ any questions, just ask me.",
+      "options": [
+        "have",
+        "will have",
+        "would have",
+        "are having"
+      ],
+      "answer": 0,
+      "explanation": "Після if ставимо Present Simple, не will."
+    },
+    {
+      "id": "conditionals-11",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "If I ___ (be) you, I would not merge this branch.",
+      "answers": [
+        "were",
+        "was"
+      ],
+      "explanation": "Нереальна умова: після if вживаємо were (розмовне was теж можливе)."
+    },
+    {
+      "id": "conditionals-12",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "If we ___ (not / fix) this bug, the client will be angry.",
+      "answers": [
+        "don't fix",
+        "do not fix"
+      ],
+      "explanation": "First conditional: після if — Present Simple."
+    },
+    {
+      "id": "conditionals-13",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "If I had left earlier, I ___ (not / miss) the train.",
+      "answers": [
+        "wouldn't have missed",
+        "would not have missed"
+      ],
+      "explanation": "Third conditional: would not have + V3."
+    },
+    {
+      "id": "conditionals-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "She ___ (help) you if you asked her.",
+      "answers": [
+        "would help"
+      ],
+      "explanation": "Second conditional: if + Past Simple, would + інфінітив."
+    },
+    {
+      "id": "conditionals-15",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "If you ___ (not / save) your work, it disappears when the power goes out.",
+      "answers": [
+        "don't save",
+        "do not save"
+      ],
+      "explanation": "Zero conditional: загальна істина — Present Simple."
+    },
+    {
+      "id": "conditionals-16",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Unless he ___ (apologise), I won't talk to him.",
+      "answers": [
+        "apologises",
+        "apologizes"
+      ],
+      "explanation": "Після unless — Present Simple, не will."
+    },
+    {
+      "id": "conditionals-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "If I will have time tomorrow, I will help you.",
+      "answers": [
+        "If I have time tomorrow, I will help you."
+      ],
+      "explanation": "Після if не вживаємо will — тільки Present Simple."
+    },
+    {
+      "id": "conditionals-18",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "If I would be you, I would take that offer.",
+      "answers": [
+        "If I were you, I would take that offer.",
+        "If I was you, I would take that offer."
+      ],
+      "explanation": "Після if не ставимо would; потрібне were/was."
+    },
+    {
+      "id": "conditionals-19",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "If he would have asked me, I would have helped.",
+      "answers": [
+        "If he had asked me, I would have helped."
+      ],
+      "explanation": "У Third conditional після if потрібен Past Perfect, а не would have."
+    },
+    {
+      "id": "conditionals-20",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "When the build will finish, I will send you the link.",
+      "answers": [
+        "When the build finishes, I will send you the link.",
+        "When the build finishes, I'll send you the link."
+      ],
+      "explanation": "Після when про майбутнє вживаємо Present Simple."
+    }
+  ]
+}

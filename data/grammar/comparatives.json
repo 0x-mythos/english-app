@@ -1,0 +1,249 @@
+{
+  "topic": "comparatives",
+  "title": "Порівняння",
+  "rule": "Короткі прикметники: -er/-est (fast → faster → the fastest), довгі: more/most (more stable, the most useful). Винятки: good → better → best, bad → worse → worst. Порівняння з than; рівність — as…as. Не можна поєднувати обидва способи: не more easier, а easier.",
+  "items": [
+    {
+      "id": "comparatives-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "This laptop is ___ than mine.",
+      "options": [
+        "fast",
+        "faster",
+        "more fast",
+        "fastest"
+      ],
+      "answer": 1,
+      "explanation": "Короткий прикметник + -er + than."
+    },
+    {
+      "id": "comparatives-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "Python is ___ to learn than C++.",
+      "options": [
+        "more easy",
+        "easier",
+        "easiest",
+        "most easy"
+      ],
+      "answer": 1,
+      "explanation": "Easy → easier."
+    },
+    {
+      "id": "comparatives-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "She is the ___ developer in our team.",
+      "options": [
+        "good",
+        "better",
+        "best",
+        "most good"
+      ],
+      "answer": 2,
+      "explanation": "Найвищий ступінь від good — best."
+    },
+    {
+      "id": "comparatives-04",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "This task is ___ difficult than I thought.",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "the more"
+      ],
+      "answer": 0,
+      "explanation": "Довгий прикметник → more + than."
+    },
+    {
+      "id": "comparatives-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "My new job is not as ___ as the old one.",
+      "options": [
+        "stressful",
+        "more stressful",
+        "stressfuller",
+        "most stressful"
+      ],
+      "answer": 0,
+      "explanation": "Конструкція as…as вживає базову форму."
+    },
+    {
+      "id": "comparatives-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Friday is the ___ day of the week.",
+      "options": [
+        "busier",
+        "busiest",
+        "most busy",
+        "more busy"
+      ],
+      "answer": 1,
+      "explanation": "Busy → the busiest."
+    },
+    {
+      "id": "comparatives-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "This is the ___ book I have ever read.",
+      "options": [
+        "more interesting",
+        "most interesting",
+        "interestingest",
+        "interesting"
+      ],
+      "answer": 1,
+      "explanation": "Найвищий ступінь довгого прикметника — the most."
+    },
+    {
+      "id": "comparatives-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Our server is ___ than before: ping dropped from 200 to 50 ms.",
+      "options": [
+        "more quick",
+        "quickest",
+        "quicker",
+        "quick"
+      ],
+      "answer": 2,
+      "explanation": "Quick → quicker."
+    },
+    {
+      "id": "comparatives-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "The more you practise, ___ you become.",
+      "options": [
+        "the better",
+        "better",
+        "the best",
+        "more better"
+      ],
+      "answer": 0,
+      "explanation": "Конструкція the more…, the better…."
+    },
+    {
+      "id": "comparatives-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "This version is much ___ than the previous one. It crashes less.",
+      "options": [
+        "stable",
+        "most stable",
+        "more stable",
+        "as stable"
+      ],
+      "answer": 2,
+      "explanation": "Порівняння двох версій → more stable."
+    },
+    {
+      "id": "comparatives-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "Kyiv is ___ than Lviv. (big)",
+      "answers": [
+        "bigger"
+      ],
+      "explanation": "Big → bigger (подвоєння приголосної)."
+    },
+    {
+      "id": "comparatives-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "My sister is ___ than me. (young)",
+      "answers": [
+        "younger"
+      ],
+      "explanation": "Young → younger."
+    },
+    {
+      "id": "comparatives-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "This is the ___ bug I have ever seen. (bad)",
+      "answers": [
+        "worst"
+      ],
+      "explanation": "Bad → worse → the worst."
+    },
+    {
+      "id": "comparatives-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Remote work is ___ than commuting every day. (convenient)",
+      "answers": [
+        "more convenient"
+      ],
+      "explanation": "Довгий прикметник → more convenient."
+    },
+    {
+      "id": "comparatives-15",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "The new office is not as big ___ the old one. (as/than)",
+      "answers": [
+        "as"
+      ],
+      "explanation": "Not as…as."
+    },
+    {
+      "id": "comparatives-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "The ___ the code, the harder it is to maintain. (long)",
+      "answers": [
+        "longer"
+      ],
+      "explanation": "Конструкція the + comparative, the + comparative."
+    },
+    {
+      "id": "comparatives-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "This phone is more cheap than that one.",
+      "answers": [
+        "This phone is cheaper than that one."
+      ],
+      "explanation": "Короткий прикметник — cheaper."
+    },
+    {
+      "id": "comparatives-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "My English is more better than last year.",
+      "answers": [
+        "My English is better than last year."
+      ],
+      "explanation": "Better вже порівняльний ступінь, more зайве."
+    },
+    {
+      "id": "comparatives-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "He is taller that me.",
+      "answers": [
+        "He is taller than me.",
+        "He is taller than I am.",
+        "He is taller than I."
+      ],
+      "explanation": "Порівняння — зі словом than."
+    },
+    {
+      "id": "comparatives-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "The deadline is more closer than we expected.",
+      "answers": [
+        "The deadline is closer than we expected."
+      ],
+      "explanation": "Closer — вже порівняльний ступінь, more не потрібне."
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "topic": "past_simple",
+  "title": "Past Simple",
+  "rule": "Past Simple описує завершену дію в минулому, часто з маркерами yesterday, last week, ago. Правильні дієслова мають -ed (worked), неправильні — другу форму (went, saw). У питаннях і запереченнях використовуй did/didn't + базова форма: \"Did you see it?\", \"I didn't go\". Для звички в минулому є used to + інфінітив.",
+  "items": [
+    {
+      "id": "past_simple-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I ___ to the office by bus yesterday.",
+      "options": [
+        "went",
+        "go",
+        "have gone",
+        "goes"
+      ],
+      "answer": 0,
+      "explanation": "Yesterday вказує на завершений момент у минулому, тож потрібна друга форма went."
+    },
+    {
+      "id": "past_simple-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "She ___ the bug in five minutes.",
+      "options": [
+        "find",
+        "found",
+        "finded",
+        "finds"
+      ],
+      "answer": 1,
+      "explanation": "Find — неправильне дієслово, його Past Simple — found."
+    },
+    {
+      "id": "past_simple-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "___ you see the pull request last night?",
+      "options": [
+        "Did",
+        "Do",
+        "Have",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "У питанні Past Simple потрібен допоміжний did + базова форма see."
+    },
+    {
+      "id": "past_simple-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "We ___ the deploy because the tests failed.",
+      "options": [
+        "didn't finish",
+        "not finished",
+        "don't finish",
+        "didn't finished"
+      ],
+      "answer": 0,
+      "explanation": "Заперечення в Past Simple: didn't + базова форма (без -ed)."
+    },
+    {
+      "id": "past_simple-05",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "My brother ___ at the party last Saturday.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "has been"
+      ],
+      "answer": 0,
+      "explanation": "Підмет однини в минулому — was; last Saturday вимагає Past Simple."
+    },
+    {
+      "id": "past_simple-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "When I was a child, I ___ in Lviv.",
+      "options": [
+        "lived",
+        "live",
+        "have lived",
+        "am living"
+      ],
+      "answer": 0,
+      "explanation": "Дія в дитинстві давно завершилась, тому Past Simple."
+    },
+    {
+      "id": "past_simple-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "He ___ me a message an hour ago.",
+      "options": [
+        "sent",
+        "sended",
+        "has sent",
+        "sends"
+      ],
+      "answer": 0,
+      "explanation": "Send — неправильне дієслово (sent); ago вимагає Past Simple."
+    },
+    {
+      "id": "past_simple-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Yesterday I ___ the meeting because my train was late.",
+      "options": [
+        "missed",
+        "have missed",
+        "miss",
+        "was missed"
+      ],
+      "answer": 0,
+      "explanation": "Є чіткий минулий час (yesterday), тому Past Simple, а не Present Perfect."
+    },
+    {
+      "id": "past_simple-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "While I ___ the code, my laptop crashed.",
+      "options": [
+        "was reviewing",
+        "reviewed",
+        "have reviewed",
+        "review"
+      ],
+      "answer": 0,
+      "explanation": "Тривала дія на тлі короткої перерваної — Past Continuous, а коротка дія — Past Simple."
+    },
+    {
+      "id": "past_simple-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "We ___ use SVN, but now we use Git.",
+      "options": [
+        "used to",
+        "use to",
+        "were used to",
+        "are used to"
+      ],
+      "answer": 0,
+      "explanation": "Звичка в минулому, якої вже нема, — used to + інфінітив."
+    },
+    {
+      "id": "past_simple-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "I ___ (not / go) to work on Monday.",
+      "answers": [
+        "didn't go",
+        "did not go"
+      ],
+      "explanation": "Заперечення в Past Simple: didn't + базова форма."
+    },
+    {
+      "id": "past_simple-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "Where ___ (you / buy) this laptop?",
+      "answers": [
+        "did you buy"
+      ],
+      "explanation": "У питанні Past Simple: did + підмет + базова форма."
+    },
+    {
+      "id": "past_simple-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "He ___ (write) the whole module in one night.",
+      "answers": [
+        "wrote"
+      ],
+      "explanation": "Write — неправильне дієслово, Past Simple — wrote."
+    },
+    {
+      "id": "past_simple-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "We ___ (have) a long stand-up yesterday.",
+      "answers": [
+        "had"
+      ],
+      "explanation": "Have у Past Simple має форму had."
+    },
+    {
+      "id": "past_simple-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "I ___ (use to / work) as a waiter before I became a developer.",
+      "answers": [
+        "used to work"
+      ],
+      "explanation": "Для минулої звички, що закінчилась, використовуй used to + базова форма."
+    },
+    {
+      "id": "past_simple-16",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "She ___ (not / be) happy with the result.",
+      "answers": [
+        "wasn't",
+        "was not"
+      ],
+      "explanation": "Be у минулому: was/were, заперечення — wasn't/weren't."
+    },
+    {
+      "id": "past_simple-17",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "I didn't went to the gym yesterday.",
+      "answers": [
+        "I didn't go to the gym yesterday.",
+        "I did not go to the gym yesterday."
+      ],
+      "explanation": "Після didn't дієслово стоїть у базовій формі, без закінчення минулого часу."
+    },
+    {
+      "id": "past_simple-18",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "Did you saw the error in the logs?",
+      "answers": [
+        "Did you see the error in the logs?"
+      ],
+      "explanation": "Після did дієслово має бути в базовій формі see, а не saw."
+    },
+    {
+      "id": "past_simple-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "Yesterday I have seen him at the conference.",
+      "answers": [
+        "Yesterday I saw him at the conference."
+      ],
+      "explanation": "З yesterday не можна Present Perfect — потрібен Past Simple."
+    },
+    {
+      "id": "past_simple-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "We was late for the release.",
+      "answers": [
+        "We were late for the release."
+      ],
+      "explanation": "З we/you/they у минулому використовується were, а не was."
+    }
+  ]
+}

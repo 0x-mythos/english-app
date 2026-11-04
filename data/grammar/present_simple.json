@@ -1,0 +1,250 @@
+{
+  "topic": "present_simple",
+  "title": "Present Simple",
+  "rule": "Present Simple описує звички, регулярні дії та загальні факти: \"I work remotely\", \"Water boils at 100 degrees\". В третій особі однини (he/she/it) додаємо -s/-es: \"She works\". У питаннях і запереченнях використовуємо do/does + базова форма: \"Does he know?\", \"He doesn't know\" — -s тоді не додаємо.",
+  "items": [
+    {
+      "id": "present_simple-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "He ___ in a small startup.",
+      "options": [
+        "work",
+        "works",
+        "is work",
+        "working"
+      ],
+      "answer": 1,
+      "explanation": "З he/she/it у Present Simple до дієслова додається -s."
+    },
+    {
+      "id": "present_simple-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "She ___ coffee in the morning.",
+      "options": [
+        "doesn't drink",
+        "don't drink",
+        "doesn't drinks",
+        "not drink"
+      ],
+      "answer": 0,
+      "explanation": "Заперечення з she — doesn't + базова форма без -s."
+    },
+    {
+      "id": "present_simple-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "___ your brother like Java?",
+      "options": [
+        "Does",
+        "Do",
+        "Is",
+        "Has"
+      ],
+      "answer": 0,
+      "explanation": "З однини третьої особи питання будується з does + базова форма."
+    },
+    {
+      "id": "present_simple-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I usually ___ at 7 a.m.",
+      "options": [
+        "wake up",
+        "wakes up",
+        "am wake up",
+        "waking up"
+      ],
+      "answer": 0,
+      "explanation": "З I дієслово стоїть у базовій формі, без -s."
+    },
+    {
+      "id": "present_simple-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "The build usually ___ about ten minutes.",
+      "options": [
+        "takes",
+        "take",
+        "is taking",
+        "taking"
+      ],
+      "answer": 0,
+      "explanation": "Usually вказує на регулярність, а підмет однини вимагає -s."
+    },
+    {
+      "id": "present_simple-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "My parents ___ in Kyiv.",
+      "options": [
+        "live",
+        "lives",
+        "is living",
+        "are live"
+      ],
+      "answer": 0,
+      "explanation": "Підмет множини (parents) — дієслово без -s."
+    },
+    {
+      "id": "present_simple-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Water ___ at 100 degrees Celsius.",
+      "options": [
+        "boils",
+        "boil",
+        "is boiling",
+        "boiled"
+      ],
+      "answer": 0,
+      "explanation": "Загальний факт — Present Simple, а water — це однина, тож -s."
+    },
+    {
+      "id": "present_simple-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "What time ___ the store open?",
+      "options": [
+        "does",
+        "do",
+        "is",
+        "has"
+      ],
+      "answer": 0,
+      "explanation": "У питанні Present Simple з the store потрібен does + базова форма open."
+    },
+    {
+      "id": "present_simple-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Each of the services ___ its own database.",
+      "options": [
+        "has",
+        "have",
+        "having",
+        "is have"
+      ],
+      "answer": 0,
+      "explanation": "Each вимагає дієслова в однині: has."
+    },
+    {
+      "id": "present_simple-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Everybody in our team ___ the deadline is tight.",
+      "options": [
+        "knows",
+        "know",
+        "is knowing",
+        "knowing"
+      ],
+      "answer": 0,
+      "explanation": "Everybody граматично однина, а know — стативне дієслово, що не вживається в Continuous."
+    },
+    {
+      "id": "present_simple-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "She ___ (go) to the gym twice a week.",
+      "answers": [
+        "goes"
+      ],
+      "explanation": "Дієслово go з she отримує закінчення -es."
+    },
+    {
+      "id": "present_simple-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "My brother ___ (not / like) spicy food.",
+      "answers": [
+        "doesn't like",
+        "does not like"
+      ],
+      "explanation": "Заперечення з однини третьої особи: doesn't + базова форма."
+    },
+    {
+      "id": "present_simple-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "How often ___ (you / check) your email?",
+      "answers": [
+        "do you check"
+      ],
+      "explanation": "У питанні Present Simple з you потрібен допоміжний do."
+    },
+    {
+      "id": "present_simple-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "He ___ (try) to fix the bug every morning.",
+      "answers": [
+        "tries"
+      ],
+      "explanation": "Дієслова на приголосна + y міняють y на -ies у третій особі."
+    },
+    {
+      "id": "present_simple-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "My laptop ___ (not / have) enough memory for this.",
+      "answers": [
+        "doesn't have",
+        "does not have"
+      ],
+      "explanation": "Після doesn't дієслово have — у базовій формі."
+    },
+    {
+      "id": "present_simple-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "Nobody on the team ___ (know) why the test is flaky.",
+      "answers": [
+        "knows"
+      ],
+      "explanation": "Nobody — це однина, тож дієслово отримує -s."
+    },
+    {
+      "id": "present_simple-17",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "He don't know the password.",
+      "answers": [
+        "He doesn't know the password.",
+        "He does not know the password."
+      ],
+      "explanation": "З he/she/it заперечення будується через doesn't, а не don't."
+    },
+    {
+      "id": "present_simple-18",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "She work as a QA engineer.",
+      "answers": [
+        "She works as a QA engineer."
+      ],
+      "explanation": "У третій особі однини Present Simple потрібне закінчення -s."
+    },
+    {
+      "id": "present_simple-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "Do she speak English at work?",
+      "answers": [
+        "Does she speak English at work?"
+      ],
+      "explanation": "З she у питанні потрібен допоміжний does."
+    },
+    {
+      "id": "present_simple-20",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "What time the meeting starts?",
+      "answers": [
+        "What time does the meeting start?"
+      ],
+      "explanation": "У питанні потрібен допоміжний does, і дієслово тоді без -s."
+    }
+  ]
+}

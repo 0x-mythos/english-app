@@ -1,0 +1,255 @@
+{
+  "topic": "relative_clauses",
+  "title": "Підрядні означальні",
+  "rule": "Who — для людей, which — для речей, that — для людей/речей у defining-реченнях, whose — належність, where — місце. У non-defining (з комами) that вживати не можна: My boss, who lives in Lviv, is kind. Займенник не повторюється: the app that I use (не that I use it).",
+  "items": [
+    {
+      "id": "relative_clauses-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "The man ___ lives next door is a developer.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "answer": 0,
+      "explanation": "Для людини-підмета вживаємо who."
+    },
+    {
+      "id": "relative_clauses-02",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "This is the tool ___ I use for debugging.",
+      "options": [
+        "that",
+        "who",
+        "whose",
+        "where"
+      ],
+      "answer": 0,
+      "explanation": "Для речі в defining-реченні підходить that."
+    },
+    {
+      "id": "relative_clauses-03",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "She is the colleague ___ laptop was stolen.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "who's"
+      ],
+      "answer": 0,
+      "explanation": "Whose показує належність."
+    },
+    {
+      "id": "relative_clauses-04",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "That's the café ___ we first met.",
+      "options": [
+        "where",
+        "which",
+        "who",
+        "whose"
+      ],
+      "answer": 0,
+      "explanation": "Для місця вживаємо where."
+    },
+    {
+      "id": "relative_clauses-05",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "My brother, ___ lives in Berlin, is a designer.",
+      "options": [
+        "who",
+        "that",
+        "which",
+        "whose"
+      ],
+      "answer": 0,
+      "explanation": "У non-defining реченні that не вживається; для людини who."
+    },
+    {
+      "id": "relative_clauses-06",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Python, ___ is easy to learn, is very popular.",
+      "options": [
+        "which",
+        "that",
+        "what",
+        "who"
+      ],
+      "answer": 0,
+      "explanation": "У non-defining реченні для речі — which."
+    },
+    {
+      "id": "relative_clauses-07",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Everything ___ you said was correct.",
+      "options": [
+        "that",
+        "what",
+        "who",
+        "whose"
+      ],
+      "answer": 0,
+      "explanation": "Після everything вживаємо that."
+    },
+    {
+      "id": "relative_clauses-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I didn't understand ___ he said.",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "who"
+      ],
+      "answer": 0,
+      "explanation": "What = the thing which, без попереднього іменника."
+    },
+    {
+      "id": "relative_clauses-09",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "The team, most of ___ are remote, is based in Poland.",
+      "options": [
+        "whom",
+        "who",
+        "which",
+        "whose"
+      ],
+      "answer": 0,
+      "explanation": "Після прийменника (of) для людей — whom."
+    },
+    {
+      "id": "relative_clauses-10",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "The woman ___ I spoke to was very helpful.",
+      "options": [
+        "who",
+        "whose",
+        "where",
+        "which"
+      ],
+      "answer": 0,
+      "explanation": "Для людини вживаємо who."
+    },
+    {
+      "id": "relative_clauses-11",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "The developer ___ (who / which) wrote this function has left.",
+      "answers": [
+        "who",
+        "that"
+      ],
+      "explanation": "Для людини — who або that."
+    },
+    {
+      "id": "relative_clauses-12",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "The book ___ (that / which) I bought yesterday is great.",
+      "answers": [
+        "that",
+        "which"
+      ],
+      "explanation": "Для речі — that або which."
+    },
+    {
+      "id": "relative_clauses-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "I know a place ___ (where) you can get good coffee.",
+      "answers": [
+        "where"
+      ],
+      "explanation": "Для місця — where."
+    },
+    {
+      "id": "relative_clauses-14",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "Kate, ___ (whose) brother works at Google, helped me.",
+      "answers": [
+        "whose"
+      ],
+      "explanation": "Whose показує належність."
+    },
+    {
+      "id": "relative_clauses-15",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "This is the bug ___ (that / which) caused the crash.",
+      "answers": [
+        "that",
+        "which"
+      ],
+      "explanation": "Для речі-підмета — that або which."
+    },
+    {
+      "id": "relative_clauses-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "The reason ___ (why) I left was personal.",
+      "answers": [
+        "why",
+        "that"
+      ],
+      "explanation": "Після reason — why або that."
+    },
+    {
+      "id": "relative_clauses-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "The man who he lives next door is a developer.",
+      "answers": [
+        "The man who lives next door is a developer.",
+        "The man that lives next door is a developer."
+      ],
+      "explanation": "Підмет не повторюється після who."
+    },
+    {
+      "id": "relative_clauses-18",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "This is the app which I told you about it.",
+      "answers": [
+        "This is the app which I told you about.",
+        "This is the app that I told you about.",
+        "This is the app I told you about."
+      ],
+      "explanation": "Додаток не дублюється займенником it."
+    },
+    {
+      "id": "relative_clauses-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "The girl which works here is my sister.",
+      "answers": [
+        "The girl who works here is my sister.",
+        "The girl that works here is my sister."
+      ],
+      "explanation": "Для людей вживаємо who або that, а не which."
+    },
+    {
+      "id": "relative_clauses-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "My boss, that lives in Lviv, is very kind.",
+      "answers": [
+        "My boss, who lives in Lviv, is very kind."
+      ],
+      "explanation": "Після коми that не вживається."
+    }
+  ]
+}

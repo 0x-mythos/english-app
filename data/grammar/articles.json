@@ -1,0 +1,249 @@
+{
+  "topic": "articles",
+  "title": "Артиклі",
+  "rule": "Артикль a/an вживаємо з першою згадкою злічуваного іменника в однині (a bug, an engineer — за звуком, не за літерою: a university). The — коли зрозуміло, про що саме мова (The bug is in the login function); також з унікальними речами (the sun). Без артикля — загальні поняття у множині та незлічувані (I love music).",
+  "items": [
+    {
+      "id": "articles-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "She is ___ engineer at a startup.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": 1,
+      "explanation": "Engineer починається з голосного звуку, тому an."
+    },
+    {
+      "id": "articles-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I have ___ umbrella in my bag.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": 1,
+      "explanation": "Umbrella починається з голосного звуку → an."
+    },
+    {
+      "id": "articles-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "My brother works as ___ university professor.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "—"
+      ],
+      "answer": 1,
+      "explanation": "University починається зі звуку /j/, тому a."
+    },
+    {
+      "id": "articles-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "We had dinner at a restaurant yesterday. ___ restaurant was great.",
+      "options": [
+        "A",
+        "The",
+        "An",
+        "—"
+      ],
+      "answer": 1,
+      "explanation": "Ресторан уже згаданий, тому the."
+    },
+    {
+      "id": "articles-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "It is hot in here. Could you open ___ window next to you?",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "—"
+      ],
+      "answer": 1,
+      "explanation": "Мова про конкретне вікно, яке видно обом → the."
+    },
+    {
+      "id": "articles-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I love ___ music, especially jazz.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "—"
+      ],
+      "answer": 3,
+      "explanation": "Загальне поняття (незлічуване) — без артикля."
+    },
+    {
+      "id": "articles-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "___ sun rises in the east.",
+      "options": [
+        "The",
+        "A",
+        "—",
+        "An"
+      ],
+      "answer": 0,
+      "explanation": "Сонце унікальне → the."
+    },
+    {
+      "id": "articles-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Kyiv is ___ capital of Ukraine.",
+      "options": [
+        "a",
+        "the",
+        "—",
+        "an"
+      ],
+      "answer": 1,
+      "explanation": "Столиця країни одна, тому the."
+    },
+    {
+      "id": "articles-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I would like to talk to ___ person who wrote this code.",
+      "options": [
+        "a",
+        "the",
+        "—",
+        "an"
+      ],
+      "answer": 1,
+      "explanation": "Означальне речення who wrote this code визначає конкретну особу → the."
+    },
+    {
+      "id": "articles-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "He was sent to ___ prison for fraud.",
+      "options": [
+        "a",
+        "the",
+        "—",
+        "an"
+      ],
+      "answer": 2,
+      "explanation": "Prison у значенні «ув’язнення» як інституції вживається без артикля."
+    },
+    {
+      "id": "articles-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "I bought a laptop and a mouse. ___ laptop is really fast. (a/an/the)",
+      "answers": [
+        "The",
+        "the"
+      ],
+      "explanation": "Ноутбук уже згаданий → the."
+    },
+    {
+      "id": "articles-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "He is ___ honest man. (a/an)",
+      "answers": [
+        "an"
+      ],
+      "explanation": "Honest починається з голосного звуку (h не вимовляється) → an."
+    },
+    {
+      "id": "articles-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Can you pass me ___ salt, please? (a/the)",
+      "answers": [
+        "the"
+      ],
+      "explanation": "Мається на увазі сіль, що на столі, — відома обом → the."
+    },
+    {
+      "id": "articles-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "We are looking for ___ senior developer to join our team. (a/the)",
+      "answers": [
+        "a"
+      ],
+      "explanation": "Шукаємо будь-якого, ще не визначеного розробника → a."
+    },
+    {
+      "id": "articles-15",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Yesterday I found a bug in the code. ___ bug was in the login function. (a/the)",
+      "answers": [
+        "The",
+        "the"
+      ],
+      "explanation": "Баг уже згаданий → the."
+    },
+    {
+      "id": "articles-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "She is one of ___ most talented designers I know. (a/the)",
+      "answers": [
+        "the"
+      ],
+      "explanation": "Найвищий ступінь порівняння вимагає the."
+    },
+    {
+      "id": "articles-17",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "I need to buy new phone.",
+      "answers": [
+        "I need to buy a new phone."
+      ],
+      "explanation": "Злічуваний іменник в однині потребує артикля a."
+    },
+    {
+      "id": "articles-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "She is doctor at a local hospital.",
+      "answers": [
+        "She is a doctor at a local hospital."
+      ],
+      "explanation": "Перед назвою професії в однині потрібен a/an."
+    },
+    {
+      "id": "articles-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "The life is not always easy.",
+      "answers": [
+        "Life is not always easy."
+      ],
+      "explanation": "Life у загальному значенні вживається без артикля."
+    },
+    {
+      "id": "articles-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "We discussed the problems of the modern society.",
+      "answers": [
+        "We discussed the problems of modern society."
+      ],
+      "explanation": "Society у загальному значенні — без артикля."
+    }
+  ]
+}

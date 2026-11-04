@@ -1,0 +1,247 @@
+{
+  "topic": "gerund_infinitive",
+  "title": "Герундій чи інфінітив",
+  "rule": "Після enjoy, avoid, suggest, finish, mind, admit, після прийменників та look forward to — герундій (-ing): I enjoy coding. Після decide, want, promise, hope, afford, manage — інфінітив з to: We decided to switch. Stop doing = припинити; stop to do = зупинитись, щоб зробити. Remember/forget doing — минуле, to do — майбутнє.",
+  "items": [
+    {
+      "id": "gerund_infinitive-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I enjoy ___ code in the evenings.",
+      "options": [
+        "writing",
+        "to write",
+        "write",
+        "written"
+      ],
+      "answer": 0,
+      "explanation": "Після enjoy — герундій."
+    },
+    {
+      "id": "gerund_infinitive-02",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "We decided ___ the old framework.",
+      "options": [
+        "to replace",
+        "replacing",
+        "replace",
+        "to replacing"
+      ],
+      "answer": 0,
+      "explanation": "Після decide — інфінітив з to."
+    },
+    {
+      "id": "gerund_infinitive-03",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I'm looking forward to ___ you next week.",
+      "options": [
+        "seeing",
+        "see",
+        "to see",
+        "saw"
+      ],
+      "answer": 0,
+      "explanation": "У look forward to слово to — прийменник, тому герундій."
+    },
+    {
+      "id": "gerund_infinitive-04",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "She stopped ___ because she was tired.",
+      "options": [
+        "working",
+        "to work",
+        "work",
+        "worked"
+      ],
+      "answer": 0,
+      "explanation": "Stop + -ing означає припинити дію."
+    },
+    {
+      "id": "gerund_infinitive-05",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "On the way home I stopped ___ some milk.",
+      "options": [
+        "to buy",
+        "buying",
+        "buy",
+        "bought"
+      ],
+      "answer": 0,
+      "explanation": "Stop + to do — зупинитись, щоб зробити щось."
+    },
+    {
+      "id": "gerund_infinitive-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "He suggested ___ the meeting to Friday.",
+      "options": [
+        "moving",
+        "to move",
+        "move",
+        "moved"
+      ],
+      "answer": 0,
+      "explanation": "Після suggest — герундій."
+    },
+    {
+      "id": "gerund_infinitive-07",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I forgot ___ the door, so someone could get in.",
+      "options": [
+        "to lock",
+        "locking",
+        "lock",
+        "to locking"
+      ],
+      "answer": 0,
+      "explanation": "Forget + to do — не встиг/не згадав зробити."
+    },
+    {
+      "id": "gerund_infinitive-08",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I remember ___ him at a conference in 2019.",
+      "options": [
+        "meeting",
+        "to meet",
+        "meet",
+        "to have meeting"
+      ],
+      "answer": 0,
+      "explanation": "Remember + -ing — памʼятаю минулу подію."
+    },
+    {
+      "id": "gerund_infinitive-09",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "She admitted ___ the wrong file.",
+      "options": [
+        "deleting",
+        "to delete",
+        "delete",
+        "to have delete"
+      ],
+      "answer": 0,
+      "explanation": "Після admit вживається герундій."
+    },
+    {
+      "id": "gerund_infinitive-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "It's no use ___ about it now.",
+      "options": [
+        "worrying",
+        "to worry",
+        "worry",
+        "of worrying"
+      ],
+      "answer": 0,
+      "explanation": "It's no use + -ing."
+    },
+    {
+      "id": "gerund_infinitive-11",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "I'm interested in ___ (learn) Rust.",
+      "answers": [
+        "learning"
+      ],
+      "explanation": "Після прийменника — герундій."
+    },
+    {
+      "id": "gerund_infinitive-12",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "My manager wants me ___ (join) the call.",
+      "answers": [
+        "to join"
+      ],
+      "explanation": "Want somebody to do something."
+    },
+    {
+      "id": "gerund_infinitive-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "She avoided ___ (answer) my question.",
+      "answers": [
+        "answering"
+      ],
+      "explanation": "Після avoid — герундій."
+    },
+    {
+      "id": "gerund_infinitive-14",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "I'm used to ___ (work) remotely.",
+      "answers": [
+        "working"
+      ],
+      "explanation": "Be used to — прийменник to, далі герундій."
+    },
+    {
+      "id": "gerund_infinitive-15",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "They promised ___ (finish) the task by noon.",
+      "answers": [
+        "to finish"
+      ],
+      "explanation": "Після promise — інфінітив з to."
+    },
+    {
+      "id": "gerund_infinitive-16",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Thank you for ___ (help) me with the bug.",
+      "answers": [
+        "helping"
+      ],
+      "explanation": "Після прийменника for — герундій."
+    },
+    {
+      "id": "gerund_infinitive-17",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "I enjoy to play football on weekends.",
+      "answers": [
+        "I enjoy playing football on weekends."
+      ],
+      "explanation": "Після enjoy потрібен герундій."
+    },
+    {
+      "id": "gerund_infinitive-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "He decided leaving the company.",
+      "answers": [
+        "He decided to leave the company."
+      ],
+      "explanation": "Після decide — інфінітив з to."
+    },
+    {
+      "id": "gerund_infinitive-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "I look forward to see you soon.",
+      "answers": [
+        "I look forward to seeing you soon."
+      ],
+      "explanation": "У look forward to слово to — прийменник, далі -ing."
+    },
+    {
+      "id": "gerund_infinitive-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "She suggested to go by train.",
+      "answers": [
+        "She suggested going by train."
+      ],
+      "explanation": "Після suggest — герундій, не to-інфінітив."
+    }
+  ]
+}

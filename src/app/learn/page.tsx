@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { Drill } from "@/components/drill";
 import { ArrowLeftIcon, SparkIcon, SpeakerIcon } from "@/components/icons";
+import type { DrillView } from "@/lib/grammar/drills";
 import { clozeMatches } from "@/lib/srs/session";
 import { api, tgInit } from "@/lib/tg-client";
 
@@ -59,13 +61,25 @@ export default function Learn() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const shownAt = useRef(Date.now());
+  // Граматичні дрили вплетені між картками: один після кожних `every` карток, залишок — у кінці
+  const [drills, setDrills] = useState<DrillView[]>([]);
+  const [drillIdx, setDrillIdx] = useState(0);
+  const [drillDue, setDrillDue] = useState(false);
+  const [sinceDrill, setSinceDrill] = useState(0);
+  const [every, setEvery] = useState(4);
 
   useEffect(() => {
     tgInit();
-    api<{ cards: SessionCard[] }>("/api/cards/session")
-      .then((r) => {
+    Promise.all([
+      api<{ cards: SessionCard[] }>("/api/cards/session"),
+      // дрили — бонус: якщо впали, сесія карток іде як завжди
+      api<{ drills: DrillView[] }>("/api/grammar/session").catch(() => ({ drills: [] as DrillView[] })),
+    ])
+      .then(([r, g]) => {
         setQueue(r.cards);
-        setTotal(r.cards.length);
+        setDrills(g.drills);
+        setEvery(Math.max(2, Math.floor(r.cards.length / (g.drills.length + 1))));
+        setTotal(r.cards.length + g.drills.length);
       })
       .catch((e: Error) =>
         setError(e.message === "unauthorized" ? "Відкрий застосунок через бота в Telegram." : "Не вдалося завантажити картки."),
@@ -73,6 +87,15 @@ export default function Learn() {
   }, []);
 
   const card = queue?.[0] ?? null;
+  const drill = queue && drillIdx < drills.length && (drillDue || !card) ? drills[drillIdx] : null;
+  const progress = seen.size + drillIdx;
+
+  const nextDrill = useCallback(() => {
+    setDrillIdx((i) => i + 1);
+    setDrillDue(false);
+    setSinceDrill(0);
+    setTurn((t) => t + 1);
+  }, []);
 
   useEffect(() => {
     shownAt.current = Date.now();
@@ -96,6 +119,8 @@ export default function Learn() {
           return again ? [...rest, { ...card, isNew: false, intervals: r.intervals }] : rest;
         });
         setSeen((s) => new Set(s).add(card.id));
+        if (sinceDrill + 1 >= every) setDrillDue(true);
+        setSinceDrill((n) => n + 1);
         setTurn((t) => t + 1);
       } catch (e) {
         // 409 — цей повтор уже зараховано (подвійний тап), просто йдемо далі
@@ -108,13 +133,13 @@ export default function Learn() {
         setBusy(false);
       }
     },
-    [card, busy],
+    [card, busy, sinceDrill, every],
   );
 
   // Клавіатура на десктопі: пробіл — показати, 1–4 — оцінка
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (!card || (e.target as HTMLElement).tagName === "INPUT") return;
+      if (!card || drill || (e.target as HTMLElement).tagName === "INPUT") return;
       if (!revealed && (e.key === " " || e.key === "Enter")) {
         e.preventDefault();
         setRevealed(true);
@@ -124,7 +149,7 @@ export default function Learn() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [card, revealed, rate]);
+  }, [card, drill, revealed, rate]);
 
   const clozeRight = card?.kind === "cloze" && revealed ? clozeMatches(answer, card.word) : null;
 
@@ -137,13 +162,13 @@ export default function Learn() {
           </Link>
           {queue && total > 0 && (
             <span className="rounded-full bg-surface px-3 py-1 font-display text-[13px] font-semibold shadow-card">
-              {seen.size}<span className="text-muted"> / {total}</span>
+              {progress}<span className="text-muted"> / {total}</span>
             </span>
           )}
         </div>
         {queue && total > 0 && (
-          <div className="h-2.5 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuenow={seen.size} aria-valuemax={total}>
-            <div className="h-full rounded-full bg-accent transition-[width] duration-500 ease-out" style={{ width: `${(seen.size / total) * 100}%` }} />
+          <div className="h-2.5 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuenow={progress} aria-valuemax={total}>
+            <div className="h-full rounded-full bg-accent transition-[width] duration-500 ease-out" style={{ width: `${(progress / total) * 100}%` }} />
           </div>
         )}
       </header>
@@ -152,20 +177,22 @@ export default function Learn() {
 
       {!queue && !error && <div className="h-64 animate-pulse rounded-[28px] bg-line" />}
 
-      {queue && !card && (
+      {queue && !card && !drill && (
         <section className="pop-in flex flex-col items-start gap-4 rounded-[28px] bg-mint px-6 pb-6 pt-8 text-white shadow-card">
           <SparkIcon className="size-10" />
           <h1 className="font-display text-[28px] font-semibold leading-tight">{total > 0 ? "На сьогодні все!" : "Поки нічого повторювати"}</h1>
           <p className="text-[16px] leading-relaxed opacity-95">
             {total > 0
-              ? `${total} ${plural(total, "картка", "картки", "карток")} пройдено. Наступні повтори прийдуть тоді, коли слова почнуть забуватись — бот нагадає.`
+              ? `${seen.size} ${plural(seen.size, "картка", "картки", "карток")}${drills.length ? ` і ${drills.length} ${plural(drills.length, "вправа", "вправи", "вправ")} з граматики` : ""} пройдено. Наступні повтори прийдуть тоді, коли слова почнуть забуватись — бот нагадає.`
               : "Нові слова на сьогодні вже додані, а повтори ще не настали. Загляни пізніше."}
           </p>
           <Link href="/" className="mt-1 rounded-full bg-white px-5 py-2.5 text-[15px] font-semibold text-mint">На головну</Link>
         </section>
       )}
 
-      {card && (
+      {drill && <Drill key={`d${turn}`} drill={drill} onDone={nextDrill} />}
+
+      {card && !drill && (
         <section key={turn} className="pop-in flex flex-col gap-4">
           <div className="overflow-hidden rounded-[28px] bg-surface shadow-card">
             <div className={`flex items-center justify-between gap-3 px-5 py-2.5 text-[13px] font-bold ${SET_TONE[card.set] ?? SET_TONE.own}`}>

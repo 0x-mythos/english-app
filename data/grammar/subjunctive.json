@@ -1,0 +1,196 @@
+{
+  "topic": "subjunctive",
+  "title": "Subjunctive",
+  "rule": "Після дієслів suggest, recommend, insist, demand, propose та виразів на кшталт it is essential that вживаємо базову форму дієслова без -s: I suggest that he review it; It is essential that she be here. Після it's (high) time та would rather підмет йде в Past Simple: It's time we went. I'd rather you didn't.",
+  "items": [
+    {
+      "id": "subjunctive-01",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I suggest that he ___ the code before merging.",
+      "options": [
+        "review",
+        "reviewing",
+        "reviewed",
+        "will review"
+      ],
+      "answer": 0,
+      "explanation": "Після suggest that — базова форма дієслова (subjunctive)."
+    },
+    {
+      "id": "subjunctive-02",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "The manager insisted that every developer ___ the security training.",
+      "options": [
+        "complete",
+        "to complete",
+        "completed",
+        "completing"
+      ],
+      "answer": 0,
+      "explanation": "Після insist that — базова форма без -s."
+    },
+    {
+      "id": "subjunctive-03",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "It's high time we ___ the legacy system.",
+      "options": [
+        "replaced",
+        "replace",
+        "will replace",
+        "replacing"
+      ],
+      "answer": 0,
+      "explanation": "It's high time + Past Simple про дію, яку давно слід було зробити."
+    },
+    {
+      "id": "subjunctive-04",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "I'd rather we ___ the meeting to Friday.",
+      "options": [
+        "moved",
+        "moving",
+        "to move",
+        "will move"
+      ],
+      "answer": 0,
+      "explanation": "I'd rather + підмет + Past Simple про теперішнє/майбутнє."
+    },
+    {
+      "id": "subjunctive-05",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "It is essential that passwords never ___ stored in plain text.",
+      "options": [
+        "be",
+        "are",
+        "were",
+        "being"
+      ],
+      "answer": 0,
+      "explanation": "Після it is essential that — базова форма be."
+    },
+    {
+      "id": "subjunctive-06",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "The doctor recommended that she ___ more water.",
+      "options": [
+        "drink",
+        "to drink",
+        "drank",
+        "drinking"
+      ],
+      "answer": 0,
+      "explanation": "Після recommend that — базова форма."
+    },
+    {
+      "id": "subjunctive-07",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "If I ___ you, I'd ask for a raise.",
+      "options": [
+        "were",
+        "am",
+        "would be",
+        "had been"
+      ],
+      "answer": 0,
+      "explanation": "В порадах If I were you — форма were для всіх осіб."
+    },
+    {
+      "id": "subjunctive-08",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "The recruiter demanded that the candidate ___ present on time.",
+      "options": [
+        "be",
+        "is",
+        "was",
+        "would been"
+      ],
+      "answer": 0,
+      "explanation": "Після demand that — базова форма be."
+    },
+    {
+      "id": "subjunctive-09",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "It's about time we ___ (start) the deployment.",
+      "answers": [
+        "started"
+      ],
+      "explanation": "It's about time + Past Simple."
+    },
+    {
+      "id": "subjunctive-10",
+      "level": "C1",
+      "type": "gap",
+      "prompt": "She suggested that he ___ (not / use) global variables.",
+      "answers": [
+        "not use",
+        "should not use",
+        "shouldn't use"
+      ],
+      "explanation": "Заперечення в subjunctive — not + базова форма."
+    },
+    {
+      "id": "subjunctive-11",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "I'd rather you ___ (not / push) directly to main.",
+      "answers": [
+        "didn't push",
+        "did not push"
+      ],
+      "explanation": "I'd rather + підмет + Past Simple (заперечення — didn't)."
+    },
+    {
+      "id": "subjunctive-12",
+      "level": "C1",
+      "type": "gap",
+      "prompt": "The lead insisted that the release ___ (be) postponed.",
+      "answers": [
+        "be",
+        "should be"
+      ],
+      "explanation": "Після insist that — базова форма be (або should be)."
+    },
+    {
+      "id": "subjunctive-13",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "I suggest that he goes to the doctor.",
+      "answers": [
+        "I suggest that he go to the doctor.",
+        "I suggest that he should go to the doctor."
+      ],
+      "explanation": "Після suggest that дієслово без закінчення -s."
+    },
+    {
+      "id": "subjunctive-14",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "It's time we go home; it's almost midnight.",
+      "answers": [
+        "It's time we went home; it's almost midnight.",
+        "It is time we went home; it's almost midnight."
+      ],
+      "explanation": "It's time + підмет вимагає Past Simple."
+    },
+    {
+      "id": "subjunctive-15",
+      "level": "C1",
+      "type": "fix",
+      "prompt": "My boss insisted that I am at the meeting.",
+      "answers": [
+        "My boss insisted that I be at the meeting.",
+        "My boss insisted that I should be at the meeting."
+      ],
+      "explanation": "Після insist that вживаємо be, а не am."
+    }
+  ]
+}

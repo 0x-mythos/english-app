@@ -1,0 +1,263 @@
+{
+  "topic": "future_forms",
+  "title": "Майбутній час",
+  "rule": "Will — для спонтанних рішень, обіцянок, пропозицій і прогнозів-думок: \"I'll help you\". Going to — для заздалегідь прийнятих намірів і прогнозів за очевидними ознаками: \"It's going to rain\". Present Continuous — для вже домовлених планів: \"I'm meeting Tom at 6\". Після if, when, as soon as майбутнє не вживаємо — лише Present Simple.",
+  "items": [
+    {
+      "id": "future_forms-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "Look at those clouds! It ___ rain.",
+      "options": [
+        "is going to",
+        "is",
+        "does",
+        "has"
+      ],
+      "answer": 0,
+      "explanation": "Очевидні ознаки в момент мовлення — be going to + інфінітив."
+    },
+    {
+      "id": "future_forms-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "It's heavy. I ___ help you with the bag.",
+      "options": [
+        "will",
+        "helped",
+        "help",
+        "helping"
+      ],
+      "answer": 0,
+      "explanation": "Спонтанна пропозиція допомоги виражається через will."
+    },
+    {
+      "id": "future_forms-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "We ___ to Lviv next weekend.",
+      "options": [
+        "are going",
+        "are go",
+        "will going",
+        "went"
+      ],
+      "answer": 0,
+      "explanation": "Намір поїхати виражається через are going to; went — минулий час."
+    },
+    {
+      "id": "future_forms-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I ___ my brother tonight; we arranged to have dinner.",
+      "options": [
+        "am meeting",
+        "meet",
+        "met",
+        "will meeting"
+      ],
+      "answer": 0,
+      "explanation": "Домовленість на конкретний час — Present Continuous."
+    },
+    {
+      "id": "future_forms-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I promise I ___ tell anyone.",
+      "options": [
+        "won't",
+        "don't",
+        "didn't",
+        "haven't"
+      ],
+      "answer": 0,
+      "explanation": "Обіцянка виражається через will/won't."
+    },
+    {
+      "id": "future_forms-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "A: The phone's ringing. B: I ___ get it.",
+      "options": [
+        "will",
+        "would",
+        "getting",
+        "get"
+      ],
+      "answer": 0,
+      "explanation": "Спонтанне рішення в момент мовлення — I'll."
+    },
+    {
+      "id": "future_forms-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "He has bought the ticket. He ___ visit his parents.",
+      "options": [
+        "is going to",
+        "would",
+        "did",
+        "visits"
+      ],
+      "answer": 0,
+      "explanation": "Намір, що вже сформований, виражається через be going to."
+    },
+    {
+      "id": "future_forms-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "If it ___ tomorrow, we will cancel the picnic.",
+      "options": [
+        "rains",
+        "will rain",
+        "is going to rain",
+        "rain"
+      ],
+      "answer": 0,
+      "explanation": "Після if майбутнє не вживається — тільки Present Simple."
+    },
+    {
+      "id": "future_forms-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "By the time you arrive, I ___ the report.",
+      "options": [
+        "will have finished",
+        "will finish",
+        "am finishing",
+        "finished"
+      ],
+      "answer": 0,
+      "explanation": "Дія, що завершиться до певного моменту в майбутньому, — Future Perfect."
+    },
+    {
+      "id": "future_forms-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "This time next week I ___ on the beach.",
+      "options": [
+        "will be lying",
+        "have lain",
+        "lied",
+        "lay"
+      ],
+      "answer": 0,
+      "explanation": "Дія, що триватиме в певний момент у майбутньому, — Future Continuous."
+    },
+    {
+      "id": "future_forms-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "I ___ (visit) my grandma on Sunday; I've already told her.",
+      "answers": [
+        "am visiting",
+        "'m visiting",
+        "am going to visit",
+        "'m going to visit"
+      ],
+      "explanation": "Домовленість або намір на конкретний день — Present Continuous чи going to."
+    },
+    {
+      "id": "future_forms-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "I think the team ___ (win) the match.",
+      "answers": [
+        "will win",
+        "'ll win",
+        "is going to win",
+        "'s going to win"
+      ],
+      "explanation": "Прогноз-думка після I think виражається через will."
+    },
+    {
+      "id": "future_forms-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Look out! You ___ (drop) the laptop!",
+      "answers": [
+        "are going to drop",
+        "'re going to drop"
+      ],
+      "explanation": "Дія, яка ось-ось станеться за очевидними ознаками, — be going to."
+    },
+    {
+      "id": "future_forms-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "I promise I ___ (not / forget) your birthday.",
+      "answers": [
+        "won't forget",
+        "will not forget"
+      ],
+      "explanation": "Обіцянка — will/won't + базова форма."
+    },
+    {
+      "id": "future_forms-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "When I ___ (get) the results, I will tell you.",
+      "answers": [
+        "get"
+      ],
+      "explanation": "Після when у підрядному часу використовується Present Simple, а не will."
+    },
+    {
+      "id": "future_forms-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "Next year I ___ (work) here for ten years.",
+      "answers": [
+        "will have worked",
+        "'ll have worked",
+        "will have been working",
+        "'ll have been working"
+      ],
+      "explanation": "Тривалість до певного моменту в майбутньому — Future Perfect."
+    },
+    {
+      "id": "future_forms-17",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "I will to call you tomorrow.",
+      "answers": [
+        "I will call you tomorrow.",
+        "I'll call you tomorrow."
+      ],
+      "explanation": "Після will інфінітив стоїть без to."
+    },
+    {
+      "id": "future_forms-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "If I will have time, I will help you.",
+      "answers": [
+        "If I have time, I will help you.",
+        "If I have time, I'll help you."
+      ],
+      "explanation": "Після if майбутній час не вживається — потрібен Present Simple."
+    },
+    {
+      "id": "future_forms-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "I'm going to meeting my team tomorrow.",
+      "answers": [
+        "I'm going to meet my team tomorrow.",
+        "I am going to meet my team tomorrow.",
+        "I'm going to meet my team tomorrow."
+      ],
+      "explanation": "Після going to йде інфінітив: meet, а не meeting."
+    },
+    {
+      "id": "future_forms-20",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "When I will arrive, I will text you.",
+      "answers": [
+        "When I arrive, I will text you.",
+        "When I arrive, I'll text you."
+      ],
+      "explanation": "Після when у підрядному часі майбутнє не вживається."
+    }
+  ]
+}

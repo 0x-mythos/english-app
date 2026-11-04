@@ -1,0 +1,250 @@
+{
+  "topic": "question_forms",
+  "title": "Питання",
+  "rule": "У Present/Past Simple питання будуються з do/does/did + підмет + інфінітив (Where do you work?). Питання до підмета (Who, What) не мають допоміжного дієслова: Who called you? Розділові питання: ствердження → заперечний тег, заперечення → ствердний (You work remotely, don’t you?). У непрямому питанні порядок слів прямий: where the bank is.",
+  "items": [
+    {
+      "id": "question_forms-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "___ you speak Polish?",
+      "options": [
+        "Do",
+        "Does",
+        "Are",
+        "Have"
+      ],
+      "answer": 0,
+      "explanation": "Present Simple з you → do."
+    },
+    {
+      "id": "question_forms-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "Where ___ your sister work?",
+      "options": [
+        "do",
+        "does",
+        "is",
+        "has"
+      ],
+      "answer": 1,
+      "explanation": "З she/sister — does."
+    },
+    {
+      "id": "question_forms-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "When ___ you start learning English?",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "Минулий час → did."
+    },
+    {
+      "id": "question_forms-04",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Who ___ the build last night?",
+      "options": [
+        "broke",
+        "breaked",
+        "did broke",
+        "does break"
+      ],
+      "answer": 0,
+      "explanation": "Питання до підмета — без did."
+    },
+    {
+      "id": "question_forms-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "What ___ in the last release?",
+      "options": [
+        "does happen",
+        "happened",
+        "was happened",
+        "happen"
+      ],
+      "answer": 1,
+      "explanation": "What як підмет — без допоміжного, а happen не вживається в Passive."
+    },
+    {
+      "id": "question_forms-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "You have not finished yet, ___?",
+      "options": [
+        "have not you",
+        "have you",
+        "did you",
+        "do you"
+      ],
+      "answer": 1,
+      "explanation": "Заперечення → ствердний тег з тим самим допоміжним."
+    },
+    {
+      "id": "question_forms-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "She works remotely, ___?",
+      "options": [
+        "is she",
+        "does she",
+        "doesn’t she",
+        "isn’t she"
+      ],
+      "answer": 2,
+      "explanation": "Ствердження → заперечний тег doesn’t she."
+    },
+    {
+      "id": "question_forms-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Could you tell me where ___?",
+      "options": [
+        "is the station",
+        "the station is",
+        "does the station",
+        "the station does"
+      ],
+      "answer": 1,
+      "explanation": "У непрямому питанні прямий порядок слів."
+    },
+    {
+      "id": "question_forms-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Let us review the PR, ___?",
+      "options": [
+        "will we",
+        "shall we",
+        "don’t we",
+        "do we"
+      ],
+      "answer": 1,
+      "explanation": "Після Let us/Let’s тег — shall we."
+    },
+    {
+      "id": "question_forms-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Nobody called, ___?",
+      "options": [
+        "did he",
+        "didn’t they",
+        "did they",
+        "did nobody"
+      ],
+      "answer": 2,
+      "explanation": "Nobody — негативне слово, тег стверджувальний they."
+    },
+    {
+      "id": "question_forms-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "___ your brother live in Kyiv? (do)",
+      "answers": [
+        "Does",
+        "does"
+      ],
+      "explanation": "З brother (він) → does."
+    },
+    {
+      "id": "question_forms-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "How long ___ it take to deploy? (do)",
+      "answers": [
+        "does"
+      ],
+      "explanation": "It → does."
+    },
+    {
+      "id": "question_forms-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "What ___ you doing when I called? (be)",
+      "answers": [
+        "were"
+      ],
+      "explanation": "Past Continuous питання — were."
+    },
+    {
+      "id": "question_forms-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Who ___ the standup every morning? (lead)",
+      "answers": [
+        "leads"
+      ],
+      "explanation": "Питання до підмета: дієслово в третій особі без do."
+    },
+    {
+      "id": "question_forms-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "You have never been to London, ___? (have)",
+      "answers": [
+        "have you"
+      ],
+      "explanation": "Заперечення → ствердний тег have you."
+    },
+    {
+      "id": "question_forms-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "He does not know the answer, ___ he? (do)",
+      "answers": [
+        "does"
+      ],
+      "explanation": "Заперечення → ствердний тег does he."
+    },
+    {
+      "id": "question_forms-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "Where you work?",
+      "answers": [
+        "Where do you work?"
+      ],
+      "explanation": "Потрібен допоміжний do."
+    },
+    {
+      "id": "question_forms-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "Why you did not call me?",
+      "answers": [
+        "Why did you not call me?",
+        "Why didn’t you call me?",
+        "Why didn't you call me?"
+      ],
+      "explanation": "Після питального слова допоміжне стоїть перед підметом."
+    },
+    {
+      "id": "question_forms-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "Who did call you yesterday?",
+      "answers": [
+        "Who called you yesterday?"
+      ],
+      "explanation": "Питання до підмета без did."
+    },
+    {
+      "id": "question_forms-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "Can you tell me where is the nearest bank?",
+      "answers": [
+        "Can you tell me where the nearest bank is?"
+      ],
+      "explanation": "У непрямому питанні порядок слів прямий."
+    }
+  ]
+}

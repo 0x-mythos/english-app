@@ -1,0 +1,253 @@
+{
+  "topic": "reported_speech",
+  "title": "Непряма мова",
+  "rule": "У непрямій мові часи зсуваються назад (backshift): am → was, will → would, have done → had done, can → could. Say без обʼєкта (he said that...), tell з обʼєктом (he told me that...). Питання стають розповідним порядком слів без do/does: She asked where I worked. Без питальних слів: if/whether.",
+  "items": [
+    {
+      "id": "reported_speech-01",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "'I'm busy,' she said. She said she ___ busy.",
+      "options": [
+        "was",
+        "am",
+        "will be",
+        "has"
+      ],
+      "answer": 0,
+      "explanation": "Backshift: am → was."
+    },
+    {
+      "id": "reported_speech-02",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "She ___ that the server was down.",
+      "options": [
+        "said",
+        "told",
+        "talked",
+        "spoke"
+      ],
+      "answer": 0,
+      "explanation": "Say вживається без додатка, tell потребує me/him."
+    },
+    {
+      "id": "reported_speech-03",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "'I'll send the report tomorrow.' He said ___ the report the next day.",
+      "options": [
+        "he would send",
+        "he sending",
+        "he send",
+        "to send"
+      ],
+      "answer": 0,
+      "explanation": "Will → would після said."
+    },
+    {
+      "id": "reported_speech-04",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "'Where do you live?' She asked me where ___.",
+      "options": [
+        "I lived",
+        "did I live",
+        "do I live",
+        "I do live"
+      ],
+      "answer": 0,
+      "explanation": "У непрямому питанні прямий порядок слів і backshift."
+    },
+    {
+      "id": "reported_speech-05",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "'Did you book the ticket?' He asked if I ___ the ticket.",
+      "options": [
+        "had booked",
+        "did I book",
+        "have I booked",
+        "booking"
+      ],
+      "answer": 0,
+      "explanation": "Past Simple у питанні → Past Perfect, порядок слів прямий."
+    },
+    {
+      "id": "reported_speech-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "The manager ___ us to submit the report today.",
+      "options": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "answer": 0,
+      "explanation": "Tell somebody to do something."
+    },
+    {
+      "id": "reported_speech-07",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "'Don't touch the config,' he said. He told me ___ the config.",
+      "options": [
+        "not to touch",
+        "don't touch",
+        "not touching",
+        "that I not touch"
+      ],
+      "answer": 0,
+      "explanation": "Заборона в непрямій мові — not to + інфінітив."
+    },
+    {
+      "id": "reported_speech-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "'Where is the office?' she asked. She asked where ___.",
+      "options": [
+        "the office was",
+        "was the office",
+        "the office were",
+        "the office be"
+      ],
+      "answer": 0,
+      "explanation": "Прямий порядок слів і was."
+    },
+    {
+      "id": "reported_speech-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "'I'll call you tomorrow,' Tom said. Tom said he ___ me the next day.",
+      "options": [
+        "would call",
+        "calls",
+        "called",
+        "was call"
+      ],
+      "answer": 0,
+      "explanation": "Will → would."
+    },
+    {
+      "id": "reported_speech-10",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "'I bought the car yesterday.' She said that she ___ the car the day before.",
+      "options": [
+        "had bought",
+        "has bought",
+        "have bought",
+        "buying"
+      ],
+      "answer": 0,
+      "explanation": "Past Simple → Past Perfect, yesterday → the day before."
+    },
+    {
+      "id": "reported_speech-11",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "'I live in Kyiv,' he said. He said he ___ (live) in Kyiv.",
+      "answers": [
+        "lived",
+        "lives"
+      ],
+      "explanation": "Present Simple → Past Simple."
+    },
+    {
+      "id": "reported_speech-12",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "'I have finished,' she said. She said she ___ (finish).",
+      "answers": [
+        "had finished",
+        "has finished"
+      ],
+      "explanation": "Present Perfect → Past Perfect."
+    },
+    {
+      "id": "reported_speech-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "'Can you help me?' he asked. He asked if I ___ (can) help him.",
+      "answers": [
+        "could",
+        "can"
+      ],
+      "explanation": "Can → could."
+    },
+    {
+      "id": "reported_speech-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "'Do you like pizza?' she asked. She asked me if I ___ (like) pizza.",
+      "answers": [
+        "liked",
+        "likes"
+      ],
+      "explanation": "Present Simple → Past Simple, без do."
+    },
+    {
+      "id": "reported_speech-15",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "'Don't be late,' the boss told us. The boss told us ___ (not / be) late.",
+      "answers": [
+        "not to be"
+      ],
+      "explanation": "Наказ у непрямій мові — not to + інфінітив."
+    },
+    {
+      "id": "reported_speech-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "'I'll deploy tomorrow,' he said. He said he ___ (deploy) the next day.",
+      "answers": [
+        "would deploy"
+      ],
+      "explanation": "Will → would."
+    },
+    {
+      "id": "reported_speech-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "He said me that he would be late.",
+      "answers": [
+        "He told me that he would be late.",
+        "He said that he would be late."
+      ],
+      "explanation": "Said не вживається з додатком me; потрібен told."
+    },
+    {
+      "id": "reported_speech-18",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "She asked me where do I work.",
+      "answers": [
+        "She asked me where I worked."
+      ],
+      "explanation": "У непрямому питанні немає do і порядок слів прямий."
+    },
+    {
+      "id": "reported_speech-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "He told that the meeting was cancelled.",
+      "answers": [
+        "He said that the meeting was cancelled.",
+        "He told me that the meeting was cancelled."
+      ],
+      "explanation": "Tell потребує особи (told me), інакше вживаємо said."
+    },
+    {
+      "id": "reported_speech-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "She asked me if I can help her yesterday.",
+      "answers": [
+        "She asked me if I could help her yesterday."
+      ],
+      "explanation": "Потрібен backshift: can → could."
+    }
+  ]
+}

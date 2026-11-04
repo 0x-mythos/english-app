@@ -1,0 +1,247 @@
+{
+  "topic": "prepositions",
+  "title": "Прийменники",
+  "rule": "Час: at + точний час (at 10 a.m.), on + день/дата (on Monday), in + місяць/рік/частина доби (in March). Місце: at — точка (at the airport), in — всередині, on — поверхня. Багато дієслів і прикметників мають постійні прийменники: depend on, interested in, good at, wait for; а discuss, call, answer — без прийменника.",
+  "items": [
+    {
+      "id": "prepositions-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "The meeting starts ___ 10 a.m.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "answer": 0,
+      "explanation": "З точним часом вживаємо at."
+    },
+    {
+      "id": "prepositions-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I was born ___ March.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "by"
+      ],
+      "answer": 2,
+      "explanation": "З місяцями вживаємо in."
+    },
+    {
+      "id": "prepositions-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "See you ___ Monday!",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "answer": 1,
+      "explanation": "З днями тижня вживаємо on."
+    },
+    {
+      "id": "prepositions-04",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "He arrived ___ the airport at noon.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "to"
+      ],
+      "answer": 0,
+      "explanation": "Arrive at — для конкретних місць, arrive in — для міст."
+    },
+    {
+      "id": "prepositions-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I am interested ___ learning Rust.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "Стале поєднання interested in."
+    },
+    {
+      "id": "prepositions-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "She is really good ___ debugging.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "with"
+      ],
+      "answer": 0,
+      "explanation": "Стале поєднання good at."
+    },
+    {
+      "id": "prepositions-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "It depends ___ the budget.",
+      "options": [
+        "of",
+        "on",
+        "from",
+        "at"
+      ],
+      "answer": 1,
+      "explanation": "Дієслово depend вимагає прийменника on."
+    },
+    {
+      "id": "prepositions-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "We are waiting ___ the test results.",
+      "options": [
+        "for",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": 0,
+      "explanation": "Wait for — чекати на щось."
+    },
+    {
+      "id": "prepositions-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "The project was completed ___ time and within budget.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "answer": 2,
+      "explanation": "On time — вчасно, за графіком."
+    },
+    {
+      "id": "prepositions-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I will finish the report ___ Friday at the latest.",
+      "options": [
+        "until",
+        "on",
+        "at",
+        "by"
+      ],
+      "answer": 3,
+      "explanation": "By позначає крайній термін: «не пізніше п’ятниці»."
+    },
+    {
+      "id": "prepositions-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "My cat is sleeping ___ the sofa. (in/on/at)",
+      "answers": [
+        "on"
+      ],
+      "explanation": "Лежати на поверхні — on."
+    },
+    {
+      "id": "prepositions-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "I get up ___ 7 o’clock every day. (in/on/at)",
+      "answers": [
+        "at"
+      ],
+      "explanation": "З точним часом — at."
+    },
+    {
+      "id": "prepositions-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "She is afraid ___ flying. (of/from)",
+      "answers": [
+        "of"
+      ],
+      "explanation": "Afraid of — боятися чогось."
+    },
+    {
+      "id": "prepositions-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "He apologised ___ being late. (for/of)",
+      "answers": [
+        "for"
+      ],
+      "explanation": "Apologise for — вибачатися за щось."
+    },
+    {
+      "id": "prepositions-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "This function is similar ___ the one we wrote yesterday. (to/with)",
+      "answers": [
+        "to"
+      ],
+      "explanation": "Similar to — схожий на."
+    },
+    {
+      "id": "prepositions-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "I am looking forward ___ meeting you. (to/for)",
+      "answers": [
+        "to"
+      ],
+      "explanation": "Look forward to + -ing."
+    },
+    {
+      "id": "prepositions-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "I will call you in Monday.",
+      "answers": [
+        "I will call you on Monday."
+      ],
+      "explanation": "З днями тижня — on."
+    },
+    {
+      "id": "prepositions-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "I am married with a developer.",
+      "answers": [
+        "I am married to a developer."
+      ],
+      "explanation": "Be married to, а не with."
+    },
+    {
+      "id": "prepositions-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "We are discussing about the new feature.",
+      "answers": [
+        "We are discussing the new feature."
+      ],
+      "explanation": "Discuss не потребує прийменника about."
+    },
+    {
+      "id": "prepositions-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "I am responsible of the database.",
+      "answers": [
+        "I am responsible for the database."
+      ],
+      "explanation": "Responsible for — відповідальний за."
+    }
+  ]
+}

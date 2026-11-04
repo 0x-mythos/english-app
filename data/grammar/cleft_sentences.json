@@ -1,0 +1,192 @@
+{
+  "topic": "cleft_sentences",
+  "title": "Емфатичні конструкції",
+  "rule": "Емфатичні (cleft) конструкції виділяють головну інформацію. It was X who/that...: It was Maria who found the bug. What-речення: What I need is more time. The thing is..., The reason ... is that... Час дієслова be у what-реченні узгоджується з часом дієслова в частині what.",
+  "items": [
+    {
+      "id": "cleft_sentences-01",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "___ made me change my mind was the salary.",
+      "options": [
+        "What",
+        "That",
+        "Which",
+        "It"
+      ],
+      "answer": 0,
+      "explanation": "What-речення: What + дієслово + was/is + виділена частина."
+    },
+    {
+      "id": "cleft_sentences-02",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "It was Maria ___ found the memory leak.",
+      "options": [
+        "who",
+        "which",
+        "what",
+        "whose"
+      ],
+      "answer": 0,
+      "explanation": "Виділяємо людину: It was + ім'я + who."
+    },
+    {
+      "id": "cleft_sentences-03",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "It was in 2021 ___ I wrote my first API.",
+      "options": [
+        "that",
+        "what",
+        "who",
+        "which"
+      ],
+      "answer": 0,
+      "explanation": "Виділяємо обставину часу: It was ... that."
+    },
+    {
+      "id": "cleft_sentences-04",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "What really helped me learn Python ___ pair programming.",
+      "options": [
+        "was",
+        "were",
+        "has",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "What-речення в Past Simple завершується was."
+    },
+    {
+      "id": "cleft_sentences-05",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "It is the lack of tests ___ causes most incidents.",
+      "options": [
+        "that",
+        "what",
+        "who",
+        "whom"
+      ],
+      "answer": 0,
+      "explanation": "Виділяємо річ: It is ... that."
+    },
+    {
+      "id": "cleft_sentences-06",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "What I did ___ restart the server.",
+      "options": [
+        "was",
+        "did",
+        "is",
+        "were"
+      ],
+      "answer": 0,
+      "explanation": "What I did was + (to) дієслово."
+    },
+    {
+      "id": "cleft_sentences-07",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "The reason I applied ___ I liked the team.",
+      "options": [
+        "was that",
+        "was why",
+        "because",
+        "was for"
+      ],
+      "answer": 0,
+      "explanation": "The reason ... was/is that — стандартна конструкція; was why і because тут зайві."
+    },
+    {
+      "id": "cleft_sentences-08",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "It was only when I read the logs ___ I understood the problem.",
+      "options": [
+        "that",
+        "what",
+        "which",
+        "then"
+      ],
+      "answer": 0,
+      "explanation": "It was only when ... that — емфаза часу."
+    },
+    {
+      "id": "cleft_sentences-09",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "What surprised me ___ (be) how fast the app was.",
+      "answers": [
+        "was"
+      ],
+      "explanation": "What-речення в минулому → was."
+    },
+    {
+      "id": "cleft_sentences-10",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "It was Tom ___ suggested using Redis.",
+      "answers": [
+        "who",
+        "that"
+      ],
+      "explanation": "Виділяємо людину: It was Tom who/that."
+    },
+    {
+      "id": "cleft_sentences-11",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "What I like most about this job ___ (be) the flexibility.",
+      "answers": [
+        "is"
+      ],
+      "explanation": "Теперішній час у what-реченні → is."
+    },
+    {
+      "id": "cleft_sentences-12",
+      "level": "C1",
+      "type": "gap",
+      "prompt": "The thing ___ (be) that nobody read the documentation.",
+      "answers": [
+        "is",
+        "was"
+      ],
+      "explanation": "The thing is that... — розмовний зачин для головної думки."
+    },
+    {
+      "id": "cleft_sentences-13",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "It was Anna what found the bug.",
+      "answers": [
+        "It was Anna who found the bug.",
+        "It was Anna that found the bug."
+      ],
+      "explanation": "Після It was + людина вживаємо who/that, не what."
+    },
+    {
+      "id": "cleft_sentences-14",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "What I need it is more time.",
+      "answers": [
+        "What I need is more time."
+      ],
+      "explanation": "Після what-речення зайве it не потрібне."
+    },
+    {
+      "id": "cleft_sentences-15",
+      "level": "C1",
+      "type": "fix",
+      "prompt": "It was yesterday when I deployed the fix.",
+      "answers": [
+        "It was yesterday that I deployed the fix."
+      ],
+      "explanation": "В емфатичній конструкції використовуємо that, а не when."
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "topic": "modals",
+  "title": "Модальні дієслова",
+  "rule": "Після модальних (must, should, can, could, might) інфінітив БЕЗ to: You must update it. Must/have to — обовʼязок; mustn't — заборона; don't have to — не обовʼязково. Should — порада; can't/must — висновок (He must be at home); might — слабка ймовірність. Минулий час від must/can — had to / could.",
+  "items": [
+    {
+      "id": "modals-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "You ___ wear a helmet. It's the law.",
+      "options": [
+        "must",
+        "can",
+        "might",
+        "could"
+      ],
+      "answer": 0,
+      "explanation": "Must виражає обовʼязок за правилом чи законом."
+    },
+    {
+      "id": "modals-02",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "You ___ push to main without a review. It's forbidden.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "needn't",
+        "haven't to"
+      ],
+      "answer": 0,
+      "explanation": "Mustn't означає заборону."
+    },
+    {
+      "id": "modals-03",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "You ___ come to the office tomorrow. We're working remotely.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "have not to",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "Don't have to — немає потреби, а mustn't — заборона."
+    },
+    {
+      "id": "modals-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "She can ___ three languages.",
+      "options": [
+        "speak",
+        "speaks",
+        "to speak",
+        "speaking"
+      ],
+      "answer": 0,
+      "explanation": "Після can — інфінітив без to і без -s."
+    },
+    {
+      "id": "modals-05",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I ___ work late yesterday, so I missed the party.",
+      "options": [
+        "had to",
+        "must",
+        "have to",
+        "should"
+      ],
+      "answer": 0,
+      "explanation": "Must не має минулого часу — вживаємо had to."
+    },
+    {
+      "id": "modals-06",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "You ___ have told me earlier! Now it is too late.",
+      "options": [
+        "should",
+        "must",
+        "can",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Should have + V3 — докір за те, чого не зробили."
+    },
+    {
+      "id": "modals-07",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "He ___ be at home - his car isn't outside.",
+      "options": [
+        "can't",
+        "mustn't",
+        "shouldn't",
+        "needn't"
+      ],
+      "answer": 0,
+      "explanation": "Can't be — впевнений висновок, що це неможливо."
+    },
+    {
+      "id": "modals-08",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "The server ___ be down; I'm not sure. Let me check.",
+      "options": [
+        "might",
+        "must",
+        "can't",
+        "has to"
+      ],
+      "answer": 0,
+      "explanation": "Might — слабка ймовірність, ми не певні."
+    },
+    {
+      "id": "modals-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "When I was a child, I ___ swim very well.",
+      "options": [
+        "could",
+        "can",
+        "might",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "Could — вміння в минулому."
+    },
+    {
+      "id": "modals-10",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Do I ___ install Docker before the interview?",
+      "options": [
+        "have to",
+        "must to",
+        "should to",
+        "can to"
+      ],
+      "answer": 0,
+      "explanation": "У питанні з do вживаємо have to; після модальних to немає."
+    },
+    {
+      "id": "modals-11",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "I ___ (can / not) open this file.",
+      "answers": [
+        "can't",
+        "cannot",
+        "can not"
+      ],
+      "explanation": "Заперечення від can — can't або cannot."
+    },
+    {
+      "id": "modals-12",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "You ___ (must / not) use your phone during the exam.",
+      "answers": [
+        "mustn't",
+        "must not"
+      ],
+      "explanation": "Заборона — mustn't."
+    },
+    {
+      "id": "modals-13",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "Last week we ___ (have to) fix the bug at midnight.",
+      "answers": [
+        "had to"
+      ],
+      "explanation": "Минулий час від have to — had to."
+    },
+    {
+      "id": "modals-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "You ___ (not / have to) wear a tie to the interview. It's casual.",
+      "answers": [
+        "don't have to",
+        "do not have to"
+      ],
+      "explanation": "Don't have to — не обовʼязково."
+    },
+    {
+      "id": "modals-15",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "___ (could) you send me the link, please?",
+      "answers": [
+        "Could"
+      ],
+      "explanation": "Could — ввічливе прохання."
+    },
+    {
+      "id": "modals-16",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "You ___ (should / not) commit passwords to Git.",
+      "answers": [
+        "shouldn't",
+        "should not"
+      ],
+      "explanation": "Shouldn't — порада не робити."
+    },
+    {
+      "id": "modals-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "You must to update the dependencies.",
+      "answers": [
+        "You must update the dependencies."
+      ],
+      "explanation": "Після must не ставимо to."
+    },
+    {
+      "id": "modals-18",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "I can to speak English a little.",
+      "answers": [
+        "I can speak English a little."
+      ],
+      "explanation": "Після can не ставимо to."
+    },
+    {
+      "id": "modals-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "She don't can come today.",
+      "answers": [
+        "She can't come today.",
+        "She cannot come today.",
+        "She can not come today."
+      ],
+      "explanation": "Заперечення від can утворюється can't, без do."
+    },
+    {
+      "id": "modals-20",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "You don't must park here.",
+      "answers": [
+        "You mustn't park here.",
+        "You must not park here."
+      ],
+      "explanation": "Заборона — mustn't, а не don't must."
+    }
+  ]
+}

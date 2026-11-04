@@ -1,0 +1,251 @@
+{
+  "topic": "present_continuous",
+  "title": "Present Continuous",
+  "rule": "Present Continuous (am/is/are + -ing) описує дію, що відбувається зараз, або тимчасову ситуацію: \"I'm writing a test now\". Також вживається для домовленостей на майбутнє. Стативні дієслова (know, understand, like, want, agree) зазвичай не вживаються в Continuous: кажи \"I agree\", а не \"I am agree\".",
+  "items": [
+    {
+      "id": "present_continuous-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "Be quiet! I ___ on a call.",
+      "options": [
+        "am talking",
+        "talk",
+        "talking",
+        "talks"
+      ],
+      "answer": 0,
+      "explanation": "Дія відбувається просто зараз — Present Continuous з am + -ing."
+    },
+    {
+      "id": "present_continuous-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "Look! It ___ outside.",
+      "options": [
+        "is raining",
+        "rains",
+        "rain",
+        "raining"
+      ],
+      "answer": 0,
+      "explanation": "Look! вказує на дію в момент мовлення, тож is + -ing."
+    },
+    {
+      "id": "present_continuous-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "What ___ you doing right now?",
+      "options": [
+        "are",
+        "do",
+        "is",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "З you у Present Continuous допоміжне дієслово — are."
+    },
+    {
+      "id": "present_continuous-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "She ___ TV now.",
+      "options": [
+        "isn't watching",
+        "doesn't watch",
+        "not watching",
+        "don't watching"
+      ],
+      "answer": 0,
+      "explanation": "Заперечення в Continuous: isn't + -ing; now вказує на момент зараз."
+    },
+    {
+      "id": "present_continuous-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I ___ a new framework this week.",
+      "options": [
+        "am learning",
+        "learn",
+        "learned",
+        "learns"
+      ],
+      "answer": 0,
+      "explanation": "Тимчасова дія саме цього тижня — Present Continuous."
+    },
+    {
+      "id": "present_continuous-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I ___ what you mean.",
+      "options": [
+        "don't understand",
+        "am not understanding",
+        "not understand",
+        "doesn't understand"
+      ],
+      "answer": 0,
+      "explanation": "Understand — стативне дієслово, не вживається в Continuous."
+    },
+    {
+      "id": "present_continuous-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Our team ___ the app to a new server this week.",
+      "options": [
+        "is moving",
+        "moves",
+        "move",
+        "moved"
+      ],
+      "answer": 0,
+      "explanation": "Тимчасовий процес цього тижня — is moving."
+    },
+    {
+      "id": "present_continuous-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I ___ this song. It's great.",
+      "options": [
+        "like",
+        "am liking",
+        "liking",
+        "likes"
+      ],
+      "answer": 0,
+      "explanation": "Like — стативне дієслово, тому Present Simple."
+    },
+    {
+      "id": "present_continuous-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "He ___ always interrupting me in meetings!",
+      "options": [
+        "is",
+        "does",
+        "has",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Is always + -ing виражає роздратування постійною дією."
+    },
+    {
+      "id": "present_continuous-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I ___ to Poland next month; I've already bought the tickets.",
+      "options": [
+        "am moving",
+        "am move",
+        "moved",
+        "moving"
+      ],
+      "answer": 0,
+      "explanation": "Домовленість на майбутнє, що вже підготовлена, — Present Continuous."
+    },
+    {
+      "id": "present_continuous-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "They ___ (have) lunch at the moment.",
+      "answers": [
+        "are having",
+        "'re having"
+      ],
+      "explanation": "At the moment вказує на дію зараз, а have у значенні «їсти» може бути в Continuous."
+    },
+    {
+      "id": "present_continuous-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "I ___ (not / work) today; I'm on holiday.",
+      "answers": [
+        "'m not working",
+        "am not working"
+      ],
+      "explanation": "Заперечення в Continuous: am not + -ing."
+    },
+    {
+      "id": "present_continuous-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Why ___ (you / wear) a suit today?",
+      "answers": [
+        "are you wearing"
+      ],
+      "explanation": "Питання в Present Continuous: are + підмет + -ing."
+    },
+    {
+      "id": "present_continuous-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "The app ___ (get) slower every week.",
+      "answers": [
+        "is getting"
+      ],
+      "explanation": "Зміна, що відбувається поступово, виражається Present Continuous."
+    },
+    {
+      "id": "present_continuous-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "I ___ (think) about changing my job.",
+      "answers": [
+        "am thinking",
+        "'m thinking"
+      ],
+      "explanation": "Think у значенні «обмірковувати» може вживатися в Continuous."
+    },
+    {
+      "id": "present_continuous-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "She ___ (stay) with us until her flat is ready.",
+      "answers": [
+        "is staying",
+        "'s staying"
+      ],
+      "explanation": "Тимчасова ситуація описується Present Continuous."
+    },
+    {
+      "id": "present_continuous-17",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "I am agree with you.",
+      "answers": [
+        "I agree with you."
+      ],
+      "explanation": "Agree — стативне дієслово, без am і без -ing."
+    },
+    {
+      "id": "present_continuous-18",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "She is have a shower now.",
+      "answers": [
+        "She is having a shower now."
+      ],
+      "explanation": "Після is дієслово має стояти у формі -ing: having."
+    },
+    {
+      "id": "present_continuous-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "What you are doing now?",
+      "answers": [
+        "What are you doing now?"
+      ],
+      "explanation": "У питанні допоміжне дієслово стоїть перед підметом."
+    },
+    {
+      "id": "present_continuous-20",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "I am knowing this developer.",
+      "answers": [
+        "I know this developer."
+      ],
+      "explanation": "Know — стативне дієслово, воно не вживається в Continuous."
+    }
+  ]
+}

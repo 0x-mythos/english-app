@@ -70,3 +70,10 @@ export const PlusIcon = ({ className }: P) => (
     <path d="M12 5v14M5 12h14" />
   </svg>
 );
+
+export const PencilIcon = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <path d="M4 20l1-4.5L15.5 5a2.1 2.1 0 0 1 3 3L8 18.5z" />
+    <path d="M13.5 7l3 3M4 20h16" />
+  </svg>
+);

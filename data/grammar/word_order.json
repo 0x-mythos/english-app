@@ -1,0 +1,250 @@
+{
+  "topic": "word_order",
+  "title": "Порядок слів",
+  "rule": "В англійському реченні порядок прямий: підмет + дієслово + додаток. Прислівники частоти (always, usually, never) стоять перед основним дієсловом, але після to be: \"I always check\", \"He is never late\". У питаннях допоміжне дієслово йде перед підметом: \"Where do you work?\", а в непрямих питаннях порядок знову прямий: \"Can you tell me where the station is?\".",
+  "items": [
+    {
+      "id": "word_order-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "She ___ drinks coffee in the evening.",
+      "options": [
+        "never",
+        "ever",
+        "not",
+        "don't"
+      ],
+      "answer": 0,
+      "explanation": "Never стоїть перед основним дієсловом і сам уже є запереченням."
+    },
+    {
+      "id": "word_order-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I ___ my phone at work.",
+      "options": [
+        "always check",
+        "check always",
+        "am always check",
+        "always am checking"
+      ],
+      "answer": 0,
+      "explanation": "Прислівник частоти ставиться перед основним дієсловом."
+    },
+    {
+      "id": "word_order-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "He is ___ late for meetings.",
+      "options": [
+        "usually",
+        "usually is",
+        "does usually",
+        "is usually"
+      ],
+      "answer": 0,
+      "explanation": "Після to be прислівник частоти йде після нього, а в реченні is вже стоїть."
+    },
+    {
+      "id": "word_order-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "Why ___ late yesterday?",
+      "options": [
+        "were you",
+        "you were",
+        "did you",
+        "you did"
+      ],
+      "answer": 0,
+      "explanation": "У питанні з be допоміжне дієслово стоїть перед підметом."
+    },
+    {
+      "id": "word_order-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Can you tell me where ___?",
+      "options": [
+        "the station is",
+        "is the station",
+        "does the station",
+        "the station does"
+      ],
+      "answer": 0,
+      "explanation": "У непрямому питанні порядок слів прямий, як у звичайному реченні."
+    },
+    {
+      "id": "word_order-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I don't know what time ___.",
+      "options": [
+        "the meeting starts",
+        "does the meeting start",
+        "starts the meeting",
+        "the meeting does start"
+      ],
+      "answer": 0,
+      "explanation": "Непряме питання не потребує допоміжного do та інверсії."
+    },
+    {
+      "id": "word_order-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "She bought a ___ jacket.",
+      "options": [
+        "beautiful leather",
+        "leather beautiful",
+        "beautiful of leather",
+        "leather and beautiful"
+      ],
+      "answer": 0,
+      "explanation": "Оцінка (beautiful) стоїть перед матеріалом (leather)."
+    },
+    {
+      "id": "word_order-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "He ___ has time for lunch.",
+      "options": [
+        "rarely",
+        "rare",
+        "no",
+        "not"
+      ],
+      "answer": 0,
+      "explanation": "Rarely — прислівник частоти, що ставиться перед основним дієсловом."
+    },
+    {
+      "id": "word_order-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Not only ___ the bug, but he also fixed the tests.",
+      "options": [
+        "did he find",
+        "he found",
+        "found he",
+        "he did find"
+      ],
+      "answer": 0,
+      "explanation": "Після not only на початку речення потрібна інверсія з допоміжним дієсловом."
+    },
+    {
+      "id": "word_order-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Rarely ___ such a clean codebase.",
+      "options": [
+        "have I seen",
+        "I have seen",
+        "seen I have",
+        "I saw"
+      ],
+      "answer": 0,
+      "explanation": "Після rarely на початку речення порядок слів інвертується."
+    },
+    {
+      "id": "word_order-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "She ___ (always / arrive) early.",
+      "answers": [
+        "always arrives"
+      ],
+      "explanation": "Always ставиться перед основним дієсловом."
+    },
+    {
+      "id": "word_order-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "I ___ (often / forget) my password.",
+      "answers": [
+        "often forget"
+      ],
+      "explanation": "Часті прислівники ставляться перед основним дієсловом."
+    },
+    {
+      "id": "word_order-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Could you tell me what ___ (the code / do)?",
+      "answers": [
+        "the code does"
+      ],
+      "explanation": "У непрямому питанні — прямий порядок без допоміжного do."
+    },
+    {
+      "id": "word_order-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "I wonder where ___ (he / live).",
+      "answers": [
+        "he lives"
+      ],
+      "explanation": "Після wonder питання стає непрямим, тому підмет іде перед дієсловом."
+    },
+    {
+      "id": "word_order-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "Never ___ (I / see) such a clean commit history.",
+      "answers": [
+        "have I seen",
+        "did I see"
+      ],
+      "explanation": "Після never на початку речення вживається інверсія."
+    },
+    {
+      "id": "word_order-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "Do you know why ___ (the build / fail)?",
+      "answers": [
+        "the build failed",
+        "the build has failed",
+        "the build is failing"
+      ],
+      "explanation": "Непряме питання має прямий порядок слів, без did."
+    },
+    {
+      "id": "word_order-17",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "I go always to the gym on Monday.",
+      "answers": [
+        "I always go to the gym on Monday."
+      ],
+      "explanation": "Прислівник частоти стоїть перед основним дієсловом."
+    },
+    {
+      "id": "word_order-18",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "Where you work?",
+      "answers": [
+        "Where do you work?"
+      ],
+      "explanation": "У питанні пропущено допоміжне do."
+    },
+    {
+      "id": "word_order-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "Can you tell me where is the toilet?",
+      "answers": [
+        "Can you tell me where the toilet is?"
+      ],
+      "explanation": "У непрямому питанні порядок слів прямий."
+    },
+    {
+      "id": "word_order-20",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "He speaks very well English.",
+      "answers": [
+        "He speaks English very well."
+      ],
+      "explanation": "Додаток іде одразу після дієслова, а прислівник — після нього."
+    }
+  ]
+}

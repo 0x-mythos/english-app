@@ -1,0 +1,192 @@
+{
+  "topic": "wish",
+  "title": "Wish / If only",
+  "rule": "Wish / If only виражають жаль або бажання змінити ситуацію. Про теперішнє — wish + Past Simple (I wish I had more time; з be — were/was), про минуле — wish + Past Perfect (I wish I had tested it). Для роздратування чи бажання змінити чиюсь поведінку — wish + would (I wish he would stop), але не про себе.",
+  "items": [
+    {
+      "id": "wish-01",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I wish I ___ more time to finish the sprint.",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "had had"
+      ],
+      "answer": 0,
+      "explanation": "Жаль про теперішнє → wish + Past Simple."
+    },
+    {
+      "id": "wish-02",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I wish I ___ the tests before merging yesterday.",
+      "options": [
+        "ran",
+        "had run",
+        "would run",
+        "have run"
+      ],
+      "answer": 1,
+      "explanation": "Жаль про минуле → wish + Past Perfect."
+    },
+    {
+      "id": "wish-03",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I wish my manager ___ changing the requirements every day.",
+      "options": [
+        "would stop",
+        "will stop",
+        "stops",
+        "has stopped"
+      ],
+      "answer": 0,
+      "explanation": "Роздратування чужою звичкою → wish + would."
+    },
+    {
+      "id": "wish-04",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I'm stuck on this bug right now. If only I ___ what causes it!",
+      "options": [
+        "knew",
+        "had known",
+        "would know",
+        "know"
+      ],
+      "answer": 0,
+      "explanation": "Бажання змінити теперішню ситуацію → If only + Past Simple."
+    },
+    {
+      "id": "wish-05",
+      "level": "C1",
+      "type": "choice",
+      "prompt": "If only we ___ a backup before the migration; now the data is gone.",
+      "options": [
+        "had made",
+        "made",
+        "would make",
+        "have made"
+      ],
+      "answer": 0,
+      "explanation": "Жаль про минуле → If only + Past Perfect."
+    },
+    {
+      "id": "wish-06",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I wish I ___ a car; the bus to the office takes an hour.",
+      "options": [
+        "had",
+        "would have",
+        "have",
+        "had had"
+      ],
+      "answer": 0,
+      "explanation": "Нереальне теперішнє → wish + Past Simple."
+    },
+    {
+      "id": "wish-07",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I wish I ___ you the truth last week.",
+      "options": [
+        "told",
+        "had told",
+        "would tell",
+        "tell"
+      ],
+      "answer": 1,
+      "explanation": "Last week — минуле, тому Past Perfect."
+    },
+    {
+      "id": "wish-08",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "I wish I ___ speak better English at my interview next week.",
+      "options": [
+        "could",
+        "can",
+        "would",
+        "will be able to"
+      ],
+      "answer": 0,
+      "explanation": "Бажання мати вміння → wish + could."
+    },
+    {
+      "id": "wish-09",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "I wish I ___ (be) in Lviv now, not at the office.",
+      "answers": [
+        "were",
+        "was"
+      ],
+      "explanation": "Теперішня нереальна ситуація → wish + were/was."
+    },
+    {
+      "id": "wish-10",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "She wishes she ___ (take) the job offer last year.",
+      "answers": [
+        "had taken"
+      ],
+      "explanation": "Жаль про минуле → Past Perfect."
+    },
+    {
+      "id": "wish-11",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "I wish the client ___ (stop) sending requests at midnight.",
+      "answers": [
+        "would stop"
+      ],
+      "explanation": "Роздратування поведінкою іншої людини → would + інфінітив."
+    },
+    {
+      "id": "wish-12",
+      "level": "C1",
+      "type": "gap",
+      "prompt": "If only I ___ (not / delete) the production branch yesterday!",
+      "answers": [
+        "hadn't deleted",
+        "had not deleted"
+      ],
+      "explanation": "Жаль про минулу дію → If only + Past Perfect."
+    },
+    {
+      "id": "wish-13",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "I wish I would have more free time.",
+      "answers": [
+        "I wish I had more free time."
+      ],
+      "explanation": "Про теперішнє після wish ставимо Past Simple, а не would have."
+    },
+    {
+      "id": "wish-14",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "I wish I didn't push that commit yesterday.",
+      "answers": [
+        "I wish I hadn't pushed that commit yesterday.",
+        "I wish I had not pushed that commit yesterday."
+      ],
+      "explanation": "Жаль про минуле вимагає Past Perfect."
+    },
+    {
+      "id": "wish-15",
+      "level": "C1",
+      "type": "fix",
+      "prompt": "If only he will listen to our code review comments!",
+      "answers": [
+        "If only he would listen to our code review comments!"
+      ],
+      "explanation": "Після If only про чужу поведінку вживаємо would, а не will."
+    }
+  ]
+}

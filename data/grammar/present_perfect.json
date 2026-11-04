@@ -1,0 +1,259 @@
+{
+  "topic": "present_perfect",
+  "title": "Present Perfect",
+  "rule": "Present Perfect (have/has + третя форма) зв'язує минуле з теперішнім: досвід, результат, дія, що триває до зараз. Вживай since + момент і for + період, а також already/yet/just. З точним минулим часом (yesterday, last week, ago) Present Perfect НЕ вживається — потрібен Past Simple: \"I saw him yesterday\", а не \"I have seen him yesterday\".",
+  "items": [
+    {
+      "id": "present_perfect-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I ___ never been to London.",
+      "options": [
+        "have",
+        "am",
+        "did",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "Досвід «ніколи не був» утворюється через have + третя форма."
+    },
+    {
+      "id": "present_perfect-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "___ you ever used Kubernetes?",
+      "options": [
+        "Have",
+        "Did",
+        "Do",
+        "Are"
+      ],
+      "answer": 0,
+      "explanation": "Питання про досвід: Have + підмет + третя форма."
+    },
+    {
+      "id": "present_perfect-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "He has lived here ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "during"
+      ],
+      "answer": 0,
+      "explanation": "Since вживається з точкою початку (2019)."
+    },
+    {
+      "id": "present_perfect-04",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "We have known each other ___ ten years.",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "during"
+      ],
+      "answer": 0,
+      "explanation": "For вживається з періодом (ten years)."
+    },
+    {
+      "id": "present_perfect-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I ___ the report yet.",
+      "options": [
+        "haven't finished",
+        "didn't finished",
+        "don't finish",
+        "hadn't finish"
+      ],
+      "answer": 0,
+      "explanation": "Yet у запереченні вимагає Present Perfect: haven't + третя форма."
+    },
+    {
+      "id": "present_perfect-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "She has ___ sent the invoice, so you can check it.",
+      "options": [
+        "already",
+        "yet",
+        "ever",
+        "since"
+      ],
+      "answer": 0,
+      "explanation": "Already у стверджувальному реченні означає «вже»."
+    },
+    {
+      "id": "present_perfect-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I ___ him last week.",
+      "options": [
+        "saw",
+        "have seen",
+        "had seen",
+        "see"
+      ],
+      "answer": 0,
+      "explanation": "Last week — точний минулий час, тому Past Simple."
+    },
+    {
+      "id": "present_perfect-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Have you finished the task ___?",
+      "options": [
+        "yet",
+        "since",
+        "for",
+        "ago"
+      ],
+      "answer": 0,
+      "explanation": "У питанні про очікуваний результат наприкінці вживається yet."
+    },
+    {
+      "id": "present_perfect-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "This is the best framework I ___ ever used.",
+      "options": [
+        "have",
+        "had",
+        "did",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "Після суперлатива «найкращий, що я коли-небудь...» вживається Present Perfect."
+    },
+    {
+      "id": "present_perfect-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "Where's Tom? He ___ to the dentist; he'll be back soon.",
+      "options": [
+        "has gone",
+        "has been",
+        "had been",
+        "is been"
+      ],
+      "answer": 0,
+      "explanation": "Has gone означає «пішов і ще не повернувся»; has been — «був і повернувся»."
+    },
+    {
+      "id": "present_perfect-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "She ___ (visit) Spain three times.",
+      "answers": [
+        "has visited",
+        "'s visited"
+      ],
+      "explanation": "Досвід без точного часу — Present Perfect: has + третя форма."
+    },
+    {
+      "id": "present_perfect-12",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "We ___ (not / see) each other since March.",
+      "answers": [
+        "haven't seen",
+        "have not seen"
+      ],
+      "explanation": "Since + момент у минулому вимагає Present Perfect."
+    },
+    {
+      "id": "present_perfect-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "How long ___ (you / work) here?",
+      "answers": [
+        "have you worked",
+        "have you been working"
+      ],
+      "explanation": "How long про дію, що триває до зараз, — Present Perfect."
+    },
+    {
+      "id": "present_perfect-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "I ___ (just / receive) your email.",
+      "answers": [
+        "have just received",
+        "'ve just received"
+      ],
+      "explanation": "Just ставиться між have і третьою формою дієслова."
+    },
+    {
+      "id": "present_perfect-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "The team ___ (already / fix) three critical bugs this sprint.",
+      "answers": [
+        "has already fixed",
+        "'s already fixed"
+      ],
+      "explanation": "Sprint ще триває, тому Present Perfect із already."
+    },
+    {
+      "id": "present_perfect-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "She ___ (be) a developer for over a decade.",
+      "answers": [
+        "has been",
+        "'s been"
+      ],
+      "explanation": "For + період зі станом, що триває до зараз, — Present Perfect."
+    },
+    {
+      "id": "present_perfect-17",
+      "level": "A2",
+      "type": "fix",
+      "prompt": "I have seen him yesterday.",
+      "answers": [
+        "I saw him yesterday."
+      ],
+      "explanation": "З yesterday потрібен Past Simple, а не Present Perfect."
+    },
+    {
+      "id": "present_perfect-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "I live here since 2020.",
+      "answers": [
+        "I have lived here since 2020.",
+        "I've lived here since 2020.",
+        "I have been living here since 2020.",
+        "I've been living here since 2020."
+      ],
+      "explanation": "Since з дією, що триває, вимагає Present Perfect, а не Present Simple."
+    },
+    {
+      "id": "present_perfect-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "She has lost her job two weeks ago.",
+      "answers": [
+        "She lost her job two weeks ago."
+      ],
+      "explanation": "Ago вказує на точний минулий час — Past Simple."
+    },
+    {
+      "id": "present_perfect-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "I am working here for three years.",
+      "answers": [
+        "I have worked here for three years.",
+        "I've worked here for three years.",
+        "I have been working here for three years.",
+        "I've been working here for three years."
+      ],
+      "explanation": "For + період, що триває до зараз, — Present Perfect (Continuous), а не Present Continuous."
+    }
+  ]
+}

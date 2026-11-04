@@ -1,0 +1,250 @@
+{
+  "topic": "quantifiers",
+  "title": "Кількість",
+  "rule": "Many — зі злічуваними (many bugs), much — з незлічуваними (much time); a few/a little — «трохи» (позитивно), few/little — «майже немає» (негативно). Some — у ствердженнях, any — у запитаннях і запереченнях. Незлічувані (advice, information, feedback, equipment, news) не мають множини й не вживаються з a/an.",
+  "items": [
+    {
+      "id": "quantifiers-01",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "How ___ people work in your team?",
+      "options": [
+        "much",
+        "many",
+        "a little",
+        "a few"
+      ],
+      "answer": 1,
+      "explanation": "People злічуване → many."
+    },
+    {
+      "id": "quantifiers-02",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "I do not have ___ time today.",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "a few"
+      ],
+      "answer": 1,
+      "explanation": "Time незлічуване → much."
+    },
+    {
+      "id": "quantifiers-03",
+      "level": "A2",
+      "type": "choice",
+      "prompt": "There is ___ milk in the fridge, so I can make coffee.",
+      "options": [
+        "a few",
+        "a little",
+        "few",
+        "many"
+      ],
+      "answer": 1,
+      "explanation": "Milk незлічуване, а «трохи є» → a little."
+    },
+    {
+      "id": "quantifiers-04",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I have ___ friends in Warsaw, so I often feel lonely.",
+      "options": [
+        "a few",
+        "few",
+        "a little",
+        "little"
+      ],
+      "answer": 1,
+      "explanation": "Few — майже немає (негативний сенс)."
+    },
+    {
+      "id": "quantifiers-05",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Could you give me ___ advice about my CV?",
+      "options": [
+        "some",
+        "an",
+        "many",
+        "a few"
+      ],
+      "answer": 0,
+      "explanation": "Advice незлічуване → some."
+    },
+    {
+      "id": "quantifiers-06",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "The news ___ really good today.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "answer": 0,
+      "explanation": "News незлічуване й вживається з is."
+    },
+    {
+      "id": "quantifiers-07",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "Do you have ___ questions?",
+      "options": [
+        "every",
+        "any",
+        "a little",
+        "much"
+      ],
+      "answer": 1,
+      "explanation": "У запитаннях зазвичай any, а questions злічуване (every + множина неможливе)."
+    },
+    {
+      "id": "quantifiers-08",
+      "level": "B1",
+      "type": "choice",
+      "prompt": "I did not get ___ feedback from the reviewer.",
+      "options": [
+        "some",
+        "any",
+        "a",
+        "many"
+      ],
+      "answer": 1,
+      "explanation": "У запереченні — any, feedback незлічуване."
+    },
+    {
+      "id": "quantifiers-09",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "We need some new ___ for the office.",
+      "options": [
+        "equipments",
+        "equipment",
+        "an equipment",
+        "equipment’s"
+      ],
+      "answer": 1,
+      "explanation": "Equipment незлічуване, без -s."
+    },
+    {
+      "id": "quantifiers-10",
+      "level": "B2",
+      "type": "choice",
+      "prompt": "There is hardly ___ documentation for this API.",
+      "options": [
+        "any",
+        "many",
+        "a few",
+        "some"
+      ],
+      "answer": 0,
+      "explanation": "Hardly any = майже ніякої."
+    },
+    {
+      "id": "quantifiers-11",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "There are not ___ chairs in the room. (much/many)",
+      "answers": [
+        "many"
+      ],
+      "explanation": "Chairs злічуване → many."
+    },
+    {
+      "id": "quantifiers-12",
+      "level": "A2",
+      "type": "gap",
+      "prompt": "How ___ money do you need? (much/many)",
+      "answers": [
+        "much"
+      ],
+      "explanation": "Money незлічуване → much."
+    },
+    {
+      "id": "quantifiers-13",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "I would like ___ water, please. (some/any)",
+      "answers": [
+        "some"
+      ],
+      "explanation": "У проханні/пропозиції — some."
+    },
+    {
+      "id": "quantifiers-14",
+      "level": "B1",
+      "type": "gap",
+      "prompt": "Can I ask you ___ questions? (a little/a few)",
+      "answers": [
+        "a few"
+      ],
+      "explanation": "Questions злічуване → a few."
+    },
+    {
+      "id": "quantifiers-15",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "He has made very ___ progress this month. (little/few)",
+      "answers": [
+        "little"
+      ],
+      "explanation": "Progress незлічуване, а very… з негативним сенсом → little."
+    },
+    {
+      "id": "quantifiers-16",
+      "level": "B2",
+      "type": "gap",
+      "prompt": "Every developer in the team ___ a laptop. (have)",
+      "answers": [
+        "has"
+      ],
+      "explanation": "Every + однина → has."
+    },
+    {
+      "id": "quantifiers-17",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "She gave me many good advices.",
+      "answers": [
+        "She gave me a lot of good advice.",
+        "She gave me some good advice.",
+        "She gave me lots of good advice.",
+        "She gave me a lot of useful advice."
+      ],
+      "explanation": "Advice незлічуване — без множини й без many."
+    },
+    {
+      "id": "quantifiers-18",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "The information are on our website.",
+      "answers": [
+        "The information is on our website."
+      ],
+      "explanation": "Information незлічуване → is."
+    },
+    {
+      "id": "quantifiers-19",
+      "level": "B1",
+      "type": "fix",
+      "prompt": "We need more equipments for testing.",
+      "answers": [
+        "We need more equipment for testing."
+      ],
+      "explanation": "Equipment не має форми множини."
+    },
+    {
+      "id": "quantifiers-20",
+      "level": "B2",
+      "type": "fix",
+      "prompt": "I have less bugs than last week.",
+      "answers": [
+        "I have fewer bugs than last week."
+      ],
+      "explanation": "Зі злічуваними — fewer, а не less."
+    }
+  ]
+}
