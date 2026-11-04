@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { ArrowLeftIcon } from "@/components/icons";
 import { api, tgInit } from "@/lib/tg-client";
 import { topicLabel } from "@/lib/placement/topics";
 import { WRITING_MAX_CHARS, WRITING_MIN_CHARS, WRITING_TASK } from "@/lib/placement/writing";
@@ -35,14 +36,15 @@ const MINUTES = [5, 10, 15, 20, 30];
 const VOCAB_PAGE = 25;
 
 const chip = (on: boolean) =>
-  `rounded-full border px-4 py-2 text-[15px] transition-colors ${
-    on ? "border-accent bg-accent text-accent-fg" : "border-[color:var(--muted)]/30 bg-surface hover:border-accent"
+  `rounded-full border-2 px-4 py-2 text-[15px] font-semibold transition-[colors,transform] active:scale-95 ${
+    on ? "border-sky bg-sky text-white" : "border-line bg-surface hover:border-sky/60"
   }`;
 const option = (on: boolean) =>
-  `w-full rounded-xl border px-4 py-3 text-left text-[15px] leading-snug transition-colors disabled:opacity-60 ${
-    on ? "border-accent bg-accent text-accent-fg" : "border-[color:var(--muted)]/25 bg-surface hover:border-accent"
+  `w-full rounded-2xl border-2 px-4 py-3.5 text-left text-[16px] font-medium leading-snug shadow-card transition-[colors,transform] active:scale-[0.99] disabled:opacity-60 ${
+    on ? "border-sky bg-sky text-white" : "border-transparent bg-surface hover:border-sky/50"
   }`;
-const primary = "w-full rounded-xl bg-accent py-3.5 text-[16px] font-medium text-accent-fg transition-opacity disabled:opacity-40";
+const primary =
+  "w-full rounded-2xl bg-accent py-4 text-[17px] font-bold text-accent-fg shadow-card transition-[transform,opacity] active:scale-[0.99] disabled:opacity-40";
 
 export default function PlacementTest() {
   const [step, setStep] = useState<Step>("goals");
@@ -135,18 +137,18 @@ export default function PlacementTest() {
     <main className="mx-auto flex max-w-md flex-col gap-6 px-4 pb-10 pt-6">
       <header className="flex flex-col gap-3">
         <div className="flex items-center justify-between gap-3">
-          <Link href="/" className="text-[14px] text-muted hover:text-foreground">
-            ← На головну
+          <Link href="/" className="flex items-center gap-1.5 text-[15px] font-semibold text-muted hover:text-foreground">
+            <ArrowLeftIcon className="size-4" /> Головна
           </Link>
-          <span className="font-mono text-xs uppercase tracking-[0.18em] text-muted">{STEP_TITLES[step]}</span>
+          <span className="rounded-full bg-sun px-3 py-1 text-[13px] font-bold text-ink">{STEP_TITLES[step]}</span>
         </div>
-        <div className="h-1.5 overflow-hidden rounded-full bg-[color:var(--muted)]/15" role="progressbar" aria-valuenow={Math.round(progress * 100)}>
-          <div className="h-full rounded-full bg-accent transition-[width] duration-300" style={{ width: `${progress * 100}%` }} />
+        <div className="h-2.5 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuenow={Math.round(progress * 100)}>
+          <div className="h-full rounded-full bg-accent transition-[width] duration-500 ease-out" style={{ width: `${progress * 100}%` }} />
         </div>
       </header>
 
       {error && (
-        <p className="rounded-xl bg-surface px-4 py-3 text-[14px] leading-snug" role="alert">
+        <p className="rounded-2xl bg-accent/12 px-4 py-3 text-[14px] font-medium leading-snug text-accent" role="alert">
           {error}
         </p>
       )}
@@ -154,13 +156,13 @@ export default function PlacementTest() {
       {step === "goals" && (
         <section className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
-            <h1 className="text-[26px] font-semibold leading-tight">Тест рівня</h1>
+            <h1 className="font-display text-[26px] font-semibold leading-tight tracking-tight">Тест рівня</h1>
             <p className="text-[15px] leading-relaxed text-muted">
               10–15 хвилин. Окремо міряємо словник, граматику, читання і письмо — так видно, що підтягувати насамперед.
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <h2 className="text-[16px] font-medium">Яка англійська потрібна?</h2>
+            <h2 className="font-display text-[16px] font-semibold">Яка англійська потрібна?</h2>
             <div className="flex flex-wrap gap-2">
               {GOALS.map((g) => {
                 const on = goals.includes(g.id);
@@ -174,7 +176,7 @@ export default function PlacementTest() {
             </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h2 className="text-[16px] font-medium">Скільки хвилин на день?</h2>
+            <h2 className="font-display text-[16px] font-semibold">Скільки хвилин на день?</h2>
             <div className="flex flex-wrap gap-2">
               {MINUTES.map((m) => (
                 <button key={m} type="button" aria-pressed={minutes === m} className={chip(minutes === m)} onClick={() => setMinutes(m)}>
@@ -192,7 +194,7 @@ export default function PlacementTest() {
       {step === "vocab" && (
         <section className="flex flex-col gap-5">
           <div className="flex flex-col gap-2">
-            <h1 className="text-[22px] font-semibold leading-tight">Які слова ти знаєш?</h1>
+            <h1 className="font-display text-[22px] font-semibold leading-tight tracking-tight">Які слова ти знаєш?</h1>
             <p className="text-[15px] leading-relaxed text-muted">
               Познач лише ті, значення яких точно можеш пояснити. Частина слів вигадана — за них знімаються бали, тож не вгадуй.
             </p>
@@ -232,7 +234,7 @@ export default function PlacementTest() {
             <p className="text-[14px] text-muted">
               {question ? `Питання ${question.index + 1} з ${question.total}` : " "} · питання підлаштовуються під твої відповіді
             </p>
-            <h1 className="min-h-[3.5rem] text-[21px] font-medium leading-snug">
+            <h1 className="min-h-[3.5rem] font-display text-[21px] font-semibold leading-snug tracking-tight">
               {question ? <Blank text={question.q.prompt} /> : "Завантаження…"}
             </h1>
           </div>
@@ -249,16 +251,16 @@ export default function PlacementTest() {
       {step === "reading" && reading && (
         <section className="flex flex-col gap-5">
           <div className="flex flex-col gap-2">
-            <h1 className="text-[22px] font-semibold leading-tight">Прочитай і дай відповідь</h1>
+            <h1 className="font-display text-[22px] font-semibold leading-tight tracking-tight">Прочитай і дай відповідь</h1>
             <p className="text-[15px] text-muted">Текст можна перечитувати скільки завгодно.</p>
           </div>
-          <article className="flex flex-col gap-2 rounded-2xl bg-surface px-4 py-4">
-            <h2 className="text-[17px] font-medium" lang="en">{reading.title}</h2>
+          <article className="flex flex-col gap-2 rounded-[24px] border-l-4 border-mint bg-surface px-5 py-5 shadow-card">
+            <h2 className="font-display text-[18px] font-semibold" lang="en">{reading.title}</h2>
             <p className="text-[15px] leading-relaxed" lang="en">{reading.text}</p>
           </article>
           {reading.questions.map((rq, qi) => (
             <div key={qi} className="flex flex-col gap-2" lang="en">
-              <h3 className="text-[16px] font-medium leading-snug">{rq.prompt}</h3>
+              <h3 className="text-[16px] font-bold leading-snug">{rq.prompt}</h3>
               {rq.options.map((o, oi) => (
                 <button key={oi} type="button" aria-pressed={readingAnswers[qi] === oi} className={option(readingAnswers[qi] === oi)}
                   onClick={() => setReadingAnswers(Object.assign([...readingAnswers], { [qi]: oi }))}>
@@ -277,7 +279,7 @@ export default function PlacementTest() {
       {step === "writing" && (
         <section className="flex flex-col gap-5">
           <div className="flex flex-col gap-2">
-            <h1 className="text-[22px] font-semibold leading-tight">Напиши 3–4 речення</h1>
+            <h1 className="font-display text-[22px] font-semibold leading-tight tracking-tight">Напиши 3–4 речення</h1>
             <p className="text-[15px] leading-relaxed" lang="en">{WRITING_TASK}</p>
             <p className="text-[14px] leading-snug text-muted">Пиши як вийде, без перекладача — AI знайде типові помилки, і з них почнеться твоя граматика.</p>
           </div>
@@ -287,7 +289,7 @@ export default function PlacementTest() {
             rows={7}
             lang="en"
             placeholder="I work as…"
-            className="w-full resize-y rounded-xl border border-[color:var(--muted)]/25 bg-surface px-4 py-3 text-[16px] leading-relaxed outline-none focus:border-accent"
+            className="w-full resize-y rounded-2xl border-2 border-line bg-surface shadow-card px-4 py-3 text-[16px] leading-relaxed outline-none focus:border-accent"
           />
           <p className="text-[14px] text-muted">
             {writingLen < WRITING_MIN_CHARS ? `Ще хоча б ${WRITING_MIN_CHARS - writingLen} символів` : "Достатньо, можна надсилати"}
@@ -301,7 +303,7 @@ export default function PlacementTest() {
 
       {step === "checking" && (
         <section className="flex flex-col items-center gap-3 py-16 text-center">
-          <div className="h-8 w-8 animate-spin rounded-full border-2 border-[color:var(--muted)]/30 border-t-accent" />
+          <div className="size-12 animate-spin rounded-full border-4 border-line border-t-accent" />
           <p className="text-[16px] font-medium">Перевіряю текст і рахую результат…</p>
           <p className="text-[14px] text-muted">Зазвичай до 20 секунд.</p>
         </section>
@@ -333,28 +335,28 @@ function ResultView({ result }: { result: Result }) {
   return (
     <section className="flex flex-col gap-6">
       <div className="flex flex-col gap-2">
-        <h1 className="text-[26px] font-semibold leading-tight">Твій профіль</h1>
+        <h1 className="font-display text-[26px] font-semibold leading-tight tracking-tight">Твій профіль</h1>
         <p className="text-[15px] leading-relaxed text-muted">Це стартова оцінка. Далі вона уточнюється з повторень і розмов.</p>
       </div>
 
-      <div className="flex flex-col divide-y divide-[color:var(--muted)]/15 overflow-hidden rounded-2xl bg-surface">
+      <div className="flex flex-col divide-y divide-line overflow-hidden rounded-[24px] bg-surface shadow-card">
         {rows.map((r) => (
           <div key={r.title} className="flex items-center justify-between gap-3 px-4 py-4">
             <div className="flex flex-col gap-0.5">
               <span className="text-[16px] font-medium">{r.title}</span>
               <span className="text-[14px] text-muted">{r.value}</span>
             </div>
-            <span className="shrink-0 font-mono text-[20px] font-semibold">{r.level}</span>
+            <span className="shrink-0 rounded-xl bg-sky/15 px-3 py-1 font-display text-[18px] font-semibold text-sky">{r.level}</span>
           </div>
         ))}
       </div>
 
       {result.grammar.weakTopics.length > 0 && (
         <div className="flex flex-col gap-3">
-          <h2 className="text-[16px] font-medium">Що підтягнути в граматиці</h2>
+          <h2 className="font-display text-[16px] font-semibold">Що підтягнути в граматиці</h2>
           <div className="flex flex-wrap gap-2">
             {result.grammar.weakTopics.map((t) => (
-              <span key={t.topic} className="rounded-full border border-[color:var(--muted)]/30 px-3 py-1.5 text-[14px]">
+              <span key={t.topic} className="rounded-full bg-accent/12 px-3 py-1.5 text-[14px] font-semibold text-accent">
                 {topicLabel(t.topic)}
               </span>
             ))}
@@ -364,12 +366,12 @@ function ResultView({ result }: { result: Result }) {
 
       {result.writing && result.writing.errors.length > 0 && (
         <div className="flex flex-col gap-3">
-          <h2 className="text-[16px] font-medium">Помилки в тексті</h2>
+          <h2 className="font-display text-[16px] font-semibold">Помилки в тексті</h2>
           <ul className="flex flex-col gap-2">
             {result.writing.errors.map((e, i) => (
-              <li key={i} className="flex flex-col gap-1 rounded-xl bg-surface px-4 py-3">
+              <li key={i} className="flex flex-col gap-1 rounded-2xl bg-surface px-4 py-3 shadow-card">
                 <p className="text-[15px] leading-snug" lang="en">
-                  <span className="text-muted line-through">{e.original}</span> → <span className="font-medium">{e.corrected}</span>
+                  <span className="text-accent line-through">{e.original}</span> → <span className="font-bold text-mint">{e.corrected}</span>
                 </p>
                 {e.explanation && <p className="text-[14px] leading-snug text-muted">{e.explanation}</p>}
               </li>

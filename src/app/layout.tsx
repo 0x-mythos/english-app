@@ -1,10 +1,17 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist_Mono, Manrope, Unbounded } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Unbounded — заголовки і слова на картках, Manrope — текст; обидва з кирилицею
+const display = Unbounded({
+  variable: "--font-display",
+  subsets: ["latin", "cyrillic"],
+  weight: ["500", "600", "700"],
+});
+
+const body = Manrope({
+  variable: "--font-body",
   subsets: ["latin", "cyrillic"],
 });
 
@@ -35,7 +42,7 @@ export default function RootLayout({
       <head>
         <Script src="https://telegram.org/js/telegram-web-app.js" strategy="beforeInteractive" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${display.variable} ${body.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>

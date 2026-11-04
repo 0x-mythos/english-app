@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { ArrowLeftIcon, SparkIcon, SpeakerIcon } from "@/components/icons";
 import { clozeMatches } from "@/lib/srs/session";
 import { api, tgInit } from "@/lib/tg-client";
 
@@ -20,17 +21,25 @@ type SessionCard = {
 };
 type ReviewResult = { due: string; state: number; intervals: Record<Grade, string> };
 
-const GRADES: { grade: Grade; label: string }[] = [
-  { grade: 1, label: "Не згадав" },
-  { grade: 2, label: "Важко" },
-  { grade: 3, label: "Згадав" },
-  { grade: 4, label: "Легко" },
+// Кольори оцінок: порада (Згадав, або Не згадав після хибної відповіді) — суцільна, решта — тоновані
+const GRADES: { grade: Grade; label: string; tone: string; solid: string }[] = [
+  { grade: 1, label: "Не згадав", tone: "bg-accent/15 text-accent", solid: "bg-accent text-white" },
+  { grade: 2, label: "Важко", tone: "bg-sun/25 text-foreground", solid: "bg-sun text-ink" },
+  { grade: 3, label: "Згадав", tone: "bg-mint/20 text-mint", solid: "bg-mint text-white" },
+  { grade: 4, label: "Легко", tone: "bg-sky/20 text-sky", solid: "bg-sky text-white" },
 ];
+
+const SET_TONE: Record<string, string> = {
+  it: "bg-sky text-white",
+  everyday: "bg-sun text-ink",
+  own: "bg-berry text-white",
+};
 
 // Картки з коротким кроком навчання (хвилини) повертаємо в кінець цієї ж сесії
 const REQUEUE_WITHIN_MS = 20 * 60_000;
 
-const primary = "w-full rounded-xl bg-accent py-3.5 text-[16px] font-medium text-accent-fg transition-opacity disabled:opacity-40";
+const primary =
+  "w-full rounded-2xl bg-accent py-4 text-[17px] font-bold text-accent-fg shadow-card transition-[transform,opacity] active:scale-[0.99] disabled:opacity-40";
 
 function speak(word: string) {
   if (typeof window === "undefined" || !window.speechSynthesis) return;
@@ -120,94 +129,105 @@ export default function Learn() {
   const clozeRight = card?.kind === "cloze" && revealed ? clozeMatches(answer, card.word) : null;
 
   return (
-    <main className="mx-auto flex max-w-md flex-col gap-6 px-4 pb-10 pt-6">
+    <main className="mx-auto flex max-w-md flex-col gap-5 px-4 pb-10 pt-5">
       <header className="flex flex-col gap-3">
         <div className="flex items-center justify-between gap-3">
-          <Link href="/" className="text-[14px] text-muted hover:text-foreground">← Головна</Link>
+          <Link href="/" className="flex items-center gap-1.5 text-[15px] font-semibold text-muted hover:text-foreground">
+            <ArrowLeftIcon className="size-4" /> Головна
+          </Link>
           {queue && total > 0 && (
-            <span className="font-mono text-xs text-muted">{seen.size} з {total}</span>
+            <span className="rounded-full bg-surface px-3 py-1 font-display text-[13px] font-semibold shadow-card">
+              {seen.size}<span className="text-muted"> / {total}</span>
+            </span>
           )}
         </div>
         {queue && total > 0 && (
-          <div className="h-1.5 overflow-hidden rounded-full bg-[color:var(--muted)]/15" role="progressbar" aria-valuenow={seen.size} aria-valuemax={total}>
-            <div className="h-full rounded-full bg-accent transition-[width] duration-300" style={{ width: `${(seen.size / total) * 100}%` }} />
+          <div className="h-2.5 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuenow={seen.size} aria-valuemax={total}>
+            <div className="h-full rounded-full bg-accent transition-[width] duration-500 ease-out" style={{ width: `${(seen.size / total) * 100}%` }} />
           </div>
         )}
       </header>
 
-      {error && <p className="rounded-xl bg-surface px-4 py-3 text-[14px] leading-snug" role="alert">{error}</p>}
+      {error && <p className="rounded-2xl bg-accent/12 px-4 py-3 text-[14px] font-medium leading-snug text-accent" role="alert">{error}</p>}
 
-      {!queue && !error && <p className="text-[15px] text-muted">Збираю картки…</p>}
+      {!queue && !error && <div className="h-64 animate-pulse rounded-[28px] bg-line" />}
 
       {queue && !card && (
-        <section className="flex flex-col gap-4">
-          <h1 className="text-[26px] font-semibold leading-tight">{total > 0 ? "На сьогодні все" : "Поки нічого повторювати"}</h1>
-          <p className="text-[15px] leading-relaxed text-muted">
+        <section className="pop-in flex flex-col items-start gap-4 rounded-[28px] bg-mint px-6 pb-6 pt-8 text-white shadow-card">
+          <SparkIcon className="size-10" />
+          <h1 className="font-display text-[28px] font-semibold leading-tight">{total > 0 ? "На сьогодні все!" : "Поки нічого повторювати"}</h1>
+          <p className="text-[16px] leading-relaxed opacity-95">
             {total > 0
-              ? `Пройдено ${total} карток. Наступні повтори прийдуть тоді, коли слова почнуть забуватись — бот нагадає.`
+              ? `${total} ${plural(total, "картка", "картки", "карток")} пройдено. Наступні повтори прийдуть тоді, коли слова почнуть забуватись — бот нагадає.`
               : "Нові слова на сьогодні вже додані, а повтори ще не настали. Загляни пізніше."}
           </p>
-          <Link href="/" className={`${primary} text-center`}>На головну</Link>
+          <Link href="/" className="mt-1 rounded-full bg-white px-5 py-2.5 text-[15px] font-semibold text-mint">На головну</Link>
         </section>
       )}
 
       {card && (
-        <section className="flex flex-col gap-5">
-          <div className="flex flex-col gap-4 rounded-2xl bg-surface px-5 py-6">
-            <div className="flex items-center justify-between gap-3 text-xs text-muted">
-              <span>{card.set === "it" ? "IT" : card.set === "everyday" ? "Щоденне" : "Моє слово"}</span>
-              {card.isNew && <span className="rounded-full bg-accent px-2 py-0.5 text-accent-fg">нове</span>}
+        <section key={turn} className="pop-in flex flex-col gap-4">
+          <div className="overflow-hidden rounded-[28px] bg-surface shadow-card">
+            <div className={`flex items-center justify-between gap-3 px-5 py-2.5 text-[13px] font-bold ${SET_TONE[card.set] ?? SET_TONE.own}`}>
+              <span>{card.set === "it" ? "IT English" : card.set === "everyday" ? "Щоденна англійська" : "Моє слово"}</span>
+              {card.isNew && <span className="rounded-full bg-white/90 px-2.5 py-0.5 text-[12px] text-ink">нове</span>}
             </div>
 
-            {card.kind === "recall" && (
-              <div className="flex flex-col gap-1">
-                <WordLine card={card} />
-                {card.example && <p className="text-[15px] leading-relaxed text-muted">{card.example}</p>}
-              </div>
-            )}
+            <div className="flex flex-col gap-4 px-5 pb-6 pt-5">
+              {card.kind === "recall" && (
+                <div className="flex flex-col gap-3">
+                  <WordLine card={card} />
+                  {card.example && <p className="text-[16px] leading-relaxed text-muted">{card.example}</p>}
+                </div>
+              )}
 
-            {card.kind === "reverse" && (
-              <div className="flex flex-col gap-1">
-                <p className="text-[13px] text-muted">Як це англійською?</p>
-                <p className="text-[26px] font-semibold leading-tight">{card.translation}</p>
-              </div>
-            )}
+              {card.kind === "reverse" && (
+                <div className="flex flex-col gap-2">
+                  <p className="text-[14px] font-semibold text-muted">Як це англійською?</p>
+                  <p className="font-display text-[26px] font-semibold leading-tight">{card.translation}</p>
+                </div>
+              )}
 
-            {card.kind === "cloze" && (
-              <div className="flex flex-col gap-3">
-                <p className="text-[13px] text-muted">Впиши слово: {card.translation}</p>
-                <p className="text-[18px] leading-relaxed">{card.cloze}</p>
-                <input
-                  value={answer}
-                  onChange={(e) => setAnswer(e.target.value)}
-                  onKeyDown={(e) => e.key === "Enter" && answer.trim() && setRevealed(true)}
-                  disabled={revealed}
-                  autoCapitalize="off"
-                  autoCorrect="off"
-                  spellCheck={false}
-                  placeholder="слово"
-                  className="rounded-xl border border-[color:var(--muted)]/30 bg-background px-3 py-2.5 text-[16px] outline-none focus:border-accent"
-                />
-              </div>
-            )}
+              {card.kind === "cloze" && (
+                <div className="flex flex-col gap-3">
+                  <p className="text-[14px] font-semibold text-muted">Впиши слово: <span className="text-foreground">{card.translation}</span></p>
+                  <p className="text-[19px] font-medium leading-relaxed">{card.cloze}</p>
+                  <input
+                    value={answer}
+                    onChange={(e) => setAnswer(e.target.value)}
+                    onKeyDown={(e) => e.key === "Enter" && answer.trim() && setRevealed(true)}
+                    disabled={revealed}
+                    autoCapitalize="off"
+                    autoCorrect="off"
+                    spellCheck={false}
+                    placeholder="слово"
+                    className={`rounded-2xl border-2 bg-background px-4 py-3 text-[17px] font-semibold outline-none transition-colors focus:border-accent ${
+                      clozeRight === true ? "border-mint" : clozeRight === false ? "border-accent" : "border-line"
+                    }`}
+                  />
+                </div>
+              )}
 
-            {revealed && (
-              <div className="flex flex-col gap-1 border-t border-[color:var(--muted)]/15 pt-4">
-                {card.kind === "recall" && <p className="text-[20px] font-medium leading-snug">{card.translation}</p>}
-                {card.kind === "reverse" && (
-                  <>
-                    <WordLine card={card} />
-                    {card.example && <p className="text-[15px] leading-relaxed text-muted">{card.example}</p>}
-                  </>
-                )}
-                {card.kind === "cloze" && (
-                  <>
-                    <p className="text-[15px]">{clozeRight ? "Правильно." : `Правильно: ${card.word}`}</p>
-                    <WordLine card={card} />
-                  </>
-                )}
-              </div>
-            )}
+              {revealed && (
+                <div className="pop-in flex flex-col gap-2 rounded-2xl bg-background px-4 py-3.5">
+                  {card.kind === "recall" && <p className="font-display text-[21px] font-semibold leading-snug">{card.translation}</p>}
+                  {card.kind === "reverse" && (
+                    <>
+                      <WordLine card={card} />
+                      {card.example && <p className="text-[15px] leading-relaxed text-muted">{card.example}</p>}
+                    </>
+                  )}
+                  {card.kind === "cloze" && (
+                    <>
+                      <p className={`text-[15px] font-bold ${clozeRight ? "text-mint" : "text-accent"}`}>
+                        {clozeRight ? "Правильно!" : `Правильно: ${card.word}`}
+                      </p>
+                      <WordLine card={card} />
+                    </>
+                  )}
+                </div>
+              )}
+            </div>
           </div>
 
           {!revealed ? (
@@ -221,20 +241,23 @@ export default function Learn() {
             </button>
           ) : (
             <div className="grid grid-cols-4 gap-2">
-              {GRADES.map(({ grade, label }) => (
-                <button
-                  key={grade}
-                  type="button"
-                  disabled={busy}
-                  onClick={() => rate(grade)}
-                  className={`flex flex-col items-center gap-0.5 rounded-xl px-1 py-2.5 transition-opacity disabled:opacity-40 ${
-                    (clozeRight === false ? grade === 1 : grade === 3) ? "bg-accent text-accent-fg" : "bg-surface"
-                  }`}
-                >
-                  <span className="text-[14px] font-medium leading-tight">{label}</span>
-                  <span className="text-[12px] opacity-70">{card.intervals[grade]}</span>
-                </button>
-              ))}
+              {GRADES.map(({ grade, label, tone, solid }) => {
+                const suggested = clozeRight === false ? grade === 1 : grade === 3;
+                return (
+                  <button
+                    key={grade}
+                    type="button"
+                    disabled={busy}
+                    onClick={() => rate(grade)}
+                    className={`flex flex-col items-center gap-0.5 rounded-2xl px-1 py-3 transition-[transform,opacity] active:scale-95 disabled:opacity-40 ${
+                      suggested ? `${solid} shadow-card` : tone
+                    }`}
+                  >
+                    <span className="text-[14px] font-bold leading-tight">{label}</span>
+                    <span className="text-[12px] font-semibold opacity-75">{card.intervals[grade]}</span>
+                  </button>
+                );
+              })}
             </div>
           )}
         </section>
@@ -245,12 +268,27 @@ export default function Learn() {
 
 function WordLine({ card }: { card: SessionCard }) {
   return (
-    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-      <p className="text-[26px] font-semibold leading-tight">{card.word}</p>
+    <div className="flex flex-col gap-1.5">
+      <div className="flex items-center gap-3">
+        <p className="font-display text-[34px] font-semibold leading-[1.05] tracking-tight [overflow-wrap:anywhere]">{card.word}</p>
+        <button
+          type="button"
+          onClick={() => speak(card.word)}
+          aria-label="Вимова"
+          className="flex size-10 shrink-0 items-center justify-center rounded-full bg-sky/15 text-sky transition-transform active:scale-90"
+        >
+          <SpeakerIcon className="size-5" />
+        </button>
+      </div>
       {card.transcription && <span className="font-mono text-[14px] text-muted">/{card.transcription}/</span>}
-      <button type="button" onClick={() => speak(card.word)} className="text-[13px] text-muted underline-offset-2 hover:text-foreground hover:underline">
-        вимова
-      </button>
     </div>
   );
+}
+
+function plural(n: number, one: string, few: string, many: string) {
+  const m10 = n % 10;
+  const m100 = n % 100;
+  if (m10 === 1 && m100 !== 11) return one;
+  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few;
+  return many;
 }

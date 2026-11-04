@@ -1,13 +1,38 @@
 @import "tailwindcss";
 
-/* Кольори беремо з теми Telegram (--tg-theme-*), поза Telegram — власні */
+/*
+ * Власна яскрава палітра (тема Telegram робила все сірим). Кожен розділ має свій колір:
+ * картки — корал, розмова — небо, читання — м'ята, тест — сонце. Шапку Telegram фарбуємо під фон у tgInit().
+ */
 :root {
-  --background: var(--tg-theme-bg-color, #f6f4ef);
-  --foreground: var(--tg-theme-text-color, #1d1b18);
-  --muted: var(--tg-theme-hint-color, #8a8478);
-  --surface: var(--tg-theme-secondary-bg-color, #ffffff);
-  --accent: var(--tg-theme-button-color, #2f5d50);
-  --accent-fg: var(--tg-theme-button-text-color, #ffffff);
+  --background: #fff6ea;
+  --foreground: #1b1530;
+  --muted: #6f6883;
+  --surface: #ffffff;
+  --line: rgb(27 21 48 / 0.09);
+  --accent: #ff5a36;
+  --accent-fg: #ffffff;
+  --sun: #ffc53d;
+  --sky: #3b82ff;
+  --mint: #17c38c;
+  --berry: #ff5fa2;
+  --ink: #1b1530; /* текст на сонячному — завжди темний */
+  --shadow: 0 1px 0 rgb(27 21 48 / 0.06), 0 8px 24px -12px rgb(27 21 48 / 0.18);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #15111f;
+    --foreground: #f6f2ff;
+    --muted: #a59fb8;
+    --surface: #221c31;
+    --line: rgb(246 242 255 / 0.09);
+    --accent: #ff6a47;
+    --sky: #5b97ff;
+    --mint: #2fd39d;
+    --berry: #ff74b0;
+    --shadow: 0 1px 0 rgb(0 0 0 / 0.3), 0 10px 28px -14px rgb(0 0 0 / 0.6);
+  }
 }
 
 @theme inline {
@@ -15,23 +40,32 @@
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-surface: var(--surface);
+  --color-line: var(--line);
   --color-accent: var(--accent);
   --color-accent-fg: var(--accent-fg);
-  --font-sans: var(--font-geist-sans);
+  --color-sun: var(--sun);
+  --color-sky: var(--sky);
+  --color-mint: var(--mint);
+  --color-berry: var(--berry);
+  --color-ink: var(--ink);
+  --shadow-card: var(--shadow);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--tg-theme-bg-color, #141412);
-    --foreground: var(--tg-theme-text-color, #ece9e2);
-    --muted: var(--tg-theme-hint-color, #8f8a80);
-    --surface: var(--tg-theme-secondary-bg-color, #1f1e1b);
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(8px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+.pop-in { animation: pop-in 220ms cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .pop-in { animation: none; }
 }
