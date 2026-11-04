@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getUser } from "@/lib/auth";
 import { db } from "@/lib/supabase";
 import { isGrade, previewIntervals, review, type CardRow } from "@/lib/srs/fsrs";
+import { recordActivity } from "@/lib/streak-server";
 
 const FSRS_FIELDS = "id, due, stability, difficulty, elapsed_days, scheduled_days, learning_steps, reps, lapses, state, last_review";
 
@@ -30,6 +31,14 @@ export async function POST(req: Request) {
 
   const ins = await db.from("review_logs").insert({ ...log, card_id: cardId, user_id: user.id, duration_ms: durationMs });
   if (ins.error) console.error("review log insert failed", ins.error);
+
+  // стрік: день зараховано першим же повтором (помилка тут не має ламати сам повтор)
+  try {
+    const { data: u } = await db.from("users").select("timezone").eq("id", user.id).single();
+    await recordActivity(user.id, u?.timezone ?? "Europe/Warsaw", now);
+  } catch (e) {
+    console.error("streak update failed", e);
+  }
 
   return NextResponse.json({ due: patch.due, state: patch.state, intervals: previewIntervals(patch, now) });
 }

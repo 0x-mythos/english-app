@@ -1,6 +1,8 @@
 import { Bot, InlineKeyboard, webhookCallback } from "grammy";
 import { db } from "@/lib/supabase";
 import { parseTime } from "@/lib/srs/reminders";
+import { normalizeOwnWord } from "@/lib/own-word";
+import { addOwnWord } from "@/lib/own-word-server";
 
 const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN!);
 let appUrl = "";
@@ -8,7 +10,7 @@ let appUrl = "";
 bot.command("start", async (ctx) => {
   const keyboard = appUrl ? new InlineKeyboard().webApp("Відкрити", appUrl) : undefined;
   await ctx.reply(
-    "Привіт! Тут ти вчиш англійську під себе: короткий тест рівня, картки з інтервальним повторенням і розмова з AI. Тисни «Відкрити» або кнопку меню зліва від поля вводу.",
+    "Привіт! Тут ти вчиш англійську під себе: короткий тест рівня, картки з інтервальним повторенням і розмова з AI. Тисни «Відкрити» або кнопку меню зліва від поля вводу.\n\nПобачив незнайоме слово — просто надішли його сюди, і я зроблю з нього картку.",
     { reply_markup: keyboard },
   );
 });
@@ -41,6 +43,39 @@ bot.command("remind", async (ctx) => {
   // last_reminded_on скидаємо, щоб новий час спрацював уже сьогодні
   await db.from("users").update({ remind_at: time, reminders_on: true, last_reminded_on: null }).eq("id", user.id);
   return ctx.reply(`Готово, нагадуватиму о ${time} (час Варшави).`);
+});
+
+// «Своє слово»: будь-який текст без «/» → картка. Другий рядок (необов'язково) — речення, де слово трапилось.
+bot.on("message:text", async (ctx) => {
+  const text = ctx.message.text.trim();
+  if (text.startsWith("/")) return ctx.reply("Не знаю такої команди. Є /start і /remind. А слово просто надішли текстом.");
+  const [word, ...rest] = text.split("\n");
+  if (!normalizeOwnWord(word)) {
+    return ctx.reply("Надішли англійське слово або фразу (до 5 слів). Можна з другого рядка додати речення, де ти його побачив.");
+  }
+
+  const { data: user } = await db
+    .from("users")
+    .upsert({ telegram_id: ctx.from.id, first_name: ctx.from.first_name ?? null, username: ctx.from.username ?? null }, { onConflict: "telegram_id" })
+    .select("id")
+    .single();
+  if (!user) return ctx.reply("Не вийшло, спробуй ще раз трохи згодом.");
+
+  await ctx.replyWithChatAction("typing");
+  const r = await addOwnWord(user.id, word, rest.join(" ")).catch((e) => {
+    console.error("bot own word failed", e);
+    return { status: "ai_error" as const };
+  });
+  if (r.status === "not_a_word") return ctx.reply(`Не знайшов такого англійського слова: «${word.trim()}». Перевір написання?`);
+  if (!("card" in r)) return ctx.reply("Не вийшло додати, спробуй ще раз трохи згодом.");
+
+  const c = r.card;
+  const lines = [
+    `${r.status === "exists" ? "Вже є в картках" : "Додав у картки"}: ${c.word}${c.transcription ? ` [${c.transcription}]` : ""} — ${c.translation}`,
+    c.example ? `Приклад: ${c.example}` : "",
+    r.status === "added" ? "З'явиться серед нових слів у наступній сесії." : "",
+  ];
+  return ctx.reply(lines.filter(Boolean).join("\n"));
 });
 
 const handle = webhookCallback(bot, "std/http", { secretToken: process.env.CRON_SECRET });

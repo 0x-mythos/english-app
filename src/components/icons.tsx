@@ -52,3 +52,21 @@ export const ArrowLeftIcon = ({ className }: P) => (
     <path d="M19 12H5M11 6l-6 6 6 6" />
   </svg>
 );
+
+export const FlameIcon = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <path d="M12 21c-4 0-7-2.7-7-6.5 0-3.6 3-5.7 4-9.5 2.5 1.6 3.4 3.8 3.5 5.5.9-.7 1.6-1.9 1.8-3.3C17 9.4 19 12 19 14.5 19 18.3 16 21 12 21z" />
+  </svg>
+);
+
+export const SnowIcon = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9" />
+  </svg>
+);
+
+export const PlusIcon = ({ className }: P) => (
+  <svg {...base} className={className}>
+    <path d="M12 5v14M5 12h14" />
+  </svg>
+);

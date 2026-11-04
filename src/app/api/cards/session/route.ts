@@ -24,7 +24,9 @@ export async function GET(req: Request) {
   const [reviews, fresh] = await Promise.all([
     db.from("cards").select(CARD_FIELDS).eq("user_id", user.id).neq("state", 0)
       .lte("due", now.toISOString()).order("due").limit(reviewsPerSession),
-    db.from("cards").select(CARD_FIELDS).eq("user_id", user.id).eq("state", 0).order("id").limit(newPerDay),
+    // свої слова (word_id null) — першими серед нових
+    db.from("cards").select(CARD_FIELDS).eq("user_id", user.id).eq("state", 0)
+      .order("word_id", { ascending: true, nullsFirst: true }).order("id").limit(newPerDay),
   ]);
   if (reviews.error || fresh.error) return NextResponse.json({ error: "db" }, { status: 500 });
 

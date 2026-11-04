@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { BookIcon, CardsIcon, ChatIcon, SparkIcon } from "@/components/icons";
+import { AddWord } from "@/components/add-word";
+import { BookIcon, CardsIcon, ChatIcon, FlameIcon, SnowIcon, SparkIcon } from "@/components/icons";
 import { tgInit } from "@/lib/tg-client";
 import { topicLabel } from "@/lib/placement/topics";
 
@@ -14,7 +15,14 @@ type Profile = {
   weak_topics: { topic: string; score: number }[];
   tested_at: string | null;
 };
-type Me = { user: { id: string; first_name: string | null }; due: number; profile: Profile | null };
+type Streak = { current: number; best: number; freezes: number; doneToday: boolean; frozenDays: number };
+type Me = {
+  user: { id: string; first_name: string | null };
+  due: number;
+  profile: Profile | null;
+  progress: { learned: number; learning: number };
+  streak: Streak | null;
+};
 
 const soon = [
   { title: "Розмова з AI", note: "Співбесіда, стендап, small talk. 1–2 точкові виправлення за раз.", icon: ChatIcon, tone: "bg-sky/15 text-sky" },
@@ -25,8 +33,7 @@ export default function Home() {
   const [me, setMe] = useState<Me | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    const initData = tgInit();
+  function load(initData: string) {
     fetch("/api/auth", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -34,6 +41,10 @@ export default function Home() {
     })
       .then(async (r) => (r.ok ? setMe(await r.json()) : setError(r.status === 401 ? "Відкрий застосунок через бота в Telegram." : "Сервер не відповів, спробуй пізніше.")))
       .catch(() => setError("Немає з'єднання з сервером."));
+  }
+
+  useEffect(() => {
+    load(tgInit());
   }, []);
 
   const profile = me?.profile?.tested_at ? me.profile : null;
@@ -91,6 +102,10 @@ export default function Home() {
         </Link>
       )}
 
+      {me && (me.streak || me.progress) && <Stats streak={me.streak} progress={me.progress} />}
+
+      {me && <AddWord onAdded={() => load(window.Telegram?.WebApp?.initData ?? "")} />}
+
       {profile && (
         <section className="flex flex-col gap-3 pt-1">
           <div className="flex items-baseline justify-between gap-3">
@@ -144,6 +159,46 @@ export default function Home() {
         </section>
       )}
     </main>
+  );
+}
+
+// Стрік і прогрес: м'яко, без докорів — пропущений день покриває заморозка.
+function Stats({ streak, progress }: { streak: Streak | null; progress: Me["progress"] }) {
+  const days = streak?.current ?? 0;
+  const streakNote = !streak || days === 0
+    ? "Один повтор — і день зараховано"
+    : streak.doneToday
+      ? "Сьогодні вже зараховано"
+      : streak.frozenDays > 0
+        ? `Заморозка вберегла ${streak.frozenDays} ${plural(streak.frozenDays, "день", "дні", "днів")}`
+        : "Повтори сьогодні, щоб продовжити";
+
+  return (
+    <section className="grid grid-cols-2 gap-2.5">
+      <div className="flex flex-col gap-1.5 rounded-2xl bg-sun/30 px-4 py-3.5">
+        <span className="flex items-center gap-1.5 text-[13px] font-medium text-muted">
+          <FlameIcon className={`size-4 ${streak?.doneToday ? "text-accent" : ""}`} /> Стрік
+        </span>
+        <span className="font-display text-[24px] font-semibold leading-none">
+          {days} <span className="text-[15px] font-medium">{plural(days, "день", "дні", "днів")}</span>
+        </span>
+        <span className="text-[12px] leading-snug text-muted">{streakNote}</span>
+        {streak && streak.freezes > 0 && (
+          <span className="flex items-center gap-1 text-[12px] font-medium text-sky">
+            <SnowIcon className="size-3.5" /> {streak.freezes} {plural(streak.freezes, "заморозка", "заморозки", "заморозок")} в запасі
+          </span>
+        )}
+      </div>
+      <div className="flex flex-col gap-1.5 rounded-2xl bg-mint/20 px-4 py-3.5">
+        <span className="text-[13px] font-medium text-muted">Вивчено</span>
+        <span className="font-display text-[24px] font-semibold leading-none text-mint">
+          {progress.learned} <span className="text-[15px] font-medium">{plural(progress.learned, "слово", "слова", "слів")}</span>
+        </span>
+        <span className="text-[12px] leading-snug text-muted">
+          {progress.learning > 0 ? `ще ${progress.learning} в процесі` : "слово вивчене, коли перейшло в рідкі повтори"}
+        </span>
+      </div>
+    </section>
   );
 }
 
