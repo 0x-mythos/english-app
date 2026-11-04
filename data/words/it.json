@@ -1,0 +1,2538 @@
+{
+ "batches": {
+  "general": [
+   {
+    "word": "roll back",
+    "translation": "відкотити, повернути до попередньої версії",
+    "transcription": "ˈrəʊl bæk",
+    "example": "We had to roll back the release after users reported errors.",
+    "freq_rank": 3500,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "edge case",
+    "translation": "граничний випадок, нетиповий сценарій",
+    "transcription": "ˈedʒ keɪs",
+    "example": "The function works, but it fails on a few edge cases.",
+    "freq_rank": 6000,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "push back on",
+    "translation": "заперечувати, чинити опір пропозиції",
+    "transcription": "ˈpʊʃ bæk ɒn",
+    "example": "Don't be afraid to push back on unrealistic deadlines.",
+    "freq_rank": 4000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "deadline",
+    "translation": "крайній термін, дедлайн",
+    "transcription": "ˈdedlaɪn",
+    "example": "The deadline for this feature is next Friday.",
+    "freq_rank": 3200,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "estimate",
+    "translation": "оцінка, оцінювати",
+    "transcription": "ˈestɪmeɪt",
+    "example": "Can you give me a rough estimate for this task?",
+    "freq_rank": 1500,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "ballpark figure",
+    "translation": "приблизна цифра",
+    "transcription": "ˈbɔːlpɑːk ˈfɪɡə",
+    "example": "I can only give you a ballpark figure until I see the code.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "workaround",
+    "translation": "тимчасове обхідне рішення",
+    "transcription": "ˈwɜːkəraʊnd",
+    "example": "There is no proper fix yet, but we found a workaround.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "dependency",
+    "translation": "залежність",
+    "transcription": "dɪˈpendənsi",
+    "example": "We need to update this dependency because of a security issue.",
+    "freq_rank": 5500,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "deprecated",
+    "translation": "застарілий, визнаний таким, що не підтримується",
+    "transcription": "ˈdeprɪkeɪtɪd",
+    "example": "This method is deprecated, so please use the new one.",
+    "freq_rank": 20000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "pull request",
+    "translation": "запит на злиття, пул-реквест",
+    "transcription": "ˈpʊl rɪˌkwest",
+    "example": "I opened a pull request with the fix for the login bug.",
+    "freq_rank": 8000,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "code review",
+    "translation": "рев'ю коду, перевірка коду",
+    "transcription": "ˈkəʊd rɪˌvjuː",
+    "example": "Every change goes through a code review before it's merged.",
+    "freq_rank": 7000,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "merge",
+    "translation": "зливати, об'єднувати",
+    "transcription": "mɜːdʒ",
+    "example": "Please merge your branch into main after the tests pass.",
+    "freq_rank": 4500,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "branch",
+    "translation": "гілка, відгалужуватися",
+    "transcription": "brɑːntʃ",
+    "example": "I created a new branch for the payment feature.",
+    "freq_rank": 2500,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "commit",
+    "translation": "коміт, зафіксувати зміни",
+    "transcription": "kəˈmɪt",
+    "example": "Write a clear message for every commit you make.",
+    "freq_rank": 2300,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "conflict",
+    "translation": "конфлікт",
+    "transcription": "ˈkɒnflɪkt",
+    "example": "I got a merge conflict in the config file.",
+    "freq_rank": 1400,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "documentation",
+    "translation": "документація",
+    "transcription": "ˌdɒkjumenˈteɪʃn",
+    "example": "The API documentation is outdated and needs to be updated.",
+    "freq_rank": 3000,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "clarify",
+    "translation": "уточнити, прояснити",
+    "transcription": "ˈklærəfaɪ",
+    "example": "Let me clarify the requirements with the product owner.",
+    "freq_rank": 4800,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "requirement",
+    "translation": "вимога",
+    "transcription": "rɪˈkwaɪəmənt",
+    "example": "The client changed the requirements again this week.",
+    "freq_rank": 1800,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "scope",
+    "translation": "обсяг робіт, межі завдання",
+    "transcription": "skəʊp",
+    "example": "That change is out of scope for this sprint.",
+    "freq_rank": 2900,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "blocker",
+    "translation": "блокер, перешкода",
+    "transcription": "ˈblɒkə",
+    "example": "The missing access to the database is a blocker for me.",
+    "freq_rank": 18000,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "backlog",
+    "translation": "беклог, накопичені завдання",
+    "transcription": "ˈbæklɒɡ",
+    "example": "We have a long backlog of small bugs to fix.",
+    "freq_rank": 10000,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "ticket",
+    "translation": "тікет, завдання в трекері",
+    "transcription": "ˈtɪkɪt",
+    "example": "I'll create a ticket and assign it to you.",
+    "freq_rank": 2800,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "assign",
+    "translation": "призначити, доручити",
+    "transcription": "əˈsaɪn",
+    "example": "The manager assigned me three tasks for this week.",
+    "freq_rank": 3600,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "stand-up",
+    "translation": "щоденна коротка зустріч команди",
+    "transcription": "ˈstænd ʌp",
+    "example": "I'll mention the issue at tomorrow's stand-up.",
+    "freq_rank": 9000,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "refactor",
+    "translation": "рефакторити, переписувати код без зміни поведінки",
+    "transcription": "riːˈfæktə",
+    "example": "We should refactor this module before adding more features.",
+    "freq_rank": 25000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "technical debt",
+    "translation": "технічний борг",
+    "transcription": "ˈteknɪkl det",
+    "example": "Skipping tests will only increase our technical debt.",
+    "freq_rank": 9500,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "troubleshoot",
+    "translation": "діагностувати й усувати проблеми",
+    "transcription": "ˈtrʌblʃuːt",
+    "example": "It took hours to troubleshoot the connection problem.",
+    "freq_rank": 14000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "look into",
+    "translation": "розібратися, дослідити",
+    "transcription": "ˈlʊk ˌɪntuː",
+    "example": "I'll look into this error and get back to you.",
+    "freq_rank": 1200,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "figure out",
+    "translation": "з'ясувати, розібратися",
+    "transcription": "ˈfɪɡər aʊt",
+    "example": "I couldn't figure out why the query was so slow.",
+    "freq_rank": 1100,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "reproduce",
+    "translation": "відтворити, відтворити помилку",
+    "transcription": "ˌriːprəˈdjuːs",
+    "example": "I can't reproduce the bug on my machine.",
+    "freq_rank": 4200,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "stack trace",
+    "translation": "трасування стека, стек викликів",
+    "transcription": "ˈstæk treɪs",
+    "example": "Please paste the full stack trace into the ticket.",
+    "freq_rank": 22000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "log",
+    "translation": "лог, журнал, записувати в лог",
+    "transcription": "lɒɡ",
+    "example": "Check the logs to see what happened before the crash.",
+    "freq_rank": 2100,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "outage",
+    "translation": "збій, простій сервісу",
+    "transcription": "ˈaʊtɪdʒ",
+    "example": "The outage lasted about twenty minutes last night.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "rollout",
+    "translation": "поетапне розгортання, випуск",
+    "transcription": "ˈrəʊlaʊt",
+    "example": "The rollout of the new API starts on Monday.",
+    "freq_rank": 13000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "deploy",
+    "translation": "розгортати, деплоїти",
+    "transcription": "dɪˈplɔɪ",
+    "example": "We deploy to production every Thursday afternoon.",
+    "freq_rank": 6500,
+    "cefr": "B2",
+    "topic": "general"
+   },
+   {
+    "word": "environment",
+    "translation": "середовище",
+    "transcription": "ɪnˈvaɪrənmənt",
+    "example": "The bug only appears in the staging environment.",
+    "freq_rank": 700,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "performance",
+    "translation": "продуктивність, швидкодія",
+    "transcription": "pəˈfɔːməns",
+    "example": "We need to improve the performance of this endpoint.",
+    "freq_rank": 600,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "bottleneck",
+    "translation": "вузьке місце",
+    "transcription": "ˈbɒtlnek",
+    "example": "The database turned out to be the main bottleneck.",
+    "freq_rank": 11000,
+    "cefr": "C1",
+    "topic": "general"
+   },
+   {
+    "word": "handle",
+    "translation": "обробляти, впоратися з",
+    "transcription": "ˈhændl",
+    "example": "The service must handle thousands of requests per second.",
+    "freq_rank": 900,
+    "cefr": "B1",
+    "topic": "general"
+   },
+   {
+    "word": "on the same page",
+    "translation": "у згоді, розуміти одне одного однаково",
+    "transcription": "ɒn ðə seɪm peɪdʒ",
+    "example": "Let's have a quick call to make sure we're on the same page.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "general"
+   }
+  ],
+  "api": [
+   {
+    "word": "endpoint",
+    "translation": "кінцева точка, ендпоінт",
+    "transcription": "ˈendpɔɪnt",
+    "example": "We added a new endpoint for fetching user profiles.",
+    "freq_rank": 15000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "payload",
+    "translation": "корисне навантаження, тіло запиту",
+    "transcription": "ˈpeɪləʊd",
+    "example": "The payload must be valid JSON, otherwise the API returns an error.",
+    "freq_rank": 18000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "request",
+    "translation": "запит, запитувати",
+    "transcription": "rɪˈkwest",
+    "example": "The client sends a request every few seconds to check the status.",
+    "freq_rank": 600,
+    "cefr": "B1",
+    "topic": "api"
+   },
+   {
+    "word": "response",
+    "translation": "відповідь, відгук",
+    "transcription": "rɪˈspɒns",
+    "example": "The response took more than five seconds to arrive.",
+    "freq_rank": 500,
+    "cefr": "B1",
+    "topic": "api"
+   },
+   {
+    "word": "authentication",
+    "translation": "автентифікація",
+    "transcription": "ɔːˌθentɪˈkeɪʃn",
+    "example": "Authentication fails if the token has already expired.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "authorization",
+    "translation": "авторизація, надання прав доступу",
+    "transcription": "ˌɔːθəraɪˈzeɪʃn",
+    "example": "Authorization decides which resources a user is allowed to access.",
+    "freq_rank": 7000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "token",
+    "translation": "токен, маркер",
+    "transcription": "ˈtəʊkən",
+    "example": "Send the access token in the Authorization header.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "header",
+    "translation": "заголовок",
+    "transcription": "ˈhedə",
+    "example": "Add a custom header to every outgoing request.",
+    "freq_rank": 6000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "rate limit",
+    "translation": "обмеження частоти запитів",
+    "transcription": "ˈreɪt ˌlɪmɪt",
+    "example": "We hit the rate limit after about a hundred requests per minute.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "throttle",
+    "translation": "обмежувати швидкість, тротлити",
+    "transcription": "ˈθrɒtl",
+    "example": "The gateway will throttle clients that send too many requests.",
+    "freq_rank": 20000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "timeout",
+    "translation": "тайм-аут, час очікування",
+    "transcription": "ˈtaɪmaʊt",
+    "example": "The call failed with a timeout after thirty seconds.",
+    "freq_rank": 9000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "retry",
+    "translation": "повторити спробу, повторна спроба",
+    "transcription": "ˌriːˈtraɪ",
+    "example": "The client should retry the request if the server is busy.",
+    "freq_rank": 16000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "backoff",
+    "translation": "затримка перед повтором, бекоф",
+    "transcription": "ˈbækɒf",
+    "example": "We use exponential backoff to avoid overloading the service.",
+    "freq_rank": 30000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "deprecate",
+    "translation": "визнавати застарілим",
+    "transcription": "ˈdeprəkeɪt",
+    "example": "We will deprecate the old endpoint in the next version.",
+    "freq_rank": 25000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "backward compatible",
+    "translation": "зворотно сумісний",
+    "transcription": "ˈbækwəd kəmˈpætəbl",
+    "example": "The new release is backward compatible, so clients don't need to change anything.",
+    "freq_rank": 14000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "breaking change",
+    "translation": "зміна, що ламає сумісність",
+    "transcription": "ˈbreɪkɪŋ ˈtʃeɪndʒ",
+    "example": "Removing a field from the response is a breaking change.",
+    "freq_rank": 6000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "versioning",
+    "translation": "версіонування",
+    "transcription": "ˈvɜːʃənɪŋ",
+    "example": "Our API versioning is based on the URL path.",
+    "freq_rank": 30000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "schema",
+    "translation": "схема",
+    "transcription": "ˈskiːmə",
+    "example": "The request body is validated against a JSON schema.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "validate",
+    "translation": "перевіряти, валідувати",
+    "transcription": "ˈvælɪdeɪt",
+    "example": "Always validate user input before saving it to the database.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "parse",
+    "translation": "розбирати, парсити",
+    "transcription": "pɑːz",
+    "example": "The service failed to parse the incoming date format.",
+    "freq_rank": 15000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "serialize",
+    "translation": "серіалізувати",
+    "transcription": "ˈsɪəriəlaɪz",
+    "example": "We serialize the object to JSON before sending it.",
+    "freq_rank": 25000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "pagination",
+    "translation": "пагінація, розбиття на сторінки",
+    "transcription": "ˌpædʒɪˈneɪʃn",
+    "example": "Pagination keeps the response small when there are thousands of records.",
+    "freq_rank": 25000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "query parameter",
+    "translation": "параметр запиту",
+    "transcription": "ˈkwɪəri pəˈræmɪtə",
+    "example": "Pass the page number as a query parameter in the URL.",
+    "freq_rank": 10000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "idempotent",
+    "translation": "ідемпотентний",
+    "transcription": "aɪˈdempətənt",
+    "example": "A PUT request should be idempotent, so repeating it changes nothing.",
+    "freq_rank": 40000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "status code",
+    "translation": "код статусу, код відповіді",
+    "transcription": "ˈsteɪtəs kəʊd",
+    "example": "The API returns a 404 status code when the user doesn't exist.",
+    "freq_rank": 7000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "unauthorized",
+    "translation": "неавторизований, несанкціонований",
+    "transcription": "ˌʌnˈɔːθəraɪzd",
+    "example": "You'll get an unauthorized error if the token is missing.",
+    "freq_rank": 8000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "forbidden",
+    "translation": "заборонений",
+    "transcription": "fəˈbɪdn",
+    "example": "The server returned forbidden because the user lacks admin rights.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "fallback",
+    "translation": "запасний варіант",
+    "transcription": "ˈfɔːlbæk",
+    "example": "We return cached data as a fallback when the database is down.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "middleware",
+    "translation": "проміжне програмне забезпечення, мідлвар",
+    "transcription": "ˈmɪdlweə",
+    "example": "Authentication is handled by middleware before the request reaches the controller.",
+    "freq_rank": 30000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "webhook",
+    "translation": "вебхук",
+    "transcription": "ˈwebhʊk",
+    "example": "The payment provider calls our webhook when a transaction succeeds.",
+    "freq_rank": 40000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "cache",
+    "translation": "кеш, кешувати",
+    "transcription": "kæʃ",
+    "example": "We cache the response for ten minutes to reduce load.",
+    "freq_rank": 8000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "scale up",
+    "translation": "масштабувати, збільшувати потужності",
+    "transcription": "ˈskeɪl ʌp",
+    "example": "We need to scale up the service before the sale starts.",
+    "freq_rank": 4000,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "spin up",
+    "translation": "підняти, запустити (сервер, середовище)",
+    "transcription": "ˈspɪn ʌp",
+    "example": "I can spin up a test environment in a few minutes.",
+    "freq_rank": 5000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "quota",
+    "translation": "квота, ліміт",
+    "transcription": "ˈkwəʊtə",
+    "example": "We hit our daily API quota before noon yesterday.",
+    "freq_rank": 4200,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "credentials",
+    "translation": "облікові дані",
+    "transcription": "krɪˈdenʃlz",
+    "example": "Never store your credentials in plain text in the repository.",
+    "freq_rank": 4800,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "permission",
+    "translation": "дозвіл, право доступу",
+    "transcription": "pəˈmɪʃn",
+    "example": "The service account doesn't have permission to read this bucket.",
+    "freq_rank": 1500,
+    "cefr": "B1",
+    "topic": "api"
+   },
+   {
+    "word": "expire",
+    "translation": "спливати, втрачати чинність",
+    "transcription": "ɪkˈspaɪə",
+    "example": "The access link will expire after fifteen minutes.",
+    "freq_rank": 3800,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "refresh",
+    "translation": "оновлювати",
+    "transcription": "rɪˈfreʃ",
+    "example": "The client should refresh the session before it runs out.",
+    "freq_rank": 4500,
+    "cefr": "B2",
+    "topic": "api"
+   },
+   {
+    "word": "malformed",
+    "translation": "некоректно сформований",
+    "transcription": "ˌmælˈfɔːmd",
+    "example": "The server rejected the malformed JSON from the mobile app.",
+    "freq_rank": 18000,
+    "cefr": "C1",
+    "topic": "api"
+   },
+   {
+    "word": "mandatory",
+    "translation": "обов'язковий",
+    "transcription": "ˈmændətri",
+    "example": "The email field is mandatory when creating a new user.",
+    "freq_rank": 5200,
+    "cefr": "B2",
+    "topic": "api"
+   }
+  ],
+  "code_review": [
+   {
+    "word": "reviewer",
+    "translation": "рецензент, той, хто перевіряє код",
+    "transcription": "rɪˈvjuːə",
+    "example": "The reviewer asked me to add a few more unit tests.",
+    "freq_rank": 5200,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "feedback",
+    "translation": "відгук, зворотний зв'язок",
+    "transcription": "ˈfiːdbæk",
+    "example": "Thanks for the quick feedback on my pull request.",
+    "freq_rank": 1800,
+    "cefr": "B1",
+    "topic": "code_review"
+   },
+   {
+    "word": "suggestion",
+    "translation": "пропозиція, порада",
+    "transcription": "səˈdʒestʃən",
+    "example": "I applied your suggestion and pushed a new commit.",
+    "freq_rank": 1900,
+    "cefr": "B1",
+    "topic": "code_review"
+   },
+   {
+    "word": "readability",
+    "translation": "читабельність",
+    "transcription": "ˌriːdəˈbɪləti",
+    "example": "This change improves readability without affecting the behavior.",
+    "freq_rank": 9500,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "nitpick",
+    "translation": "прискіпливе зауваження, прискіпуватися",
+    "transcription": "ˈnɪtpɪk",
+    "example": "This is just a nitpick, but the variable name is confusing.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "approve",
+    "translation": "схвалити, затвердити",
+    "transcription": "əˈpruːv",
+    "example": "She approved my pull request after the small fixes.",
+    "freq_rank": 2200,
+    "cefr": "B1",
+    "topic": "code_review"
+   },
+   {
+    "word": "squash",
+    "translation": "об'єднати коміти в один",
+    "transcription": "skwɒʃ",
+    "example": "I'll squash the commits so the history stays clean.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "diff",
+    "translation": "різниця між версіями, дифф",
+    "transcription": "dɪf",
+    "example": "The diff is huge, so it's hard to review.",
+    "freq_rank": 18000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "naming",
+    "translation": "іменування, назви",
+    "transcription": "ˈneɪmɪŋ",
+    "example": "Clear naming makes the code much easier to understand.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "concern",
+    "translation": "занепокоєння, побоювання",
+    "transcription": "kənˈsɜːn",
+    "example": "My main concern is performance under heavy load.",
+    "freq_rank": 1100,
+    "cefr": "B1",
+    "topic": "code_review"
+   },
+   {
+    "word": "address",
+    "translation": "врахувати, розв'язати (зауваження)",
+    "transcription": "əˈdres",
+    "example": "I've addressed all your comments in the latest commit.",
+    "freq_rank": 900,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "duplicate",
+    "translation": "дублювати, дублікат",
+    "transcription": "ˈdjuːplɪkət",
+    "example": "This logic duplicates what we already have in the utils module.",
+    "freq_rank": 5800,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "redundant",
+    "translation": "зайвий, надлишковий",
+    "transcription": "rɪˈdʌndənt",
+    "example": "This null check is redundant because the value is never null.",
+    "freq_rank": 9500,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "maintainable",
+    "translation": "такий, що легко підтримувати",
+    "transcription": "meɪnˈteɪnəbl",
+    "example": "We want code that is simple and maintainable.",
+    "freq_rank": 20000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "consistent",
+    "translation": "послідовний, узгоджений",
+    "transcription": "kənˈsɪstənt",
+    "example": "Please keep the style consistent with the rest of the project.",
+    "freq_rank": 2800,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "convention",
+    "translation": "угода, усталена практика",
+    "transcription": "kənˈvenʃən",
+    "example": "We follow the team's naming convention for all endpoints.",
+    "freq_rank": 3200,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "typo",
+    "translation": "друкарська помилка, одруківка",
+    "transcription": "ˈtaɪpəʊ",
+    "example": "I found a typo in the error message.",
+    "freq_rank": 14000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "looks good to me",
+    "translation": "мені здається, все гаразд",
+    "transcription": "lʊks gʊd tə miː",
+    "example": "Looks good to me, but wait for Anna's approval too.",
+    "freq_rank": 1000,
+    "cefr": "B1",
+    "topic": "code_review"
+   },
+   {
+    "word": "left a comment",
+    "translation": "залишив коментар",
+    "transcription": "left ə ˈkɒment",
+    "example": "I left a comment on line 42 about the loop.",
+    "freq_rank": 1200,
+    "cefr": "B1",
+    "topic": "code_review"
+   },
+   {
+    "word": "follow-up",
+    "translation": "подальші дії, наступний крок",
+    "transcription": "ˈfɒləʊ ʌp",
+    "example": "Let's do the cleanup in a separate follow-up pull request.",
+    "freq_rank": 6000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "out of scope",
+    "translation": "поза межами завдання",
+    "transcription": "aʊt əv skəʊp",
+    "example": "That change is out of scope for this ticket.",
+    "freq_rank": 4500,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "side effect",
+    "translation": "побічний ефект",
+    "transcription": "saɪd ɪˈfekt",
+    "example": "This function has a side effect that surprises other developers.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "test coverage",
+    "translation": "покриття тестами",
+    "transcription": "test ˈkʌvərɪdʒ",
+    "example": "The test coverage dropped after your last change.",
+    "freq_rank": 6000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "clean up",
+    "translation": "прибрати, почистити",
+    "transcription": "kliːn ʌp",
+    "example": "Could you clean up the unused imports before merging?",
+    "freq_rank": 2500,
+    "cefr": "B1",
+    "topic": "code_review"
+   },
+   {
+    "word": "extract",
+    "translation": "виокремити, винести (в окрему функцію)",
+    "transcription": "ɪkˈstrækt",
+    "example": "Let's extract this block into a separate helper method.",
+    "freq_rank": 4200,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "misleading",
+    "translation": "оманливий, що вводить в оману",
+    "transcription": "ˌmɪsˈliːdɪŋ",
+    "example": "The function name is misleading because it also saves data.",
+    "freq_rank": 6500,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "tweak",
+    "translation": "трохи підправити, невелика правка",
+    "transcription": "twiːk",
+    "example": "I'll tweak the function a bit to make the logic clearer.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "rename",
+    "translation": "перейменувати",
+    "transcription": "ˌriːˈneɪm",
+    "example": "Could you rename this variable so its purpose is obvious?",
+    "freq_rank": 6500,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "simplify",
+    "translation": "спрощувати",
+    "transcription": "ˈsɪmplɪfaɪ",
+    "example": "We can simplify this condition by removing the extra check.",
+    "freq_rank": 4800,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "verbose",
+    "translation": "багатослівний, надто детальний",
+    "transcription": "vɜːˈbəʊs",
+    "example": "This method is too verbose; we can shorten it a lot.",
+    "freq_rank": 14000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "concise",
+    "translation": "стислий, лаконічний",
+    "transcription": "kənˈsaɪs",
+    "example": "Try to keep your commit messages clear and concise.",
+    "freq_rank": 7500,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "clutter",
+    "translation": "безлад, захаращувати",
+    "transcription": "ˈklʌtə",
+    "example": "Too many comments clutter the file and make it harder to read.",
+    "freq_rank": 13000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "dead code",
+    "translation": "мертвий код, невикористовуваний код",
+    "transcription": "ded kəʊd",
+    "example": "Please remove the dead code before we merge this change.",
+    "freq_rank": 20000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "magic number",
+    "translation": "магічне число",
+    "transcription": "ˈmædʒɪk ˈnʌmbə",
+    "example": "Replace this magic number with a named constant.",
+    "freq_rank": 20000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "hard-coded",
+    "translation": "зашитий в код, жорстко прописаний",
+    "transcription": "ˌhɑːd ˈkəʊdɪd",
+    "example": "The URL is hard-coded, so it should move to the settings.",
+    "freq_rank": 20000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "inline",
+    "translation": "вбудований, у тому ж рядку",
+    "transcription": "ˈɪnlaɪn",
+    "example": "I left an inline comment on line forty about the loop.",
+    "freq_rank": 12000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "snippet",
+    "translation": "фрагмент коду, уривок",
+    "transcription": "ˈsnɪpɪt",
+    "example": "Could you paste a snippet showing how you call this method?",
+    "freq_rank": 11000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "revert",
+    "translation": "відкотити, повернути попередній стан",
+    "transcription": "rɪˈvɜːt",
+    "example": "We had to revert the change because it broke the login page.",
+    "freq_rank": 12000,
+    "cefr": "B2",
+    "topic": "code_review"
+   },
+   {
+    "word": "amend",
+    "translation": "змінити, виправити (коміт)",
+    "transcription": "əˈmend",
+    "example": "I'll amend my last commit to fix the typo in the message.",
+    "freq_rank": 8000,
+    "cefr": "C1",
+    "topic": "code_review"
+   },
+   {
+    "word": "cherry-pick",
+    "translation": "перенести окремий коміт",
+    "transcription": "ˈtʃeri pɪk",
+    "example": "Let's cherry-pick that fix into the release branch.",
+    "freq_rank": 25000,
+    "cefr": "C1",
+    "topic": "code_review"
+   }
+  ],
+  "meetings": [
+   {
+    "word": "retrospective",
+    "translation": "ретроспектива, підсумкова зустріч",
+    "transcription": "ˌretrəˈspektɪv",
+    "example": "We discussed the failed release in the sprint retrospective.",
+    "freq_rank": 9500,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "sprint",
+    "translation": "спринт, ітерація",
+    "transcription": "sprɪnt",
+    "example": "We planned too many tasks for this sprint.",
+    "freq_rank": 6500,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "priority",
+    "translation": "пріоритет, першочергове завдання",
+    "transcription": "praɪˈɒrəti",
+    "example": "Fixing the payment issue is our top priority today.",
+    "freq_rank": 1200,
+    "cefr": "B1",
+    "topic": "meetings"
+   },
+   {
+    "word": "prioritize",
+    "translation": "розставляти пріоритети, віддавати перевагу",
+    "transcription": "praɪˈɒrətaɪz",
+    "example": "We need to prioritize the tasks that affect customers.",
+    "freq_rank": 5500,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "sync up",
+    "translation": "синхронізуватися, зустрітися для обговорення",
+    "transcription": "sɪŋk ʌp",
+    "example": "Let's sync up after lunch to discuss the API changes.",
+    "freq_rank": 4500,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "follow up",
+    "translation": "уточнити згодом, продовжити тему",
+    "transcription": "ˈfɒləʊ ʌp",
+    "example": "I'll follow up with the client about the missing data.",
+    "freq_rank": 2500,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "heads-up",
+    "translation": "попередження, застереження",
+    "transcription": "ˈhedz ʌp",
+    "example": "Thanks for the heads-up about the database maintenance.",
+    "freq_rank": 14000,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "bandwidth",
+    "translation": "ресурс, можливість взятися за щось",
+    "transcription": "ˈbændwɪdθ",
+    "example": "I don't have the bandwidth to take another task this week.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "on track",
+    "translation": "за планом, у межах графіка",
+    "transcription": "ɒn træk",
+    "example": "We are on track to finish the feature by Thursday.",
+    "freq_rank": 2800,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "behind schedule",
+    "translation": "із відставанням від графіка",
+    "transcription": "bɪˈhaɪnd ˈʃedjuːl",
+    "example": "The team is behind schedule because of the server outage.",
+    "freq_rank": 3200,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "wrap up",
+    "translation": "завершувати, закінчувати",
+    "transcription": "ræp ʌp",
+    "example": "I should wrap up this pull request by noon.",
+    "freq_rank": 4000,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "pick up",
+    "translation": "взяти в роботу, підхопити",
+    "transcription": "pɪk ʌp",
+    "example": "Can someone pick up this ticket from the board?",
+    "freq_rank": 700,
+    "cefr": "B1",
+    "topic": "meetings"
+   },
+   {
+    "word": "escalate",
+    "translation": "передати на вищий рівень, ескалювати",
+    "transcription": "ˈeskəleɪt",
+    "example": "If it stays broken, we should escalate it to the lead.",
+    "freq_rank": 7000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "trade-off",
+    "translation": "компроміс, поступка",
+    "transcription": "ˈtreɪd ɒf",
+    "example": "There is a trade-off between speed and code quality here.",
+    "freq_rank": 8000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "acceptance criteria",
+    "translation": "критерії приймання",
+    "transcription": "əkˈseptəns kraɪˈtɪəriə",
+    "example": "Please add clear acceptance criteria to this ticket.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "capacity",
+    "translation": "потужність, ресурс команди",
+    "transcription": "kəˈpæsəti",
+    "example": "Our team is at full capacity until the next release.",
+    "freq_rank": 1500,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "handover",
+    "translation": "передача справ, передача роботи",
+    "transcription": "ˈhændəʊvə",
+    "example": "She wrote a detailed handover before going on vacation.",
+    "freq_rank": 16000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "deliverable",
+    "translation": "результат роботи, те, що потрібно здати",
+    "transcription": "dɪˈlɪvərəbl",
+    "example": "The main deliverable for this sprint is the new endpoint.",
+    "freq_rank": 14000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "milestone",
+    "translation": "віха, ключовий етап",
+    "transcription": "ˈmaɪlstəʊn",
+    "example": "Finishing the migration is a big milestone for us.",
+    "freq_rank": 5500,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "ping",
+    "translation": "написати, нагадати про себе",
+    "transcription": "pɪŋ",
+    "example": "Just ping me if you get stuck on anything.",
+    "freq_rank": 15000,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "circle back",
+    "translation": "повернутися до питання пізніше",
+    "transcription": "ˈsɜːkl bæk",
+    "example": "Let's circle back to this topic after the demo.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "stuck",
+    "translation": "застрягнути, не мати змоги рухатися далі",
+    "transcription": "stʌk",
+    "example": "I'm stuck on a strange error in the database query.",
+    "freq_rank": 3500,
+    "cefr": "B1",
+    "topic": "meetings"
+   },
+   {
+    "word": "ahead of time",
+    "translation": "заздалегідь, наперед",
+    "transcription": "əˈhed əv taɪm",
+    "example": "Please send the agenda ahead of time so we can prepare.",
+    "freq_rank": 4500,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "blocked on",
+    "translation": "заблокований через, не може рухатися далі через",
+    "transcription": "blɒkt ɒn",
+    "example": "I'm blocked on the API keys until the security team replies.",
+    "freq_rank": 1800,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "unblock",
+    "translation": "розблокувати, усунути перешкоду",
+    "transcription": "ʌnˈblɒk",
+    "example": "Can you unblock me by reviewing my changes before lunch?",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "takeaway",
+    "translation": "висновок, головна думка",
+    "transcription": "ˈteɪkəweɪ",
+    "example": "The main takeaway from the retro is that we need smaller tasks.",
+    "freq_rank": 7500,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "action item",
+    "translation": "завдання за результатами зустрічі",
+    "transcription": "ˈækʃn ˌaɪtəm",
+    "example": "Each person leaves the meeting with at least one action item.",
+    "freq_rank": 6000,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "agenda",
+    "translation": "порядок денний, план зустрічі",
+    "transcription": "əˈdʒendə",
+    "example": "Please send the agenda before the planning meeting starts.",
+    "freq_rank": 3200,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "commitment",
+    "translation": "зобов'язання",
+    "transcription": "kəˈmɪtmənt",
+    "example": "We reduced our commitment this week because two people are on vacation.",
+    "freq_rank": 2100,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "slip",
+    "translation": "зсуватися, затягуватися",
+    "transcription": "slɪp",
+    "example": "If the schedule slips again, we should tell the client.",
+    "freq_rank": 3500,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "tight",
+    "translation": "напружений, жорсткий (про терміни)",
+    "transcription": "taɪt",
+    "example": "The timeline is tight, but I think we can make it.",
+    "freq_rank": 1900,
+    "cefr": "B1",
+    "topic": "meetings"
+   },
+   {
+    "word": "urgent",
+    "translation": "терміновий, нагальний",
+    "transcription": "ˈɜːdʒənt",
+    "example": "This is urgent, so I'll drop everything else and fix it.",
+    "freq_rank": 2400,
+    "cefr": "B1",
+    "topic": "meetings"
+   },
+   {
+    "word": "swamped",
+    "translation": "завалений роботою",
+    "transcription": "swɒmpt",
+    "example": "Sorry for the late reply, I've been swamped with support requests.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "meetings"
+   },
+   {
+    "word": "availability",
+    "translation": "доступність, вільний час",
+    "transcription": "əˌveɪləˈbɪləti",
+    "example": "Please share your availability for a quick call tomorrow.",
+    "freq_rank": 2800,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "out of office",
+    "translation": "відсутній на роботі, у відпустці",
+    "transcription": "aʊt əv ˈɒfɪs",
+    "example": "She is out of office until Monday, so ask Tom instead.",
+    "freq_rank": 1500,
+    "cefr": "B1",
+    "topic": "meetings"
+   },
+   {
+    "word": "dive into",
+    "translation": "заглибитися в, взятися за",
+    "transcription": "daɪv ˈɪntuː",
+    "example": "I'll dive into the payment issue right after the meeting.",
+    "freq_rank": 3000,
+    "cefr": "B2",
+    "topic": "meetings"
+   },
+   {
+    "word": "sort out",
+    "translation": "розв'язати, владнати",
+    "transcription": "sɔːt aʊt",
+    "example": "We need to sort out who owns this service.",
+    "freq_rank": 2600,
+    "cefr": "B1",
+    "topic": "meetings"
+   },
+   {
+    "word": "in progress",
+    "translation": "в процесі, у роботі",
+    "transcription": "ɪn ˈprəʊɡres",
+    "example": "My task is still in progress, but I should finish it today.",
+    "freq_rank": 1200,
+    "cefr": "B1",
+    "topic": "meetings"
+   },
+   {
+    "word": "done",
+    "translation": "готово, завершено",
+    "transcription": "dʌn",
+    "example": "Our team has a clear definition of done for every task.",
+    "freq_rank": 300,
+    "cefr": "A2",
+    "topic": "meetings"
+   },
+   {
+    "word": "unplanned",
+    "translation": "незапланований",
+    "transcription": "ʌnˈplænd",
+    "example": "Unplanned work took half of our time during the last sprint.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "meetings"
+   }
+  ],
+  "interview": [
+   {
+    "word": "strength",
+    "translation": "сильна сторона, сила",
+    "transcription": "streŋθ",
+    "example": "One of my main strengths is breaking complex problems into small steps.",
+    "freq_rank": 1200,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "weakness",
+    "translation": "слабка сторона, недолік",
+    "transcription": "ˈwiːknəs",
+    "example": "My weakness is that I sometimes spend too long polishing small details.",
+    "freq_rank": 2500,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "salary",
+    "translation": "зарплата",
+    "transcription": "ˈsæləri",
+    "example": "What salary range are you expecting for this position?",
+    "freq_rank": 1800,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "expectation",
+    "translation": "очікування",
+    "transcription": "ˌekspekˈteɪʃn",
+    "example": "My salary expectations are flexible if the team offers good growth.",
+    "freq_rank": 1500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "negotiate",
+    "translation": "вести переговори, домовлятися",
+    "transcription": "nɪˈɡəʊʃieɪt",
+    "example": "It is normal to negotiate your salary before accepting an offer.",
+    "freq_rank": 2800,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "benefits",
+    "translation": "бонуси, соціальний пакет",
+    "transcription": "ˈbenɪfɪts",
+    "example": "The benefits include private health insurance and a learning budget.",
+    "freq_rank": 1300,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "probation period",
+    "translation": "випробувальний термін",
+    "transcription": "prəˈbeɪʃn ˈpɪəriəd",
+    "example": "The probation period lasts three months, after which we review your progress.",
+    "freq_rank": 9000,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "notice period",
+    "translation": "термін попередження про звільнення",
+    "transcription": "ˈnəʊtɪs ˈpɪəriəd",
+    "example": "My notice period at my current company is two weeks.",
+    "freq_rank": 9500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "résumé",
+    "translation": "резюме",
+    "transcription": "ˈrezjumeɪ",
+    "example": "Please keep your résumé to one page and list relevant projects.",
+    "freq_rank": 5000,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "hands-on",
+    "translation": "практичний, з реальним досвідом",
+    "transcription": "ˌhændz ˈɒn",
+    "example": "I have hands-on experience with PostgreSQL and database indexing.",
+    "freq_rank": 6500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "take ownership of",
+    "translation": "взяти відповідальність за",
+    "transcription": "teɪk ˈəʊnəʃɪp əv",
+    "example": "I like to take ownership of my tasks from design to deployment.",
+    "freq_rank": 4000,
+    "cefr": "C1",
+    "topic": "interview"
+   },
+   {
+    "word": "constructive feedback",
+    "translation": "конструктивний відгук",
+    "transcription": "kənˈstrʌktɪv ˈfiːdbæk",
+    "example": "I welcome constructive feedback because it helps me grow faster.",
+    "freq_rank": 6000,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "mentor",
+    "translation": "наставник, менторити",
+    "transcription": "ˈmentɔː",
+    "example": "My mentor taught me how to debug production issues calmly.",
+    "freq_rank": 5200,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "scalable",
+    "translation": "масштабований",
+    "transcription": "ˈskeɪləbl",
+    "example": "We need a scalable design that can handle ten times more traffic.",
+    "freq_rank": 9000,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "under pressure",
+    "translation": "під тиском",
+    "transcription": "ˈʌndə ˈpreʃə",
+    "example": "I stay calm under pressure and focus on fixing the root cause.",
+    "freq_rank": 2500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "on call",
+    "translation": "черговий (на зв'язку для усунення аварій)",
+    "transcription": "ɒn ˈkɔːl",
+    "example": "Junior developers are not on call during their first few months.",
+    "freq_rank": 1500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "career growth",
+    "translation": "кар'єрне зростання",
+    "transcription": "kəˈrɪə ɡrəʊθ",
+    "example": "I am looking for a company that supports career growth and learning.",
+    "freq_rank": 3500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "reliable",
+    "translation": "надійний",
+    "transcription": "rɪˈlaɪəbl",
+    "example": "My team knows I am reliable and always deliver what I promise.",
+    "freq_rank": 2800,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "adapt to",
+    "translation": "пристосовуватися до",
+    "transcription": "əˈdæpt tuː",
+    "example": "I can adapt to new tools quickly when the project requires it.",
+    "freq_rank": 2700,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "fast learner",
+    "translation": "той, хто швидко навчається",
+    "transcription": "ˌfɑːst ˈlɜːnə",
+    "example": "I am a fast learner and picked up Docker within two weeks.",
+    "freq_rank": 4000,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "walk me through",
+    "translation": "поясни мені крок за кроком",
+    "transcription": "ˈwɔːk miː θruː",
+    "example": "Can you walk me through how you designed that REST API?",
+    "freq_rank": 3000,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "drawback",
+    "translation": "недолік, мінус",
+    "transcription": "ˈdrɔːbæk",
+    "example": "The main drawback of this approach is higher memory usage.",
+    "freq_rank": 7500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "in terms of",
+    "translation": "з точки зору, щодо",
+    "transcription": "ɪn ˈtɜːmz əv",
+    "example": "In terms of performance, caching gave us the biggest improvement.",
+    "freq_rank": 1200,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "stakeholder",
+    "translation": "зацікавлена сторона",
+    "transcription": "ˈsteɪkhəʊldə",
+    "example": "I explain technical risks to stakeholders in simple, non-technical language.",
+    "freq_rank": 8500,
+    "cefr": "C1",
+    "topic": "interview"
+   },
+   {
+    "word": "initiative",
+    "translation": "ініціатива",
+    "transcription": "ɪˈnɪʃətɪv",
+    "example": "I showed initiative by automating our manual deployment process.",
+    "freq_rank": 2200,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "candidate",
+    "translation": "кандидат, претендент",
+    "transcription": "ˈkændɪdət",
+    "example": "The candidate answered every technical question with confidence and clear examples.",
+    "freq_rank": 1200,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "interviewer",
+    "translation": "інтерв'юер, той, хто проводить співбесіду",
+    "transcription": "ˈɪntəvjuːə",
+    "example": "The interviewer asked me to describe my last project in detail.",
+    "freq_rank": 5200,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "job offer",
+    "translation": "пропозиція роботи, оффер",
+    "transcription": "dʒɒb ˈɒfə",
+    "example": "I received a job offer from a fintech startup yesterday.",
+    "freq_rank": 2500,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "applicant",
+    "translation": "заявник, претендент на посаду",
+    "transcription": "ˈæplɪkənt",
+    "example": "Every applicant must complete a short coding task before the interview.",
+    "freq_rank": 3800,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "job description",
+    "translation": "опис посади, перелік обов'язків",
+    "transcription": "dʒɒb dɪˈskrɪpʃn",
+    "example": "The job description mentions Python, PostgreSQL and experience with cloud services.",
+    "freq_rank": 3000,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "track record",
+    "translation": "послужний список, підтверджені досягнення",
+    "transcription": "ˈtræk ˌrekɔːd",
+    "example": "She has a strong track record of delivering projects on time.",
+    "freq_rank": 6500,
+    "cefr": "C1",
+    "topic": "interview"
+   },
+   {
+    "word": "hiring manager",
+    "translation": "менеджер з найму, керівник, що наймає",
+    "transcription": "ˈhaɪərɪŋ ˈmænɪdʒə",
+    "example": "The hiring manager will make the final decision next week.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "background",
+    "translation": "досвід і освіта, професійний бекґраунд",
+    "transcription": "ˈbækɡraʊnd",
+    "example": "My background is in mathematics, but I switched to software development.",
+    "freq_rank": 1500,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "proficient",
+    "translation": "досвідчений, вправний",
+    "transcription": "prəˈfɪʃnt",
+    "example": "I am proficient in Java and comfortable working with SQL databases.",
+    "freq_rank": 8500,
+    "cefr": "C1",
+    "topic": "interview"
+   },
+   {
+    "word": "familiar with",
+    "translation": "знайомий з, обізнаний у",
+    "transcription": "fəˈmɪliə wɪð",
+    "example": "I'm familiar with Docker, but I haven't used Kubernetes in production.",
+    "freq_rank": 1800,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "hands-on experience",
+    "translation": "практичний досвід",
+    "transcription": "ˌhændz ɒn ɪkˈspɪəriəns",
+    "example": "I have hands-on experience building REST APIs with Node.js.",
+    "freq_rank": 3500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "contribute",
+    "translation": "робити внесок, долучатися",
+    "transcription": "kənˈtrɪbjuːt",
+    "example": "I would like to contribute to a team that values quality.",
+    "freq_rank": 1700,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "accomplishment",
+    "translation": "досягнення, здобуток",
+    "transcription": "əˈkʌmplɪʃmənt",
+    "example": "My biggest accomplishment was cutting the report generation time in half.",
+    "freq_rank": 5500,
+    "cefr": "B2",
+    "topic": "interview"
+   },
+   {
+    "word": "challenging",
+    "translation": "складний, той, що кидає виклик",
+    "transcription": "ˈtʃælɪndʒɪŋ",
+    "example": "It was a challenging project, but I learned a great deal.",
+    "freq_rank": 2800,
+    "cefr": "B1",
+    "topic": "interview"
+   },
+   {
+    "word": "strong suit",
+    "translation": "сильна сторона",
+    "transcription": "ˌstrɒŋ ˈsuːt",
+    "example": "Communication isn't my strong suit, but I'm working on it.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "interview"
+   }
+  ],
+  "devops": [
+   {
+    "word": "merge conflict",
+    "translation": "конфлікт злиття",
+    "transcription": "mɜːdʒ ˈkɒnflɪkt",
+    "example": "I had a merge conflict when I pulled the latest changes.",
+    "freq_rank": 4500,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "rebase",
+    "translation": "перебазувати, зробити ребейз",
+    "transcription": "riːˈbeɪs",
+    "example": "You should rebase your branch onto main before opening the review.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "pipeline",
+    "translation": "пайплайн, конвеєр",
+    "transcription": "ˈpaɪplaɪn",
+    "example": "The pipeline failed because one of the tests timed out.",
+    "freq_rank": 4000,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "staging",
+    "translation": "тестове середовище, стейджинг",
+    "transcription": "ˈsteɪdʒɪŋ",
+    "example": "Let's check the new feature on staging before we release it.",
+    "freq_rank": 8000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "release",
+    "translation": "реліз, випускати",
+    "transcription": "rɪˈliːs",
+    "example": "The next release is planned for the end of the month.",
+    "freq_rank": 1000,
+    "cefr": "B1",
+    "topic": "devops"
+   },
+   {
+    "word": "hotfix",
+    "translation": "термінове виправлення, хотфікс",
+    "transcription": "ˈhɒtfɪks",
+    "example": "We shipped a hotfix to solve the payment problem.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "incident",
+    "translation": "інцидент, подія",
+    "transcription": "ˈɪnsɪdənt",
+    "example": "After the incident, we wrote a report about what went wrong.",
+    "freq_rank": 1800,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "root cause",
+    "translation": "першопричина",
+    "transcription": "ruːt kɔːz",
+    "example": "We still don't know the root cause of the memory leak.",
+    "freq_rank": 3000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "postmortem",
+    "translation": "розбір інциденту, постмортем",
+    "transcription": "pəʊstˈmɔːtəm",
+    "example": "We'll hold a postmortem tomorrow to discuss the outage.",
+    "freq_rank": 14000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "alert",
+    "translation": "сповіщення, тривога",
+    "transcription": "əˈlɜːt",
+    "example": "I got an alert at night saying disk space was almost full.",
+    "freq_rank": 3200,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "dashboard",
+    "translation": "панель моніторингу, дашборд",
+    "transcription": "ˈdæʃbɔːd",
+    "example": "Check the dashboard to see if error rates are going up.",
+    "freq_rank": 6500,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "latency",
+    "translation": "затримка, час відгуку",
+    "transcription": "ˈleɪtənsi",
+    "example": "High latency made the API feel slow for customers.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "throughput",
+    "translation": "пропускна здатність",
+    "transcription": "ˈθruːpʊt",
+    "example": "We improved throughput by adding a caching layer.",
+    "freq_rank": 16000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "log level",
+    "translation": "рівень логування",
+    "transcription": "lɒg ˈlevl",
+    "example": "Set the log level to debug to see more details.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "downtime",
+    "translation": "час простою",
+    "transcription": "ˈdaʊntaɪm",
+    "example": "We planned the update to cause minimal downtime.",
+    "freq_rank": 9000,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "container",
+    "translation": "контейнер",
+    "transcription": "kənˈteɪnə",
+    "example": "The container keeps restarting because it runs out of memory.",
+    "freq_rank": 2500,
+    "cefr": "B1",
+    "topic": "devops"
+   },
+   {
+    "word": "environment variable",
+    "translation": "змінна середовища",
+    "transcription": "ɪnˈvaɪrənmənt ˈveəriəbl",
+    "example": "Store the API key in an environment variable, not in code.",
+    "freq_rank": 4500,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "config",
+    "translation": "конфігурація, налаштування",
+    "transcription": "ˈkɒnfɪɡ",
+    "example": "Someone changed the config and broke the build.",
+    "freq_rank": 13000,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "load balancer",
+    "translation": "балансувальник навантаження",
+    "transcription": "ləʊd ˈbælənsə",
+    "example": "The load balancer sends traffic to the healthy servers only.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "fall back",
+    "translation": "переходити на запасний варіант",
+    "transcription": "fɔːl bæk",
+    "example": "If the cache is down, the app will fall back to the database.",
+    "freq_rank": 2500,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "tear down",
+    "translation": "знести, видалити",
+    "transcription": "teə daʊn",
+    "example": "The script will tear down the temporary environment after the tests.",
+    "freq_rank": 3500,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "rollout plan",
+    "translation": "план розгортання",
+    "transcription": "ˈrəʊlaʊt plæn",
+    "example": "We shared the rollout plan with the team before the release.",
+    "freq_rank": 6000,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "uptime",
+    "translation": "час безперебійної роботи, аптайм",
+    "transcription": "ˈʌptaɪm",
+    "example": "Our main goal this quarter is to improve uptime to 99.9 percent.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "outage window",
+    "translation": "вікно простою",
+    "transcription": "ˈaʊtɪdʒ ˈwɪndəʊ",
+    "example": "We scheduled the outage window for Sunday night when traffic is low.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "on-call rotation",
+    "translation": "графік чергувань",
+    "transcription": "ɒn kɔːl rəʊˈteɪʃn",
+    "example": "I will join the on-call rotation after my first month here.",
+    "freq_rank": 9000,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "health check",
+    "translation": "перевірка стану (сервісу)",
+    "transcription": "helθ tʃek",
+    "example": "The load balancer removes any instance that fails the health check.",
+    "freq_rank": 3000,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "failover",
+    "translation": "перемикання на резерв, відмовостійкість",
+    "transcription": "ˈfeɪləʊvə",
+    "example": "The failover worked, so users barely noticed the database crash.",
+    "freq_rank": 18000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "spike",
+    "translation": "стрибок, сплеск",
+    "transcription": "spaɪk",
+    "example": "We saw a sudden spike in CPU usage right after the release.",
+    "freq_rank": 5500,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "drift",
+    "translation": "розбіжність, дрейф (конфігурації)",
+    "transcription": "drɪft",
+    "example": "Configuration drift between servers caused the strange behavior in production.",
+    "freq_rank": 5000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "provision",
+    "translation": "розгортати ресурси, надавати",
+    "transcription": "prəˈvɪʒn",
+    "example": "Terraform can provision the whole network in a few minutes.",
+    "freq_rank": 4500,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "rotate",
+    "translation": "ротувати, змінювати за графіком",
+    "transcription": "rəʊˈteɪt",
+    "example": "You should rotate the secrets every ninety days for security.",
+    "freq_rank": 5200,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "tail the logs",
+    "translation": "стежити за логами в реальному часі",
+    "transcription": "teɪl ðə lɒɡz",
+    "example": "Let me tail the logs while you try to log in again.",
+    "freq_rank": 8000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "verbose logging",
+    "translation": "докладне логування",
+    "transcription": "vɜːˈbəʊs ˈlɒɡɪŋ",
+    "example": "I turned on verbose logging to see what the service was doing.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "noisy",
+    "translation": "шумний, із забагатьма сповіщеннями",
+    "transcription": "ˈnɔɪzi",
+    "example": "This alert is too noisy, so people have started ignoring it.",
+    "freq_rank": 4800,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "threshold",
+    "translation": "поріг",
+    "transcription": "ˈθreʃhəʊld",
+    "example": "We set the alert threshold at five errors per minute.",
+    "freq_rank": 3800,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "mitigation",
+    "translation": "пом'якшення наслідків",
+    "transcription": "ˌmɪtɪˈɡeɪʃn",
+    "example": "The quick mitigation limited the impact to a few customers.",
+    "freq_rank": 7500,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "impact",
+    "translation": "вплив, впливати",
+    "transcription": "ˈɪmpækt",
+    "example": "Do we know the impact of this error on paying customers?",
+    "freq_rank": 700,
+    "cefr": "B1",
+    "topic": "devops"
+   },
+   {
+    "word": "degraded",
+    "translation": "погіршений, деградований",
+    "transcription": "dɪˈɡreɪdɪd",
+    "example": "The service was degraded for twenty minutes, but never fully down.",
+    "freq_rank": 9500,
+    "cefr": "C1",
+    "topic": "devops"
+   },
+   {
+    "word": "stand by",
+    "translation": "бути напоготові, чекати",
+    "transcription": "stænd baɪ",
+    "example": "Please stand by while we check the database connection.",
+    "freq_rank": 1500,
+    "cefr": "B2",
+    "topic": "devops"
+   },
+   {
+    "word": "kick off",
+    "translation": "запустити, розпочати",
+    "transcription": "kɪk ɒf",
+    "example": "I will kick off the build and let you know when it finishes.",
+    "freq_rank": 4000,
+    "cefr": "B2",
+    "topic": "devops"
+   }
+  ],
+  "data": [
+   {
+    "word": "query",
+    "translation": "запит, робити запит",
+    "transcription": "ˈkwɪəri",
+    "example": "This query takes ten seconds because the table has no index.",
+    "freq_rank": 3200,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "index",
+    "translation": "індекс, індексувати",
+    "transcription": "ˈɪndeks",
+    "example": "We added an index to speed up searches by email.",
+    "freq_rank": 1500,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "migration",
+    "translation": "міграція",
+    "transcription": "maɪˈɡreɪʃn",
+    "example": "The migration adds a new column to the users table.",
+    "freq_rank": 2600,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "consistency",
+    "translation": "узгодженість, послідовність",
+    "transcription": "kənˈsɪstənsi",
+    "example": "Data consistency matters more than speed in a payment system.",
+    "freq_rank": 3800,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "rollback",
+    "translation": "відкат",
+    "transcription": "ˈrəʊlbæk",
+    "example": "The rollback restored the database to its previous state.",
+    "freq_rank": 20000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "transaction",
+    "translation": "транзакція, операція",
+    "transcription": "trænˈzækʃn",
+    "example": "Wrap both updates in one transaction so they succeed together.",
+    "freq_rank": 2400,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "deadlock",
+    "translation": "взаємне блокування",
+    "transcription": "ˈdedlɒk",
+    "example": "Two transactions waiting for each other caused a deadlock.",
+    "freq_rank": 22000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "lock",
+    "translation": "блокування, блокувати",
+    "transcription": "lɒk",
+    "example": "The update holds a lock on the row until it finishes.",
+    "freq_rank": 1800,
+    "cefr": "B1",
+    "topic": "data"
+   },
+   {
+    "word": "constraint",
+    "translation": "обмеження",
+    "transcription": "kənˈstreɪnt",
+    "example": "A unique constraint prevents two users from sharing one email.",
+    "freq_rank": 5200,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "foreign key",
+    "translation": "зовнішній ключ",
+    "transcription": "ˈfɒrən kiː",
+    "example": "The orders table has a foreign key pointing to users.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "join",
+    "translation": "об'єднання таблиць, об'єднувати",
+    "transcription": "dʒɔɪn",
+    "example": "This join combines orders with customers by their shared ID.",
+    "freq_rank": 1100,
+    "cefr": "B1",
+    "topic": "data"
+   },
+   {
+    "word": "batch",
+    "translation": "пакет, партія",
+    "transcription": "bætʃ",
+    "example": "We process the records in batches of one thousand.",
+    "freq_rank": 6500,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "backup",
+    "translation": "резервна копія",
+    "transcription": "ˈbækʌp",
+    "example": "Always make a backup before you change production data.",
+    "freq_rank": 4800,
+    "cefr": "B1",
+    "topic": "data"
+   },
+   {
+    "word": "restore",
+    "translation": "відновлювати",
+    "transcription": "rɪˈstɔː",
+    "example": "We restored the database from last night's backup.",
+    "freq_rank": 3300,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "replica",
+    "translation": "репліка, копія",
+    "transcription": "ˈreplɪkə",
+    "example": "Read requests go to a replica to lower the load.",
+    "freq_rank": 14000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "scale",
+    "translation": "масштабувати(ся)",
+    "transcription": "skeɪl",
+    "example": "Will this design scale when we reach a million users?",
+    "freq_rank": 1300,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "slow down",
+    "translation": "сповільнювати(ся)",
+    "transcription": "sləʊ daʊn",
+    "example": "Large reports slow down the whole database during the day.",
+    "freq_rank": 3000,
+    "cefr": "B1",
+    "topic": "data"
+   },
+   {
+    "word": "fetch",
+    "translation": "отримувати, витягувати",
+    "transcription": "fetʃ",
+    "example": "The service fetches the user profile from the database.",
+    "freq_rank": 5500,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "retrieve",
+    "translation": "отримувати, діставати",
+    "transcription": "rɪˈtriːv",
+    "example": "It is faster to retrieve data by primary key.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "insert",
+    "translation": "вставляти, вставка",
+    "transcription": "ɪnˈsɜːt",
+    "example": "We insert a new row every time a user signs up.",
+    "freq_rank": 4500,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "outdated",
+    "translation": "застарілий",
+    "transcription": "aʊtˈdeɪtɪd",
+    "example": "The cache returned outdated prices to some customers.",
+    "freq_rank": 7500,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "stale",
+    "translation": "застарілий, несвіжий (про дані)",
+    "transcription": "steɪl",
+    "example": "Stale data in the cache confused our support team.",
+    "freq_rank": 12000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "invalidate",
+    "translation": "інвалідувати, робити недійсним",
+    "transcription": "ɪnˈvælɪdeɪt",
+    "example": "We invalidate the cache whenever a product price changes.",
+    "freq_rank": 14000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "overhead",
+    "translation": "додаткові витрати ресурсів",
+    "transcription": "ˈəʊvəhed",
+    "example": "Extra indexes add overhead to every write operation.",
+    "freq_rank": 8500,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "optimize",
+    "translation": "оптимізувати",
+    "transcription": "ˈɒptɪmaɪz",
+    "example": "I need to optimize this query before the release.",
+    "freq_rank": 5800,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "benchmark",
+    "translation": "еталонний тест, тестувати продуктивність",
+    "transcription": "ˈbentʃmɑːk",
+    "example": "Run a benchmark before and after the change to compare results.",
+    "freq_rank": 10000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "keep track of",
+    "translation": "відстежувати, вести облік",
+    "transcription": "kiːp træk əv",
+    "example": "We use a table to keep track of every applied migration.",
+    "freq_rank": 3500,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "primary key",
+    "translation": "первинний ключ",
+    "transcription": "ˈpraɪməri kiː",
+    "example": "Every table in our service has an auto-incremented primary key.",
+    "freq_rank": 2500,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "row",
+    "translation": "рядок, запис у таблиці",
+    "transcription": "rəʊ",
+    "example": "The report counts every row where the status is active.",
+    "freq_rank": 1500,
+    "cefr": "B1",
+    "topic": "data"
+   },
+   {
+    "word": "column",
+    "translation": "стовпець, колонка",
+    "transcription": "ˈkɒləm",
+    "example": "We added a new column for the user's time zone.",
+    "freq_rank": 2000,
+    "cefr": "B1",
+    "topic": "data"
+   },
+   {
+    "word": "snapshot",
+    "translation": "знімок, миттєва копія",
+    "transcription": "ˈsnæpʃɒt",
+    "example": "Take a snapshot of the database before changing anything.",
+    "freq_rank": 6000,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "shard",
+    "translation": "шард, фрагмент бази даних",
+    "transcription": "ʃɑːd",
+    "example": "Each shard stores the data for a different group of customers.",
+    "freq_rank": 25000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "partition",
+    "translation": "розділ, секція",
+    "transcription": "pɑːˈtɪʃn",
+    "example": "We created a partition for each month of order data.",
+    "freq_rank": 5000,
+    "cefr": "B2",
+    "topic": "data"
+   },
+   {
+    "word": "normalization",
+    "translation": "нормалізація",
+    "transcription": "ˌnɔːməlaɪˈzeɪʃn",
+    "example": "Normalization helps us avoid storing the same data in many places.",
+    "freq_rank": 15000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "aggregate",
+    "translation": "агрегувати, сукупний",
+    "transcription": "ˈæɡrɪɡeɪt",
+    "example": "We aggregate daily sales into a weekly summary table.",
+    "freq_rank": 6500,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "stored procedure",
+    "translation": "збережена процедура",
+    "transcription": "stɔːd prəˈsiːdʒə",
+    "example": "The old billing logic lives in a stored procedure.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "race condition",
+    "translation": "стан гонитви, гонка потоків",
+    "transcription": "reɪs kənˈdɪʃn",
+    "example": "A race condition caused two users to get the same order number.",
+    "freq_rank": 8000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "isolation level",
+    "translation": "рівень ізоляції",
+    "transcription": "ˌaɪsəˈleɪʃn ˈlevl",
+    "example": "Changing the isolation level fixed the strange duplicate reads.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "atomic",
+    "translation": "атомарний, неподільний",
+    "transcription": "əˈtɒmɪk",
+    "example": "The update must be atomic, so it either fully succeeds or fails.",
+    "freq_rank": 5500,
+    "cefr": "C1",
+    "topic": "data"
+   },
+   {
+    "word": "durability",
+    "translation": "довговічність, стійкість до втрат",
+    "transcription": "ˌdjʊərəˈbɪləti",
+    "example": "Durability means saved data survives a power failure.",
+    "freq_rank": 9000,
+    "cefr": "C1",
+    "topic": "data"
+   }
+  ]
+ }
+}

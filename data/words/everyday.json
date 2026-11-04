@@ -1,0 +1,3615 @@
+{
+ "batches": {
+  "500-1000": [
+   {
+    "word": "neighbor",
+    "translation": "сусід, сусідка",
+    "transcription": "ˈneɪbər",
+    "example": "Our neighbor waters the plants whenever we go away on holiday.",
+    "freq_rank": 890,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "kitchen",
+    "translation": "кухня",
+    "transcription": "ˈkɪtʃɪn",
+    "example": "She was cooking dinner in the kitchen when the phone rang.",
+    "freq_rank": 720,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "shop",
+    "translation": "магазин, крамниця",
+    "transcription": "ʃɒp",
+    "example": "There is a small shop on the corner that sells fresh bread.",
+    "freq_rank": 830,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "doctor",
+    "translation": "лікар",
+    "transcription": "ˈdɒktər",
+    "example": "I have an appointment with the doctor tomorrow morning.",
+    "freq_rank": 560,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "hospital",
+    "translation": "лікарня",
+    "transcription": "ˈhɒspɪtl",
+    "example": "He spent three days in the hospital after the accident.",
+    "freq_rank": 610,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "medicine",
+    "translation": "ліки, медицина",
+    "transcription": "ˈmedsn",
+    "example": "Take this medicine twice a day after meals.",
+    "freq_rank": 900,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "price",
+    "translation": "ціна",
+    "transcription": "praɪs",
+    "example": "The price of groceries has gone up a lot this year.",
+    "freq_rank": 520,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "cheap",
+    "translation": "дешевий",
+    "transcription": "tʃiːp",
+    "example": "We found a cheap hotel close to the city center.",
+    "freq_rank": 960,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "expensive",
+    "translation": "дорогий",
+    "transcription": "ɪkˈspensɪv",
+    "example": "This restaurant is too expensive for a casual lunch.",
+    "freq_rank": 950,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "afraid",
+    "translation": "наляканий, який боїться",
+    "transcription": "əˈfreɪd",
+    "example": "She was afraid to walk home alone at night.",
+    "freq_rank": 780,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "lonely",
+    "translation": "самотній",
+    "transcription": "ˈləʊnli",
+    "example": "He felt lonely after moving to a new city.",
+    "freq_rank": 985,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "worry",
+    "translation": "хвилюватися, турбуватися",
+    "transcription": "ˈwʌri",
+    "example": "Don't worry, I will call you as soon as I arrive.",
+    "freq_rank": 730,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "marry",
+    "translation": "одружуватися, виходити заміж",
+    "transcription": "ˈmæri",
+    "example": "They decided to marry in the summer, near the sea.",
+    "freq_rank": 940,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "marriage",
+    "translation": "шлюб, весілля",
+    "transcription": "ˈmærɪdʒ",
+    "example": "Their marriage has lasted more than thirty years.",
+    "freq_rank": 800,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "relationship",
+    "translation": "стосунки",
+    "transcription": "rɪˈleɪʃnʃɪp",
+    "example": "A good relationship needs honesty and a bit of patience.",
+    "freq_rank": 530,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "trip",
+    "translation": "подорож, поїздка",
+    "transcription": "trɪp",
+    "example": "We are planning a short trip to the mountains next month.",
+    "freq_rank": 870,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "airport",
+    "translation": "аеропорт",
+    "transcription": "ˈeəpɔːt",
+    "example": "We got to the airport two hours before the flight.",
+    "freq_rank": 980,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "ticket",
+    "translation": "квиток",
+    "transcription": "ˈtɪkɪt",
+    "example": "I bought two train tickets online this morning.",
+    "freq_rank": 970,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "street",
+    "translation": "вулиця",
+    "transcription": "striːt",
+    "example": "The street was quiet and full of fallen leaves.",
+    "freq_rank": 540,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "bridge",
+    "translation": "міст",
+    "transcription": "brɪdʒ",
+    "example": "We walked across the old bridge to the other side of town.",
+    "freq_rank": 920,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "salary",
+    "translation": "зарплата",
+    "transcription": "ˈsæləri",
+    "example": "Her salary is not high, but she enjoys the job.",
+    "freq_rank": 995,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "insurance",
+    "translation": "страхування, страховка",
+    "transcription": "ɪnˈʃʊərəns",
+    "example": "Does your insurance cover dental treatment abroad?",
+    "freq_rank": 910,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "rent",
+    "translation": "орендувати, оренда",
+    "transcription": "rent",
+    "example": "They rent a small flat near the metro station.",
+    "freq_rank": 930,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "tax",
+    "translation": "податок",
+    "transcription": "tæks",
+    "example": "You have to pay tax on any extra income.",
+    "freq_rank": 650,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "manage",
+    "translation": "справлятися, керувати",
+    "transcription": "ˈmænɪdʒ",
+    "example": "I managed to finish the report before the meeting.",
+    "freq_rank": 580,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "suggest",
+    "translation": "пропонувати, радити",
+    "transcription": "səˈdʒest",
+    "example": "I suggest we leave early to avoid the traffic.",
+    "freq_rank": 640,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "avoid",
+    "translation": "уникати",
+    "transcription": "əˈvɔɪd",
+    "example": "Try to avoid eating heavy food late in the evening.",
+    "freq_rank": 760,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "improve",
+    "translation": "покращувати, покращуватися",
+    "transcription": "ɪmˈpruːv",
+    "example": "My English has improved a lot since I started reading daily.",
+    "freq_rank": 740,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "disappear",
+    "translation": "зникати",
+    "transcription": "ˌdɪsəˈpɪə",
+    "example": "My keys disappeared again, and I have no idea where they are.",
+    "freq_rank": 880,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "warm",
+    "translation": "теплий",
+    "transcription": "wɔːm",
+    "example": "It was a warm evening, so we ate outside.",
+    "freq_rank": 700,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "comfortable",
+    "translation": "зручний, комфортний",
+    "transcription": "ˈkʌmftəbl",
+    "example": "This sofa is really comfortable, especially for long movie nights.",
+    "freq_rank": 845,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "dangerous",
+    "translation": "небезпечний",
+    "transcription": "ˈdeɪndʒərəs",
+    "example": "It is dangerous to cross the road without looking.",
+    "freq_rank": 825,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "ordinary",
+    "translation": "звичайний, пересічний",
+    "transcription": "ˈɔːdnri",
+    "example": "It was just an ordinary day until the phone call came.",
+    "freq_rank": 965,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "pick up",
+    "translation": "забирати, підбирати",
+    "transcription": "pɪk ʌp",
+    "example": "Can you pick up some milk on your way home?",
+    "freq_rank": 690,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "give up",
+    "translation": "здаватися, кидати",
+    "transcription": "ɡɪv ʌp",
+    "example": "He decided to give up smoking after the doctor's warning.",
+    "freq_rank": 735,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "carry out",
+    "translation": "виконувати, проводити",
+    "transcription": "ˈkæri aʊt",
+    "example": "The company will carry out repairs during the weekend.",
+    "freq_rank": 975,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "figure out",
+    "translation": "розібратися, зрозуміти",
+    "transcription": "ˈfɪɡər aʊt",
+    "example": "I can't figure out how to open this window.",
+    "freq_rank": 955,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "lawyer",
+    "translation": "юрист, адвокат",
+    "transcription": "ˈlɔɪər",
+    "example": "We asked a lawyer to check the rental contract.",
+    "freq_rank": 850,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "holiday",
+    "translation": "свято, відпустка",
+    "transcription": "ˈhɒlədeɪ",
+    "example": "We spent our holiday walking along the coast.",
+    "freq_rank": 810,
+    "cefr": "A1",
+    "topic": null
+   }
+  ],
+  "1000-2000": [
+   {
+    "word": "pain",
+    "translation": "біль",
+    "transcription": "peɪn",
+    "example": "I have a sharp pain in my lower back.",
+    "freq_rank": 1350,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "tired",
+    "translation": "втомлений",
+    "transcription": "ˈtaɪəd",
+    "example": "I was so tired after the long flight that I slept ten hours.",
+    "freq_rank": 1500,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "proud",
+    "translation": "гордий",
+    "transcription": "praʊd",
+    "example": "My parents are really proud of what I have achieved.",
+    "freq_rank": 1550,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "bill",
+    "translation": "рахунок, платіжка",
+    "transcription": "bɪl",
+    "example": "Can we split the bill between the four of us?",
+    "freq_rank": 1150,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "debt",
+    "translation": "борг",
+    "transcription": "det",
+    "example": "They are trying to pay off their debt as quickly as possible.",
+    "freq_rank": 1750,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "afford",
+    "translation": "дозволити собі, мати змогу заплатити",
+    "transcription": "əˈfɔːd",
+    "example": "We can't afford a bigger apartment in the city centre.",
+    "freq_rank": 1450,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "suburb",
+    "translation": "передмістя",
+    "transcription": "ˈsʌbɜːb",
+    "example": "They moved to a quiet suburb to raise their children.",
+    "freq_rank": 1980,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "pavement",
+    "translation": "тротуар",
+    "transcription": "ˈpeɪvmənt",
+    "example": "Please walk on the pavement, not on the road.",
+    "freq_rank": 1990,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "luggage",
+    "translation": "багаж",
+    "transcription": "ˈlʌɡɪdʒ",
+    "example": "My luggage didn't arrive at the airport, so I filed a complaint.",
+    "freq_rank": 1960,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "tourist",
+    "translation": "турист",
+    "transcription": "ˈtʊərɪst",
+    "example": "The square is always full of tourists taking photos.",
+    "freq_rank": 1650,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "journey",
+    "translation": "подорож, поїздка",
+    "transcription": "ˈdʒɜːni",
+    "example": "The journey from Kyiv to Lviv takes about five hours by train.",
+    "freq_rank": 1200,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "delay",
+    "translation": "затримка, затримувати",
+    "transcription": "dɪˈleɪ",
+    "example": "There was a two-hour delay because of the heavy snow.",
+    "freq_rank": 1600,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "cancel",
+    "translation": "скасовувати",
+    "transcription": "ˈkænsl",
+    "example": "I had to cancel my appointment because I was ill.",
+    "freq_rank": 1850,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "refund",
+    "translation": "відшкодування, повернення коштів",
+    "transcription": "ˈriːfʌnd",
+    "example": "The shop gave me a full refund for the broken kettle.",
+    "freq_rank": 1990,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "discount",
+    "translation": "знижка",
+    "transcription": "ˈdɪskaʊnt",
+    "example": "You get a ten percent discount if you pay in cash.",
+    "freq_rank": 1800,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "receipt",
+    "translation": "чек, квитанція",
+    "transcription": "rɪˈsiːt",
+    "example": "Keep the receipt in case you want to return the shirt.",
+    "freq_rank": 1900,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "furniture",
+    "translation": "меблі",
+    "transcription": "ˈfɜːnɪtʃə",
+    "example": "We bought some new furniture for the living room.",
+    "freq_rank": 1500,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "garbage",
+    "translation": "сміття",
+    "transcription": "ˈɡɑːrbɪdʒ",
+    "example": "Could you take out the garbage before you leave?",
+    "freq_rank": 1980,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "repair",
+    "translation": "ремонтувати, ремонт",
+    "transcription": "rɪˈpeər",
+    "example": "The mechanic said he could repair the car by Friday.",
+    "freq_rank": 1550,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "argue",
+    "translation": "сперечатися, сваритися",
+    "transcription": "ˈɑːɡjuː",
+    "example": "My brother and I used to argue about everything as kids.",
+    "freq_rank": 1300,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "trust",
+    "translation": "довіряти, довіра",
+    "transcription": "trʌst",
+    "example": "It takes years to build trust and seconds to lose it.",
+    "freq_rank": 1100,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "upset",
+    "translation": "засмучений, засмутити",
+    "transcription": "ʌpˈset",
+    "example": "She was upset that nobody remembered her birthday.",
+    "freq_rank": 1950,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "nervous",
+    "translation": "нервовий, стривожений",
+    "transcription": "ˈnɜːvəs",
+    "example": "I always get nervous before a job interview.",
+    "freq_rank": 1850,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "exhausted",
+    "translation": "виснажений, змучений",
+    "transcription": "ɪɡˈzɔːstɪd",
+    "example": "After the night shift he came home completely exhausted.",
+    "freq_rank": 1990,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "deadline",
+    "translation": "крайній термін, дедлайн",
+    "transcription": "ˈdedlaɪn",
+    "example": "We have to finish the report before the deadline on Monday.",
+    "freq_rank": 1900,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "colleague",
+    "translation": "колега",
+    "transcription": "ˈkɒliːɡ",
+    "example": "My colleague showed me how to use the new coffee machine.",
+    "freq_rank": 1750,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "look after",
+    "translation": "доглядати, піклуватися",
+    "transcription": "lʊk ˈɑːftər",
+    "example": "Can you look after my cat while I am on holiday?",
+    "freq_rank": 1400,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "apartment",
+    "translation": "квартира",
+    "transcription": "əˈpɑːtmənt",
+    "example": "We found a small apartment close to the metro station.",
+    "freq_rank": 1250,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "wallet",
+    "translation": "гаманець, портмоне",
+    "transcription": "ˈwɒlɪt",
+    "example": "I left my wallet on the kitchen table again.",
+    "freq_rank": 1900,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "purchase",
+    "translation": "покупка, купувати",
+    "transcription": "ˈpɜːtʃɪs",
+    "example": "Keep the receipt as proof of purchase.",
+    "freq_rank": 1500,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "cash",
+    "translation": "готівка",
+    "transcription": "kæʃ",
+    "example": "Do you accept cash, or only cards?",
+    "freq_rank": 1300,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "lend",
+    "translation": "позичати (комусь), давати в борг",
+    "transcription": "lend",
+    "example": "He agreed to lend me some money until Friday.",
+    "freq_rank": 1950,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "loan",
+    "translation": "кредит, позика",
+    "transcription": "ləʊn",
+    "example": "They took out a loan to buy a car.",
+    "freq_rank": 1550,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "pregnant",
+    "translation": "вагітна",
+    "transcription": "ˈpreɡnənt",
+    "example": "My sister is pregnant and the baby is due in May.",
+    "freq_rank": 1850,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "injury",
+    "translation": "травма, поранення",
+    "transcription": "ˈɪndʒəri",
+    "example": "He missed the match because of a knee injury.",
+    "freq_rank": 1400,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "nurse",
+    "translation": "медсестра, медбрат",
+    "transcription": "nɜːs",
+    "example": "The nurse checked my blood pressure and temperature.",
+    "freq_rank": 1350,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "surgery",
+    "translation": "операція, хірургія",
+    "transcription": "ˈsɜːdʒəri",
+    "example": "She needed surgery after the accident.",
+    "freq_rank": 1700,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "diet",
+    "translation": "дієта, харчування",
+    "transcription": "ˈdaɪət",
+    "example": "I'm trying to follow a healthier diet this year.",
+    "freq_rank": 1600,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "treatment",
+    "translation": "лікування, ставлення",
+    "transcription": "ˈtriːtmənt",
+    "example": "The treatment lasted about six weeks.",
+    "freq_rank": 1150,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "emotion",
+    "translation": "емоція, почуття",
+    "transcription": "ɪˈməʊʃn",
+    "example": "It is hard to hide your emotions at a farewell.",
+    "freq_rank": 1750,
+    "cefr": "B2",
+    "topic": null
+   }
+  ],
+  "2000-3000": [
+   {
+    "word": "stomach",
+    "translation": "шлунок, живіт",
+    "transcription": "ˈstʌmək",
+    "example": "I have a pain in my stomach after that heavy dinner.",
+    "freq_rank": 2540,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "recover",
+    "translation": "одужувати, відновлюватися",
+    "transcription": "rɪˈkʌvər",
+    "example": "It took her two weeks to recover from the flu.",
+    "freq_rank": 2480,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "passenger",
+    "translation": "пасажир",
+    "transcription": "ˈpæsɪndʒər",
+    "example": "Every passenger must show a ticket before boarding the bus.",
+    "freq_rank": 2760,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "jealous",
+    "translation": "заздрісний, ревнивий",
+    "transcription": "ˈdʒeləs",
+    "example": "He felt jealous when his friend bought a new car.",
+    "freq_rank": 2960,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "embarrassed",
+    "translation": "присоромлений, збентежений",
+    "transcription": "ɪmˈbærəst",
+    "example": "She was embarrassed when she forgot his name.",
+    "freq_rank": 2900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "divorce",
+    "translation": "розлучення, розлучатися",
+    "transcription": "dɪˈvɔːrs",
+    "example": "Their divorce was difficult for the whole family.",
+    "freq_rank": 2780,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "customer",
+    "translation": "клієнт, покупець",
+    "transcription": "ˈkʌstəmər",
+    "example": "The customer asked to speak with the manager.",
+    "freq_rank": 2030,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "ceiling",
+    "translation": "стеля",
+    "transcription": "ˈsiːlɪŋ",
+    "example": "There is a small crack in the ceiling above my bed.",
+    "freq_rank": 2850,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "traffic",
+    "translation": "рух, транспортний потік, затори",
+    "transcription": "ˈtræfɪk",
+    "example": "Traffic was terrible this morning, so I was late.",
+    "freq_rank": 2090,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "interview",
+    "translation": "співбесіда, інтерв'ю",
+    "transcription": "ˈɪntərvjuː",
+    "example": "I have a job interview tomorrow at ten o'clock.",
+    "freq_rank": 2040,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "quit",
+    "translation": "кидати, звільнятися",
+    "transcription": "kwɪt",
+    "example": "He decided to quit his job and travel for a year.",
+    "freq_rank": 2330,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "headache",
+    "translation": "головний біль",
+    "transcription": "ˈhedeɪk",
+    "example": "I've had a terrible headache since this morning.",
+    "freq_rank": 2950,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "cure",
+    "translation": "лікувати, ліки (від хвороби)",
+    "transcription": "kjʊr",
+    "example": "Doctors still haven't found a cure for the common cold.",
+    "freq_rank": 2630,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "check in",
+    "translation": "реєструватися (в готелі, в аеропорту)",
+    "transcription": "tʃek ɪn",
+    "example": "We need to check in at the hotel before noon.",
+    "freq_rank": 2800,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "carry on",
+    "translation": "продовжувати",
+    "transcription": "ˈkæri ɑːn",
+    "example": "Please carry on with your work while I answer the phone.",
+    "freq_rank": 2700,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "bake",
+    "translation": "пекти, випікати",
+    "transcription": "beɪk",
+    "example": "She likes to bake bread on Sunday mornings.",
+    "freq_rank": 2850,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "grab",
+    "translation": "хапати, схопити",
+    "transcription": "ɡræb",
+    "example": "I grabbed my keys and ran out the door.",
+    "freq_rank": 2300,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "wander",
+    "translation": "блукати, прогулюватися без мети",
+    "transcription": "ˈwɒndə",
+    "example": "We like to wander around the old town after dinner.",
+    "freq_rank": 2900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "sleeve",
+    "translation": "рукав",
+    "transcription": "sliːv",
+    "example": "He rolled up his sleeve and showed the nurse his arm.",
+    "freq_rank": 2880,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "soap",
+    "translation": "мило",
+    "transcription": "səʊp",
+    "example": "Wash your hands with soap and warm water.",
+    "freq_rank": 2870,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "mess",
+    "translation": "безлад, бардак",
+    "transcription": "mes",
+    "example": "The kids left the living room in a complete mess.",
+    "freq_rank": 2480,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "pour",
+    "translation": "наливати, лити",
+    "transcription": "pɔː",
+    "example": "Could you pour me a glass of water, please?",
+    "freq_rank": 2400,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "spill",
+    "translation": "розливати, проливати",
+    "transcription": "spɪl",
+    "example": "Be careful not to spill coffee on the keyboard.",
+    "freq_rank": 2920,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "slip",
+    "translation": "послизнутися, вислизнути",
+    "transcription": "slɪp",
+    "example": "She slipped on the wet floor and hurt her knee.",
+    "freq_rank": 2310,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "fold",
+    "translation": "складати, згортати",
+    "transcription": "fəʊld",
+    "example": "Please fold the clean towels and put them away.",
+    "freq_rank": 2780,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "knock",
+    "translation": "стукати, грюкати",
+    "transcription": "nɒk",
+    "example": "Someone knocked on the door while I was cooking.",
+    "freq_rank": 2290,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "mild",
+    "translation": "м'який, помірний",
+    "transcription": "maɪld",
+    "example": "The winters here are usually mild and rainy.",
+    "freq_rank": 2760,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "rough",
+    "translation": "грубий, шорсткий, нелегкий",
+    "transcription": "rʌf",
+    "example": "I had a rough week and I need some rest.",
+    "freq_rank": 2210,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "gentle",
+    "translation": "лагідний, ніжний, м'який",
+    "transcription": "ˈdʒentl",
+    "example": "The doctor has a very gentle way of talking to patients.",
+    "freq_rank": 2520,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "sudden",
+    "translation": "раптовий, несподіваний",
+    "transcription": "ˈsʌdn",
+    "example": "There was a sudden noise from the apartment upstairs.",
+    "freq_rank": 2050,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "generous",
+    "translation": "щедрий",
+    "transcription": "ˈdʒenərəs",
+    "example": "My uncle is very generous and always pays for dinner.",
+    "freq_rank": 2890,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "rude",
+    "translation": "грубий, нечемний",
+    "transcription": "ruːd",
+    "example": "It is rude to look at your phone during a meal.",
+    "freq_rank": 2940,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "tough",
+    "translation": "важкий, міцний, жорсткий",
+    "transcription": "tʌf",
+    "example": "Moving to a new city was tough at first.",
+    "freq_rank": 2150,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "lack",
+    "translation": "брак, нестача",
+    "transcription": "læk",
+    "example": "Lack of sleep makes it hard to focus during the day.",
+    "freq_rank": 2250,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "wealth",
+    "translation": "багатство, статки",
+    "transcription": "welθ",
+    "example": "Money alone does not bring happiness or real wealth.",
+    "freq_rank": 2830,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "fare",
+    "translation": "вартість проїзду, плата за проїзд",
+    "transcription": "feə",
+    "example": "The bus fare went up again this month.",
+    "freq_rank": 2960,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "pill",
+    "translation": "пігулка, таблетка",
+    "transcription": "pɪl",
+    "example": "Take one pill after breakfast with a glass of water.",
+    "freq_rank": 2910,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "sore",
+    "translation": "хворий, що болить (про горло, м'язи)",
+    "transcription": "sɔː",
+    "example": "I have a sore throat and my voice is almost gone.",
+    "freq_rank": 2930,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "shy",
+    "translation": "сором'язливий, несмілий",
+    "transcription": "ʃaɪ",
+    "example": "My brother is shy and rarely speaks at parties.",
+    "freq_rank": 2720,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "sigh",
+    "translation": "зітхати, зітхання",
+    "transcription": "saɪ",
+    "example": "She sighed and looked at the long line in front of her.",
+    "freq_rank": 2560,
+    "cefr": "B2",
+    "topic": null
+   }
+  ],
+  "3000-4000": [
+   {
+    "word": "landlord",
+    "translation": "орендодавець, власник житла",
+    "transcription": "ˈlændlɔːd",
+    "example": "My landlord promised to fix the broken heater by Friday.",
+    "freq_rank": 3850,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "fridge",
+    "translation": "холодильник",
+    "transcription": "frɪdʒ",
+    "example": "There is some cold pizza in the fridge if you are hungry.",
+    "freq_rank": 3900,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "neighbour",
+    "translation": "сусід, сусідка",
+    "transcription": "ˈneɪbə",
+    "example": "Our neighbour often waters our plants when we are away.",
+    "freq_rank": 3100,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "bargain",
+    "translation": "вигідна покупка, угода",
+    "transcription": "ˈbɑːɡɪn",
+    "example": "I found a real bargain at the market yesterday.",
+    "freq_rank": 3650,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "mortgage",
+    "translation": "іпотека, іпотечний кредит",
+    "transcription": "ˈmɔːɡɪdʒ",
+    "example": "They took out a mortgage to buy their first flat.",
+    "freq_rank": 3700,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "pharmacy",
+    "translation": "аптека",
+    "transcription": "ˈfɑːməsi",
+    "example": "The pharmacy on the corner stays open until midnight.",
+    "freq_rank": 3950,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "symptom",
+    "translation": "симптом",
+    "transcription": "ˈsɪmptəm",
+    "example": "A sore throat is often the first symptom of a cold.",
+    "freq_rank": 3500,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "suitcase",
+    "translation": "валіза",
+    "transcription": "ˈsuːtkeɪs",
+    "example": "I forgot to pack a jacket in my suitcase.",
+    "freq_rank": 3980,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "commute",
+    "translation": "їздити на роботу, щоденна поїздка",
+    "transcription": "kəˈmjuːt",
+    "example": "I commute to the office by train every morning.",
+    "freq_rank": 3960,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "grateful",
+    "translation": "вдячний",
+    "transcription": "ˈɡreɪtfl",
+    "example": "I am very grateful for all your help this week.",
+    "freq_rank": 3300,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "anxious",
+    "translation": "тривожний, стривожений",
+    "transcription": "ˈæŋkʃəs",
+    "example": "He felt anxious before the job interview.",
+    "freq_rank": 3550,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "cheerful",
+    "translation": "життєрадісний, веселий",
+    "transcription": "ˈtʃɪəfl",
+    "example": "The waiter was cheerful and made us feel welcome.",
+    "freq_rank": 3970,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "wedding",
+    "translation": "весілля",
+    "transcription": "ˈwedɪŋ",
+    "example": "We are going to my cousin's wedding in June.",
+    "freq_rank": 3070,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "hug",
+    "translation": "обіймати, обійми",
+    "transcription": "hʌɡ",
+    "example": "She gave her friend a big hug at the station.",
+    "freq_rank": 3880,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "complain",
+    "translation": "скаржитися",
+    "transcription": "kəmˈpleɪn",
+    "example": "Customers often complain about the slow service here.",
+    "freq_rank": 3280,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "shelf",
+    "translation": "полиця",
+    "transcription": "ʃelf",
+    "example": "Put the books back on the shelf when you finish.",
+    "freq_rank": 3330,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "cushion",
+    "translation": "подушка (декоративна), диванна подушка",
+    "transcription": "ˈkʊʃn",
+    "example": "She put a soft cushion behind her back.",
+    "freq_rank": 3940,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "cupboard",
+    "translation": "шафа, шафка",
+    "transcription": "ˈkʌbəd",
+    "example": "The glasses are in the cupboard above the sink.",
+    "freq_rank": 3910,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "sweat",
+    "translation": "піт, пітніти",
+    "transcription": "swet",
+    "example": "He started to sweat after running up the stairs.",
+    "freq_rank": 3720,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "cough",
+    "translation": "кашель, кашляти",
+    "transcription": "kɒf",
+    "example": "I have had a bad cough since last weekend.",
+    "freq_rank": 3780,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "wake up",
+    "translation": "прокидатися, будити",
+    "transcription": "weɪk ʌp",
+    "example": "I usually wake up at seven on weekdays.",
+    "freq_rank": 3080,
+    "cefr": "A1",
+    "topic": null
+   },
+   {
+    "word": "cheer up",
+    "translation": "розвеселитися, підбадьорити",
+    "transcription": "tʃɪər ʌp",
+    "example": "Cheer up, things will look better tomorrow.",
+    "freq_rank": 3990,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "shelter",
+    "translation": "притулок, укриття",
+    "transcription": "ˈʃeltə",
+    "example": "We found shelter from the rain under a big tree.",
+    "freq_rank": 3050,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "cottage",
+    "translation": "котедж, заміський будиночок",
+    "transcription": "ˈkɒtɪdʒ",
+    "example": "They rent a small cottage by the lake every summer.",
+    "freq_rank": 3400,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "lawn",
+    "translation": "газон",
+    "transcription": "lɔːn",
+    "example": "He mows the lawn every Saturday morning.",
+    "freq_rank": 3700,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "mattress",
+    "translation": "матрац",
+    "transcription": "ˈmætrəs",
+    "example": "We bought a new mattress because the old one was too soft.",
+    "freq_rank": 3900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "tidy",
+    "translation": "охайний, прибирати",
+    "transcription": "ˈtaɪdi",
+    "example": "She keeps her flat very tidy.",
+    "freq_rank": 3650,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "jar",
+    "translation": "банка, слоїк",
+    "transcription": "dʒɑː",
+    "example": "There is a jar of honey on the top shelf.",
+    "freq_rank": 3500,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "fever",
+    "translation": "гарячка, температура",
+    "transcription": "ˈfiːvə",
+    "example": "The child had a high fever and stayed in bed.",
+    "freq_rank": 3600,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "bandage",
+    "translation": "бинт, пов'язка",
+    "transcription": "ˈbændɪdʒ",
+    "example": "The nurse put a clean bandage on his hand.",
+    "freq_rank": 3950,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "scar",
+    "translation": "шрам",
+    "transcription": "skɑː",
+    "example": "He has a small scar above his left eye.",
+    "freq_rank": 3800,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "wound",
+    "translation": "рана, поранення",
+    "transcription": "wuːnd",
+    "example": "Clean the wound carefully before you cover it.",
+    "freq_rank": 3350,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "dose",
+    "translation": "доза",
+    "transcription": "dəʊs",
+    "example": "Do not take more than one dose per day.",
+    "freq_rank": 3850,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "appetite",
+    "translation": "апетит",
+    "transcription": "ˈæpɪtaɪt",
+    "example": "After the long walk, we all had a great appetite.",
+    "freq_rank": 3750,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "fatigue",
+    "translation": "втома, виснаження",
+    "transcription": "fəˈtiːɡ",
+    "example": "Constant fatigue can be a sign of stress.",
+    "freq_rank": 3950,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "frustration",
+    "translation": "розчарування, роздратування",
+    "transcription": "frʌˈstreɪʃn",
+    "example": "She shouted in frustration when the car would not start.",
+    "freq_rank": 3700,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "relief",
+    "translation": "полегшення",
+    "transcription": "rɪˈliːf",
+    "example": "It was a huge relief to hear that everyone was safe.",
+    "freq_rank": 3100,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "sympathy",
+    "translation": "співчуття, симпатія",
+    "transcription": "ˈsɪmpəθi",
+    "example": "I have a lot of sympathy for people who work night shifts.",
+    "freq_rank": 3450,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "loyalty",
+    "translation": "лояльність, вірність",
+    "transcription": "ˈlɔɪəlti",
+    "example": "Their loyalty to the old shop surprised me.",
+    "freq_rank": 3900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "disappointment",
+    "translation": "розчарування",
+    "transcription": "ˌdɪsəˈpɔɪntmənt",
+    "example": "He could not hide his disappointment when the trip was changed.",
+    "freq_rank": 3850,
+    "cefr": "B2",
+    "topic": null
+   }
+  ],
+  "4000-5000": [
+   {
+    "word": "tenant",
+    "translation": "орендар, квартирант",
+    "transcription": "ˈtenənt",
+    "example": "The new tenant moves in on the first of May.",
+    "freq_rank": 4380,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "grocery",
+    "translation": "бакалія, продукти",
+    "transcription": "ˈɡrəʊsəri",
+    "example": "I usually do my grocery shopping on Saturday mornings.",
+    "freq_rank": 4610,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "prescription",
+    "translation": "рецепт, приписаний лікарем",
+    "transcription": "prɪˈskrɪpʃən",
+    "example": "You need a prescription to buy this medicine.",
+    "freq_rank": 4240,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "allergic",
+    "translation": "алергічний",
+    "transcription": "əˈlɜːdʒɪk",
+    "example": "He is allergic to cats, so he avoids visiting us.",
+    "freq_rank": 4990,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "passport",
+    "translation": "паспорт (для виїзду за кордон)",
+    "transcription": "ˈpɑːspɔːt",
+    "example": "Don't forget your passport when you go to the airport.",
+    "freq_rank": 4110,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "departure",
+    "translation": "відправлення, вильот",
+    "transcription": "dɪˈpɑːtʃə",
+    "example": "The departure time was moved to half past six.",
+    "freq_rank": 4350,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "souvenir",
+    "translation": "сувенір",
+    "transcription": "ˌsuːvəˈnɪə",
+    "example": "I bought a small souvenir for my mother in Lisbon.",
+    "freq_rank": 4960,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "neighbourhood",
+    "translation": "район, околиця",
+    "transcription": "ˈneɪbəhʊd",
+    "example": "It's a friendly neighbourhood with a lot of small cafes.",
+    "freq_rank": 4210,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "promote",
+    "translation": "підвищувати на посаді, просувати",
+    "transcription": "prəˈməʊt",
+    "example": "She was promoted to manager after only two years.",
+    "freq_rank": 4090,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "resign",
+    "translation": "звільнятися за власним бажанням, подавати у відставку",
+    "transcription": "rɪˈzaɪn",
+    "example": "He decided to resign and start his own business.",
+    "freq_rank": 4710,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "quarrel",
+    "translation": "сварка, сваритися",
+    "transcription": "ˈkwɒrəl",
+    "example": "They had a quarrel about who should wash the dishes.",
+    "freq_rank": 4900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "curtain",
+    "translation": "штора, завіса",
+    "transcription": "ˈkɜːtən",
+    "example": "Close the curtains, the sun is too bright.",
+    "freq_rank": 4220,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "sort out",
+    "translation": "розв'язати, владнати, розібратися",
+    "transcription": "sɔːt aʊt",
+    "example": "I need to sort out my bank account before I travel.",
+    "freq_rank": 4950,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "drawer",
+    "translation": "шухляда",
+    "transcription": "drɔː",
+    "example": "She keeps all the spare keys in the top drawer.",
+    "freq_rank": 4120,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "recipe",
+    "translation": "рецепт (страви)",
+    "transcription": "ˈresəpi",
+    "example": "I found a simple recipe for vegetable soup online.",
+    "freq_rank": 4050,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "spice",
+    "translation": "спеція, прянощі",
+    "transcription": "spaɪs",
+    "example": "This curry needs a bit more spice.",
+    "freq_rank": 4600,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "flour",
+    "translation": "борошно",
+    "transcription": "ˈflaʊər",
+    "example": "We ran out of flour, so I can't bake bread today.",
+    "freq_rank": 4700,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "tray",
+    "translation": "піднос, таця",
+    "transcription": "treɪ",
+    "example": "The waiter carried a tray with four coffees.",
+    "freq_rank": 4550,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "ankle",
+    "translation": "щиколотка, кісточка",
+    "transcription": "ˈæŋkəl",
+    "example": "He twisted his ankle while running down the stairs.",
+    "freq_rank": 4450,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "elbow",
+    "translation": "лікоть",
+    "transcription": "ˈelbəʊ",
+    "example": "My elbow hurts after playing tennis all weekend.",
+    "freq_rank": 4300,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "wrist",
+    "translation": "зап'ястя",
+    "transcription": "rɪst",
+    "example": "She wears a thin silver bracelet on her left wrist.",
+    "freq_rank": 4650,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "bleed",
+    "translation": "стікати кров'ю, кровоточити",
+    "transcription": "bliːd",
+    "example": "The cut was small, but it continued to bleed for a while.",
+    "freq_rank": 4480,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "swell",
+    "translation": "набрякати, пухнути",
+    "transcription": "swel",
+    "example": "After the fall, her knee began to swell quickly.",
+    "freq_rank": 4900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "thirsty",
+    "translation": "спраглий",
+    "transcription": "ˈθɜːsti",
+    "example": "I'm so thirsty after that long walk in the sun.",
+    "freq_rank": 4750,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "selfish",
+    "translation": "егоїстичний",
+    "transcription": "ˈselfɪʃ",
+    "example": "It was selfish of him to take the last piece.",
+    "freq_rank": 4350,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "annoy",
+    "translation": "дратувати, діставати",
+    "transcription": "əˈnɔɪ",
+    "example": "Loud music at night really starts to annoy me.",
+    "freq_rank": 4400,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "admire",
+    "translation": "захоплюватися, милуватися",
+    "transcription": "ədˈmaɪər",
+    "example": "I really admire people who learn new languages as adults.",
+    "freq_rank": 4150,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "envy",
+    "translation": "заздрість, заздрити",
+    "transcription": "ˈenvi",
+    "example": "She looked at his big garden with envy.",
+    "freq_rank": 4850,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "tease",
+    "translation": "дражнити, кепкувати",
+    "transcription": "tiːz",
+    "example": "His brothers always tease him about his old car.",
+    "freq_rank": 4800,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "insult",
+    "translation": "образа, ображати",
+    "transcription": "ˈɪnsʌlt",
+    "example": "He took her joke as an insult and left the room.",
+    "freq_rank": 4250,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "brake",
+    "translation": "гальмо, гальмувати",
+    "transcription": "breɪk",
+    "example": "I had to press the brake hard when the dog ran out.",
+    "freq_rank": 4380,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "fuel",
+    "translation": "паливо, пальне",
+    "transcription": "ˈfjuːəl",
+    "example": "Fuel is getting more expensive every month.",
+    "freq_rank": 4020,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "tunnel",
+    "translation": "тунель",
+    "transcription": "ˈtʌnəl",
+    "example": "The train disappeared into a long tunnel under the mountain.",
+    "freq_rank": 4200,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "harbor",
+    "translation": "гавань, порт",
+    "transcription": "ˈhɑːbər",
+    "example": "Small fishing boats were returning to the harbor at sunset.",
+    "freq_rank": 4580,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "cruise",
+    "translation": "круїз",
+    "transcription": "kruːz",
+    "example": "They booked a week-long cruise around the Mediterranean.",
+    "freq_rank": 4700,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "backpack",
+    "translation": "рюкзак",
+    "transcription": "ˈbækpæk",
+    "example": "He packed a light backpack for the weekend hike.",
+    "freq_rank": 4950,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "balcony",
+    "translation": "балкон",
+    "transcription": "ˈbælkəni",
+    "example": "We had breakfast on the balcony in the morning sun.",
+    "freq_rank": 4630,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "attic",
+    "translation": "горище, мансарда",
+    "transcription": "ˈætɪk",
+    "example": "Old boxes of photos are stored in the attic.",
+    "freq_rank": 4980,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "basement",
+    "translation": "підвал, цокольний поверх",
+    "transcription": "ˈbeɪsmənt",
+    "example": "The washing machine is in the basement of our building.",
+    "freq_rank": 4320,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "doorbell",
+    "translation": "дверний дзвінок",
+    "transcription": "ˈdɔːbel",
+    "example": "The doorbell rang just as we sat down to dinner.",
+    "freq_rank": 4990,
+    "cefr": "B1",
+    "topic": null
+   }
+  ],
+  "5000-6000": [
+   {
+    "word": "cashier",
+    "translation": "касир",
+    "transcription": "kæˈʃɪə",
+    "example": "The cashier smiled and put my groceries into a bag.",
+    "freq_rank": 5180,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "pillow",
+    "translation": "подушка",
+    "transcription": "ˈpɪləʊ",
+    "example": "I need a softer pillow because my neck hurts in the morning.",
+    "freq_rank": 5260,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "dizzy",
+    "translation": "запаморочений, який відчуває запаморочення",
+    "transcription": "ˈdɪzi",
+    "example": "I felt dizzy after standing up too quickly.",
+    "freq_rank": 5300,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "ache",
+    "translation": "біль, боліти",
+    "transcription": "eɪk",
+    "example": "My back started to ache after a long day at the desk.",
+    "freq_rank": 5380,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "sneeze",
+    "translation": "чхати",
+    "transcription": "sniːz",
+    "example": "I sneeze every spring because of the pollen.",
+    "freq_rank": 5420,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "bruise",
+    "translation": "синець",
+    "transcription": "bruːz",
+    "example": "She had a large bruise on her knee after the fall.",
+    "freq_rank": 5460,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "cheat",
+    "translation": "обманювати, шахраювати",
+    "transcription": "tʃiːt",
+    "example": "He lost his job after he tried to cheat the company.",
+    "freq_rank": 5780,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "fiancé",
+    "translation": "наречений",
+    "transcription": "fiˈɒnseɪ",
+    "example": "Her fiancé is planning a surprise trip to Italy.",
+    "freq_rank": 5820,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "invoice",
+    "translation": "рахунок-фактура",
+    "transcription": "ˈɪnvɔɪs",
+    "example": "Please send the invoice by the end of the week.",
+    "freq_rank": 5900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "stir",
+    "translation": "помішувати",
+    "transcription": "stɜː",
+    "example": "Stir the soup slowly so it doesn't burn.",
+    "freq_rank": 5360,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "chop",
+    "translation": "нарізати, рубати",
+    "transcription": "tʃɒp",
+    "example": "Chop the onions and add them to the pan.",
+    "freq_rank": 5400,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "dentist",
+    "translation": "стоматолог, дантист",
+    "transcription": "ˈdentɪst",
+    "example": "I have an appointment with the dentist on Monday morning.",
+    "freq_rank": 5010,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "mirror",
+    "translation": "дзеркало",
+    "transcription": "ˈmɪrə",
+    "example": "She checked her hair in the mirror before leaving.",
+    "freq_rank": 5025,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "blame",
+    "translation": "звинувачувати, провина",
+    "transcription": "bleɪm",
+    "example": "Don't blame yourself for what happened last night.",
+    "freq_rank": 5040,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "shrug",
+    "translation": "знизувати плечима",
+    "transcription": "ʃrʌɡ",
+    "example": "He just gave a shrug and walked away.",
+    "freq_rank": 5900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "glance",
+    "translation": "кинути погляд, побіжний погляд",
+    "transcription": "ɡlɑːns",
+    "example": "She took a quick glance at her watch.",
+    "freq_rank": 5080,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "stare",
+    "translation": "витріщатися, пильно дивитися",
+    "transcription": "steə",
+    "example": "It is rude to stare at strangers on the bus.",
+    "freq_rank": 5110,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "nod",
+    "translation": "кивати, кивок",
+    "transcription": "nɒd",
+    "example": "He gave a nod to show he agreed.",
+    "freq_rank": 5140,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "towel",
+    "translation": "рушник",
+    "transcription": "ˈtaʊəl",
+    "example": "Can you bring me a clean towel, please?",
+    "freq_rank": 5170,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "bucket",
+    "translation": "відро",
+    "transcription": "ˈbʌkɪt",
+    "example": "He filled a bucket with water to wash the car.",
+    "freq_rank": 5200,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "ladder",
+    "translation": "драбина",
+    "transcription": "ˈlædə",
+    "example": "Hold the ladder while I change the light bulb.",
+    "freq_rank": 5230,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "nephew",
+    "translation": "племінник",
+    "transcription": "ˈnefjuː",
+    "example": "My nephew is coming to stay with us this summer.",
+    "freq_rank": 5260,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "niece",
+    "translation": "племінниця",
+    "transcription": "niːs",
+    "example": "My niece just started school this year.",
+    "freq_rank": 5290,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "widow",
+    "translation": "вдова",
+    "transcription": "ˈwɪdəʊ",
+    "example": "The widow lived alone in a small house by the river.",
+    "freq_rank": 5320,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "bride",
+    "translation": "наречена",
+    "transcription": "braɪd",
+    "example": "The bride arrived at the church in a vintage car.",
+    "freq_rank": 5350,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "coupon",
+    "translation": "купон",
+    "transcription": "ˈkuːpɒn",
+    "example": "I found a coupon for free coffee in my email.",
+    "freq_rank": 5380,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "mug",
+    "translation": "кружка",
+    "transcription": "mʌɡ",
+    "example": "She poured hot tea into her favorite mug.",
+    "freq_rank": 5410,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "dull",
+    "translation": "нудний, тьмяний",
+    "transcription": "dʌl",
+    "example": "The meeting was so dull that I almost fell asleep.",
+    "freq_rank": 5440,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "vague",
+    "translation": "невиразний, нечіткий",
+    "transcription": "veɪɡ",
+    "example": "His answer was vague and did not help us much.",
+    "freq_rank": 5470,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "fragile",
+    "translation": "крихкий, тендітний",
+    "transcription": "ˈfrædʒaɪl",
+    "example": "Be careful with this box, the glasses inside are fragile.",
+    "freq_rank": 5500,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "spacious",
+    "translation": "просторий",
+    "transcription": "ˈspeɪʃəs",
+    "example": "We found a spacious flat close to the metro station.",
+    "freq_rank": 5950,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "tempt",
+    "translation": "спокушати, дражнити",
+    "transcription": "tempt",
+    "example": "The smell of fresh bread tempted me to buy a loaf.",
+    "freq_rank": 5560,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "mumble",
+    "translation": "бурмотіти",
+    "transcription": "ˈmʌmbl",
+    "example": "He mumbled something and left the room quickly.",
+    "freq_rank": 5990,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "scream",
+    "translation": "кричати, верещати",
+    "transcription": "skriːm",
+    "example": "The children scream with joy when they see the sea.",
+    "freq_rank": 5620,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "bakery",
+    "translation": "пекарня",
+    "transcription": "ˈbeɪkəri",
+    "example": "I buy fresh rolls at the bakery on my way to work.",
+    "freq_rank": 5650,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "kidney",
+    "translation": "нирка",
+    "transcription": "ˈkɪdni",
+    "example": "Drinking enough water is good for your kidneys.",
+    "freq_rank": 5680,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "bitter",
+    "translation": "гіркий",
+    "transcription": "ˈbɪtə",
+    "example": "This coffee is too bitter without any sugar.",
+    "freq_rank": 5710,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "crisp",
+    "translation": "хрусткий, свіжий",
+    "transcription": "krɪsp",
+    "example": "We had a walk in the crisp morning air.",
+    "freq_rank": 5740,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "rubbish",
+    "translation": "сміття, нісенітниця",
+    "transcription": "ˈrʌbɪʃ",
+    "example": "Please take the rubbish out before you go to bed.",
+    "freq_rank": 5770,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "cabin",
+    "translation": "каюта, хатина",
+    "transcription": "ˈkæbɪn",
+    "example": "We rented a wooden cabin in the mountains for the weekend.",
+    "freq_rank": 5800,
+    "cefr": "B1",
+    "topic": null
+   }
+  ],
+  "6000-7000": [
+   {
+    "word": "cozy",
+    "translation": "затишний",
+    "transcription": "ˈkəʊzi",
+    "example": "We found a cozy café near the station and stayed for hours.",
+    "freq_rank": 6110,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "lease",
+    "translation": "оренда, договір оренди",
+    "transcription": "liːs",
+    "example": "Our lease ends in June, so we need to find a new place.",
+    "freq_rank": 6170,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "stubborn",
+    "translation": "упертий",
+    "transcription": "ˈstʌbən",
+    "example": "My brother is too stubborn to admit he was wrong.",
+    "freq_rank": 6615,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "vacuum",
+    "translation": "пилосос, пилососити",
+    "transcription": "ˈvækjuːm",
+    "example": "I need to vacuum the living room before guests arrive.",
+    "freq_rank": 6960,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "hesitate",
+    "translation": "вагатися",
+    "transcription": "ˈhezɪteɪt",
+    "example": "Don't hesitate to call me if you need anything.",
+    "freq_rank": 6980,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "get over",
+    "translation": "оговтатися, пережити",
+    "transcription": "ɡet ˈəʊvə",
+    "example": "It took her months to get over the illness.",
+    "freq_rank": 6830,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "ambulance",
+    "translation": "швидка допомога, карета швидкої допомоги",
+    "transcription": "ˈæmbjʊləns",
+    "example": "Someone called an ambulance as soon as the man fell.",
+    "freq_rank": 6020,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "toddler",
+    "translation": "малюк, дитина, що вчиться ходити",
+    "transcription": "ˈtɒdlə",
+    "example": "Her toddler wants to climb every chair in the house.",
+    "freq_rank": 6980,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "inherit",
+    "translation": "успадковувати",
+    "transcription": "ɪnˈherɪt",
+    "example": "She will inherit the old house from her grandmother.",
+    "freq_rank": 6150,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "confess",
+    "translation": "зізнаватися, визнавати",
+    "transcription": "kənˈfes",
+    "example": "I have to confess that I forgot your birthday.",
+    "freq_rank": 6300,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "decent",
+    "translation": "пристойний, порядний, гідний",
+    "transcription": "ˈdiːsnt",
+    "example": "We found a decent restaurant near the station.",
+    "freq_rank": 6050,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "humid",
+    "translation": "вологий (про повітря)",
+    "transcription": "ˈhjuːmɪd",
+    "example": "The summer here is hot and very humid.",
+    "freq_rank": 6900,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "noisy",
+    "translation": "галасливий, шумний",
+    "transcription": "ˈnɔɪzi",
+    "example": "Our new flat is cheaper but a bit noisy at night.",
+    "freq_rank": 6200,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "tender",
+    "translation": "ніжний, м'який (про м'ясо), болючий",
+    "transcription": "ˈtendə",
+    "example": "The chicken was tender and full of flavour.",
+    "freq_rank": 6450,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "bland",
+    "translation": "прісний, несмачний, невиразний",
+    "transcription": "blænd",
+    "example": "The soup was bland, so I added some salt.",
+    "freq_rank": 6950,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "shallow",
+    "translation": "мілкий, поверховий",
+    "transcription": "ˈʃæləʊ",
+    "example": "The children played in the shallow water near the beach.",
+    "freq_rank": 6250,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "greasy",
+    "translation": "жирний, засмальцьований",
+    "transcription": "ˈɡriːsi",
+    "example": "I try to avoid greasy food late in the evening.",
+    "freq_rank": 6990,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "hint",
+    "translation": "натяк, підказка",
+    "transcription": "hɪnt",
+    "example": "Can you give me a hint about the surprise?",
+    "freq_rank": 6100,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "crawl",
+    "translation": "повзти, плазувати",
+    "transcription": "krɔːl",
+    "example": "The baby started to crawl across the living room.",
+    "freq_rank": 6350,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "starve",
+    "translation": "голодувати, помирати з голоду",
+    "transcription": "stɑːv",
+    "example": "I'm starving, so let's order pizza right now.",
+    "freq_rank": 6700,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "soak",
+    "translation": "замочувати, промокати",
+    "transcription": "səʊk",
+    "example": "Soak the dirty pans in hot water for an hour.",
+    "freq_rank": 6800,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "trim",
+    "translation": "підрізати, підстригати",
+    "transcription": "trɪm",
+    "example": "He trims his beard every Sunday morning.",
+    "freq_rank": 6650,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "wrap",
+    "translation": "загортати, обгортати",
+    "transcription": "ræp",
+    "example": "Please wrap the gift in blue paper.",
+    "freq_rank": 6080,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "scrape",
+    "translation": "шкребти, обдирати",
+    "transcription": "skreɪp",
+    "example": "I had to scrape the ice off the car window.",
+    "freq_rank": 6850,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "honeymoon",
+    "translation": "медовий місяць",
+    "transcription": "ˈhʌnimuːn",
+    "example": "They spent their honeymoon on a quiet island in Greece.",
+    "freq_rank": 6920,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "bachelor",
+    "translation": "холостяк, бакалавр",
+    "transcription": "ˈbætʃələ",
+    "example": "My uncle stayed a bachelor until he was fifty.",
+    "freq_rank": 6400,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "lobby",
+    "translation": "вестибюль, хол",
+    "transcription": "ˈlɒbi",
+    "example": "I'll wait for you in the hotel lobby.",
+    "freq_rank": 6280,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "porch",
+    "translation": "ґанок, веранда",
+    "transcription": "pɔːtʃ",
+    "example": "We sat on the porch and watched the rain.",
+    "freq_rank": 6600,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "elevator",
+    "translation": "ліфт",
+    "transcription": "ˈelɪveɪtə",
+    "example": "The elevator is broken, so we have to take the stairs.",
+    "freq_rank": 6180,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "hallway",
+    "translation": "коридор, передпокій",
+    "transcription": "ˈhɔːlweɪ",
+    "example": "Leave your wet shoes in the hallway, please.",
+    "freq_rank": 6750,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "stove",
+    "translation": "плита, піч",
+    "transcription": "stəʊv",
+    "example": "Don't leave the pan on the stove when you go out.",
+    "freq_rank": 6500,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "sofa",
+    "translation": "диван",
+    "transcription": "ˈsəʊfə",
+    "example": "After work he just lay on the sofa and watched TV.",
+    "freq_rank": 6320,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "vase",
+    "translation": "ваза",
+    "transcription": "vɑːz",
+    "example": "She put the fresh flowers in a glass vase.",
+    "freq_rank": 6870,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "bouquet",
+    "translation": "букет",
+    "transcription": "buːˈkeɪ",
+    "example": "He brought her a bouquet of red roses.",
+    "freq_rank": 6960,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "stitch",
+    "translation": "стібок, шов, зашивати",
+    "transcription": "stɪtʃ",
+    "example": "The doctor put three stitches in his hand.",
+    "freq_rank": 6550,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "mow",
+    "translation": "косити (траву)",
+    "transcription": "məʊ",
+    "example": "I need to mow the grass before it rains.",
+    "freq_rank": 6990,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "dust",
+    "translation": "пил, витирати пил",
+    "transcription": "dʌst",
+    "example": "There was thick dust on every shelf in the old room.",
+    "freq_rank": 6030,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "faint",
+    "translation": "слабкий, ледь помітний, непритомніти",
+    "transcription": "feɪnt",
+    "example": "I heard a faint noise coming from the basement.",
+    "freq_rank": 6420,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "chew",
+    "translation": "жувати",
+    "transcription": "tʃuː",
+    "example": "The dog likes to chew old shoes.",
+    "freq_rank": 6620,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "thrill",
+    "translation": "гострі відчуття, хвилювання",
+    "transcription": "θrɪl",
+    "example": "Riding the roller coaster gave her a real thrill.",
+    "freq_rank": 6470,
+    "cefr": "B2",
+    "topic": null
+   }
+  ],
+  "7000-8000": [
+   {
+    "word": "ointment",
+    "translation": "мазь",
+    "transcription": "ˈɔɪntmənt",
+    "example": "The pharmacist recommended an ointment for the rash on his arm.",
+    "freq_rank": 7350,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "hostel",
+    "translation": "хостел",
+    "transcription": "ˈhɒstl",
+    "example": "We stayed in a cheap hostel near the central station.",
+    "freq_rank": 7550,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "awkward",
+    "translation": "незручний, ніяковий",
+    "transcription": "ˈɔːkwəd",
+    "example": "There was an awkward silence after his question.",
+    "freq_rank": 7080,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "apologise",
+    "translation": "перепрошувати, вибачатися",
+    "transcription": "əˈpɒlədʒaɪz",
+    "example": "I want to apologise for being late to the meeting.",
+    "freq_rank": 7210,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "deposit",
+    "translation": "депозит, завдаток, вносити",
+    "transcription": "dɪˈpɒzɪt",
+    "example": "We paid a deposit to reserve the apartment for June.",
+    "freq_rank": 7560,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "budget",
+    "translation": "бюджет",
+    "transcription": "ˈbʌdʒɪt",
+    "example": "We need to stick to a tight budget this month.",
+    "freq_rank": 7620,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "stroll",
+    "translation": "прогулянка, неквапливо гуляти",
+    "transcription": "strəʊl",
+    "example": "We went for a stroll along the river after dinner.",
+    "freq_rank": 7760,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "laundry",
+    "translation": "прання, білизна",
+    "transcription": "ˈlɔːndri",
+    "example": "I usually do the laundry on Sunday evening.",
+    "freq_rank": 7880,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "plumber",
+    "translation": "сантехнік",
+    "transcription": "ˈplʌmə",
+    "example": "We had to call a plumber to fix the leaking pipe.",
+    "freq_rank": 7920,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "drop off",
+    "translation": "підвезти, залишити",
+    "transcription": "drɒp ɒf",
+    "example": "Can you drop off the kids at school tomorrow morning?",
+    "freq_rank": 7990,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "umbrella",
+    "translation": "парасолька, парасоля",
+    "transcription": "ʌmˈbrelə",
+    "example": "Take an umbrella with you, it looks like rain again.",
+    "freq_rank": 7020,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "garlic",
+    "translation": "часник",
+    "transcription": "ˈɡɑːlɪk",
+    "example": "I fried the garlic in olive oil before adding the tomatoes.",
+    "freq_rank": 7050,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "onion",
+    "translation": "цибуля",
+    "transcription": "ˈʌnjən",
+    "example": "She chopped an onion and put it in the soup.",
+    "freq_rank": 7080,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "pepper",
+    "translation": "перець",
+    "transcription": "ˈpepə",
+    "example": "Add a little salt and pepper to the sauce.",
+    "freq_rank": 7110,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "snack",
+    "translation": "перекус, закуска",
+    "transcription": "snæk",
+    "example": "I usually have a quick snack around four o'clock.",
+    "freq_rank": 7140,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "cereal",
+    "translation": "пластівці, злаки",
+    "transcription": "ˈsɪəriəl",
+    "example": "He eats a bowl of cereal with milk every morning.",
+    "freq_rank": 7170,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "scarf",
+    "translation": "шарф",
+    "transcription": "skɑːf",
+    "example": "She wrapped a warm scarf around her neck before going out.",
+    "freq_rank": 7200,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "perfume",
+    "translation": "парфуми, запах",
+    "transcription": "ˈpɜːfjuːm",
+    "example": "She bought a bottle of perfume as a gift for her mother.",
+    "freq_rank": 7230,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "tissue",
+    "translation": "паперова серветка, тканина",
+    "transcription": "ˈtɪʃuː",
+    "example": "Could you pass me a tissue? I think I'm catching a cold.",
+    "freq_rank": 7260,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "doorway",
+    "translation": "дверний отвір, вхід",
+    "transcription": "ˈdɔːweɪ",
+    "example": "He stood in the doorway and watched the kids play.",
+    "freq_rank": 7290,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "scratch",
+    "translation": "дряпати, чухати, подряпина",
+    "transcription": "skrætʃ",
+    "example": "The cat likes to scratch the sofa when nobody is looking.",
+    "freq_rank": 7320,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "sweep",
+    "translation": "підмітати, змітати",
+    "transcription": "swiːp",
+    "example": "I need to sweep the floor before the guests arrive.",
+    "freq_rank": 7350,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "rinse",
+    "translation": "полоскати, ополіскувати",
+    "transcription": "rɪns",
+    "example": "Rinse the vegetables under cold water before cooking them.",
+    "freq_rank": 7380,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "wipe",
+    "translation": "витирати, протирати",
+    "transcription": "waɪp",
+    "example": "Please wipe the table after dinner.",
+    "freq_rank": 7410,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "peel",
+    "translation": "чистити, обчищати, шкірка",
+    "transcription": "piːl",
+    "example": "Can you peel the potatoes while I set the table?",
+    "freq_rank": 7440,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "dip",
+    "translation": "занурювати, макати",
+    "transcription": "dɪp",
+    "example": "She likes to dip her bread in olive oil.",
+    "freq_rank": 7470,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "break up",
+    "translation": "розійтися, розірвати стосунки",
+    "transcription": "breɪk ʌp",
+    "example": "They decided to break up after three years together.",
+    "freq_rank": 7500,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "calm down",
+    "translation": "заспокоїтися, заспокоїти",
+    "transcription": "kɑːm daʊn",
+    "example": "Please calm down and tell me exactly what happened.",
+    "freq_rank": 7530,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "throw away",
+    "translation": "викидати, пропускати",
+    "transcription": "θrəʊ əˈweɪ",
+    "example": "Don't throw away those boxes, we might need them later.",
+    "freq_rank": 7560,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "clean up",
+    "translation": "прибирати, наводити лад",
+    "transcription": "kliːn ʌp",
+    "example": "We have to clean up the flat before my parents visit.",
+    "freq_rank": 7590,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "dress up",
+    "translation": "вбиратися, наряджатися",
+    "transcription": "dres ʌp",
+    "example": "You don't have to dress up for the party, it's casual.",
+    "freq_rank": 7620,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "hang out",
+    "translation": "проводити час, тусуватися",
+    "transcription": "hæŋ aʊt",
+    "example": "We often hang out at a small café near my office.",
+    "freq_rank": 7650,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "mess up",
+    "translation": "зіпсувати, облажатися",
+    "transcription": "mes ʌp",
+    "example": "I messed up the order, so I had to call the shop.",
+    "freq_rank": 7680,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "settle in",
+    "translation": "обжитися, звикнути до нового місця",
+    "transcription": "ˈsetl ɪn",
+    "example": "It took us a few weeks to settle in after the move.",
+    "freq_rank": 7710,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "pay off",
+    "translation": "виплатити, окупитися",
+    "transcription": "peɪ ɒf",
+    "example": "All her hard work finally started to pay off.",
+    "freq_rank": 7740,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "shiny",
+    "translation": "блискучий, сяючий",
+    "transcription": "ˈʃaɪni",
+    "example": "He bought a shiny new bike for his daughter.",
+    "freq_rank": 7770,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "gloomy",
+    "translation": "похмурий, сумний",
+    "transcription": "ˈɡluːmi",
+    "example": "It was a gloomy day, so we stayed at home.",
+    "freq_rank": 7800,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "tasty",
+    "translation": "смачний",
+    "transcription": "ˈteɪsti",
+    "example": "The soup was simple but really tasty.",
+    "freq_rank": 7830,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "sticky",
+    "translation": "липкий",
+    "transcription": "ˈstɪki",
+    "example": "The table was sticky because someone had spilled juice on it.",
+    "freq_rank": 7860,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "chilly",
+    "translation": "прохолодний, зябкий",
+    "transcription": "ˈtʃɪli",
+    "example": "It gets chilly in the evenings, so bring a jacket.",
+    "freq_rank": 7890,
+    "cefr": "B1",
+    "topic": null
+   }
+  ],
+  "8000-9000": [
+   {
+    "word": "itinerary",
+    "translation": "маршрут, план подорожі",
+    "transcription": "aɪˈtɪnərəri",
+    "example": "Our itinerary includes two days in Prague.",
+    "freq_rank": 8460,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "roundabout",
+    "translation": "кругова розв'язка",
+    "transcription": "ˈraʊndəbaʊt",
+    "example": "Take the second exit at the roundabout.",
+    "freq_rank": 8550,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "apologize",
+    "translation": "перепрошувати, вибачатися",
+    "transcription": "əˈpɒlədʒaɪz",
+    "example": "I want to apologize for being late again.",
+    "freq_rank": 8760,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "carpet",
+    "translation": "килим, ковролін",
+    "transcription": "ˈkɑːpɪt",
+    "example": "We need to clean the carpet in the living room.",
+    "freq_rank": 8975,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "leak",
+    "translation": "протікати, протікання",
+    "transcription": "liːk",
+    "example": "There is a leak under the kitchen sink.",
+    "freq_rank": 8985,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "set up",
+    "translation": "налаштовувати, організовувати",
+    "transcription": "set ʌp",
+    "example": "They set up a small business selling handmade soap.",
+    "freq_rank": 8680,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "parcel",
+    "translation": "посилка, пакунок",
+    "transcription": "ˈpɑːsl",
+    "example": "A parcel arrived this morning while I was out.",
+    "freq_rank": 8120,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "courier",
+    "translation": "кур'єр",
+    "transcription": "ˈkʊriə",
+    "example": "The courier left the package with our neighbour downstairs.",
+    "freq_rank": 8650,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "vaccine",
+    "translation": "вакцина",
+    "transcription": "ˈvæksiːn",
+    "example": "She got the flu vaccine before the winter started.",
+    "freq_rank": 8300,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "nausea",
+    "translation": "нудота",
+    "transcription": "ˈnɔːziə",
+    "example": "The boat ride gave him a strong feeling of nausea.",
+    "freq_rank": 8890,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "insomnia",
+    "translation": "безсоння",
+    "transcription": "ɪnˈsɒmniə",
+    "example": "He has suffered from insomnia since he changed jobs.",
+    "freq_rank": 8820,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "grudge",
+    "translation": "образа, злопам'ятність",
+    "transcription": "ɡrʌdʒ",
+    "example": "She still holds a grudge against her former roommate.",
+    "freq_rank": 8760,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "remorse",
+    "translation": "докори сумління, каяття",
+    "transcription": "rɪˈmɔːs",
+    "example": "He felt deep remorse after shouting at his sister.",
+    "freq_rank": 8940,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "sorrow",
+    "translation": "смуток, печаль",
+    "transcription": "ˈsɒrəʊ",
+    "example": "Her face was full of sorrow when she heard the news.",
+    "freq_rank": 8210,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "hostile",
+    "translation": "ворожий, недружній",
+    "transcription": "ˈhɒstaɪl",
+    "example": "The crowd was hostile toward the new manager at first.",
+    "freq_rank": 8350,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "resort",
+    "translation": "курорт",
+    "transcription": "rɪˈzɔːt",
+    "example": "We booked a week at a small seaside resort.",
+    "freq_rank": 8040,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "sightseeing",
+    "translation": "огляд визначних місць",
+    "transcription": "ˈsaɪtsiːɪŋ",
+    "example": "We spent the afternoon sightseeing in the old town.",
+    "freq_rank": 8900,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "turbulence",
+    "translation": "турбулентність, нестабільність",
+    "transcription": "ˈtɜːbjʊləns",
+    "example": "The plane shook for ten minutes because of turbulence.",
+    "freq_rank": 8880,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "patio",
+    "translation": "патіо, внутрішній дворик",
+    "transcription": "ˈpætiəʊ",
+    "example": "We had dinner on the patio because the evening was warm.",
+    "freq_rank": 8670,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "pantry",
+    "translation": "комора, шафа для продуктів",
+    "transcription": "ˈpæntri",
+    "example": "There is some pasta in the pantry if you are hungry.",
+    "freq_rank": 8990,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "faucet",
+    "translation": "водопровідний кран",
+    "transcription": "ˈfɔːsɪt",
+    "example": "Please turn off the faucet when you brush your teeth.",
+    "freq_rank": 8760,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "dishwasher",
+    "translation": "посудомийна машина",
+    "transcription": "ˈdɪʃwɒʃə",
+    "example": "I loaded the dishwasher before going to bed.",
+    "freq_rank": 8520,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "microwave",
+    "translation": "мікрохвильова піч",
+    "transcription": "ˈmaɪkrəweɪv",
+    "example": "Heat the soup in the microwave for two minutes.",
+    "freq_rank": 8150,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "clutter",
+    "translation": "безлад, захаращеність",
+    "transcription": "ˈklʌtə",
+    "example": "There was too much clutter on his desk to work.",
+    "freq_rank": 8940,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "chore",
+    "translation": "хатня робота, обов'язок",
+    "transcription": "tʃɔː",
+    "example": "Washing dishes is my least favourite household chore.",
+    "freq_rank": 8700,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "errand",
+    "translation": "дрібне доручення",
+    "transcription": "ˈerənd",
+    "example": "I have a few errands to run after work today.",
+    "freq_rank": 8800,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "skyscraper",
+    "translation": "хмарочос",
+    "transcription": "ˈskaɪskreɪpə",
+    "example": "The city centre is full of glass skyscrapers.",
+    "freq_rank": 8960,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "alley",
+    "translation": "провулок, алея",
+    "transcription": "ˈæli",
+    "example": "A cat was sleeping in the alley behind the restaurant.",
+    "freq_rank": 8350,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "tram",
+    "translation": "трамвай",
+    "transcription": "træm",
+    "example": "I take the tram to the city centre every morning.",
+    "freq_rank": 8940,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "hammock",
+    "translation": "гамак",
+    "transcription": "ˈhæmək",
+    "example": "He read a book in a hammock between two trees.",
+    "freq_rank": 8990,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "acquaintance",
+    "translation": "знайомий, знайомство",
+    "transcription": "əˈkweɪntəns",
+    "example": "She is just an acquaintance from my old gym.",
+    "freq_rank": 8450,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "affection",
+    "translation": "прихильність, ніжність",
+    "transcription": "əˈfekʃn",
+    "example": "He showed his affection with small, thoughtful gifts.",
+    "freq_rank": 8010,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "bankrupt",
+    "translation": "банкрут, збанкрутілий",
+    "transcription": "ˈbæŋkrʌpt",
+    "example": "The small bakery went bankrupt after the road was closed.",
+    "freq_rank": 8240,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "cuisine",
+    "translation": "кухня (страви), кулінарія",
+    "transcription": "kwɪˈziːn",
+    "example": "We love trying local cuisine when we travel.",
+    "freq_rank": 8180,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "vendor",
+    "translation": "продавець, торговець",
+    "transcription": "ˈvendə",
+    "example": "A street vendor sold us fresh fruit near the station.",
+    "freq_rank": 8420,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "lounge",
+    "translation": "вітальня, зал очікування",
+    "transcription": "laʊndʒ",
+    "example": "We waited in the airport lounge for our connection.",
+    "freq_rank": 8600,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "hazard",
+    "translation": "небезпека, ризик",
+    "transcription": "ˈhæzəd",
+    "example": "Wet floors are a safety hazard in the shop.",
+    "freq_rank": 8130,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "warranty",
+    "translation": "гарантія (на товар)",
+    "transcription": "ˈwɒrənti",
+    "example": "The washing machine still has a two-year warranty.",
+    "freq_rank": 8710,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "boutique",
+    "translation": "бутик",
+    "transcription": "buːˈtiːk",
+    "example": "She found a lovely dress in a small boutique.",
+    "freq_rank": 8830,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "inquiry",
+    "translation": "запит, розслідування",
+    "transcription": "ɪnˈkwaɪri",
+    "example": "I sent an inquiry about the apartment yesterday.",
+    "freq_rank": 8050,
+    "cefr": "B2",
+    "topic": null
+   }
+  ],
+  "9000-10000": [
+   {
+    "word": "drizzle",
+    "translation": "мжичка, дрібний дощ",
+    "transcription": "ˈdrɪzəl",
+    "example": "A light drizzle fell on the city all morning.",
+    "freq_rank": 9005,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "cramp",
+    "translation": "судома",
+    "transcription": "kræmp",
+    "example": "I woke up with a painful cramp in my leg.",
+    "freq_rank": 9050,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "nostalgia",
+    "translation": "ностальгія",
+    "transcription": "nɒˈstældʒə",
+    "example": "Old photos filled her with nostalgia for her childhood.",
+    "freq_rank": 9110,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "sidewalk",
+    "translation": "тротуар",
+    "transcription": "ˈsaɪdwɔːk",
+    "example": "Children were drawing with chalk on the sidewalk.",
+    "freq_rank": 9125,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "grumpy",
+    "translation": "буркотливий, похмурий",
+    "transcription": "ˈɡrʌmpi",
+    "example": "My dad is always grumpy before his morning coffee.",
+    "freq_rank": 9290,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "overdraft",
+    "translation": "овердрафт",
+    "transcription": "ˈəʊvədrɑːft",
+    "example": "I'm in overdraft again because of the car repair.",
+    "freq_rank": 9320,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "swollen",
+    "translation": "опухлий",
+    "transcription": "ˈswəʊlən",
+    "example": "After the fall, her ankle was badly swollen.",
+    "freq_rank": 9335,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "thrift",
+    "translation": "ощадливість",
+    "transcription": "θrɪft",
+    "example": "Her thrift helped the family save money for years.",
+    "freq_rank": 9350,
+    "cefr": "C2",
+    "topic": null
+   },
+   {
+    "word": "carpenter",
+    "translation": "тесля, столяр",
+    "transcription": "ˈkɑːpəntə",
+    "example": "We hired a carpenter to build shelves in the hallway.",
+    "freq_rank": 9380,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "sulk",
+    "translation": "дутися, ображено мовчати",
+    "transcription": "sʌlk",
+    "example": "He started to sulk when we chose another restaurant.",
+    "freq_rank": 9395,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "pharmacist",
+    "translation": "фармацевт, аптекар",
+    "transcription": "ˈfɑːməsɪst",
+    "example": "The pharmacist explained how to take the tablets.",
+    "freq_rank": 9410,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "detour",
+    "translation": "об'їзд, гак",
+    "transcription": "ˈdiːtʊə",
+    "example": "We made a detour to see the lake on the way.",
+    "freq_rank": 9425,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "clumsy",
+    "translation": "незграбний",
+    "transcription": "ˈklʌmzi",
+    "example": "I'm so clumsy that I spilled coffee on my shirt again.",
+    "freq_rank": 9440,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "rent out",
+    "translation": "здавати в оренду",
+    "transcription": "rent aʊt",
+    "example": "They decided to rent out their spare room to a student.",
+    "freq_rank": 9455,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "wardrobe",
+    "translation": "гардероб, шафа для одягу",
+    "transcription": "ˈwɔːdrəʊb",
+    "example": "I need to update my wardrobe before winter comes.",
+    "freq_rank": 9485,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "queue",
+    "translation": "черга, стояти в черзі",
+    "transcription": "kjuː",
+    "example": "There was a long queue outside the bakery this morning.",
+    "freq_rank": 9500,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "shiver",
+    "translation": "тремтіти, дрижати",
+    "transcription": "ˈʃɪvə",
+    "example": "She began to shiver in the cold evening wind.",
+    "freq_rank": 9560,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "stain",
+    "translation": "пляма, плямувати",
+    "transcription": "steɪn",
+    "example": "I can't get this wine stain out of the carpet.",
+    "freq_rank": 9860,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "cheapskate",
+    "translation": "скнара",
+    "transcription": "ˈtʃiːpskeɪt",
+    "example": "Don't be such a cheapskate and leave a proper tip.",
+    "freq_rank": 9950,
+    "cefr": "C2",
+    "topic": null
+   },
+   {
+    "word": "nightmare",
+    "translation": "кошмар, жахіття",
+    "transcription": "ˈnaɪtmeə",
+    "example": "I had a terrible nightmare and woke up at three.",
+    "freq_rank": 9020,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "blush",
+    "translation": "червоніти, рум'янець",
+    "transcription": "blʌʃ",
+    "example": "She started to blush when everyone looked at her.",
+    "freq_rank": 9050,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "sew",
+    "translation": "шити",
+    "transcription": "səʊ",
+    "example": "My grandmother taught me how to sew a button.",
+    "freq_rank": 9080,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "knit",
+    "translation": "в'язати",
+    "transcription": "nɪt",
+    "example": "She likes to knit warm socks for the winter.",
+    "freq_rank": 9110,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "kettle",
+    "translation": "чайник",
+    "transcription": "ˈketl",
+    "example": "Put the kettle on and I will make some tea.",
+    "freq_rank": 9140,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "freezer",
+    "translation": "морозильна камера",
+    "transcription": "ˈfriːzə",
+    "example": "There is some ice cream in the freezer.",
+    "freq_rank": 9170,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "sauce",
+    "translation": "соус",
+    "transcription": "sɔːs",
+    "example": "He added a spicy sauce to the pasta.",
+    "freq_rank": 9200,
+    "cefr": "A2",
+    "topic": null
+   },
+   {
+    "word": "frown",
+    "translation": "хмуритися, насуплений погляд",
+    "transcription": "fraʊn",
+    "example": "He read the message and began to frown.",
+    "freq_rank": 9230,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "yawn",
+    "translation": "позіхати, позіхання",
+    "transcription": "jɔːn",
+    "example": "I tried not to yawn during the long meeting.",
+    "freq_rank": 9260,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "dread",
+    "translation": "жахатися, страх",
+    "transcription": "dred",
+    "example": "I dread going to the dentist every year.",
+    "freq_rank": 9290,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "bribe",
+    "translation": "хабар, підкуповувати",
+    "transcription": "braɪb",
+    "example": "The officer refused to take the bribe.",
+    "freq_rank": 9320,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "nap",
+    "translation": "короткий сон, дрімати",
+    "transcription": "næp",
+    "example": "I always take a short nap after lunch.",
+    "freq_rank": 9350,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "snore",
+    "translation": "хропіти",
+    "transcription": "snɔː",
+    "example": "My brother can't sleep because his roommate loves to snore.",
+    "freq_rank": 9380,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "fuss",
+    "translation": "метушня, галас",
+    "transcription": "fʌs",
+    "example": "Please don't make a fuss about the small mistake.",
+    "freq_rank": 9440,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "subway",
+    "translation": "метро",
+    "transcription": "ˈsʌbweɪ",
+    "example": "I take the subway to work every morning.",
+    "freq_rank": 9470,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "detergent",
+    "translation": "мийний засіб, пральний порошок",
+    "transcription": "dɪˈtɜːdʒənt",
+    "example": "We ran out of laundry detergent yesterday.",
+    "freq_rank": 9500,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "lipstick",
+    "translation": "губна помада",
+    "transcription": "ˈlɪpstɪk",
+    "example": "She bought a new red lipstick at the mall.",
+    "freq_rank": 9530,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "haircut",
+    "translation": "стрижка",
+    "transcription": "ˈheəkʌt",
+    "example": "I need a haircut before my friend's party.",
+    "freq_rank": 9560,
+    "cefr": "B1",
+    "topic": null
+   },
+   {
+    "word": "weary",
+    "translation": "втомлений, виснажений",
+    "transcription": "ˈwɪəri",
+    "example": "The weary travelers finally reached the small town.",
+    "freq_rank": 9590,
+    "cefr": "C1",
+    "topic": null
+   },
+   {
+    "word": "cramped",
+    "translation": "тісний",
+    "transcription": "kræmpt",
+    "example": "Our first flat was small and cramped.",
+    "freq_rank": 9620,
+    "cefr": "B2",
+    "topic": null
+   },
+   {
+    "word": "bonus",
+    "translation": "премія, бонус",
+    "transcription": "ˈbəʊnəs",
+    "example": "She got a bonus at the end of the year.",
+    "freq_rank": 9650,
+    "cefr": "B1",
+    "topic": null
+   }
+  ]
+ }
+}

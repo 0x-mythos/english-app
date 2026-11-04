@@ -16,7 +16,6 @@ type Profile = {
 type Me = { user: { id: string; first_name: string | null }; due: number; profile: Profile | null };
 
 const sections = [
-  { title: "Картки", note: "Слова в реченнях, повтор за FSRS — тоді, коли ти от-от забудеш." },
   { title: "Розмова з AI", note: "Співбесіда, стендап, small talk. 1–2 точкові виправлення за раз." },
   { title: "Читання", note: "Тексти трохи вище твого рівня, тап по слову — і воно в картках." },
 ];
@@ -52,7 +51,7 @@ export default function Home() {
               ? me.due > 0
                 ? `На сьогодні ${me.due} карток на повтор.`
                 : profile
-                  ? "Профіль готовий. Картки з'являться на наступному етапі."
+                  ? "Нові слова на сьогодні вже чекають у картках."
                   : "Почнімо з короткого тесту — він покаже, з чого тобі варто стартувати."
               : " ")}
         </p>
@@ -90,6 +89,13 @@ export default function Home() {
             </p>
           )}
         </section>
+      )}
+
+      {profile && (
+        <Link href="/learn" className="flex flex-col gap-1 rounded-2xl bg-accent px-4 py-4 text-accent-fg">
+          <span className="text-[17px] font-medium">{me && me.due > 0 ? `Повторити ${me.due} →` : "Картки →"}</span>
+          <span className="text-[14px] leading-snug opacity-85">Слова в реченнях, повтор за FSRS — тоді, коли ти от-от забудеш.</span>
+        </Link>
       )}
 
       <section className="flex flex-col divide-y divide-[color:var(--muted)]/15 overflow-hidden rounded-2xl bg-surface">
