@@ -8,11 +8,11 @@ The interface is in Ukrainian, because that is who it is for. The content focuse
 
 ## What it does
 
-**Placement test.** Vocabulary size (a yes/no test with pseudowords to catch guessing), adaptive grammar, reading, and a writing sample that Claude assesses. The result sets where everything else starts.
+**Placement test.** Vocabulary size (a yes/no test with pseudowords to catch guessing), adaptive grammar, reading, and a writing sample assessed by an LLM. The result sets where everything else starts.
 
-**Flashcards with FSRS.** 679 words across everyday and IT topics, scheduled with the FSRS algorithm. Every review is logged, so the scheduler can be tuned on real data later. Add your own word from the app or by messaging the bot, and Claude completes the card.
+**Flashcards with FSRS.** 679 words across everyday and IT topics, scheduled with the FSRS algorithm. Every review is logged, so the scheduler can be tuned on real data later. Add your own word from the app or by messaging the bot, and an LLM completes the card.
 
-**AI conversation.** Five scenarios, including a job interview, standup and code review. Claude replies in character and corrects at most two mistakes per message, so the conversation stays a conversation. Corrections feed the mistake log, and useful words become cards in one tap.
+**AI conversation.** Five scenarios, including a job interview, standup and code review. The LLM replies in character and corrects at most two mistakes per message, so the conversation stays a conversation. Corrections feed the mistake log, and useful words become cards in one tap.
 
 **Grammar from your own mistakes.** 420 exercises across 22 topics. Topics are prioritised by your test results and recent mistakes, and your own corrected sentences come back as exercises.
 
@@ -25,16 +25,16 @@ The interface is in Ukrainian, because that is who it is for. The content focuse
 ## Engineering notes
 
 - **The server does the scoring.** Test scores and answer checks run on the server from raw answers. The client never receives correct answers, and word IDs in the vocabulary test are hashes, so they can't reveal which words are fake.
-- **Telegram login is verified.** Each request carries Telegram `initData`, checked by HMAC. Bot, database and Anthropic keys stay on the server.
-- **Private by default.** Only Telegram IDs in `ALLOWED_TELEGRAM_IDS` get in. Everyone else is refused before the database or Claude, and an empty list in production refuses everyone.
-- **AI output is treated as untrusted.** Claude responds through a JSON schema, and the parser drops any correction that quotes text the user didn't write. Conversation, own-word and writing-assessment calls have per-user limits.
+- **Telegram login is verified.** Each request carries Telegram `initData`, checked by HMAC. Bot, database and LLM API keys stay on the server.
+- **Private by default.** Only Telegram IDs in `ALLOWED_TELEGRAM_IDS` get in. Everyone else is refused before the database or the LLM, and an empty list in production refuses everyone.
+- **AI output is treated as untrusted.** The LLM responds through a JSON schema, and the parser drops any correction that quotes text the user didn't write. Conversation, own-word and writing-assessment calls have per-user limits.
 - **AI is used only where it adds value at runtime.** Word sets, exercises and texts are generated once and stored as JSON files, with schema and coverage tests. Runtime calls are limited to conversation, the writing assessment and completing your own words.
 - **Pure logic, tested.** FSRS sessions, placement scoring, drill selection and tokenising are plain functions in `src/lib`, covered by 198 Vitest tests.
 - **Evidence-based by design.** Personalisation uses measured level, weak skills, goals and time, not "learning styles". There are no hearts, leagues or paywalls, and the streak is forgiving, with freezes.
 
 ## Stack
 
-Next.js 15 (App Router) · TypeScript · Tailwind CSS 4 · Supabase (Postgres) · grammY · ts-fsrs · Claude API · Vitest
+Next.js 15 (App Router) · TypeScript · Tailwind CSS 4 · Supabase (Postgres) · grammY · ts-fsrs · LLM API · Vitest
 
 ## Run it locally
 
