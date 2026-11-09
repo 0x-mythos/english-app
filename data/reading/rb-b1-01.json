@@ -1,0 +1,41 @@
+{
+  "id": "rb-b1-01",
+  "level": "B1",
+  "topic": "code_review",
+  "title": "My first code review",
+  "text": "Last week I opened my first pull request at my new job. It was a small change: a new endpoint that returns a list of orders. I was proud of it, so I sent the link to the team and waited.\n\nAn hour later, Marta left a comment. She asked me to rename a variable, because \"data\" says nothing. Then she pointed out that I forgot to handle an empty list. I felt a bit embarrassed, but her tone was friendly. She even added a small tip about how to write a better test.\n\nAt first I wanted to defend my code. Then I read the comments again and understood that she was right. I fixed everything in twenty minutes and pushed the changes.\n\nIn the evening, the pull request was approved. My lead told me that nobody writes perfect code, and a review is not an exam. It is just another pair of eyes. Now I try to review other people's code the same way: I always say one good thing before I ask for a change.",
+  "glossary": [
+    { "lemma": "endpoint", "forms": ["endpoint"], "translation": "ендпоінт, точка доступу API", "transcription": "/ˈendpɔɪnt/" },
+    { "lemma": "variable", "forms": ["variable"], "translation": "змінна", "transcription": "/ˈveəriəbl/" },
+    { "lemma": "rename", "forms": ["rename"], "translation": "перейменувати", "transcription": "/ˌriːˈneɪm/" },
+    { "lemma": "embarrassed", "forms": ["embarrassed"], "translation": "присоромлений, збентежений", "transcription": "/ɪmˈbærəst/" },
+    { "lemma": "tip", "forms": ["tip"], "translation": "порада", "transcription": "/tɪp/" },
+    { "lemma": "approve", "forms": ["approved"], "translation": "схвалювати", "transcription": "/əˈpruːv/" },
+    { "lemma": "defend", "forms": ["defend"], "translation": "захищати", "transcription": "/dɪˈfend/" },
+    { "lemma": "handle", "forms": ["handle"], "translation": "обробляти, впоратися з", "transcription": "/ˈhændl/" },
+    { "lemma": "empty", "forms": ["empty"], "translation": "порожній", "transcription": "/ˈempti/" },
+    { "lemma": "push", "forms": ["pushed"], "translation": "відправити (зміни) у репозиторій", "transcription": "/pʊʃ/" },
+    { "lemma": "comment", "forms": ["comment", "comments"], "translation": "коментар", "transcription": "/ˈkɒment/" },
+    { "lemma": "tone", "forms": ["tone"], "translation": "тон", "transcription": "/təʊn/" }
+  ],
+  "questions": [
+    {
+      "prompt": "How did the reviewer, Marta, behave?",
+      "options": ["She was rude and refused to help.", "She gave useful comments in a friendly way.", "She rewrote all the code herself.", "She ignored the pull request."],
+      "answer": 1,
+      "explanation": "Марта залишила корисні коментарі та дала пораду щодо тесту, і її тон був дружнім."
+    },
+    {
+      "prompt": "What did the author understand after reading the comments again?",
+      "options": ["The reviewer was wrong.", "A review is a kind of exam.", "The reviewer's comments were right.", "He should leave the team."],
+      "answer": 2,
+      "explanation": "Спочатку автор хотів захищати код, але потім зрозумів, що Марта має рацію."
+    },
+    {
+      "prompt": "What is the main idea of the text?",
+      "options": ["A review is a chance to improve, not a test.", "Pull requests should never be small.", "Leads must write all the tests.", "Comments are usually unfair."],
+      "answer": 0,
+      "explanation": "Лід каже, що рев'ю - це не іспит, а ще одна пара очей."
+    }
+  ]
+}

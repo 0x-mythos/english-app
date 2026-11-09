@@ -3,6 +3,7 @@ import { db } from "@/lib/supabase";
 import { parseTime } from "@/lib/srs/reminders";
 import { normalizeOwnWord } from "@/lib/own-word";
 import { addOwnWord } from "@/lib/own-word-server";
+import { OWN_WORD_LIMIT_MESSAGE } from "@/lib/own-word-limit";
 
 const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN!);
 let appUrl = "";
@@ -66,6 +67,7 @@ bot.on("message:text", async (ctx) => {
     console.error("bot own word failed", e);
     return { status: "ai_error" as const };
   });
+  if (r.status === "limit") return ctx.reply(OWN_WORD_LIMIT_MESSAGE);
   if (r.status === "not_a_word") return ctx.reply(`Не знайшов такого англійського слова: «${word.trim()}». Перевір написання?`);
   if (!("card" in r)) return ctx.reply("Не вийшло додати, спробуй ще раз трохи згодом.");
 

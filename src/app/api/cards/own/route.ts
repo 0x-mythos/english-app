@@ -11,7 +11,7 @@ export async function POST(req: Request) {
   try {
     const r = await addOwnWord(user.id, body.word, body.context);
     if (r.status === "added" || r.status === "exists") return NextResponse.json(r);
-    return NextResponse.json({ status: r.status }, { status: r.status === "ai_error" ? 502 : 422 });
+    return NextResponse.json({ status: r.status }, { status: r.status === "ai_error" ? 502 : r.status === "limit" ? 429 : 422 });
   } catch (e) {
     console.error("own word failed", e);
     return NextResponse.json({ error: "db" }, { status: 500 });

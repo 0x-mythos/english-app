@@ -24,10 +24,6 @@ type Me = {
   streak: Streak | null;
 };
 
-const soon = [
-  { title: "Читання", note: "Тексти трохи вище твого рівня, тап по слову — і воно в картках.", icon: BookIcon, tone: "bg-mint/15 text-mint" },
-];
-
 export default function Home() {
   const [me, setMe] = useState<Me | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -135,6 +131,22 @@ export default function Home() {
         </Link>
       )}
 
+      {me && (
+        <Link
+          href="/read"
+          className="flex items-center gap-3.5 rounded-[24px] bg-mint px-4 py-4 text-ink shadow-card transition-transform active:scale-[0.99]"
+        >
+          <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/30">
+            <BookIcon className="size-6" />
+          </span>
+          <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+            <span className="font-display text-[17px] font-semibold">Читання</span>
+            <span className="text-[14px] leading-snug opacity-85">Тексти трохи вище твого рівня: торкнись слова — і воно в картках.</span>
+          </span>
+          <span className="shrink-0 text-[20px] font-semibold" aria-hidden>→</span>
+        </Link>
+      )}
+
       {me && <AddWord onAdded={() => load(window.Telegram?.WebApp?.initData ?? "")} />}
 
       {profile && (
@@ -171,24 +183,6 @@ export default function Home() {
         </section>
       )}
 
-      {me && (
-        <section className="flex flex-col gap-3 pt-1">
-          <h2 className="font-display text-[17px] font-semibold">Скоро</h2>
-          <div className="flex flex-col gap-2.5">
-            {soon.map(({ title, note, icon: Icon, tone }) => (
-              <div key={title} className="flex items-start gap-3.5 rounded-2xl bg-surface px-4 py-4 shadow-card">
-                <span className={`flex size-11 shrink-0 items-center justify-center rounded-xl ${tone}`}>
-                  <Icon className="size-6" />
-                </span>
-                <div className="flex min-w-0 flex-col gap-0.5">
-                  <h3 className="text-[16px] font-bold">{title}</h3>
-                  <p className="text-[14px] leading-snug text-muted">{note}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
     </main>
   );
 }

@@ -1,0 +1,45 @@
+{
+  "id": "rb-b2-05",
+  "level": "B2",
+  "topic": "everyday",
+  "title": "The neighbour upstairs",
+  "text": "For two months, the flat above mine hosted what felt like a daily football match. Heavy footsteps at midnight, furniture dragged across the floor, and a speaker that shook my ceiling lamp. I tried to be tolerant, but sleep deprivation slowly turned me into someone I did not recognise.\n\nMy first instinct was to leave an angry note on their door. I wrote three versions, and each was more sarcastic than the last. Fortunately, I slept on it, and in the morning the idea looked childish. Instead I knocked on their door on Saturday afternoon, when everyone is usually in a decent mood.\n\nA young man opened it, clearly embarrassed. He explained that he had recently started working night shifts and was cooking and cleaning at odd hours, never imagining how sound travels through old floors. He offered to buy thick rugs and to keep the volume down after ten. I had expected a quarrel, and received an apology.\n\nOf course, not every story ends that way. Some neighbours are simply unreasonable, and then official complaints may be necessary. But I have noticed that most conflicts grow in silence. People assume bad intentions long before they have any evidence for them, and one calm conversation can dissolve weeks of resentment.",
+  "glossary": [
+    { "lemma": "footsteps", "forms": ["footsteps"], "translation": "кроки, тупіт", "transcription": "/ˈfʊtsteps/" },
+    { "lemma": "tolerant", "forms": ["tolerant"], "translation": "терплячий, толерантний", "transcription": "/ˈtɒlərənt/" },
+    { "lemma": "deprivation", "forms": ["deprivation"], "translation": "позбавлення, нестача", "transcription": "/ˌdeprɪˈveɪʃn/" },
+    { "lemma": "instinct", "forms": ["instinct"], "translation": "інстинкт, перший порив", "transcription": "/ˈɪnstɪŋkt/" },
+    { "lemma": "sarcastic", "forms": ["sarcastic"], "translation": "саркастичний", "transcription": "/sɑːˈkæstɪk/" },
+    { "lemma": "fortunately", "forms": ["fortunately"], "translation": "на щастя", "transcription": "/ˈfɔːtʃənətli/" },
+    { "lemma": "childish", "forms": ["childish"], "translation": "по-дитячому несерйозний, дитячий", "transcription": "/ˈtʃaɪldɪʃ/" },
+    { "lemma": "decent", "forms": ["decent"], "translation": "пристойний, нормальний", "transcription": "/ˈdiːsnt/" },
+    { "lemma": "shift", "forms": ["shifts"], "translation": "зміна (на роботі)", "transcription": "/ʃɪft/" },
+    { "lemma": "rug", "forms": ["rugs"], "translation": "килим, килимок", "transcription": "/rʌɡ/" },
+    { "lemma": "quarrel", "forms": ["quarrel"], "translation": "сварка", "transcription": "/ˈkwɒrəl/" },
+    { "lemma": "apology", "forms": ["apology"], "translation": "вибачення", "transcription": "/əˈpɒlədʒi/" },
+    { "lemma": "unreasonable", "forms": ["unreasonable"], "translation": "нерозумний, нерозсудливий", "transcription": "/ʌnˈriːznəbl/" },
+    { "lemma": "conflict", "forms": ["conflicts"], "translation": "конфлікт", "transcription": "/ˈkɒnflɪkt/" },
+    { "lemma": "evidence", "forms": ["evidence"], "translation": "докази", "transcription": "/ˈevɪdəns/" },
+    { "lemma": "resentment", "forms": ["resentment"], "translation": "образа, глухе невдоволення", "transcription": "/rɪˈzentmənt/" }
+  ],
+  "questions": [
+    {
+      "prompt": "What did the author do instead of leaving an angry note?",
+      "options": ["Called the police", "Moved to another flat", "Talked to the neighbour in person", "Made more noise himself"],
+      "answer": 2,
+      "explanation": "Автор переспав із думкою, а в суботу пішов поговорити з сусідом особисто."
+    },
+    {
+      "prompt": "Why was the neighbour so noisy?",
+      "options": ["He worked night shifts and did not realise how sound travels.", "He wanted to annoy the author.", "He was having a party every day.", "He did not own any furniture."],
+      "answer": 0,
+      "explanation": "Сусід нещодавно почав працювати в нічні зміни й не уявляв, як у старому будинку розноситься звук."
+    },
+    {
+      "prompt": "What is the main idea of the last paragraph?",
+      "options": ["All neighbours are unreasonable.", "Official complaints always work best.", "Many conflicts grow because people assume the worst without talking.", "Silence is the best solution."],
+      "answer": 2,
+      "explanation": "Автор зазначає, що більшість конфліктів росте в мовчанні, а розмова може їх розв'язати."
+    }
+  ]
+}

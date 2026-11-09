@@ -1,0 +1,43 @@
+{
+  "id": "rb-b2-04",
+  "level": "B2",
+  "topic": "devops",
+  "title": "The expired certificate",
+  "text": "The outage lasted forty minutes, and by the end of it the whole company knew our team's name for the wrong reason. A certificate had expired. That was all. One line in a config file, one date nobody had written in a calendar, and every service refusing to talk to the others.\n\nThe postmortem meeting was the part I dreaded. In my previous company, such meetings turned into a hunt for someone to blame. Here, our lead began with a different question: \"What allowed this to happen?\" We drew a timeline on the whiteboard and discovered that the real failure was not a person but a process. The certificate renewal depended on one engineer's memory, and he had gone on holiday.\n\nWe agreed on three actions. First, automate the renewal so that no human is involved. Second, add an alert that fires thirty days before any certificate expires. Third, rehearse the recovery steps, because the documentation we had was outdated and half of the commands no longer worked.\n\nI left the room thinking about how rare it is to see a team treat a mistake as information. Blame feels satisfying for a minute, but it teaches people to hide problems. Curiosity teaches them to report problems early.",
+  "glossary": [
+    { "lemma": "outage", "forms": ["outage"], "translation": "збій, простій сервісу", "transcription": "/ˈaʊtɪdʒ/" },
+    { "lemma": "certificate", "forms": ["certificate"], "translation": "сертифікат", "transcription": "/səˈtɪfɪkət/" },
+    { "lemma": "expire", "forms": ["expired", "expires"], "translation": "закінчуватися (про термін дії)", "transcription": "/ɪkˈspaɪə/" },
+    { "lemma": "postmortem", "forms": ["postmortem"], "translation": "розбір інциденту після події", "transcription": "/ˌpəʊstˈmɔːtəm/" },
+    { "lemma": "dread", "forms": ["dreaded"], "translation": "боятися, жахатися", "transcription": "/dred/" },
+    { "lemma": "blame", "forms": ["blame"], "translation": "звинувачувати; вина", "transcription": "/bleɪm/" },
+    { "lemma": "timeline", "forms": ["timeline"], "translation": "хронологія подій", "transcription": "/ˈtaɪmlaɪn/" },
+    { "lemma": "renewal", "forms": ["renewal"], "translation": "поновлення", "transcription": "/rɪˈnjuːəl/" },
+    { "lemma": "automate", "forms": ["automate"], "translation": "автоматизувати", "transcription": "/ˈɔːtəmeɪt/" },
+    { "lemma": "rehearse", "forms": ["rehearse"], "translation": "відпрацьовувати, репетирувати", "transcription": "/rɪˈhɜːs/" },
+    { "lemma": "recovery", "forms": ["recovery"], "translation": "відновлення", "transcription": "/rɪˈkʌvəri/" },
+    { "lemma": "outdated", "forms": ["outdated"], "translation": "застарілий", "transcription": "/ˌaʊtˈdeɪtɪd/" },
+    { "lemma": "satisfying", "forms": ["satisfying"], "translation": "приємний, такий, що дає задоволення", "transcription": "/ˈsætɪsfaɪɪŋ/" },
+    { "lemma": "curiosity", "forms": ["curiosity"], "translation": "цікавість", "transcription": "/ˌkjʊəriˈɒsəti/" }
+  ],
+  "questions": [
+    {
+      "prompt": "What was the real cause of the outage according to the team?",
+      "options": ["One careless engineer", "A process that depended on one person's memory", "A hacker attack", "A broken calendar app"],
+      "answer": 1,
+      "explanation": "Команда дійшла висновку, що проблема не в людині, а в процесі, який залежав від пам'яті одного інженера."
+    },
+    {
+      "prompt": "How was this postmortem different from the author's previous experience?",
+      "options": ["It was much longer.", "It focused on finding the guilty person.", "It focused on what allowed the problem to happen.", "It was held without the lead."],
+      "answer": 2,
+      "explanation": "Лід почав із питання, що дозволило цьому статися, а не з пошуку винного."
+    },
+    {
+      "prompt": "What does the author think about blame?",
+      "options": ["It helps people report problems.", "It feels good briefly but makes people hide problems.", "It is necessary in every team.", "It makes the process faster."],
+      "answer": 1,
+      "explanation": "Звинувачення дає миттєве задоволення, але вчить людей приховувати проблеми."
+    }
+  ]
+}

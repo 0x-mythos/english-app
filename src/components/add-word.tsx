@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { PlusIcon } from "@/components/icons";
+import { OWN_WORD_LIMIT_MESSAGE } from "@/lib/own-word-limit";
 import { api } from "@/lib/tg-client";
 
 type Card = { word: string; translation: string; transcription: string; example: string };
@@ -10,6 +11,7 @@ type Result = { status: "added" | "exists"; card: Card };
 const ERRORS: Record<string, string> = {
   http_422: "Не схоже на англійське слово. Перевір написання?",
   http_502: "AI зараз не відповів, спробуй ще раз.",
+  http_429: OWN_WORD_LIMIT_MESSAGE,
 };
 
 // «Своє слово»: слово (+ необов'язково речення, де воно трапилось) → Claude дописує → картка серед нових.

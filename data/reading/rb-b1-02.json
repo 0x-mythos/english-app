@@ -1,0 +1,40 @@
+{
+  "id": "rb-b1-02",
+  "level": "B1",
+  "topic": "devops",
+  "title": "Friday evening on production",
+  "text": "It was Friday, 6 p.m., and I was ready to go home. Then my phone started to ring. The monitoring system sent an alert: the website was very slow, and many users could not log in.\n\nWe joined a call. Dan, the senior engineer, asked a simple question: \"What changed today?\" We checked the list of releases. One deployment went out at 5:30. It had a small change in the database query. On my laptop it worked perfectly, but with real data it was much slower.\n\nNobody blamed anyone. Dan said we needed to fix the problem first and talk about the reasons later. We decided to roll back the release. It took only four minutes, and the graphs slowly went back to normal.\n\nAfter that, we wrote a short report. We also added a rule: no big deployments on Friday afternoon. I got home at 8 p.m., tired but happy. I learned that a good team is calm when something breaks.",
+  "glossary": [
+    { "lemma": "monitoring", "forms": ["monitoring"], "translation": "моніторинг", "transcription": "/ˈmɒnɪtərɪŋ/" },
+    { "lemma": "alert", "forms": ["alert"], "translation": "сповіщення, тривога", "transcription": "/əˈlɜːt/" },
+    { "lemma": "engineer", "forms": ["engineer"], "translation": "інженер", "transcription": "/ˌendʒɪˈnɪə/" },
+    { "lemma": "release", "forms": ["release", "releases"], "translation": "реліз, випуск версії", "transcription": "/rɪˈliːs/" },
+    { "lemma": "deployment", "forms": ["deployment", "deployments"], "translation": "розгортання, деплой", "transcription": "/dɪˈplɔɪmənt/" },
+    { "lemma": "database", "forms": ["database"], "translation": "база даних", "transcription": "/ˈdeɪtəbeɪs/" },
+    { "lemma": "query", "forms": ["query"], "translation": "запит (до бази даних)", "transcription": "/ˈkwɪəri/" },
+    { "lemma": "perfectly", "forms": ["perfectly"], "translation": "ідеально", "transcription": "/ˈpɜːfɪktli/" },
+    { "lemma": "blame", "forms": ["blamed"], "translation": "звинувачувати", "transcription": "/bleɪm/" },
+    { "lemma": "graph", "forms": ["graphs"], "translation": "графік", "transcription": "/ɡrɑːf/" },
+    { "lemma": "calm", "forms": ["calm"], "translation": "спокійний", "transcription": "/kɑːm/" }
+  ],
+  "questions": [
+    {
+      "prompt": "What was the cause of the problem?",
+      "options": ["A broken laptop", "A small change in a database query", "A mistake in the monitoring system", "Too many users in the evening"],
+      "answer": 1,
+      "explanation": "Реліз о 5:30 містив зміну в запиті до бази даних, яка на реальних даних працювала значно повільніше."
+    },
+    {
+      "prompt": "How did the team solve the problem?",
+      "options": ["They rolled back the release.", "They bought a faster server.", "They called the users.", "They waited until Monday."],
+      "answer": 0,
+      "explanation": "Команда відкотила реліз, і графіки повернулися до норми."
+    },
+    {
+      "prompt": "What is the author's main conclusion?",
+      "options": ["Friday is the best day for releases.", "Senior engineers never make mistakes.", "A good team stays calm when something goes wrong.", "Reports are not useful."],
+      "answer": 2,
+      "explanation": "В останньому реченні автор каже, що добра команда залишається спокійною, коли щось ламається."
+    }
+  ]
+}

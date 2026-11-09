@@ -1,0 +1,41 @@
+{
+  "id": "rb-b1-05",
+  "level": "B1",
+  "topic": "interview",
+  "title": "My first technical interview",
+  "text": "Yesterday I had my first technical interview for a junior backend position. I prepared for a week, but I was still nervous when the call started.\n\nThe interviewer was friendly. First she asked about my previous projects, and I explained a small web app that I built for a local shop. Then we moved to the technical part. She gave me a task: write a function that finds duplicates in a list. I started to code silently, and she asked me to speak aloud. That helped a lot, because I understood my own mistake before she said anything.\n\nThere was one question I could not answer. It was about database indexes. Instead of pretending, I said, \"I am not sure, but I think it makes the search faster.\" She smiled and explained the idea in a simple way.\n\nAt the end, I asked about the team and the tools they use. I have no answer yet, and they promised to write within a week. Whatever happens, I feel more confident now. The interview showed me what I should study next, and that is already useful.",
+  "glossary": [
+    { "lemma": "backend", "forms": ["backend"], "translation": "бекенд, серверна частина", "transcription": "/ˈbækend/" },
+    { "lemma": "position", "forms": ["position"], "translation": "посада", "transcription": "/pəˈzɪʃn/" },
+    { "lemma": "nervous", "forms": ["nervous"], "translation": "нервовий, схвильований", "transcription": "/ˈnɜːvəs/" },
+    { "lemma": "interviewer", "forms": ["interviewer"], "translation": "той, хто проводить співбесіду", "transcription": "/ˈɪntəvjuːə/" },
+    { "lemma": "previous", "forms": ["previous"], "translation": "попередній", "transcription": "/ˈpriːviəs/" },
+    { "lemma": "task", "forms": ["task"], "translation": "завдання", "transcription": "/tɑːsk/" },
+    { "lemma": "duplicate", "forms": ["duplicates"], "translation": "дублікат, повтор", "transcription": "/ˈdjuːplɪkət/" },
+    { "lemma": "silently", "forms": ["silently"], "translation": "мовчки, тихо", "transcription": "/ˈsaɪləntli/" },
+    { "lemma": "aloud", "forms": ["aloud"], "translation": "уголос", "transcription": "/əˈlaʊd/" },
+    { "lemma": "pretend", "forms": ["pretending"], "translation": "прикидатися, вдавати", "transcription": "/prɪˈtend/" },
+    { "lemma": "index", "forms": ["indexes"], "translation": "індекс (у базі даних)", "transcription": "/ˈɪndeks/" },
+    { "lemma": "confident", "forms": ["confident"], "translation": "упевнений", "transcription": "/ˈkɒnfɪdənt/" }
+  ],
+  "questions": [
+    {
+      "prompt": "Why did the interviewer ask the author to speak aloud?",
+      "options": ["She could not hear the code.", "It helped the author to notice his own mistake.", "It was a rule of the company.", "She wanted to end the interview quickly."],
+      "answer": 1,
+      "explanation": "Коли автор говорив уголос, він сам помітив свою помилку ще до підказки."
+    },
+    {
+      "prompt": "What did the author do when he did not know an answer?",
+      "options": ["He pretended to know.", "He stopped the interview.", "He honestly said what he thought.", "He asked to change the question."],
+      "answer": 2,
+      "explanation": "Замість вдавати, що знає, він чесно сказав, що не певен, але припускає."
+    },
+    {
+      "prompt": "How does the author feel at the end?",
+      "options": ["Angry about the result", "More confident and ready to learn", "Sure that he got the job", "Afraid of every interview"],
+      "answer": 1,
+      "explanation": "Автор каже, що почувається впевненіше й знає, що вчити далі."
+    }
+  ]
+}

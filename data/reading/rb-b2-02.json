@@ -1,0 +1,43 @@
+{
+  "id": "rb-b2-02",
+  "level": "B2",
+  "topic": "general_it",
+  "title": "Why I stopped chasing every framework",
+  "text": "Three years ago, I changed my main tool almost every few months. Each time a new framework appeared, I felt that I was falling behind, so I rushed to learn it, built a toy project, and moved on. My CV looked impressive. My actual skills did not.\n\nThe turning point was a job interview where I was asked to explain how a request travels from the browser to the database. I knew a dozen libraries, yet I could barely describe what happens between them. It was a humbling moment, and I still remember how my cheeks burned.\n\nSince then I follow a simple rule. I spend most of my time on fundamentals, such as networking, data structures, and how databases store information. New tools are welcome, but only when they solve a problem I really have. Surprisingly, learning a new framework now takes a weekend, because most of its ideas are variations of things I already understand.\n\nI do not claim that trends are worthless. They are a useful signal of where the industry is heading. But a signal is not a plan. If you are a beginner and feel overwhelmed, remember that depth beats breadth, and nobody has ever been fired for understanding HTTP too well.",
+  "glossary": [
+    { "lemma": "framework", "forms": ["framework"], "translation": "фреймворк", "transcription": "/ˈfreɪmwɜːk/" },
+    { "lemma": "rush", "forms": ["rushed"], "translation": "поспішати, кидатися", "transcription": "/rʌʃ/" },
+    { "lemma": "impressive", "forms": ["impressive"], "translation": "вражаючий", "transcription": "/ɪmˈpresɪv/" },
+    { "lemma": "barely", "forms": ["barely"], "translation": "ледве, ледь", "transcription": "/ˈbeəli/" },
+    { "lemma": "humbling", "forms": ["humbling"], "translation": "той, що вчить смирення, принизливий", "transcription": "/ˈhʌmblɪŋ/" },
+    { "lemma": "fundamentals", "forms": ["fundamentals"], "translation": "основи, фундаментальні знання", "transcription": "/ˌfʌndəˈmentlz/" },
+    { "lemma": "surprisingly", "forms": ["surprisingly"], "translation": "дивовижно, як не дивно", "transcription": "/səˈpraɪzɪŋli/" },
+    { "lemma": "variation", "forms": ["variations"], "translation": "варіація, різновид", "transcription": "/ˌveəriˈeɪʃn/" },
+    { "lemma": "worthless", "forms": ["worthless"], "translation": "марний, нічого не вартий", "transcription": "/ˈwɜːθləs/" },
+    { "lemma": "signal", "forms": ["signal"], "translation": "сигнал, ознака", "transcription": "/ˈsɪɡnəl/" },
+    { "lemma": "industry", "forms": ["industry"], "translation": "галузь, індустрія", "transcription": "/ˈɪndəstri/" },
+    { "lemma": "overwhelmed", "forms": ["overwhelmed"], "translation": "перевантажений, прибитий кількістю", "transcription": "/ˌəʊvəˈwelmd/" },
+    { "lemma": "depth", "forms": ["depth"], "translation": "глибина", "transcription": "/depθ/" },
+    { "lemma": "breadth", "forms": ["breadth"], "translation": "широта, охоплення", "transcription": "/bredθ/" }
+  ],
+  "questions": [
+    {
+      "prompt": "What problem did the author have in the past?",
+      "options": ["He never learned new tools.", "He knew many tools but understood little about how things work.", "He failed because of a bad CV format.", "He worked only with databases."],
+      "answer": 1,
+      "explanation": "Він знав десяток бібліотек, але на співбесіді не зміг пояснити, що відбувається між ними."
+    },
+    {
+      "prompt": "How does the author learn now?",
+      "options": ["Focuses on fundamentals and adds new tools when needed", "Ignores all new technologies", "Learns every new framework immediately", "Reads only the news"],
+      "answer": 0,
+      "explanation": "Більшість часу він витрачає на основи, а нові інструменти бере, коли вони розв'язують реальну проблему."
+    },
+    {
+      "prompt": "What does the author think about trends?",
+      "options": ["They are completely useless.", "They are the best learning plan.", "They are a useful signal but not a plan.", "They are only for beginners."],
+      "answer": 2,
+      "explanation": "Автор називає тренди корисним сигналом, але не планом навчання."
+    }
+  ]
+}

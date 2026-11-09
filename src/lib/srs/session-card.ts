@@ -1,5 +1,5 @@
-import { previewIntervals, type CardRow } from "@/lib/srs/fsrs";
-import { cardKind, clozeOf } from "@/lib/srs/session";
+import { previewIntervals, type CardRow } from "./fsrs";
+import { cardKind, clozeOf } from "./session";
 
 // Рядок cards (+ слово з набору) → те, що бачить клієнт на картці.
 export const CARD_FIELDS =
@@ -17,7 +17,7 @@ export type SessionRow = CardRow & {
 
 export function toSessionCard(r: SessionRow, now: Date) {
   const word = r.words?.word ?? r.word ?? "";
-  const example = r.words?.example ?? r.example ?? null;
+  const example = r.example ?? r.words?.example ?? null;
   const kind = cardKind(r.reps, r.id, example, word);
   return {
     id: r.id,

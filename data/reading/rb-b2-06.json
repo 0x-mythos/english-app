@@ -1,0 +1,43 @@
+{
+  "id": "rb-b2-06",
+  "level": "B2",
+  "topic": "code_review",
+  "title": "The two-thousand-line pull request",
+  "text": "Yesterday a colleague opened a pull request with more than two thousand changed lines, and my first reaction was to close the tab. Nobody can review that much code carefully. What usually happens is that you start thoroughly, get tired around the fortieth file, and finish by typing \"looks good to me\" without reading the rest.\n\nInstead, I wrote to the author and asked if we could split the change into smaller parts. He was hesitant at first. He argued that everything was connected, and that separating it would take extra time. I suggested a compromise: a short call where he would walk me through the main idea, and then we would decide where the natural boundaries were.\n\nIt turned out that half of the diff was automatically generated code, and another quarter was a rename that touched forty files. The actual logic was about five hundred lines. Once we separated these three things, the review took me twenty minutes, and I found a genuine bug in the retry mechanism.\n\nA big change is not a sign of a big contribution. Good engineers make the reviewer's job easy: small steps, clear descriptions, and a commit history that tells a story. It is a form of respect for the person who will read your work.",
+  "glossary": [
+    { "lemma": "reaction", "forms": ["reaction"], "translation": "реакція", "transcription": "/riˈækʃn/" },
+    { "lemma": "carefully", "forms": ["carefully"], "translation": "уважно, ретельно", "transcription": "/ˈkeəfəli/" },
+    { "lemma": "thoroughly", "forms": ["thoroughly"], "translation": "ретельно, прискіпливо", "transcription": "/ˈθʌrəli/" },
+    { "lemma": "split", "forms": ["split"], "translation": "розділяти, розбивати", "transcription": "/splɪt/" },
+    { "lemma": "hesitant", "forms": ["hesitant"], "translation": "нерішучий, такий, що вагається", "transcription": "/ˈhezɪtənt/" },
+    { "lemma": "separate", "forms": ["separating", "separated"], "translation": "відокремлювати", "transcription": "/ˈsepəreɪt/" },
+    { "lemma": "compromise", "forms": ["compromise"], "translation": "компроміс", "transcription": "/ˈkɒmprəmaɪz/" },
+    { "lemma": "boundary", "forms": ["boundaries"], "translation": "межа, кордон", "transcription": "/ˈbaʊndəri/" },
+    { "lemma": "diff", "forms": ["diff"], "translation": "різниця між версіями коду", "transcription": "/dɪf/" },
+    { "lemma": "generate", "forms": ["generated"], "translation": "генерувати, створювати", "transcription": "/ˈdʒenəreɪt/" },
+    { "lemma": "genuine", "forms": ["genuine"], "translation": "справжній", "transcription": "/ˈdʒenjuɪn/" },
+    { "lemma": "retry", "forms": ["retry"], "translation": "повторна спроба", "transcription": "/ˌriːˈtraɪ/" },
+    { "lemma": "mechanism", "forms": ["mechanism"], "translation": "механізм", "transcription": "/ˈmekənɪzəm/" },
+    { "lemma": "contribution", "forms": ["contribution"], "translation": "внесок", "transcription": "/ˌkɒntrɪˈbjuːʃn/" }
+  ],
+  "questions": [
+    {
+      "prompt": "Why did the author ask to split the pull request?",
+      "options": ["He disliked the colleague.", "A very large change is hard to review carefully.", "The code had no tests.", "The deadline was close."],
+      "answer": 1,
+      "explanation": "Автор пояснює, що ніхто не може уважно переглянути так багато коду."
+    },
+    {
+      "prompt": "What did they find out about the large diff?",
+      "options": ["Most of it was generated code and a rename; the real logic was small.", "Every line was a new feature.", "It contained no bugs at all.", "It was written by a tool only."],
+      "answer": 0,
+      "explanation": "Половина диффа була згенерованим кодом, чверть - перейменуванням, а справжньої логіки було близько п'ятисот рядків."
+    },
+    {
+      "prompt": "What does the author say good engineers do?",
+      "options": ["Send the biggest changes possible", "Make the reviewer's work easier with small, clear changes", "Avoid reviews", "Write fewer tests"],
+      "answer": 1,
+      "explanation": "Автор називає добру практику: малі кроки, чіткі описи й зрозумілу історію комітів."
+    }
+  ]
+}

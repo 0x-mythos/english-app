@@ -1,0 +1,45 @@
+{
+  "id": "rb-b2-03",
+  "level": "B2",
+  "topic": "everyday",
+  "title": "The night my flight disappeared",
+  "text": "My flight to Warsaw was supposed to leave at nine, but the board kept changing its mind. First it was delayed by thirty minutes, then by two hours, and eventually the word \"cancelled\" appeared in red letters. Around me, people sighed, checked their phones, and formed a long queue at the airline desk.\n\nI could have joined them, but I remembered a tip from a colleague who travels constantly: when everyone queues, go online. I opened the airline's app, found the rebooking option, and chose a morning flight within a minute. Then I used the chat on the website to ask about a hotel voucher. The agent replied politely, and ten minutes later I had a confirmation email.\n\nThe compensation was another story. The rules say you can claim money back if the delay was the airline's fault, but you need to keep every receipt and write a formal complaint. I did it from the hotel room, attaching boarding passes and screenshots.\n\nThree weeks later, the money arrived. I will not pretend the night was pleasant, yet it taught me that patience is overrated. Calm, quick action usually solves more than standing in line and hoping for the best.",
+  "glossary": [
+    { "lemma": "delay", "forms": ["delayed", "delay"], "translation": "затримувати; затримка", "transcription": "/dɪˈleɪ/" },
+    { "lemma": "eventually", "forms": ["eventually"], "translation": "зрештою, врешті-решт", "transcription": "/ɪˈventʃuəli/" },
+    { "lemma": "cancel", "forms": ["cancelled"], "translation": "скасовувати", "transcription": "/ˈkænsl/" },
+    { "lemma": "sigh", "forms": ["sighed"], "translation": "зітхати", "transcription": "/saɪ/" },
+    { "lemma": "queue", "forms": ["queue", "queues"], "translation": "черга; стояти в черзі", "transcription": "/kjuː/" },
+    { "lemma": "colleague", "forms": ["colleague"], "translation": "колега", "transcription": "/ˈkɒliːɡ/" },
+    { "lemma": "rebooking", "forms": ["rebooking"], "translation": "перебронювання", "transcription": "/ˌriːˈbʊkɪŋ/" },
+    { "lemma": "voucher", "forms": ["voucher"], "translation": "ваучер, талон", "transcription": "/ˈvaʊtʃə/" },
+    { "lemma": "confirmation", "forms": ["confirmation"], "translation": "підтвердження", "transcription": "/ˌkɒnfəˈmeɪʃn/" },
+    { "lemma": "compensation", "forms": ["compensation"], "translation": "компенсація", "transcription": "/ˌkɒmpenˈseɪʃn/" },
+    { "lemma": "claim", "forms": ["claim"], "translation": "вимагати, подавати вимогу", "transcription": "/kleɪm/" },
+    { "lemma": "fault", "forms": ["fault"], "translation": "вина", "transcription": "/fɔːlt/" },
+    { "lemma": "receipt", "forms": ["receipt"], "translation": "чек, квитанція", "transcription": "/rɪˈsiːt/" },
+    { "lemma": "complaint", "forms": ["complaint"], "translation": "скарга", "transcription": "/kəmˈpleɪnt/" },
+    { "lemma": "attach", "forms": ["attaching"], "translation": "прикріплювати", "transcription": "/əˈtætʃ/" },
+    { "lemma": "overrated", "forms": ["overrated"], "translation": "переоцінений", "transcription": "/ˌəʊvəˈreɪtɪd/" }
+  ],
+  "questions": [
+    {
+      "prompt": "What did the author do when the flight was cancelled?",
+      "options": ["Waited in the long queue", "Rebooked a flight and arranged a hotel online", "Went home and cancelled the trip", "Complained to other passengers"],
+      "answer": 1,
+      "explanation": "Замість черги автор усе зробив онлайн: перебронював рейс і запитав про ваучер на готель."
+    },
+    {
+      "prompt": "What was needed to get compensation?",
+      "options": ["Just a phone call", "A formal complaint with receipts and documents", "A letter from the hotel", "Nothing, it came automatically"],
+      "answer": 1,
+      "explanation": "Треба було зберігати чеки та написати офіційну скаргу з доданими документами."
+    },
+    {
+      "prompt": "What is the author's main message?",
+      "options": ["Airlines always help people.", "Quick, calm action works better than just waiting.", "Never travel at night.", "Patience is the best strategy."],
+      "answer": 1,
+      "explanation": "Автор вважає терпіння переоціненим, а спокійні швидкі дії - ефективнішими."
+    }
+  ]
+}

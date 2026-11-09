@@ -1,0 +1,40 @@
+{
+  "id": "rb-b1-06",
+  "level": "B1",
+  "topic": "data",
+  "title": "The report that was wrong",
+  "text": "My team lead asked me to prepare a weekly report about new users. I wrote a SQL query, ran it, and sent the numbers. Everybody was happy until Wednesday, when the sales manager called me. \"Your report says we had 500 new users,\" he said. \"But I count only 320.\"\n\nI checked my query again. The reason was embarrassing but simple. Some users registered twice with different email addresses, and my query counted every row as a separate person. I also forgot to remove the test accounts that our developers create every day.\n\nI fixed the query and added a filter for test accounts. I also wrote a short note under the report. It explained how I counted the users and which data I excluded. The manager liked it, because now he could trust the number and check it himself.\n\nThis story taught me an important thing about working with data. A query can run without errors and still give a wrong answer. Before you send a result, ask yourself one question: does this number make sense?",
+  "glossary": [
+    { "lemma": "weekly", "forms": ["weekly"], "translation": "щотижневий", "transcription": "/ˈwiːkli/" },
+    { "lemma": "query", "forms": ["query"], "translation": "запит (до бази даних)", "transcription": "/ˈkwɪəri/" },
+    { "lemma": "count", "forms": ["count", "counted"], "translation": "рахувати, підраховувати", "transcription": "/kaʊnt/" },
+    { "lemma": "embarrassing", "forms": ["embarrassing"], "translation": "ніяковий, прикрий (той, що соромить)", "transcription": "/ɪmˈbærəsɪŋ/" },
+    { "lemma": "register", "forms": ["registered"], "translation": "реєструватися", "transcription": "/ˈredʒɪstə/" },
+    { "lemma": "separate", "forms": ["separate"], "translation": "окремий", "transcription": "/ˈseprət/" },
+    { "lemma": "row", "forms": ["row"], "translation": "рядок (у таблиці)", "transcription": "/rəʊ/" },
+    { "lemma": "account", "forms": ["accounts"], "translation": "обліковий запис, акаунт", "transcription": "/əˈkaʊnt/" },
+    { "lemma": "filter", "forms": ["filter"], "translation": "фільтр", "transcription": "/ˈfɪltə/" },
+    { "lemma": "exclude", "forms": ["excluded"], "translation": "виключати", "transcription": "/ɪkˈskluːd/" },
+    { "lemma": "trust", "forms": ["trust"], "translation": "довіряти", "transcription": "/trʌst/" }
+  ],
+  "questions": [
+    {
+      "prompt": "Why was the number in the report too high?",
+      "options": ["The database was broken.", "The query counted duplicate registrations and test accounts.", "The sales manager made a mistake.", "The report was sent too late."],
+      "answer": 1,
+      "explanation": "Запит рахував кожен рядок як окрему людину, включно з повторними реєстраціями й тестовими акаунтами."
+    },
+    {
+      "prompt": "What did the author add to make the report better?",
+      "options": ["A longer title", "A filter and a note about how users were counted", "A new manager", "More test accounts"],
+      "answer": 1,
+      "explanation": "Автор додав фільтр для тестових акаунтів і коротку примітку про те, як рахував."
+    },
+    {
+      "prompt": "What is the main lesson of the story?",
+      "options": ["SQL is too difficult.", "A query without errors can still give a wrong result.", "Managers should write queries.", "Reports are not needed."],
+      "answer": 1,
+      "explanation": "Запит може виконатися без помилок і все одно дати неправильну відповідь, тому результат варто перевіряти."
+    }
+  ]
+}

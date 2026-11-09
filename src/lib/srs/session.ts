@@ -48,11 +48,20 @@ export function cardKind(reps: number, cardId: number, example: string | null, w
   return kinds[(cardId + reps) % kinds.length];
 }
 
-/** Речення з пропуском замість слова (перше входження, без урахування регістру); null — слова в реченні нема. */
+/** Ціле слово чи фраза в тексті (без регістру): межа — символ поза \p{L}, `-` і `'`. null — нема. */
+export function wholeWordMatch(text: string, phrase: string): { index: number; length: number } | null {
+  const p = phrase.trim();
+  if (!p) return null;
+  const body = p.split(/\s+/).map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\s+");
+  const m = new RegExp(`(?<![\\p{L}'-])${body}(?![\\p{L}'-])`, "iu").exec(text);
+  return m ? { index: m.index, length: m[0].length } : null;
+}
+
+/** Речення з пропуском замість слова/фрази (перше входження цілого слова, без регістру); null — слова в реченні нема. */
 export function clozeOf(example: string, word: string): string | null {
-  const i = example.toLowerCase().indexOf(word.toLowerCase());
-  if (i < 0) return null;
-  return example.slice(0, i) + "_____" + example.slice(i + word.length);
+  const m = wholeWordMatch(example, word);
+  if (!m) return null;
+  return example.slice(0, m.index) + "_____" + example.slice(m.index + m.length);
 }
 
 /** Чи правильно вписано слово в пропуск: без регістру, зайвих пробілів і розділових знаків по краях. */

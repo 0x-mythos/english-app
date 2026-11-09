@@ -1,0 +1,41 @@
+{
+  "id": "rb-b1-03",
+  "level": "B1",
+  "topic": "meetings",
+  "title": "Twelve-minute standup",
+  "text": "Our daily standup is at 10:00 and it should take fifteen minutes. In reality, it often takes thirty. Last Tuesday I decided to help change that.\n\nThe problem is simple. When someone says \"I am working on the login bug,\" the next five minutes are about every small detail of that bug. People start to discuss solutions, and the standup becomes a long technical meeting.\n\nI suggested a new rule: say only three things. What did you do yesterday? What will you do today? Is anything blocking you? If a topic needs more time, we write it on the board and talk about it later with only the people who care.\n\nAt first, the team looked unsure. But the next morning the meeting took twelve minutes. Our manager noticed it and said thank you. Even Olek, who loves long explanations, started to say \"let's take it offline.\"\n\nNow I think a short meeting is a kind of respect. Everybody has work to do, and nobody wants to wait for a story that is not about them.",
+  "glossary": [
+    { "lemma": "standup", "forms": ["standup"], "translation": "стендап, щоденна коротка нарада", "transcription": "/ˈstændʌp/" },
+    { "lemma": "reality", "forms": ["reality"], "translation": "реальність", "transcription": "/riˈæləti/" },
+    { "lemma": "detail", "forms": ["detail"], "translation": "деталь", "transcription": "/ˈdiːteɪl/" },
+    { "lemma": "discuss", "forms": ["discuss"], "translation": "обговорювати", "transcription": "/dɪˈskʌs/" },
+    { "lemma": "solution", "forms": ["solutions"], "translation": "рішення, розв'язання", "transcription": "/səˈluːʃn/" },
+    { "lemma": "suggest", "forms": ["suggested"], "translation": "пропонувати", "transcription": "/səˈdʒest/" },
+    { "lemma": "block", "forms": ["blocking"], "translation": "блокувати, заважати", "transcription": "/blɒk/" },
+    { "lemma": "unsure", "forms": ["unsure"], "translation": "невпевнений", "transcription": "/ʌnˈʃɔː/" },
+    { "lemma": "notice", "forms": ["noticed"], "translation": "помічати", "transcription": "/ˈnəʊtɪs/" },
+    { "lemma": "explanation", "forms": ["explanations"], "translation": "пояснення", "transcription": "/ˌekspləˈneɪʃn/" },
+    { "lemma": "offline", "forms": ["offline"], "translation": "окремо, поза нарадою (не на самій зустрічі)", "transcription": "/ˌɒfˈlaɪn/" },
+    { "lemma": "respect", "forms": ["respect"], "translation": "повага", "transcription": "/rɪˈspekt/" }
+  ],
+  "questions": [
+    {
+      "prompt": "Why did the daily standup take too long?",
+      "options": ["People came late.", "The manager talked all the time.", "People discussed technical details for too long.", "There were too many people in the team."],
+      "answer": 2,
+      "explanation": "Коротка згадка про задачу перетворювалась на довге технічне обговорення деталей."
+    },
+    {
+      "prompt": "What did the author suggest?",
+      "options": ["To cancel the standup", "To answer only three simple questions", "To move the meeting to the evening", "To write long reports"],
+      "answer": 1,
+      "explanation": "Правило: сказати лише про вчора, сьогодні та те, що блокує."
+    },
+    {
+      "prompt": "What happened after the new rule started?",
+      "options": ["The meeting became shorter.", "The team stopped talking.", "Nothing changed.", "The manager was angry."],
+      "answer": 0,
+      "explanation": "Наступного ранку нарада тривала дванадцять хвилин, і менеджер це похвалив."
+    }
+  ]
+}

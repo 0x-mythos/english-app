@@ -1,0 +1,42 @@
+{
+  "id": "rb-b1-04",
+  "level": "B1",
+  "topic": "everyday",
+  "title": "Renting my first flat",
+  "text": "When I moved to a new city for work, I needed a flat fast. I found a nice one online: one bedroom, a balcony, and a good price. The photos looked great, so I wrote to the owner immediately.\n\nWe met on Saturday. The flat was clean, but I noticed a few problems. The kitchen tap was leaking, and one window did not close properly. The owner promised to repair everything before I moved in. I asked him to put this promise in the contract, and he agreed.\n\nThen we talked about money. Besides the rent, I had to pay a deposit, which is a sum you give to the owner at the start and get back when you leave. It was equal to one month's rent. I also asked who pays for the heating, because in winter it can be expensive.\n\nI signed the contract on Monday. Two weeks later, the tap was fixed, but the window was still the same. I sent the owner a polite message with a photo. He came the next day. It is a small lesson: always write down what people promise.",
+  "glossary": [
+    { "lemma": "balcony", "forms": ["balcony"], "translation": "балкон", "transcription": "/ˈbælkəni/" },
+    { "lemma": "owner", "forms": ["owner"], "translation": "власник", "transcription": "/ˈəʊnə/" },
+    { "lemma": "immediately", "forms": ["immediately"], "translation": "негайно, одразу", "transcription": "/ɪˈmiːdiətli/" },
+    { "lemma": "tap", "forms": ["tap"], "translation": "кран", "transcription": "/tæp/" },
+    { "lemma": "leak", "forms": ["leaking"], "translation": "текти, протікати", "transcription": "/liːk/" },
+    { "lemma": "properly", "forms": ["properly"], "translation": "як слід, належним чином", "transcription": "/ˈprɒpəli/" },
+    { "lemma": "repair", "forms": ["repair"], "translation": "ремонтувати", "transcription": "/rɪˈpeə/" },
+    { "lemma": "promise", "forms": ["promised", "promise"], "translation": "обіцяти; обіцянка", "transcription": "/ˈprɒmɪs/" },
+    { "lemma": "contract", "forms": ["contract"], "translation": "договір, контракт", "transcription": "/ˈkɒntrækt/" },
+    { "lemma": "rent", "forms": ["rent"], "translation": "орендна плата, оренда", "transcription": "/rent/" },
+    { "lemma": "deposit", "forms": ["deposit"], "translation": "застава, депозит", "transcription": "/dɪˈpɒzɪt/" },
+    { "lemma": "heating", "forms": ["heating"], "translation": "опалення", "transcription": "/ˈhiːtɪŋ/" },
+    { "lemma": "polite", "forms": ["polite"], "translation": "ввічливий", "transcription": "/pəˈlaɪt/" }
+  ],
+  "questions": [
+    {
+      "prompt": "Why did the author ask the owner to put the promise in the contract?",
+      "options": ["He wanted a cheaper rent.", "He wanted the repairs to be official.", "He planned to leave soon.", "He did not like the owner."],
+      "answer": 1,
+      "explanation": "Записана в договорі обіцянка надійніша, ніж усна."
+    },
+    {
+      "prompt": "What is a deposit in this text?",
+      "options": ["A monthly payment for heating", "A fee for the photos", "Money you give at the start and can get back later", "A gift for the owner"],
+      "answer": 2,
+      "explanation": "У тексті пояснюється: це сума, яку віддають на початку й повертають, коли виїжджаєш."
+    },
+    {
+      "prompt": "What lesson did the author learn?",
+      "options": ["Never rent a flat online.", "Always write down what people promise.", "Owners always lie.", "Winter is the best time to move."],
+      "answer": 1,
+      "explanation": "Автор радить завжди записувати те, що обіцяють люди, бо вікно довго лишалося несправним."
+    }
+  ]
+}

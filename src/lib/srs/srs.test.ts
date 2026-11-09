@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { formatInterval, previewIntervals, review, type CardRow } from "./fsrs";
 import { parseTime, reminderText, shouldRemind } from "./reminders";
+import { toSessionCard, type SessionRow } from "./session-card";
 import {
   cardKind, clozeMatches, clozeOf, dailyLimits, everydayStartRank, interleave, itCefrLevels, localDate, startOfLocalDay,
 } from "./session";
@@ -135,5 +136,47 @@ describe("reminders", () => {
     expect(reminderText(5, 0)).toContain("5 карток");
     expect(reminderText(0, 10)).toContain("10 нових");
     expect(reminderText(3, 7)).toContain("3 на повтор і 7 нових");
+  });
+});
+
+describe("clozeOf: лише ціле слово чи фраза", () => {
+  it("підрядок усередині слова не підходить", () => {
+    expect(clozeOf("We started", "art")).toBeNull();
+    expect(clozeOf("He is running", "run")).toBeNull();
+    expect(clozeOf("It's deployed's", "deploy")).toBeNull();
+  });
+  it("ціле слово і фраза", () => {
+    expect(clozeOf("We deploy daily", "deploy")).toBe("We _____ daily");
+    expect(clozeOf("Deploy, then rest.", "deploy")).toBe("_____, then rest.");
+    expect(clozeOf("We roll back the release", "roll back")).toBe("We _____ the release");
+    expect(clozeOf("a roll-back is ok", "roll-back")).toBe("a _____ is ok");
+  });
+  it("дефіс і апостроф — частина слова: roll не знаходиться в roll-back", () => {
+    expect(clozeOf("a roll-back is ok", "roll")).toBeNull();
+  });
+  it("наслідок: лише відмінена форма більше не дає пропуску", () => {
+    expect(clozeOf("She borrowed a book", "borrow")).toBeNull();
+    expect(cardKind(2, 1, "She borrowed a book", "borrow")).not.toBe("cloze");
+    expect(cardKind(3, 1, "She borrowed a book", "borrow")).not.toBe("cloze");
+  });
+});
+
+describe("toSessionCard: пріоритет прикладу картки", () => {
+  const base: SessionRow = {
+    ...NEW_ROW, id: 3, word: null, translation: null, transcription: null, example: null, words: null,
+  };
+  const words = { word: "deploy", translation: "розгортати", transcription: null, example: "Set example.", set_name: "it", topic: null };
+  const now = new Date("2026-11-04T10:00:00Z");
+
+  it("власний example картки перемагає words.example", () => {
+    const c = toSessionCard({ ...base, example: "We deploy daily.", words }, now);
+    expect(c.example).toBe("We deploy daily.");
+    expect(c.word).toBe("deploy");
+  });
+  it("без власного example — приклад з words, як раніше", () => {
+    expect(toSessionCard({ ...base, words }, now).example).toBe("Set example.");
+  });
+  it("власна картка без words — приклад картки", () => {
+    expect(toSessionCard({ ...base, word: "quit", translation: "кинути", example: "I quit." }, now).example).toBe("I quit.");
   });
 });

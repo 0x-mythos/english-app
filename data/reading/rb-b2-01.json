@@ -1,0 +1,44 @@
+{
+  "id": "rb-b2-01",
+  "level": "B2",
+  "topic": "api",
+  "title": "The API that changed under our feet",
+  "text": "Our mobile app broke on a Monday morning, and for an hour nobody understood why. The backend had not been deployed over the weekend, the logs looked clean, and yet thousands of users saw an empty screen.\n\nThe cause turned out to be a third-party payment provider. Without any announcement, they had renamed one field in their response from \"amount\" to \"total\". Our code assumed the old name, so it quietly read an empty value and passed it further down the chain. Nothing crashed, which made the bug even harder to spot.\n\nThe fix took five minutes. The real work started afterwards. We added validation for every external response, so that unexpected data fails loudly instead of silently. We also wrote contract tests that run against the provider's sandbox every night, and we subscribed to their changelog, which, embarrassingly, nobody had done before.\n\nThe lesson is uncomfortable but useful: an integration is a relationship, and the other side is free to change without asking you. Treat every external API as unreliable, even a famous one. Be strict about what you accept, log what you reject, and never assume that a quiet system is a healthy one.",
+  "glossary": [
+    { "lemma": "provider", "forms": ["provider"], "translation": "постачальник (сервісу)", "transcription": "/prəˈvaɪdə/" },
+    { "lemma": "announcement", "forms": ["announcement"], "translation": "оголошення, повідомлення", "transcription": "/əˈnaʊnsmənt/" },
+    { "lemma": "field", "forms": ["field"], "translation": "поле (у даних)", "transcription": "/fiːld/" },
+    { "lemma": "assume", "forms": ["assumed", "assume"], "translation": "припускати", "transcription": "/əˈsjuːm/" },
+    { "lemma": "quietly", "forms": ["quietly"], "translation": "тихо, непомітно", "transcription": "/ˈkwaɪətli/" },
+    { "lemma": "crash", "forms": ["crashed"], "translation": "аварійно завершитися, впасти", "transcription": "/kræʃ/" },
+    { "lemma": "validation", "forms": ["validation"], "translation": "валідація, перевірка коректності", "transcription": "/ˌvælɪˈdeɪʃn/" },
+    { "lemma": "unexpected", "forms": ["unexpected"], "translation": "несподіваний", "transcription": "/ˌʌnɪkˈspektɪd/" },
+    { "lemma": "loudly", "forms": ["loudly"], "translation": "гучно, помітно", "transcription": "/ˈlaʊdli/" },
+    { "lemma": "sandbox", "forms": ["sandbox"], "translation": "пісочниця (тестове середовище)", "transcription": "/ˈsændbɒks/" },
+    { "lemma": "changelog", "forms": ["changelog"], "translation": "журнал змін", "transcription": "/ˈtʃeɪndʒlɒɡ/" },
+    { "lemma": "integration", "forms": ["integration"], "translation": "інтеграція", "transcription": "/ˌɪntɪˈɡreɪʃn/" },
+    { "lemma": "unreliable", "forms": ["unreliable"], "translation": "ненадійний", "transcription": "/ˌʌnrɪˈlaɪəbl/" },
+    { "lemma": "strict", "forms": ["strict"], "translation": "суворий, вимогливий", "transcription": "/strɪkt/" },
+    { "lemma": "reject", "forms": ["reject"], "translation": "відхиляти", "transcription": "/rɪˈdʒekt/" }
+  ],
+  "questions": [
+    {
+      "prompt": "What caused the problem in the app?",
+      "options": ["A deployment during the weekend", "A payment provider changed a field name without warning", "A server ran out of memory", "Users installed an old version"],
+      "answer": 1,
+      "explanation": "Провайдер перейменував поле з amount на total без оголошення, а код очікував стару назву."
+    },
+    {
+      "prompt": "Why was the bug hard to find?",
+      "options": ["Nothing crashed and the logs looked clean.", "The team was on holiday.", "The provider refused to answer.", "The code was written in an unknown language."],
+      "answer": 0,
+      "explanation": "Помилки не було видно: код тихо прочитав порожнє значення й працював далі."
+    },
+    {
+      "prompt": "What does the author recommend?",
+      "options": ["Avoid external APIs completely", "Trust famous providers more", "Treat external APIs as unreliable and validate what they return", "Fix bugs only after users complain"],
+      "answer": 2,
+      "explanation": "Автор радить ставитися до зовнішніх API як до ненадійних і перевіряти кожну відповідь."
+    }
+  ]
+}

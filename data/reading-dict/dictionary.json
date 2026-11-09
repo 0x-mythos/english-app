@@ -1,0 +1,4551 @@
+{
+ "entries": [
+  {
+   "lemma": "a",
+   "forms": [
+    "a"
+   ],
+   "translation": "неозначений артикль",
+   "transcription": "/ə/"
+  },
+  {
+   "lemma": "an",
+   "forms": [
+    "an"
+   ],
+   "translation": "неозначений артикль (перед голосним звуком)",
+   "transcription": "/æn/"
+  },
+  {
+   "lemma": "about",
+   "forms": [
+    "about"
+   ],
+   "translation": "про, приблизно",
+   "transcription": "/əˈbaʊt/"
+  },
+  {
+   "lemma": "above",
+   "forms": [
+    "above"
+   ],
+   "translation": "над, вище",
+   "transcription": "/əˈbʌv/"
+  },
+  {
+   "lemma": "accept",
+   "forms": [
+    "accept"
+   ],
+   "translation": "приймати, погоджуватися",
+   "transcription": "/əkˈsept/"
+  },
+  {
+   "lemma": "across",
+   "forms": [
+    "across"
+   ],
+   "translation": "через, по той бік",
+   "transcription": "/əˈkrɒs/"
+  },
+  {
+   "lemma": "action",
+   "forms": [
+    "action",
+    "actions"
+   ],
+   "translation": "дія, вчинок",
+   "transcription": "/ˈækʃn/"
+  },
+  {
+   "lemma": "actual",
+   "forms": [
+    "actual"
+   ],
+   "translation": "справжній, фактичний",
+   "transcription": "/ˈæktʃuəl/"
+  },
+  {
+   "lemma": "add",
+   "forms": [
+    "add",
+    "added"
+   ],
+   "translation": "додавати",
+   "transcription": "/æd/"
+  },
+  {
+   "lemma": "address",
+   "forms": [
+    "addresses"
+   ],
+   "translation": "адреса, звертатися до",
+   "transcription": "/əˈdres/"
+  },
+  {
+   "lemma": "after",
+   "forms": [
+    "after"
+   ],
+   "translation": "після",
+   "transcription": "/ˈɑːftə/"
+  },
+  {
+   "lemma": "afternoon",
+   "forms": [
+    "afternoon"
+   ],
+   "translation": "після обіду, день",
+   "transcription": "/ˌɑːftəˈnuːn/"
+  },
+  {
+   "lemma": "afterwards",
+   "forms": [
+    "afterwards"
+   ],
+   "translation": "потім, згодом",
+   "transcription": "/ˈɑːftəwədz/"
+  },
+  {
+   "lemma": "again",
+   "forms": [
+    "again"
+   ],
+   "translation": "знову",
+   "transcription": "/əˈɡen/"
+  },
+  {
+   "lemma": "against",
+   "forms": [
+    "against"
+   ],
+   "translation": "проти",
+   "transcription": "/əˈɡenst/"
+  },
+  {
+   "lemma": "agent",
+   "forms": [
+    "agent"
+   ],
+   "translation": "агент, представник",
+   "transcription": "/ˈeɪdʒənt/"
+  },
+  {
+   "lemma": "ago",
+   "forms": [
+    "ago"
+   ],
+   "translation": "тому (про час)",
+   "transcription": "/əˈɡəʊ/"
+  },
+  {
+   "lemma": "agree",
+   "forms": [
+    "agreed"
+   ],
+   "translation": "погоджуватися",
+   "transcription": "/əˈɡriː/"
+  },
+  {
+   "lemma": "airline",
+   "forms": [
+    "airline",
+    "airline's"
+   ],
+   "translation": "авіакомпанія",
+   "transcription": "/ˈeəlaɪn/"
+  },
+  {
+   "lemma": "all",
+   "forms": [
+    "all"
+   ],
+   "translation": "усе, всі",
+   "transcription": "/ɔːl/"
+  },
+  {
+   "lemma": "allow",
+   "forms": [
+    "allowed"
+   ],
+   "translation": "дозволяти",
+   "transcription": "/əˈlaʊ/"
+  },
+  {
+   "lemma": "almost",
+   "forms": [
+    "almost"
+   ],
+   "translation": "майже",
+   "transcription": "/ˈɔːlməʊst/"
+  },
+  {
+   "lemma": "already",
+   "forms": [
+    "already"
+   ],
+   "translation": "уже",
+   "transcription": "/ɔːlˈredi/"
+  },
+  {
+   "lemma": "also",
+   "forms": [
+    "also"
+   ],
+   "translation": "також",
+   "transcription": "/ˈɔːlsəʊ/"
+  },
+  {
+   "lemma": "always",
+   "forms": [
+    "always"
+   ],
+   "translation": "завжди",
+   "transcription": "/ˈɔːlweɪz/"
+  },
+  {
+   "lemma": "amount",
+   "forms": [
+    "amount"
+   ],
+   "translation": "кількість, сума",
+   "transcription": "/əˈmaʊnt/"
+  },
+  {
+   "lemma": "and",
+   "forms": [
+    "and"
+   ],
+   "translation": "і, та",
+   "transcription": "/ænd/"
+  },
+  {
+   "lemma": "angry",
+   "forms": [
+    "angry"
+   ],
+   "translation": "злий, сердитий",
+   "transcription": "/ˈæŋɡri/"
+  },
+  {
+   "lemma": "another",
+   "forms": [
+    "another"
+   ],
+   "translation": "інший, ще один",
+   "transcription": "/əˈnʌðə/"
+  },
+  {
+   "lemma": "answer",
+   "forms": [
+    "answer"
+   ],
+   "translation": "відповідь, відповідати",
+   "transcription": "/ˈɑːnsə/"
+  },
+  {
+   "lemma": "any",
+   "forms": [
+    "any"
+   ],
+   "translation": "будь-який, жодний",
+   "transcription": "/ˈeni/"
+  },
+  {
+   "lemma": "anyone",
+   "forms": [
+    "anyone"
+   ],
+   "translation": "будь-хто, ніхто",
+   "transcription": "/ˈeniwʌn/"
+  },
+  {
+   "lemma": "anything",
+   "forms": [
+    "anything"
+   ],
+   "translation": "будь-що, нічого",
+   "transcription": "/ˈeniθɪŋ/"
+  },
+  {
+   "lemma": "API",
+   "forms": [
+    "api"
+   ],
+   "translation": "прикладний програмний інтерфейс",
+   "transcription": "/ˌeɪ piː ˈaɪ/"
+  },
+  {
+   "lemma": "app",
+   "forms": [
+    "app"
+   ],
+   "translation": "застосунок, додаток",
+   "transcription": "/æp/"
+  },
+  {
+   "lemma": "appear",
+   "forms": [
+    "appeared"
+   ],
+   "translation": "з'являтися, виглядати",
+   "transcription": "/əˈpɪə/"
+  },
+  {
+   "lemma": "argue",
+   "forms": [
+    "argued"
+   ],
+   "translation": "сперечатися",
+   "transcription": "/ˈɑːɡjuː/"
+  },
+  {
+   "lemma": "around",
+   "forms": [
+    "around"
+   ],
+   "translation": "навколо, приблизно",
+   "transcription": "/əˈraʊnd/"
+  },
+  {
+   "lemma": "arrive",
+   "forms": [
+    "arrived"
+   ],
+   "translation": "прибувати",
+   "transcription": "/əˈraɪv/"
+  },
+  {
+   "lemma": "as",
+   "forms": [
+    "as"
+   ],
+   "translation": "як, коли",
+   "transcription": "/æz/"
+  },
+  {
+   "lemma": "ask",
+   "forms": [
+    "ask",
+    "asked",
+    "asking"
+   ],
+   "translation": "питати, просити",
+   "transcription": "/ɑːsk/"
+  },
+  {
+   "lemma": "assume",
+   "forms": [
+    "assume"
+   ],
+   "translation": "припускати",
+   "transcription": "/əˈsjuːm/"
+  },
+  {
+   "lemma": "at",
+   "forms": [
+    "at"
+   ],
+   "translation": "у, о, біля",
+   "transcription": "/æt/"
+  },
+  {
+   "lemma": "author",
+   "forms": [
+    "author"
+   ],
+   "translation": "автор",
+   "transcription": "/ˈɔːθə/"
+  },
+  {
+   "lemma": "automatically",
+   "forms": [
+    "automatically"
+   ],
+   "translation": "автоматично",
+   "transcription": "/ˌɔːtəˈmætɪkli/"
+  },
+  {
+   "lemma": "back",
+   "forms": [
+    "back"
+   ],
+   "translation": "назад, спина",
+   "transcription": "/bæk/"
+  },
+  {
+   "lemma": "backend",
+   "forms": [
+    "backend"
+   ],
+   "translation": "серверна частина, бекенд",
+   "transcription": "/ˈbækend/"
+  },
+  {
+   "lemma": "bad",
+   "forms": [
+    "bad"
+   ],
+   "translation": "поганий",
+   "transcription": "/bæd/"
+  },
+  {
+   "lemma": "be",
+   "forms": [
+    "be",
+    "been",
+    "was",
+    "were",
+    "am",
+    "are",
+    "is"
+   ],
+   "translation": "бути",
+   "transcription": "/biː/"
+  },
+  {
+   "lemma": "beat",
+   "forms": [
+    "beats"
+   ],
+   "translation": "бити, перемагати",
+   "transcription": "/biːt/"
+  },
+  {
+   "lemma": "because",
+   "forms": [
+    "because"
+   ],
+   "translation": "тому що",
+   "transcription": "/bɪˈkɒz/"
+  },
+  {
+   "lemma": "become",
+   "forms": [
+    "becomes"
+   ],
+   "translation": "ставати",
+   "transcription": "/bɪˈkʌm/"
+  },
+  {
+   "lemma": "bedroom",
+   "forms": [
+    "bedroom"
+   ],
+   "translation": "спальня",
+   "transcription": "/ˈbedruːm/"
+  },
+  {
+   "lemma": "before",
+   "forms": [
+    "before"
+   ],
+   "translation": "перед, до, раніше",
+   "transcription": "/bɪˈfɔː/"
+  },
+  {
+   "lemma": "begin",
+   "forms": [
+    "began"
+   ],
+   "translation": "починати",
+   "transcription": "/bɪˈɡɪn/"
+  },
+  {
+   "lemma": "beginner",
+   "forms": [
+    "beginner"
+   ],
+   "translation": "початківець",
+   "transcription": "/bɪˈɡɪnə/"
+  },
+  {
+   "lemma": "behind",
+   "forms": [
+    "behind"
+   ],
+   "translation": "позаду, за",
+   "transcription": "/bɪˈhaɪnd/"
+  },
+  {
+   "lemma": "besides",
+   "forms": [
+    "besides"
+   ],
+   "translation": "крім того, окрім",
+   "transcription": "/bɪˈsaɪdz/"
+  },
+  {
+   "lemma": "best",
+   "forms": [
+    "best"
+   ],
+   "translation": "найкращий, найкраще",
+   "transcription": "/best/"
+  },
+  {
+   "lemma": "better",
+   "forms": [
+    "better"
+   ],
+   "translation": "кращий, краще",
+   "transcription": "/ˈbetə/"
+  },
+  {
+   "lemma": "between",
+   "forms": [
+    "between"
+   ],
+   "translation": "між",
+   "transcription": "/bɪˈtwiːn/"
+  },
+  {
+   "lemma": "big",
+   "forms": [
+    "big"
+   ],
+   "translation": "великий",
+   "transcription": "/bɪɡ/"
+  },
+  {
+   "lemma": "bit",
+   "forms": [
+    "bit"
+   ],
+   "translation": "трохи, шматочок",
+   "transcription": "/bɪt/"
+  },
+  {
+   "lemma": "board",
+   "forms": [
+    "board",
+    "boarding"
+   ],
+   "translation": "дошка, табло (в аеропорту); boarding — посадка на рейс",
+   "transcription": "/bɔːd/"
+  },
+  {
+   "lemma": "break",
+   "forms": [
+    "breaks"
+   ],
+   "translation": "ламатися, ламати, перерва",
+   "transcription": "/breɪk/"
+  },
+  {
+   "lemma": "broke",
+   "forms": [
+    "broke"
+   ],
+   "translation": "зламався, зламав (минулий час від break)",
+   "transcription": "/brəʊk/"
+  },
+  {
+   "lemma": "browser",
+   "forms": [
+    "browser"
+   ],
+   "translation": "браузер",
+   "transcription": "/ˈbraʊzə/"
+  },
+  {
+   "lemma": "bug",
+   "forms": [
+    "bug"
+   ],
+   "translation": "помилка в коді, баг",
+   "transcription": "/bʌɡ/"
+  },
+  {
+   "lemma": "build",
+   "forms": [
+    "built"
+   ],
+   "translation": "будувати, створювати",
+   "transcription": "/bɪld/"
+  },
+  {
+   "lemma": "burn",
+   "forms": [
+    "burned"
+   ],
+   "translation": "горіти, спалювати",
+   "transcription": "/bɜːn/"
+  },
+  {
+   "lemma": "but",
+   "forms": [
+    "but"
+   ],
+   "translation": "але",
+   "transcription": "/bʌt/"
+  },
+  {
+   "lemma": "buy",
+   "forms": [
+    "buy"
+   ],
+   "translation": "купувати",
+   "transcription": "/baɪ/"
+  },
+  {
+   "lemma": "by",
+   "forms": [
+    "by"
+   ],
+   "translation": "біля, від, за допомогою",
+   "transcription": "/baɪ/"
+  },
+  {
+   "lemma": "calendar",
+   "forms": [
+    "calendar"
+   ],
+   "translation": "календар",
+   "transcription": "/ˈkælɪndə/"
+  },
+  {
+   "lemma": "call",
+   "forms": [
+    "call",
+    "called"
+   ],
+   "translation": "дзвінок, телефонувати, називати",
+   "transcription": "/kɔːl/"
+  },
+  {
+   "lemma": "calm",
+   "forms": [
+    "calm"
+   ],
+   "translation": "спокійний",
+   "transcription": "/kɑːm/"
+  },
+  {
+   "lemma": "came",
+   "forms": [
+    "came"
+   ],
+   "translation": "прийшов (минулий час від come)",
+   "transcription": "/keɪm/"
+  },
+  {
+   "lemma": "can",
+   "forms": [
+    "can"
+   ],
+   "translation": "могти, вміти",
+   "transcription": "/kæn/"
+  },
+  {
+   "lemma": "care",
+   "forms": [
+    "care"
+   ],
+   "translation": "піклуватися, перейматися; турбота",
+   "transcription": "/keə/"
+  },
+  {
+   "lemma": "cause",
+   "forms": [
+    "cause"
+   ],
+   "translation": "причина, спричиняти",
+   "transcription": "/kɔːz/"
+  },
+  {
+   "lemma": "chain",
+   "forms": [
+    "chain"
+   ],
+   "translation": "ланцюжок",
+   "transcription": "/tʃeɪn/"
+  },
+  {
+   "lemma": "change",
+   "forms": [
+    "change",
+    "changed",
+    "changes",
+    "changing"
+   ],
+   "translation": "зміна, змінювати",
+   "transcription": "/tʃeɪndʒ/"
+  },
+  {
+   "lemma": "chat",
+   "forms": [
+    "chat"
+   ],
+   "translation": "чат, розмова",
+   "transcription": "/tʃæt/"
+  },
+  {
+   "lemma": "check",
+   "forms": [
+    "check",
+    "checked"
+   ],
+   "translation": "перевіряти, перевірка",
+   "transcription": "/tʃek/"
+  },
+  {
+   "lemma": "cheek",
+   "forms": [
+    "cheeks"
+   ],
+   "translation": "щока",
+   "transcription": "/tʃiːk/"
+  },
+  {
+   "lemma": "choose",
+   "forms": [
+    "chose"
+   ],
+   "translation": "вибирати",
+   "transcription": "/tʃuːz/"
+  },
+  {
+   "lemma": "city",
+   "forms": [
+    "city"
+   ],
+   "translation": "місто",
+   "transcription": "/ˈsɪti/"
+  },
+  {
+   "lemma": "claim",
+   "forms": [
+    "claim"
+   ],
+   "translation": "стверджувати; вимагати (виплату); вимога",
+   "transcription": "/kleɪm/"
+  },
+  {
+   "lemma": "clean",
+   "forms": [
+    "clean"
+   ],
+   "translation": "чистий, чистити",
+   "transcription": "/kliːn/"
+  },
+  {
+   "lemma": "cleaning",
+   "forms": [
+    "cleaning"
+   ],
+   "translation": "прибирання",
+   "transcription": "/ˈkliːnɪŋ/"
+  },
+  {
+   "lemma": "clear",
+   "forms": [
+    "clear"
+   ],
+   "translation": "зрозумілий, чіткий",
+   "transcription": "/klɪə/"
+  },
+  {
+   "lemma": "clearly",
+   "forms": [
+    "clearly"
+   ],
+   "translation": "чітко, зрозуміло; очевидно",
+   "transcription": "/ˈklɪəli/"
+  },
+  {
+   "lemma": "close",
+   "forms": [
+    "close"
+   ],
+   "translation": "закривати, закриватися; близький",
+   "transcription": "/kləʊz/"
+  },
+  {
+   "lemma": "code",
+   "forms": [
+    "code"
+   ],
+   "translation": "код",
+   "transcription": "/kəʊd/"
+  },
+  {
+   "lemma": "command",
+   "forms": [
+    "commands"
+   ],
+   "translation": "команда",
+   "transcription": "/kəˈmɑːnd/"
+  },
+  {
+   "lemma": "company",
+   "forms": [
+    "company"
+   ],
+   "translation": "компанія",
+   "transcription": "/ˈkʌmpəni/"
+  },
+  {
+   "lemma": "complaint",
+   "forms": [
+    "complaints"
+   ],
+   "translation": "скарга",
+   "transcription": "/kəmˈpleɪnt/"
+  },
+  {
+   "lemma": "connect",
+   "forms": [
+    "connected"
+   ],
+   "translation": "з'єднувати, підключати",
+   "transcription": "/kəˈnekt/"
+  },
+  {
+   "lemma": "constantly",
+   "forms": [
+    "constantly"
+   ],
+   "translation": "постійно",
+   "transcription": "/ˈkɒnstəntli/"
+  },
+  {
+   "lemma": "contract",
+   "forms": [
+    "contract"
+   ],
+   "translation": "договір, контракт",
+   "transcription": "/ˈkɒntrækt/"
+  },
+  {
+   "lemma": "conversation",
+   "forms": [
+    "conversation"
+   ],
+   "translation": "розмова",
+   "transcription": "/ˌkɒnvəˈseɪʃn/"
+  },
+  {
+   "lemma": "cooking",
+   "forms": [
+    "cooking"
+   ],
+   "translation": "приготування їжі",
+   "transcription": "/ˈkʊkɪŋ/"
+  },
+  {
+   "lemma": "could",
+   "forms": [
+    "could"
+   ],
+   "translation": "міг, міг би",
+   "transcription": "/kʊd/"
+  },
+  {
+   "lemma": "course",
+   "forms": [
+    "course"
+   ],
+   "translation": "курс, напрям; of course — звісно",
+   "transcription": "/kɔːs/"
+  },
+  {
+   "lemma": "create",
+   "forms": [
+    "create"
+   ],
+   "translation": "створювати",
+   "transcription": "/kriˈeɪt/"
+  },
+  {
+   "lemma": "CV",
+   "forms": [
+    "cv"
+   ],
+   "translation": "резюме",
+   "transcription": "/ˌsiː ˈviː/"
+  },
+  {
+   "lemma": "daily",
+   "forms": [
+    "daily"
+   ],
+   "translation": "щоденний, щодня",
+   "transcription": "/ˈdeɪli/"
+  },
+  {
+   "lemma": "data",
+   "forms": [
+    "data"
+   ],
+   "translation": "дані",
+   "transcription": "/ˈdeɪtə/"
+  },
+  {
+   "lemma": "database",
+   "forms": [
+    "database",
+    "databases"
+   ],
+   "translation": "база даних",
+   "transcription": "/ˈdeɪtəbeɪs/"
+  },
+  {
+   "lemma": "date",
+   "forms": [
+    "date"
+   ],
+   "translation": "дата",
+   "transcription": "/deɪt/"
+  },
+  {
+   "lemma": "day",
+   "forms": [
+    "day",
+    "days"
+   ],
+   "translation": "день",
+   "transcription": "/deɪ/"
+  },
+  {
+   "lemma": "decide",
+   "forms": [
+    "decide",
+    "decided"
+   ],
+   "translation": "вирішувати",
+   "transcription": "/dɪˈsaɪd/"
+  },
+  {
+   "lemma": "depend",
+   "forms": [
+    "depended"
+   ],
+   "translation": "залежати",
+   "transcription": "/dɪˈpend/"
+  },
+  {
+   "lemma": "deploy",
+   "forms": [
+    "deployed"
+   ],
+   "translation": "розгортати, викочувати на сервер",
+   "transcription": "/dɪˈplɔɪ/"
+  },
+  {
+   "lemma": "describe",
+   "forms": [
+    "describe"
+   ],
+   "translation": "описувати",
+   "transcription": "/dɪˈskraɪb/"
+  },
+  {
+   "lemma": "description",
+   "forms": [
+    "descriptions"
+   ],
+   "translation": "опис",
+   "transcription": "/dɪˈskrɪpʃn/"
+  },
+  {
+   "lemma": "desk",
+   "forms": [
+    "desk"
+   ],
+   "translation": "письмовий стіл, робоче місце",
+   "transcription": "/desk/"
+  },
+  {
+   "lemma": "developer",
+   "forms": [
+    "developers"
+   ],
+   "translation": "розробник",
+   "transcription": "/dɪˈveləpə/"
+  },
+  {
+   "lemma": "did",
+   "forms": [
+    "did"
+   ],
+   "translation": "зробив (минулий час від do), допоміжне в запереченні",
+   "transcription": "/dɪd/"
+  },
+  {
+   "lemma": "different",
+   "forms": [
+    "different"
+   ],
+   "translation": "різний, інший",
+   "transcription": "/ˈdɪfrənt/"
+  },
+  {
+   "lemma": "discover",
+   "forms": [
+    "discovered"
+   ],
+   "translation": "відкривати, виявляти",
+   "transcription": "/dɪˈskʌvə/"
+  },
+  {
+   "lemma": "dissolve",
+   "forms": [
+    "dissolve"
+   ],
+   "translation": "розчиняти, розвіювати",
+   "transcription": "/dɪˈzɒlv/"
+  },
+  {
+   "lemma": "do",
+   "forms": [
+    "do",
+    "does"
+   ],
+   "translation": "робити, допоміжне дієслово",
+   "transcription": "/duː/"
+  },
+  {
+   "lemma": "door",
+   "forms": [
+    "door"
+   ],
+   "translation": "двері",
+   "transcription": "/dɔː/"
+  },
+  {
+   "lemma": "down",
+   "forms": [
+    "down"
+   ],
+   "translation": "вниз",
+   "transcription": "/daʊn/"
+  },
+  {
+   "lemma": "dozen",
+   "forms": [
+    "dozen"
+   ],
+   "translation": "десяток, дюжина",
+   "transcription": "/ˈdʌzn/"
+  },
+  {
+   "lemma": "drag",
+   "forms": [
+    "dragged"
+   ],
+   "translation": "тягти, тягнути",
+   "transcription": "/dræɡ/"
+  },
+  {
+   "lemma": "draw",
+   "forms": [
+    "drew"
+   ],
+   "translation": "малювати, креслити",
+   "transcription": "/druː/"
+  },
+  {
+   "lemma": "each",
+   "forms": [
+    "each"
+   ],
+   "translation": "кожен",
+   "transcription": "/iːtʃ/"
+  },
+  {
+   "lemma": "early",
+   "forms": [
+    "early"
+   ],
+   "translation": "рано, ранній",
+   "transcription": "/ˈɜːli/"
+  },
+  {
+   "lemma": "easy",
+   "forms": [
+    "easy"
+   ],
+   "translation": "легкий",
+   "transcription": "/ˈiːzi/"
+  },
+  {
+   "lemma": "email",
+   "forms": [
+    "email"
+   ],
+   "translation": "електронний лист, пошта",
+   "transcription": "/ˈiːmeɪl/"
+  },
+  {
+   "lemma": "embarrassingly",
+   "forms": [
+    "embarrassingly"
+   ],
+   "translation": "збентежено, соромно",
+   "transcription": "/ɪmˈbærəsɪŋli/"
+  },
+  {
+   "lemma": "empty",
+   "forms": [
+    "empty"
+   ],
+   "translation": "порожній",
+   "transcription": "/ˈempti/"
+  },
+  {
+   "lemma": "end",
+   "forms": [
+    "end",
+    "ends"
+   ],
+   "translation": "кінець, закінчувати",
+   "transcription": "/end/"
+  },
+  {
+   "lemma": "engineer",
+   "forms": [
+    "engineer's",
+    "engineers"
+   ],
+   "translation": "інженер",
+   "transcription": "/ˌendʒɪˈnɪə/"
+  },
+  {
+   "lemma": "equal",
+   "forms": [
+    "equal"
+   ],
+   "translation": "рівний",
+   "transcription": "/ˈiːkwəl/"
+  },
+  {
+   "lemma": "error",
+   "forms": [
+    "errors"
+   ],
+   "translation": "помилка",
+   "transcription": "/ˈerə/"
+  },
+  {
+   "lemma": "even",
+   "forms": [
+    "even"
+   ],
+   "translation": "навіть",
+   "transcription": "/ˈiːvn/"
+  },
+  {
+   "lemma": "evening",
+   "forms": [
+    "evening"
+   ],
+   "translation": "вечір",
+   "transcription": "/ˈiːvnɪŋ/"
+  },
+  {
+   "lemma": "ever",
+   "forms": [
+    "ever"
+   ],
+   "translation": "коли-небудь",
+   "transcription": "/ˈevə/"
+  },
+  {
+   "lemma": "every",
+   "forms": [
+    "every"
+   ],
+   "translation": "кожен, усі",
+   "transcription": "/ˈevri/"
+  },
+  {
+   "lemma": "everybody",
+   "forms": [
+    "everybody"
+   ],
+   "translation": "усі, кожен",
+   "transcription": "/ˈevribɒdi/"
+  },
+  {
+   "lemma": "everyone",
+   "forms": [
+    "everyone"
+   ],
+   "translation": "усі, кожен",
+   "transcription": "/ˈevriwʌn/"
+  },
+  {
+   "lemma": "everything",
+   "forms": [
+    "everything"
+   ],
+   "translation": "усе",
+   "transcription": "/ˈevriθɪŋ/"
+  },
+  {
+   "lemma": "exam",
+   "forms": [
+    "exam"
+   ],
+   "translation": "іспит",
+   "transcription": "/ɪɡˈzæm/"
+  },
+  {
+   "lemma": "expect",
+   "forms": [
+    "expected"
+   ],
+   "translation": "очікувати",
+   "transcription": "/ɪkˈspekt/"
+  },
+  {
+   "lemma": "explain",
+   "forms": [
+    "explain",
+    "explained"
+   ],
+   "translation": "пояснювати",
+   "transcription": "/ɪkˈspleɪn/"
+  },
+  {
+   "lemma": "external",
+   "forms": [
+    "external"
+   ],
+   "translation": "зовнішній",
+   "transcription": "/ɪkˈstɜːnl/"
+  },
+  {
+   "lemma": "extra",
+   "forms": [
+    "extra"
+   ],
+   "translation": "додатковий",
+   "transcription": "/ˈekstrə/"
+  },
+  {
+   "lemma": "eye",
+   "forms": [
+    "eyes"
+   ],
+   "translation": "око",
+   "transcription": "/aɪ/"
+  },
+  {
+   "lemma": "fail",
+   "forms": [
+    "fails"
+   ],
+   "translation": "зазнавати невдачі, падати",
+   "transcription": "/feɪl/"
+  },
+  {
+   "lemma": "failure",
+   "forms": [
+    "failure"
+   ],
+   "translation": "збій, невдача",
+   "transcription": "/ˈfeɪljə/"
+  },
+  {
+   "lemma": "fall",
+   "forms": [
+    "falling"
+   ],
+   "translation": "падати; falling behind — відставати",
+   "transcription": "/fɔːl/"
+  },
+  {
+   "lemma": "famous",
+   "forms": [
+    "famous"
+   ],
+   "translation": "відомий",
+   "transcription": "/ˈfeɪməs/"
+  },
+  {
+   "lemma": "fast",
+   "forms": [
+    "fast"
+   ],
+   "translation": "швидкий, швидко",
+   "transcription": "/fɑːst/"
+  },
+  {
+   "lemma": "faster",
+   "forms": [
+    "faster"
+   ],
+   "translation": "швидший, швидше",
+   "transcription": "/ˈfɑːstə/"
+  },
+  {
+   "lemma": "feel",
+   "forms": [
+    "feel",
+    "feels",
+    "felt"
+   ],
+   "translation": "відчувати, почуватися",
+   "transcription": "/fiːl/"
+  },
+  {
+   "lemma": "few",
+   "forms": [
+    "few"
+   ],
+   "translation": "кілька, мало",
+   "transcription": "/fjuː/"
+  },
+  {
+   "lemma": "fifteen",
+   "forms": [
+    "fifteen"
+   ],
+   "translation": "п'ятнадцять",
+   "transcription": "/ˌfɪfˈtiːn/"
+  },
+  {
+   "lemma": "file",
+   "forms": [
+    "file",
+    "files"
+   ],
+   "translation": "файл",
+   "transcription": "/faɪl/"
+  },
+  {
+   "lemma": "find",
+   "forms": [
+    "finds"
+   ],
+   "translation": "знаходити",
+   "transcription": "/faɪnd/"
+  },
+  {
+   "lemma": "finish",
+   "forms": [
+    "finish"
+   ],
+   "translation": "закінчувати",
+   "transcription": "/ˈfɪnɪʃ/"
+  },
+  {
+   "lemma": "fire",
+   "forms": [
+    "fired",
+    "fires"
+   ],
+   "translation": "звільняти (fired — звільнений); спрацьовувати (про сповіщення)",
+   "transcription": "/ˈfaɪə/"
+  },
+  {
+   "lemma": "first",
+   "forms": [
+    "first"
+   ],
+   "translation": "перший, спочатку",
+   "transcription": "/fɜːst/"
+  },
+  {
+   "lemma": "five",
+   "forms": [
+    "five"
+   ],
+   "translation": "п'ять",
+   "transcription": "/faɪv/"
+  },
+  {
+   "lemma": "fix",
+   "forms": [
+    "fix",
+    "fixed"
+   ],
+   "translation": "виправляти, виправлення",
+   "transcription": "/fɪks/"
+  },
+  {
+   "lemma": "flat",
+   "forms": [
+    "flat"
+   ],
+   "translation": "квартира",
+   "transcription": "/flæt/"
+  },
+  {
+   "lemma": "flight",
+   "forms": [
+    "flight"
+   ],
+   "translation": "рейс, переліт",
+   "transcription": "/flaɪt/"
+  },
+  {
+   "lemma": "floor",
+   "forms": [
+    "floor",
+    "floors"
+   ],
+   "translation": "поверх, підлога",
+   "transcription": "/flɔː/"
+  },
+  {
+   "lemma": "follow",
+   "forms": [
+    "follow"
+   ],
+   "translation": "слідувати, дотримуватися",
+   "transcription": "/ˈfɒləʊ/"
+  },
+  {
+   "lemma": "football",
+   "forms": [
+    "football"
+   ],
+   "translation": "футбол",
+   "transcription": "/ˈfʊtbɔːl/"
+  },
+  {
+   "lemma": "for",
+   "forms": [
+    "for"
+   ],
+   "translation": "для, протягом",
+   "transcription": "/fɔː/"
+  },
+  {
+   "lemma": "forget",
+   "forms": [
+    "forgot"
+   ],
+   "translation": "забувати",
+   "transcription": "/fəˈɡet/"
+  },
+  {
+   "lemma": "form",
+   "forms": [
+    "form"
+   ],
+   "translation": "форма, вид; формувати",
+   "transcription": "/fɔːm/"
+  },
+  {
+   "lemma": "formal",
+   "forms": [
+    "formal"
+   ],
+   "translation": "офіційний",
+   "transcription": "/ˈfɔːml/"
+  },
+  {
+   "lemma": "formed",
+   "forms": [
+    "formed"
+   ],
+   "translation": "утворив, сформував (минулий час від form)",
+   "transcription": "/fɔːmd/"
+  },
+  {
+   "lemma": "fortieth",
+   "forms": [
+    "fortieth"
+   ],
+   "translation": "сороковий",
+   "transcription": "/ˈfɔːtiəθ/"
+  },
+  {
+   "lemma": "forty",
+   "forms": [
+    "forty"
+   ],
+   "translation": "сорок",
+   "transcription": "/ˈfɔːti/"
+  },
+  {
+   "lemma": "found",
+   "forms": [
+    "found"
+   ],
+   "translation": "знайшов (минулий час від find)",
+   "transcription": "/faʊnd/"
+  },
+  {
+   "lemma": "four",
+   "forms": [
+    "four"
+   ],
+   "translation": "чотири",
+   "transcription": "/fɔː/"
+  },
+  {
+   "lemma": "free",
+   "forms": [
+    "free"
+   ],
+   "translation": "вільний, безкоштовний",
+   "transcription": "/friː/"
+  },
+  {
+   "lemma": "Friday",
+   "forms": [
+    "friday"
+   ],
+   "translation": "п'ятниця",
+   "transcription": "/ˈfraɪdeɪ/"
+  },
+  {
+   "lemma": "friendly",
+   "forms": [
+    "friendly"
+   ],
+   "translation": "дружній",
+   "transcription": "/ˈfrendli/"
+  },
+  {
+   "lemma": "from",
+   "forms": [
+    "from"
+   ],
+   "translation": "від, з",
+   "transcription": "/frɒm/"
+  },
+  {
+   "lemma": "function",
+   "forms": [
+    "function"
+   ],
+   "translation": "функція",
+   "transcription": "/ˈfʌŋkʃn/"
+  },
+  {
+   "lemma": "further",
+   "forms": [
+    "further"
+   ],
+   "translation": "далі, подальший",
+   "transcription": "/ˈfɜːðə/"
+  },
+  {
+   "lemma": "gave",
+   "forms": [
+    "gave"
+   ],
+   "translation": "дав (минулий час від give)",
+   "transcription": "/ɡeɪv/"
+  },
+  {
+   "lemma": "get",
+   "forms": [
+    "get",
+    "got"
+   ],
+   "translation": "отримувати, ставати; got home — дістався додому",
+   "transcription": "/ɡet/"
+  },
+  {
+   "lemma": "give",
+   "forms": [
+    "give"
+   ],
+   "translation": "давати",
+   "transcription": "/ɡɪv/"
+  },
+  {
+   "lemma": "go",
+   "forms": [
+    "go",
+    "gone",
+    "went"
+   ],
+   "translation": "йти, їхати; go online — зайти в інтернет; went out — вийшов (про реліз)",
+   "transcription": "/ɡəʊ/"
+  },
+  {
+   "lemma": "good",
+   "forms": [
+    "good"
+   ],
+   "translation": "добрий, гарний",
+   "transcription": "/ɡʊd/"
+  },
+  {
+   "lemma": "great",
+   "forms": [
+    "great"
+   ],
+   "translation": "чудовий, великий",
+   "transcription": "/ɡreɪt/"
+  },
+  {
+   "lemma": "grow",
+   "forms": [
+    "grow"
+   ],
+   "translation": "рости, розвиватися",
+   "transcription": "/ɡrəʊ/"
+  },
+  {
+   "lemma": "had",
+   "forms": [
+    "had"
+   ],
+   "translation": "мав; допоміжне (had done); had to — мусив",
+   "transcription": "/hæd/"
+  },
+  {
+   "lemma": "half",
+   "forms": [
+    "half"
+   ],
+   "translation": "половина",
+   "transcription": "/hɑːf/"
+  },
+  {
+   "lemma": "happen",
+   "forms": [
+    "happen",
+    "happens"
+   ],
+   "translation": "траплятися, відбуватися",
+   "transcription": "/ˈhæpən/"
+  },
+  {
+   "lemma": "happy",
+   "forms": [
+    "happy"
+   ],
+   "translation": "щасливий, задоволений",
+   "transcription": "/ˈhæpi/"
+  },
+  {
+   "lemma": "harder",
+   "forms": [
+    "harder"
+   ],
+   "translation": "важчий, важче",
+   "transcription": "/ˈhɑːdə/"
+  },
+  {
+   "lemma": "have",
+   "forms": [
+    "has",
+    "have"
+   ],
+   "translation": "мати, допоміжне дієслово",
+   "transcription": "/hæv/"
+  },
+  {
+   "lemma": "he",
+   "forms": [
+    "he"
+   ],
+   "translation": "він",
+   "transcription": "/hiː/"
+  },
+  {
+   "lemma": "heading",
+   "forms": [
+    "heading"
+   ],
+   "translation": "рухатися в напрямку (heading); заголовок",
+   "transcription": "/ˈhedɪŋ/"
+  },
+  {
+   "lemma": "healthy",
+   "forms": [
+    "healthy"
+   ],
+   "translation": "здоровий",
+   "transcription": "/ˈhelθi/"
+  },
+  {
+   "lemma": "heavy",
+   "forms": [
+    "heavy"
+   ],
+   "translation": "важкий",
+   "transcription": "/ˈhevi/"
+  },
+  {
+   "lemma": "help",
+   "forms": [
+    "help",
+    "helped"
+   ],
+   "translation": "допомагати, допомога",
+   "transcription": "/help/"
+  },
+  {
+   "lemma": "her",
+   "forms": [
+    "her"
+   ],
+   "translation": "її, їй",
+   "transcription": "/hɜː/"
+  },
+  {
+   "lemma": "here",
+   "forms": [
+    "here"
+   ],
+   "translation": "тут, сюди",
+   "transcription": "/hɪə/"
+  },
+  {
+   "lemma": "hide",
+   "forms": [
+    "hide"
+   ],
+   "translation": "ховати, приховувати",
+   "transcription": "/haɪd/"
+  },
+  {
+   "lemma": "him",
+   "forms": [
+    "him"
+   ],
+   "translation": "його, йому",
+   "transcription": "/hɪm/"
+  },
+  {
+   "lemma": "himself",
+   "forms": [
+    "himself"
+   ],
+   "translation": "сам, себе",
+   "transcription": "/hɪmˈself/"
+  },
+  {
+   "lemma": "history",
+   "forms": [
+    "history"
+   ],
+   "translation": "історія",
+   "transcription": "/ˈhɪstri/"
+  },
+  {
+   "lemma": "home",
+   "forms": [
+    "home"
+   ],
+   "translation": "дім, додому",
+   "transcription": "/həʊm/"
+  },
+  {
+   "lemma": "hope",
+   "forms": [
+    "hoping"
+   ],
+   "translation": "сподіватися",
+   "transcription": "/həʊp/"
+  },
+  {
+   "lemma": "host",
+   "forms": [
+    "hosted"
+   ],
+   "translation": "приймати, влаштовувати (подію); розміщувати",
+   "transcription": "/həʊst/"
+  },
+  {
+   "lemma": "hotel",
+   "forms": [
+    "hotel"
+   ],
+   "translation": "готель",
+   "transcription": "/həʊˈtel/"
+  },
+  {
+   "lemma": "hour",
+   "forms": [
+    "hour",
+    "hours"
+   ],
+   "translation": "година",
+   "transcription": "/ˈaʊə/"
+  },
+  {
+   "lemma": "how",
+   "forms": [
+    "how"
+   ],
+   "translation": "як",
+   "transcription": "/haʊ/"
+  },
+  {
+   "lemma": "HTTP",
+   "forms": [
+    "http"
+   ],
+   "translation": "протокол передачі гіпертексту (вебпротокол)",
+   "transcription": "/ˌeɪtʃ tiː tiː ˈpiː/"
+  },
+  {
+   "lemma": "human",
+   "forms": [
+    "human"
+   ],
+   "translation": "людина, людський",
+   "transcription": "/ˈhjuːmən/"
+  },
+  {
+   "lemma": "hundred",
+   "forms": [
+    "hundred"
+   ],
+   "translation": "сто",
+   "transcription": "/ˈhʌndrəd/"
+  },
+  {
+   "lemma": "hunt",
+   "forms": [
+    "hunt"
+   ],
+   "translation": "пошуки, полювання",
+   "transcription": "/hʌnt/"
+  },
+  {
+   "lemma": "I",
+   "forms": [
+    "i"
+   ],
+   "translation": "я",
+   "transcription": "/aɪ/"
+  },
+  {
+   "lemma": "idea",
+   "forms": [
+    "idea",
+    "ideas"
+   ],
+   "translation": "ідея",
+   "transcription": "/aɪˈdɪə/"
+  },
+  {
+   "lemma": "if",
+   "forms": [
+    "if"
+   ],
+   "translation": "якщо, чи",
+   "transcription": "/ɪf/"
+  },
+  {
+   "lemma": "imagine",
+   "forms": [
+    "imagining"
+   ],
+   "translation": "уявляти",
+   "transcription": "/ɪˈmædʒɪn/"
+  },
+  {
+   "lemma": "important",
+   "forms": [
+    "important"
+   ],
+   "translation": "важливий",
+   "transcription": "/ɪmˈpɔːtnt/"
+  },
+  {
+   "lemma": "in",
+   "forms": [
+    "in"
+   ],
+   "translation": "в, у",
+   "transcription": "/ɪn/"
+  },
+  {
+   "lemma": "information",
+   "forms": [
+    "information"
+   ],
+   "translation": "інформація",
+   "transcription": "/ˌɪnfəˈmeɪʃn/"
+  },
+  {
+   "lemma": "instead",
+   "forms": [
+    "instead"
+   ],
+   "translation": "замість",
+   "transcription": "/ɪnˈsted/"
+  },
+  {
+   "lemma": "intention",
+   "forms": [
+    "intentions"
+   ],
+   "translation": "намір",
+   "transcription": "/ɪnˈtenʃn/"
+  },
+  {
+   "lemma": "into",
+   "forms": [
+    "into"
+   ],
+   "translation": "в, до середини",
+   "transcription": "/ˈɪntuː/"
+  },
+  {
+   "lemma": "involve",
+   "forms": [
+    "involved"
+   ],
+   "translation": "залучати, бути причетним",
+   "transcription": "/ɪnˈvɒlv/"
+  },
+  {
+   "lemma": "it",
+   "forms": [
+    "it"
+   ],
+   "translation": "воно, це",
+   "transcription": "/ɪt/"
+  },
+  {
+   "lemma": "its",
+   "forms": [
+    "its"
+   ],
+   "translation": "його, її (для неживого)",
+   "transcription": "/ɪts/"
+  },
+  {
+   "lemma": "job",
+   "forms": [
+    "job"
+   ],
+   "translation": "робота, завдання",
+   "transcription": "/dʒɒb/"
+  },
+  {
+   "lemma": "join",
+   "forms": [
+    "joined"
+   ],
+   "translation": "приєднуватися",
+   "transcription": "/dʒɔɪn/"
+  },
+  {
+   "lemma": "junior",
+   "forms": [
+    "junior"
+   ],
+   "translation": "молодший, початківець",
+   "transcription": "/ˈdʒuːniə/"
+  },
+  {
+   "lemma": "just",
+   "forms": [
+    "just"
+   ],
+   "translation": "просто, щойно",
+   "transcription": "/dʒʌst/"
+  },
+  {
+   "lemma": "keep",
+   "forms": [
+    "keep",
+    "kept"
+   ],
+   "translation": "тримати, зберігати; keep doing — продовжувати",
+   "transcription": "/kiːp/"
+  },
+  {
+   "lemma": "kind",
+   "forms": [
+    "kind"
+   ],
+   "translation": "вид, різновид (a kind of); добрий",
+   "transcription": "/kaɪnd/"
+  },
+  {
+   "lemma": "knew",
+   "forms": [
+    "knew"
+   ],
+   "translation": "знав (минулий час від know)",
+   "transcription": "/njuː/"
+  },
+  {
+   "lemma": "knock",
+   "forms": [
+    "knocked"
+   ],
+   "translation": "стукати",
+   "transcription": "/nɒk/"
+  },
+  {
+   "lemma": "lamp",
+   "forms": [
+    "lamp"
+   ],
+   "translation": "лампа",
+   "transcription": "/læmp/"
+  },
+  {
+   "lemma": "laptop",
+   "forms": [
+    "laptop"
+   ],
+   "translation": "ноутбук",
+   "transcription": "/ˈlæptɒp/"
+  },
+  {
+   "lemma": "last",
+   "forms": [
+    "last",
+    "lasted"
+   ],
+   "translation": "минулий, останній; тривати",
+   "transcription": "/lɑːst/"
+  },
+  {
+   "lemma": "later",
+   "forms": [
+    "later"
+   ],
+   "translation": "пізніше",
+   "transcription": "/ˈleɪtə/"
+  },
+  {
+   "lemma": "lead",
+   "forms": [
+    "lead"
+   ],
+   "translation": "тімлід, керівник команди; вести",
+   "transcription": "/liːd/"
+  },
+  {
+   "lemma": "learn",
+   "forms": [
+    "learn",
+    "learned",
+    "learning"
+   ],
+   "translation": "вчити, вчитися",
+   "transcription": "/lɜːn/"
+  },
+  {
+   "lemma": "leave",
+   "forms": [
+    "leave",
+    "left"
+   ],
+   "translation": "залишати, виходити, вирушати",
+   "transcription": "/liːv/"
+  },
+  {
+   "lemma": "lesson",
+   "forms": [
+    "lesson"
+   ],
+   "translation": "урок",
+   "transcription": "/ˈlesn/"
+  },
+  {
+   "lemma": "let's",
+   "forms": [
+    "let's"
+   ],
+   "translation": "давайте (let us)",
+   "transcription": "/lets/"
+  },
+  {
+   "lemma": "letter",
+   "forms": [
+    "letters"
+   ],
+   "translation": "лист, літера",
+   "transcription": "/ˈletə/"
+  },
+  {
+   "lemma": "library",
+   "forms": [
+    "libraries"
+   ],
+   "translation": "бібліотека",
+   "transcription": "/ˈlaɪbrəri/"
+  },
+  {
+   "lemma": "like",
+   "forms": [
+    "like",
+    "liked"
+   ],
+   "translation": "подобатися; як, схожий на (felt like)",
+   "transcription": "/laɪk/"
+  },
+  {
+   "lemma": "line",
+   "forms": [
+    "line",
+    "lines"
+   ],
+   "translation": "рядок, лінія; черга (standing in line)",
+   "transcription": "/laɪn/"
+  },
+  {
+   "lemma": "link",
+   "forms": [
+    "link"
+   ],
+   "translation": "посилання",
+   "transcription": "/lɪŋk/"
+  },
+  {
+   "lemma": "list",
+   "forms": [
+    "list"
+   ],
+   "translation": "список",
+   "transcription": "/lɪst/"
+  },
+  {
+   "lemma": "local",
+   "forms": [
+    "local"
+   ],
+   "translation": "місцевий, локальний",
+   "transcription": "/ˈləʊkl/"
+  },
+  {
+   "lemma": "logic",
+   "forms": [
+    "logic"
+   ],
+   "translation": "логіка",
+   "transcription": "/ˈlɒdʒɪk/"
+  },
+  {
+   "lemma": "login",
+   "forms": [
+    "login"
+   ],
+   "translation": "вхід, логін",
+   "transcription": "/ˈlɒɡɪn/"
+  },
+  {
+   "lemma": "log",
+   "forms": [
+    "logs"
+   ],
+   "translation": "лог, журнал подій; логувати",
+   "transcription": "/lɒɡ/"
+  },
+  {
+   "lemma": "long",
+   "forms": [
+    "long"
+   ],
+   "translation": "довгий",
+   "transcription": "/lɒŋ/"
+  },
+  {
+   "lemma": "longer",
+   "forms": [
+    "longer"
+   ],
+   "translation": "довший, довше; no longer — більше не",
+   "transcription": "/ˈlɒŋɡə/"
+  },
+  {
+   "lemma": "look",
+   "forms": [
+    "looked",
+    "looks"
+   ],
+   "translation": "дивитися, виглядати",
+   "transcription": "/lʊk/"
+  },
+  {
+   "lemma": "lot",
+   "forms": [
+    "lot"
+   ],
+   "translation": "багато, частка",
+   "transcription": "/lɒt/"
+  },
+  {
+   "lemma": "love",
+   "forms": [
+    "loves"
+   ],
+   "translation": "любити",
+   "transcription": "/lʌv/"
+  },
+  {
+   "lemma": "p.m.",
+   "forms": [
+    "m",
+    "p"
+   ],
+   "translation": "p.m. — після полудня (6 p.m. = 18:00)",
+   "transcription": "/ˌpiː ˈem/"
+  },
+  {
+   "lemma": "make",
+   "forms": [
+    "made",
+    "make",
+    "makes"
+   ],
+   "translation": "робити, створювати; make sense — мати сенс",
+   "transcription": "/meɪk/"
+  },
+  {
+   "lemma": "main",
+   "forms": [
+    "main"
+   ],
+   "translation": "головний",
+   "transcription": "/meɪn/"
+  },
+  {
+   "lemma": "man",
+   "forms": [
+    "man"
+   ],
+   "translation": "чоловік",
+   "transcription": "/mæn/"
+  },
+  {
+   "lemma": "manager",
+   "forms": [
+    "manager"
+   ],
+   "translation": "менеджер, керівник",
+   "transcription": "/ˈmænɪdʒə/"
+  },
+  {
+   "lemma": "many",
+   "forms": [
+    "many"
+   ],
+   "translation": "багато",
+   "transcription": "/ˈmeni/"
+  },
+  {
+   "lemma": "match",
+   "forms": [
+    "match"
+   ],
+   "translation": "матч; збігатися, відповідність",
+   "transcription": "/mætʃ/"
+  },
+  {
+   "lemma": "may",
+   "forms": [
+    "may"
+   ],
+   "translation": "могти, можливо",
+   "transcription": "/meɪ/"
+  },
+  {
+   "lemma": "me",
+   "forms": [
+    "me"
+   ],
+   "translation": "мене, мені",
+   "transcription": "/miː/"
+  },
+  {
+   "lemma": "meeting",
+   "forms": [
+    "meeting",
+    "meetings"
+   ],
+   "translation": "зустріч, нарада",
+   "transcription": "/ˈmiːtɪŋ/"
+  },
+  {
+   "lemma": "memory",
+   "forms": [
+    "memory"
+   ],
+   "translation": "пам'ять",
+   "transcription": "/ˈmeməri/"
+  },
+  {
+   "lemma": "message",
+   "forms": [
+    "message"
+   ],
+   "translation": "повідомлення",
+   "transcription": "/ˈmesɪdʒ/"
+  },
+  {
+   "lemma": "met",
+   "forms": [
+    "met"
+   ],
+   "translation": "зустрів (минулий час від meet)",
+   "transcription": "/met/"
+  },
+  {
+   "lemma": "midnight",
+   "forms": [
+    "midnight"
+   ],
+   "translation": "північ",
+   "transcription": "/ˈmɪdnaɪt/"
+  },
+  {
+   "lemma": "mind",
+   "forms": [
+    "mind"
+   ],
+   "translation": "розум; changing its mind — передумувати; заперечувати",
+   "transcription": "/maɪnd/"
+  },
+  {
+   "lemma": "mine",
+   "forms": [
+    "mine"
+   ],
+   "translation": "мій, моя",
+   "transcription": "/maɪn/"
+  },
+  {
+   "lemma": "minute",
+   "forms": [
+    "minute",
+    "minutes"
+   ],
+   "translation": "хвилина",
+   "transcription": "/ˈmɪnɪt/"
+  },
+  {
+   "lemma": "mistake",
+   "forms": [
+    "mistake"
+   ],
+   "translation": "помилка",
+   "transcription": "/mɪˈsteɪk/"
+  },
+  {
+   "lemma": "mobile",
+   "forms": [
+    "mobile"
+   ],
+   "translation": "мобільний",
+   "transcription": "/ˈməʊbaɪl/"
+  },
+  {
+   "lemma": "moment",
+   "forms": [
+    "moment"
+   ],
+   "translation": "момент",
+   "transcription": "/ˈməʊmənt/"
+  },
+  {
+   "lemma": "Monday",
+   "forms": [
+    "monday"
+   ],
+   "translation": "понеділок",
+   "transcription": "/ˈmʌndeɪ/"
+  },
+  {
+   "lemma": "money",
+   "forms": [
+    "money"
+   ],
+   "translation": "гроші",
+   "transcription": "/ˈmʌni/"
+  },
+  {
+   "lemma": "month",
+   "forms": [
+    "month's",
+    "months"
+   ],
+   "translation": "місяць",
+   "transcription": "/mʌnθ/"
+  },
+  {
+   "lemma": "mood",
+   "forms": [
+    "mood"
+   ],
+   "translation": "настрій",
+   "transcription": "/muːd/"
+  },
+  {
+   "lemma": "more",
+   "forms": [
+    "more"
+   ],
+   "translation": "більше",
+   "transcription": "/mɔː/"
+  },
+  {
+   "lemma": "morning",
+   "forms": [
+    "morning"
+   ],
+   "translation": "ранок",
+   "transcription": "/ˈmɔːnɪŋ/"
+  },
+  {
+   "lemma": "most",
+   "forms": [
+    "most"
+   ],
+   "translation": "більшість, найбільш",
+   "transcription": "/məʊst/"
+  },
+  {
+   "lemma": "move",
+   "forms": [
+    "moved"
+   ],
+   "translation": "рухатися, переїжджати",
+   "transcription": "/muːv/"
+  },
+  {
+   "lemma": "much",
+   "forms": [
+    "much"
+   ],
+   "translation": "багато",
+   "transcription": "/mʌtʃ/"
+  },
+  {
+   "lemma": "my",
+   "forms": [
+    "my"
+   ],
+   "translation": "мій",
+   "transcription": "/maɪ/"
+  },
+  {
+   "lemma": "name",
+   "forms": [
+    "name"
+   ],
+   "translation": "ім'я, назва",
+   "transcription": "/neɪm/"
+  },
+  {
+   "lemma": "natural",
+   "forms": [
+    "natural"
+   ],
+   "translation": "природний",
+   "transcription": "/ˈnætʃrəl/"
+  },
+  {
+   "lemma": "necessary",
+   "forms": [
+    "necessary"
+   ],
+   "translation": "необхідний",
+   "transcription": "/ˈnesəsəri/"
+  },
+  {
+   "lemma": "need",
+   "forms": [
+    "need",
+    "needed",
+    "needs"
+   ],
+   "translation": "потребувати, потреба",
+   "transcription": "/niːd/"
+  },
+  {
+   "lemma": "neighbour",
+   "forms": [
+    "neighbours"
+   ],
+   "translation": "сусід",
+   "transcription": "/ˈneɪbə/"
+  },
+  {
+   "lemma": "networking",
+   "forms": [
+    "networking"
+   ],
+   "translation": "комп'ютерні мережі; налагодження зв'язків",
+   "transcription": "/ˈnetwɜːkɪŋ/"
+  },
+  {
+   "lemma": "never",
+   "forms": [
+    "never"
+   ],
+   "translation": "ніколи",
+   "transcription": "/ˈnevə/"
+  },
+  {
+   "lemma": "new",
+   "forms": [
+    "new"
+   ],
+   "translation": "новий",
+   "transcription": "/njuː/"
+  },
+  {
+   "lemma": "next",
+   "forms": [
+    "next"
+   ],
+   "translation": "наступний",
+   "transcription": "/nekst/"
+  },
+  {
+   "lemma": "nice",
+   "forms": [
+    "nice"
+   ],
+   "translation": "приємний, гарний",
+   "transcription": "/naɪs/"
+  },
+  {
+   "lemma": "night",
+   "forms": [
+    "night"
+   ],
+   "translation": "ніч",
+   "transcription": "/naɪt/"
+  },
+  {
+   "lemma": "nine",
+   "forms": [
+    "nine"
+   ],
+   "translation": "дев'ять",
+   "transcription": "/naɪn/"
+  },
+  {
+   "lemma": "no",
+   "forms": [
+    "no"
+   ],
+   "translation": "ні, жодний",
+   "transcription": "/nəʊ/"
+  },
+  {
+   "lemma": "nobody",
+   "forms": [
+    "nobody"
+   ],
+   "translation": "ніхто",
+   "transcription": "/ˈnəʊbədi/"
+  },
+  {
+   "lemma": "normal",
+   "forms": [
+    "normal"
+   ],
+   "translation": "нормальний",
+   "transcription": "/ˈnɔːml/"
+  },
+  {
+   "lemma": "not",
+   "forms": [
+    "not"
+   ],
+   "translation": "не",
+   "transcription": "/nɒt/"
+  },
+  {
+   "lemma": "note",
+   "forms": [
+    "note"
+   ],
+   "translation": "нотатка, помітка",
+   "transcription": "/nəʊt/"
+  },
+  {
+   "lemma": "nothing",
+   "forms": [
+    "nothing"
+   ],
+   "translation": "нічого",
+   "transcription": "/ˈnʌθɪŋ/"
+  },
+  {
+   "lemma": "notice",
+   "forms": [
+    "noticed"
+   ],
+   "translation": "помічати",
+   "transcription": "/ˈnəʊtɪs/"
+  },
+  {
+   "lemma": "now",
+   "forms": [
+    "now"
+   ],
+   "translation": "зараз",
+   "transcription": "/naʊ/"
+  },
+  {
+   "lemma": "number",
+   "forms": [
+    "number",
+    "numbers"
+   ],
+   "translation": "число, номер",
+   "transcription": "/ˈnʌmbə/"
+  },
+  {
+   "lemma": "odd",
+   "forms": [
+    "odd"
+   ],
+   "translation": "дивний, незвичний; непарний",
+   "transcription": "/ɒd/"
+  },
+  {
+   "lemma": "of",
+   "forms": [
+    "of"
+   ],
+   "translation": "прийменник: родовий відмінок, «з»",
+   "transcription": "/ɒv/"
+  },
+  {
+   "lemma": "offer",
+   "forms": [
+    "offered"
+   ],
+   "translation": "пропонувати",
+   "transcription": "/ˈɒfə/"
+  },
+  {
+   "lemma": "official",
+   "forms": [
+    "official"
+   ],
+   "translation": "офіційний",
+   "transcription": "/əˈfɪʃl/"
+  },
+  {
+   "lemma": "often",
+   "forms": [
+    "often"
+   ],
+   "translation": "часто",
+   "transcription": "/ˈɒfn/"
+  },
+  {
+   "lemma": "old",
+   "forms": [
+    "old"
+   ],
+   "translation": "старий",
+   "transcription": "/əʊld/"
+  },
+  {
+   "lemma": "on",
+   "forms": [
+    "on"
+   ],
+   "translation": "на",
+   "transcription": "/ɒn/"
+  },
+  {
+   "lemma": "once",
+   "forms": [
+    "once"
+   ],
+   "translation": "одного разу, раз; once we… — коли/як тільки",
+   "transcription": "/wʌns/"
+  },
+  {
+   "lemma": "one",
+   "forms": [
+    "one"
+   ],
+   "translation": "один",
+   "transcription": "/wʌn/"
+  },
+  {
+   "lemma": "online",
+   "forms": [
+    "online"
+   ],
+   "translation": "в інтернеті, онлайн",
+   "transcription": "/ˌɒnˈlaɪn/"
+  },
+  {
+   "lemma": "only",
+   "forms": [
+    "only"
+   ],
+   "translation": "тільки",
+   "transcription": "/ˈəʊnli/"
+  },
+  {
+   "lemma": "open",
+   "forms": [
+    "opened"
+   ],
+   "translation": "відкривати",
+   "transcription": "/ˈəʊpən/"
+  },
+  {
+   "lemma": "option",
+   "forms": [
+    "option"
+   ],
+   "translation": "варіант, опція",
+   "transcription": "/ˈɒpʃn/"
+  },
+  {
+   "lemma": "order",
+   "forms": [
+    "orders"
+   ],
+   "translation": "замовлення, порядок",
+   "transcription": "/ˈɔːdə/"
+  },
+  {
+   "lemma": "other",
+   "forms": [
+    "other",
+    "others"
+   ],
+   "translation": "інший",
+   "transcription": "/ˈʌðə/"
+  },
+  {
+   "lemma": "our",
+   "forms": [
+    "our"
+   ],
+   "translation": "наш",
+   "transcription": "/ˈaʊə/"
+  },
+  {
+   "lemma": "out",
+   "forms": [
+    "out"
+   ],
+   "translation": "назовні, поза",
+   "transcription": "/aʊt/"
+  },
+  {
+   "lemma": "over",
+   "forms": [
+    "over"
+   ],
+   "translation": "над, понад, через",
+   "transcription": "/ˈəʊvə/"
+  },
+  {
+   "lemma": "own",
+   "forms": [
+    "own"
+   ],
+   "translation": "власний",
+   "transcription": "/əʊn/"
+  },
+  {
+   "lemma": "pair",
+   "forms": [
+    "pair"
+   ],
+   "translation": "пара",
+   "transcription": "/peə/"
+  },
+  {
+   "lemma": "part",
+   "forms": [
+    "part",
+    "parts"
+   ],
+   "translation": "частина",
+   "transcription": "/pɑːt/"
+  },
+  {
+   "lemma": "pass",
+   "forms": [
+    "passed",
+    "passes"
+   ],
+   "translation": "передавати, проходити; boarding pass — посадковий талон",
+   "transcription": "/pɑːs/"
+  },
+  {
+   "lemma": "patience",
+   "forms": [
+    "patience"
+   ],
+   "translation": "терпіння",
+   "transcription": "/ˈpeɪʃns/"
+  },
+  {
+   "lemma": "pay",
+   "forms": [
+    "pay",
+    "pays"
+   ],
+   "translation": "платити",
+   "transcription": "/peɪ/"
+  },
+  {
+   "lemma": "payment",
+   "forms": [
+    "payment"
+   ],
+   "translation": "платіж, оплата",
+   "transcription": "/ˈpeɪmənt/"
+  },
+  {
+   "lemma": "people",
+   "forms": [
+    "people",
+    "people's"
+   ],
+   "translation": "люди",
+   "transcription": "/ˈpiːpl/"
+  },
+  {
+   "lemma": "perfect",
+   "forms": [
+    "perfect"
+   ],
+   "translation": "ідеальний",
+   "transcription": "/ˈpɜːfɪkt/"
+  },
+  {
+   "lemma": "person",
+   "forms": [
+    "person"
+   ],
+   "translation": "людина, особа",
+   "transcription": "/ˈpɜːsn/"
+  },
+  {
+   "lemma": "phone",
+   "forms": [
+    "phone",
+    "phones"
+   ],
+   "translation": "телефон",
+   "transcription": "/fəʊn/"
+  },
+  {
+   "lemma": "photo",
+   "forms": [
+    "photo",
+    "photos"
+   ],
+   "translation": "фото",
+   "transcription": "/ˈfəʊtəʊ/"
+  },
+  {
+   "lemma": "plan",
+   "forms": [
+    "plan"
+   ],
+   "translation": "план, планувати",
+   "transcription": "/plæn/"
+  },
+  {
+   "lemma": "pleasant",
+   "forms": [
+    "pleasant"
+   ],
+   "translation": "приємний",
+   "transcription": "/ˈpleznt/"
+  },
+  {
+   "lemma": "point",
+   "forms": [
+    "point",
+    "pointed"
+   ],
+   "translation": "пункт, момент (turning point — поворотний момент); вказувати (point out — зауважити)",
+   "transcription": "/pɔɪnt/"
+  },
+  {
+   "lemma": "politely",
+   "forms": [
+    "politely"
+   ],
+   "translation": "ввічливо",
+   "transcription": "/pəˈlaɪtli/"
+  },
+  {
+   "lemma": "prepare",
+   "forms": [
+    "prepare",
+    "prepared"
+   ],
+   "translation": "готувати, готуватися",
+   "transcription": "/prɪˈpeə/"
+  },
+  {
+   "lemma": "pretend",
+   "forms": [
+    "pretend"
+   ],
+   "translation": "удавати, вдавати",
+   "transcription": "/prɪˈtend/"
+  },
+  {
+   "lemma": "previous",
+   "forms": [
+    "previous"
+   ],
+   "translation": "попередній",
+   "transcription": "/ˈpriːviəs/"
+  },
+  {
+   "lemma": "problem",
+   "forms": [
+    "problem",
+    "problems"
+   ],
+   "translation": "проблема",
+   "transcription": "/ˈprɒbləm/"
+  },
+  {
+   "lemma": "process",
+   "forms": [
+    "process"
+   ],
+   "translation": "процес",
+   "transcription": "/ˈprəʊses/"
+  },
+  {
+   "lemma": "project",
+   "forms": [
+    "project",
+    "projects"
+   ],
+   "translation": "проєкт",
+   "transcription": "/ˈprɒdʒekt/"
+  },
+  {
+   "lemma": "promise",
+   "forms": [
+    "promised"
+   ],
+   "translation": "обіцяти",
+   "transcription": "/ˈprɒmɪs/"
+  },
+  {
+   "lemma": "provider",
+   "forms": [
+    "provider's"
+   ],
+   "translation": "постачальник, провайдер",
+   "transcription": "/prəˈvaɪdə/"
+  },
+  {
+   "lemma": "pull",
+   "forms": [
+    "pull"
+   ],
+   "translation": "тягти; pull request — запит на злиття змін",
+   "transcription": "/pʊl/"
+  },
+  {
+   "lemma": "put",
+   "forms": [
+    "put"
+   ],
+   "translation": "класти, ставити, вносити",
+   "transcription": "/pʊt/"
+  },
+  {
+   "lemma": "quarter",
+   "forms": [
+    "quarter"
+   ],
+   "translation": "чверть, квартал",
+   "transcription": "/ˈkwɔːtə/"
+  },
+  {
+   "lemma": "question",
+   "forms": [
+    "question"
+   ],
+   "translation": "питання",
+   "transcription": "/ˈkwestʃən/"
+  },
+  {
+   "lemma": "quick",
+   "forms": [
+    "quick"
+   ],
+   "translation": "швидкий",
+   "transcription": "/kwɪk/"
+  },
+  {
+   "lemma": "quiet",
+   "forms": [
+    "quiet"
+   ],
+   "translation": "тихий",
+   "transcription": "/ˈkwaɪət/"
+  },
+  {
+   "lemma": "run",
+   "forms": [
+    "ran",
+    "run"
+   ],
+   "translation": "запускати, виконувати (код, запит); бігти",
+   "transcription": "/rʌn/"
+  },
+  {
+   "lemma": "rare",
+   "forms": [
+    "rare"
+   ],
+   "translation": "рідкісний",
+   "transcription": "/reə/"
+  },
+  {
+   "lemma": "read",
+   "forms": [
+    "read"
+   ],
+   "translation": "читати; read (минулий час, /red/) — прочитав",
+   "transcription": "/riːd/"
+  },
+  {
+   "lemma": "reading",
+   "forms": [
+    "reading"
+   ],
+   "translation": "читання",
+   "transcription": "/ˈriːdɪŋ/"
+  },
+  {
+   "lemma": "ready",
+   "forms": [
+    "ready"
+   ],
+   "translation": "готовий",
+   "transcription": "/ˈredi/"
+  },
+  {
+   "lemma": "real",
+   "forms": [
+    "real"
+   ],
+   "translation": "справжній",
+   "transcription": "/ˈrɪəl/"
+  },
+  {
+   "lemma": "really",
+   "forms": [
+    "really"
+   ],
+   "translation": "справді",
+   "transcription": "/ˈrɪəli/"
+  },
+  {
+   "lemma": "reason",
+   "forms": [
+    "reason",
+    "reasons"
+   ],
+   "translation": "причина",
+   "transcription": "/ˈriːzn/"
+  },
+  {
+   "lemma": "receive",
+   "forms": [
+    "received"
+   ],
+   "translation": "отримувати",
+   "transcription": "/rɪˈsiːv/"
+  },
+  {
+   "lemma": "recently",
+   "forms": [
+    "recently"
+   ],
+   "translation": "нещодавно",
+   "transcription": "/ˈriːsntli/"
+  },
+  {
+   "lemma": "recognise",
+   "forms": [
+    "recognise"
+   ],
+   "translation": "впізнавати, визнавати",
+   "transcription": "/ˈrekəɡnaɪz/"
+  },
+  {
+   "lemma": "red",
+   "forms": [
+    "red"
+   ],
+   "translation": "червоний",
+   "transcription": "/red/"
+  },
+  {
+   "lemma": "refuse",
+   "forms": [
+    "refusing"
+   ],
+   "translation": "відмовлятися",
+   "transcription": "/rɪˈfjuːz/"
+  },
+  {
+   "lemma": "remember",
+   "forms": [
+    "remember",
+    "remembered"
+   ],
+   "translation": "пам'ятати, згадувати",
+   "transcription": "/rɪˈmembə/"
+  },
+  {
+   "lemma": "remove",
+   "forms": [
+    "remove"
+   ],
+   "translation": "видаляти, прибирати",
+   "transcription": "/rɪˈmuːv/"
+  },
+  {
+   "lemma": "rename",
+   "forms": [
+    "renamed"
+   ],
+   "translation": "перейменовувати",
+   "transcription": "/ˌriːˈneɪm/"
+  },
+  {
+   "lemma": "reply",
+   "forms": [
+    "replied"
+   ],
+   "translation": "відповідати",
+   "transcription": "/rɪˈplaɪ/"
+  },
+  {
+   "lemma": "report",
+   "forms": [
+    "report"
+   ],
+   "translation": "звіт, повідомляти",
+   "transcription": "/rɪˈpɔːt/"
+  },
+  {
+   "lemma": "respect",
+   "forms": [
+    "respect"
+   ],
+   "translation": "повага",
+   "transcription": "/rɪˈspekt/"
+  },
+  {
+   "lemma": "rest",
+   "forms": [
+    "rest"
+   ],
+   "translation": "відпочинок, решта",
+   "transcription": "/rest/"
+  },
+  {
+   "lemma": "result",
+   "forms": [
+    "result"
+   ],
+   "translation": "результат",
+   "transcription": "/rɪˈzʌlt/"
+  },
+  {
+   "lemma": "return",
+   "forms": [
+    "returns"
+   ],
+   "translation": "повертати, повертатися",
+   "transcription": "/rɪˈtɜːn/"
+  },
+  {
+   "lemma": "review",
+   "forms": [
+    "review"
+   ],
+   "translation": "рев'ю, перевірка коду; перевіряти (код)",
+   "transcription": "/rɪˈvjuː/"
+  },
+  {
+   "lemma": "reviewer",
+   "forms": [
+    "reviewer's"
+   ],
+   "translation": "рецензент, той, хто перевіряє код",
+   "transcription": "/rɪˈvjuːə/"
+  },
+  {
+   "lemma": "right",
+   "forms": [
+    "right"
+   ],
+   "translation": "правий, правильний; be right — мати рацію",
+   "transcription": "/raɪt/"
+  },
+  {
+   "lemma": "ring",
+   "forms": [
+    "ring"
+   ],
+   "translation": "дзвонити, дзвінок",
+   "transcription": "/rɪŋ/"
+  },
+  {
+   "lemma": "roll",
+   "forms": [
+    "roll"
+   ],
+   "translation": "відкочувати (roll back — відкотити реліз); котитися",
+   "transcription": "/rəʊl/"
+  },
+  {
+   "lemma": "room",
+   "forms": [
+    "room"
+   ],
+   "translation": "кімната",
+   "transcription": "/ruːm/"
+  },
+  {
+   "lemma": "rule",
+   "forms": [
+    "rule",
+    "rules"
+   ],
+   "translation": "правило",
+   "transcription": "/ruːl/"
+  },
+  {
+   "lemma": "say",
+   "forms": [
+    "said",
+    "say",
+    "says"
+   ],
+   "translation": "казати",
+   "transcription": "/seɪ/"
+  },
+  {
+   "lemma": "sales",
+   "forms": [
+    "sales"
+   ],
+   "translation": "продажі",
+   "transcription": "/seɪlz/"
+  },
+  {
+   "lemma": "same",
+   "forms": [
+    "same"
+   ],
+   "translation": "той самий",
+   "transcription": "/seɪm/"
+  },
+  {
+   "lemma": "Saturday",
+   "forms": [
+    "saturday"
+   ],
+   "translation": "субота",
+   "transcription": "/ˈsætədeɪ/"
+  },
+  {
+   "lemma": "see",
+   "forms": [
+    "saw",
+    "see"
+   ],
+   "translation": "бачити",
+   "transcription": "/siː/"
+  },
+  {
+   "lemma": "screen",
+   "forms": [
+    "screen"
+   ],
+   "translation": "екран",
+   "transcription": "/skriːn/"
+  },
+  {
+   "lemma": "screenshot",
+   "forms": [
+    "screenshots"
+   ],
+   "translation": "знімок екрана",
+   "transcription": "/ˈskriːnʃɒt/"
+  },
+  {
+   "lemma": "search",
+   "forms": [
+    "search"
+   ],
+   "translation": "пошук, шукати",
+   "transcription": "/sɜːtʃ/"
+  },
+  {
+   "lemma": "second",
+   "forms": [
+    "second"
+   ],
+   "translation": "другий, секунда; по-друге",
+   "transcription": "/ˈsekənd/"
+  },
+  {
+   "lemma": "send",
+   "forms": [
+    "send",
+    "sent"
+   ],
+   "translation": "надсилати",
+   "transcription": "/send/"
+  },
+  {
+   "lemma": "senior",
+   "forms": [
+    "senior"
+   ],
+   "translation": "старший, досвідчений",
+   "transcription": "/ˈsiːniə/"
+  },
+  {
+   "lemma": "sense",
+   "forms": [
+    "sense"
+   ],
+   "translation": "сенс, відчуття",
+   "transcription": "/sens/"
+  },
+  {
+   "lemma": "service",
+   "forms": [
+    "service"
+   ],
+   "translation": "сервіс, послуга",
+   "transcription": "/ˈsɜːvɪs/"
+  },
+  {
+   "lemma": "she",
+   "forms": [
+    "she"
+   ],
+   "translation": "вона",
+   "transcription": "/ʃiː/"
+  },
+  {
+   "lemma": "shake",
+   "forms": [
+    "shook"
+   ],
+   "translation": "трясти, хитати",
+   "transcription": "/ʃeɪk/"
+  },
+  {
+   "lemma": "short",
+   "forms": [
+    "short"
+   ],
+   "translation": "короткий",
+   "transcription": "/ʃɔːt/"
+  },
+  {
+   "lemma": "should",
+   "forms": [
+    "should"
+   ],
+   "translation": "слід, варто",
+   "transcription": "/ʃʊd/"
+  },
+  {
+   "lemma": "show",
+   "forms": [
+    "showed"
+   ],
+   "translation": "показувати",
+   "transcription": "/ʃəʊ/"
+  },
+  {
+   "lemma": "side",
+   "forms": [
+    "side"
+   ],
+   "translation": "сторона",
+   "transcription": "/saɪd/"
+  },
+  {
+   "lemma": "sign",
+   "forms": [
+    "sign",
+    "signed"
+   ],
+   "translation": "знак, підписувати",
+   "transcription": "/saɪn/"
+  },
+  {
+   "lemma": "silence",
+   "forms": [
+    "silence"
+   ],
+   "translation": "тиша",
+   "transcription": "/ˈsaɪləns/"
+  },
+  {
+   "lemma": "silently",
+   "forms": [
+    "silently"
+   ],
+   "translation": "мовчки, тихо",
+   "transcription": "/ˈsaɪləntli/"
+  },
+  {
+   "lemma": "simple",
+   "forms": [
+    "simple"
+   ],
+   "translation": "простий",
+   "transcription": "/ˈsɪmpl/"
+  },
+  {
+   "lemma": "simply",
+   "forms": [
+    "simply"
+   ],
+   "translation": "просто",
+   "transcription": "/ˈsɪmpli/"
+  },
+  {
+   "lemma": "since",
+   "forms": [
+    "since"
+   ],
+   "translation": "з тих пір, відколи, оскільки",
+   "transcription": "/sɪns/"
+  },
+  {
+   "lemma": "skill",
+   "forms": [
+    "skills"
+   ],
+   "translation": "навичка",
+   "transcription": "/skɪl/"
+  },
+  {
+   "lemma": "sleep",
+   "forms": [
+    "sleep",
+    "slept"
+   ],
+   "translation": "спати, сон; sleep on it — переспати з думкою",
+   "transcription": "/sliːp/"
+  },
+  {
+   "lemma": "slow",
+   "forms": [
+    "slow"
+   ],
+   "translation": "повільний",
+   "transcription": "/sləʊ/"
+  },
+  {
+   "lemma": "slower",
+   "forms": [
+    "slower"
+   ],
+   "translation": "повільніший",
+   "transcription": "/ˈsləʊə/"
+  },
+  {
+   "lemma": "slowly",
+   "forms": [
+    "slowly"
+   ],
+   "translation": "повільно",
+   "transcription": "/ˈsləʊli/"
+  },
+  {
+   "lemma": "small",
+   "forms": [
+    "small"
+   ],
+   "translation": "малий",
+   "transcription": "/smɔːl/"
+  },
+  {
+   "lemma": "smaller",
+   "forms": [
+    "smaller"
+   ],
+   "translation": "менший",
+   "transcription": "/ˈsmɔːlə/"
+  },
+  {
+   "lemma": "smile",
+   "forms": [
+    "smiled"
+   ],
+   "translation": "усміхатися",
+   "transcription": "/smaɪl/"
+  },
+  {
+   "lemma": "so",
+   "forms": [
+    "so"
+   ],
+   "translation": "так, тому",
+   "transcription": "/səʊ/"
+  },
+  {
+   "lemma": "solve",
+   "forms": [
+    "solve",
+    "solves"
+   ],
+   "translation": "розв'язувати",
+   "transcription": "/sɒlv/"
+  },
+  {
+   "lemma": "some",
+   "forms": [
+    "some"
+   ],
+   "translation": "деякі, трохи",
+   "transcription": "/sʌm/"
+  },
+  {
+   "lemma": "someone",
+   "forms": [
+    "someone"
+   ],
+   "translation": "хтось",
+   "transcription": "/ˈsʌmwʌn/"
+  },
+  {
+   "lemma": "something",
+   "forms": [
+    "something"
+   ],
+   "translation": "щось",
+   "transcription": "/ˈsʌmθɪŋ/"
+  },
+  {
+   "lemma": "sound",
+   "forms": [
+    "sound"
+   ],
+   "translation": "звук, звучати",
+   "transcription": "/saʊnd/"
+  },
+  {
+   "lemma": "speak",
+   "forms": [
+    "speak"
+   ],
+   "translation": "говорити",
+   "transcription": "/spiːk/"
+  },
+  {
+   "lemma": "speaker",
+   "forms": [
+    "speaker"
+   ],
+   "translation": "колонка, динамік; доповідач",
+   "transcription": "/ˈspiːkə/"
+  },
+  {
+   "lemma": "spend",
+   "forms": [
+    "spend"
+   ],
+   "translation": "витрачати, проводити (час)",
+   "transcription": "/spend/"
+  },
+  {
+   "lemma": "spot",
+   "forms": [
+    "spot"
+   ],
+   "translation": "помічати, місце",
+   "transcription": "/spɒt/"
+  },
+  {
+   "lemma": "SQL",
+   "forms": [
+    "sql"
+   ],
+   "translation": "мова запитів до баз даних",
+   "transcription": "/ˌes kjuː ˈel/"
+  },
+  {
+   "lemma": "stand",
+   "forms": [
+    "standing"
+   ],
+   "translation": "стояти",
+   "transcription": "/stænd/"
+  },
+  {
+   "lemma": "start",
+   "forms": [
+    "start",
+    "started"
+   ],
+   "translation": "починати",
+   "transcription": "/stɑːt/"
+  },
+  {
+   "lemma": "step",
+   "forms": [
+    "steps"
+   ],
+   "translation": "крок",
+   "transcription": "/step/"
+  },
+  {
+   "lemma": "still",
+   "forms": [
+    "still"
+   ],
+   "translation": "ще, досі; все ж",
+   "transcription": "/stɪl/"
+  },
+  {
+   "lemma": "store",
+   "forms": [
+    "store"
+   ],
+   "translation": "зберігати, магазин",
+   "transcription": "/stɔː/"
+  },
+  {
+   "lemma": "story",
+   "forms": [
+    "story"
+   ],
+   "translation": "історія",
+   "transcription": "/ˈstɔːri/"
+  },
+  {
+   "lemma": "structure",
+   "forms": [
+    "structures"
+   ],
+   "translation": "структура",
+   "transcription": "/ˈstrʌktʃə/"
+  },
+  {
+   "lemma": "study",
+   "forms": [
+    "study"
+   ],
+   "translation": "вчитися, навчання",
+   "transcription": "/ˈstʌdi/"
+  },
+  {
+   "lemma": "subscribe",
+   "forms": [
+    "subscribed"
+   ],
+   "translation": "підписуватися",
+   "transcription": "/səbˈskraɪb/"
+  },
+  {
+   "lemma": "such",
+   "forms": [
+    "such"
+   ],
+   "translation": "такий; such as — такі як",
+   "transcription": "/sʌtʃ/"
+  },
+  {
+   "lemma": "suggest",
+   "forms": [
+    "suggested"
+   ],
+   "translation": "пропонувати",
+   "transcription": "/səˈdʒest/"
+  },
+  {
+   "lemma": "sum",
+   "forms": [
+    "sum"
+   ],
+   "translation": "сума",
+   "transcription": "/sʌm/"
+  },
+  {
+   "lemma": "suppose",
+   "forms": [
+    "supposed"
+   ],
+   "translation": "припускати; was supposed to — мав (за планом)",
+   "transcription": "/səˈpəʊz/"
+  },
+  {
+   "lemma": "sure",
+   "forms": [
+    "sure"
+   ],
+   "translation": "впевнений",
+   "transcription": "/ʃɔː/"
+  },
+  {
+   "lemma": "system",
+   "forms": [
+    "system"
+   ],
+   "translation": "система",
+   "transcription": "/ˈsɪstəm/"
+  },
+  {
+   "lemma": "tab",
+   "forms": [
+    "tab"
+   ],
+   "translation": "вкладка",
+   "transcription": "/tæb/"
+  },
+  {
+   "lemma": "take",
+   "forms": [
+    "take",
+    "takes",
+    "took"
+   ],
+   "translation": "брати; (про час) займати, тривати",
+   "transcription": "/teɪk/"
+  },
+  {
+   "lemma": "talk",
+   "forms": [
+    "talk",
+    "talked"
+   ],
+   "translation": "розмовляти, розмова",
+   "transcription": "/tɔːk/"
+  },
+  {
+   "lemma": "teach",
+   "forms": [
+    "taught",
+    "teaches"
+   ],
+   "translation": "навчати",
+   "transcription": "/tiːtʃ/"
+  },
+  {
+   "lemma": "team",
+   "forms": [
+    "team",
+    "team's"
+   ],
+   "translation": "команда",
+   "transcription": "/tiːm/"
+  },
+  {
+   "lemma": "technical",
+   "forms": [
+    "technical"
+   ],
+   "translation": "технічний",
+   "transcription": "/ˈteknɪkl/"
+  },
+  {
+   "lemma": "tell",
+   "forms": [
+    "tells",
+    "told"
+   ],
+   "translation": "розповідати, казати",
+   "transcription": "/tel/"
+  },
+  {
+   "lemma": "ten",
+   "forms": [
+    "ten"
+   ],
+   "translation": "десять",
+   "transcription": "/ten/"
+  },
+  {
+   "lemma": "test",
+   "forms": [
+    "test",
+    "tests"
+   ],
+   "translation": "тест, перевіряти; тестовий",
+   "transcription": "/test/"
+  },
+  {
+   "lemma": "thank",
+   "forms": [
+    "thank"
+   ],
+   "translation": "дякувати",
+   "transcription": "/θæŋk/"
+  },
+  {
+   "lemma": "than",
+   "forms": [
+    "than"
+   ],
+   "translation": "ніж",
+   "transcription": "/ðæn/"
+  },
+  {
+   "lemma": "that",
+   "forms": [
+    "that"
+   ],
+   "translation": "що, той",
+   "transcription": "/ðæt/"
+  },
+  {
+   "lemma": "the",
+   "forms": [
+    "the"
+   ],
+   "translation": "означений артикль",
+   "transcription": "/ðə/"
+  },
+  {
+   "lemma": "their",
+   "forms": [
+    "their"
+   ],
+   "translation": "їхній",
+   "transcription": "/ðeə/"
+  },
+  {
+   "lemma": "them",
+   "forms": [
+    "them"
+   ],
+   "translation": "їх, їм",
+   "transcription": "/ðem/"
+  },
+  {
+   "lemma": "then",
+   "forms": [
+    "then"
+   ],
+   "translation": "потім, тоді",
+   "transcription": "/ðen/"
+  },
+  {
+   "lemma": "there",
+   "forms": [
+    "there"
+   ],
+   "translation": "там, туди",
+   "transcription": "/ðeə/"
+  },
+  {
+   "lemma": "these",
+   "forms": [
+    "these"
+   ],
+   "translation": "ці",
+   "transcription": "/ðiːz/"
+  },
+  {
+   "lemma": "they",
+   "forms": [
+    "they"
+   ],
+   "translation": "вони",
+   "transcription": "/ðeɪ/"
+  },
+  {
+   "lemma": "thick",
+   "forms": [
+    "thick"
+   ],
+   "translation": "товстий, щільний",
+   "transcription": "/θɪk/"
+  },
+  {
+   "lemma": "thing",
+   "forms": [
+    "thing",
+    "things"
+   ],
+   "translation": "річ, штука",
+   "transcription": "/θɪŋ/"
+  },
+  {
+   "lemma": "think",
+   "forms": [
+    "think",
+    "thinking"
+   ],
+   "translation": "думати",
+   "transcription": "/θɪŋk/"
+  },
+  {
+   "lemma": "third",
+   "forms": [
+    "third"
+   ],
+   "translation": "третій",
+   "transcription": "/θɜːd/"
+  },
+  {
+   "lemma": "third-party",
+   "forms": [
+    "third-party"
+   ],
+   "translation": "сторонній, від третьої сторони",
+   "transcription": "/ˌθɜːd ˈpɑːti/"
+  },
+  {
+   "lemma": "thirty",
+   "forms": [
+    "thirty"
+   ],
+   "translation": "тридцять",
+   "transcription": "/ˈθɜːti/"
+  },
+  {
+   "lemma": "this",
+   "forms": [
+    "this"
+   ],
+   "translation": "цей, це",
+   "transcription": "/ðɪs/"
+  },
+  {
+   "lemma": "thousand",
+   "forms": [
+    "thousand",
+    "thousands"
+   ],
+   "translation": "тисяча",
+   "transcription": "/ˈθaʊznd/"
+  },
+  {
+   "lemma": "three",
+   "forms": [
+    "three"
+   ],
+   "translation": "три",
+   "transcription": "/θriː/"
+  },
+  {
+   "lemma": "through",
+   "forms": [
+    "through"
+   ],
+   "translation": "через, крізь",
+   "transcription": "/θruː/"
+  },
+  {
+   "lemma": "time",
+   "forms": [
+    "time"
+   ],
+   "translation": "час, раз",
+   "transcription": "/taɪm/"
+  },
+  {
+   "lemma": "tip",
+   "forms": [
+    "tip"
+   ],
+   "translation": "порада, чайові",
+   "transcription": "/tɪp/"
+  },
+  {
+   "lemma": "to",
+   "forms": [
+    "to"
+   ],
+   "translation": "до, щоб, частка інфінітива",
+   "transcription": "/tuː/"
+  },
+  {
+   "lemma": "today",
+   "forms": [
+    "today"
+   ],
+   "translation": "сьогодні",
+   "transcription": "/təˈdeɪ/"
+  },
+  {
+   "lemma": "too",
+   "forms": [
+    "too"
+   ],
+   "translation": "також, занадто",
+   "transcription": "/tuː/"
+  },
+  {
+   "lemma": "tool",
+   "forms": [
+    "tool",
+    "tools"
+   ],
+   "translation": "інструмент",
+   "transcription": "/tuːl/"
+  },
+  {
+   "lemma": "topic",
+   "forms": [
+    "topic"
+   ],
+   "translation": "тема",
+   "transcription": "/ˈtɒpɪk/"
+  },
+  {
+   "lemma": "total",
+   "forms": [
+    "total"
+   ],
+   "translation": "загальний, сума",
+   "transcription": "/ˈtəʊtl/"
+  },
+  {
+   "lemma": "touch",
+   "forms": [
+    "touched"
+   ],
+   "translation": "торкатися, зачіпати",
+   "transcription": "/tʌtʃ/"
+  },
+  {
+   "lemma": "toy",
+   "forms": [
+    "toy"
+   ],
+   "translation": "іграшка; toy project — навчальний, несерйозний проєкт",
+   "transcription": "/tɔɪ/"
+  },
+  {
+   "lemma": "travel",
+   "forms": [
+    "travels"
+   ],
+   "translation": "подорожувати, поширюватися, рухатися",
+   "transcription": "/ˈtrævl/"
+  },
+  {
+   "lemma": "treat",
+   "forms": [
+    "treat"
+   ],
+   "translation": "ставитися до, розглядати; пригощати",
+   "transcription": "/triːt/"
+  },
+  {
+   "lemma": "trend",
+   "forms": [
+    "trends"
+   ],
+   "translation": "тенденція",
+   "transcription": "/trend/"
+  },
+  {
+   "lemma": "Tuesday",
+   "forms": [
+    "tuesday"
+   ],
+   "translation": "вівторок",
+   "transcription": "/ˈtjuːzdeɪ/"
+  },
+  {
+   "lemma": "turn",
+   "forms": [
+    "turned",
+    "turning"
+   ],
+   "translation": "повертати, ставати; turn out — виявитися",
+   "transcription": "/tɜːn/"
+  },
+  {
+   "lemma": "twelve",
+   "forms": [
+    "twelve"
+   ],
+   "translation": "дванадцять",
+   "transcription": "/twelv/"
+  },
+  {
+   "lemma": "twenty",
+   "forms": [
+    "twenty"
+   ],
+   "translation": "двадцять",
+   "transcription": "/ˈtwenti/"
+  },
+  {
+   "lemma": "twice",
+   "forms": [
+    "twice"
+   ],
+   "translation": "двічі",
+   "transcription": "/twaɪs/"
+  },
+  {
+   "lemma": "two",
+   "forms": [
+    "two"
+   ],
+   "translation": "два",
+   "transcription": "/tuː/"
+  },
+  {
+   "lemma": "type",
+   "forms": [
+    "typing"
+   ],
+   "translation": "друкувати, вводити",
+   "transcription": "/taɪp/"
+  },
+  {
+   "lemma": "uncomfortable",
+   "forms": [
+    "uncomfortable"
+   ],
+   "translation": "незручний",
+   "transcription": "/ʌnˈkʌmftəbl/"
+  },
+  {
+   "lemma": "under",
+   "forms": [
+    "under"
+   ],
+   "translation": "під",
+   "transcription": "/ˈʌndə/"
+  },
+  {
+   "lemma": "understand",
+   "forms": [
+    "understand",
+    "understanding",
+    "understood"
+   ],
+   "translation": "розуміти",
+   "transcription": "/ˌʌndəˈstænd/"
+  },
+  {
+   "lemma": "until",
+   "forms": [
+    "until"
+   ],
+   "translation": "до того як, доки",
+   "transcription": "/ənˈtɪl/"
+  },
+  {
+   "lemma": "use",
+   "forms": [
+    "use",
+    "used"
+   ],
+   "translation": "використовувати",
+   "transcription": "/juːz/"
+  },
+  {
+   "lemma": "useful",
+   "forms": [
+    "useful"
+   ],
+   "translation": "корисний",
+   "transcription": "/ˈjuːsfl/"
+  },
+  {
+   "lemma": "user",
+   "forms": [
+    "users"
+   ],
+   "translation": "користувач",
+   "transcription": "/ˈjuːzə/"
+  },
+  {
+   "lemma": "usually",
+   "forms": [
+    "usually"
+   ],
+   "translation": "зазвичай",
+   "transcription": "/ˈjuːʒuəli/"
+  },
+  {
+   "lemma": "value",
+   "forms": [
+    "value"
+   ],
+   "translation": "значення, цінність",
+   "transcription": "/ˈvæljuː/"
+  },
+  {
+   "lemma": "version",
+   "forms": [
+    "versions"
+   ],
+   "translation": "версія",
+   "transcription": "/ˈvɜːʃn/"
+  },
+  {
+   "lemma": "very",
+   "forms": [
+    "very"
+   ],
+   "translation": "дуже",
+   "transcription": "/ˈveri/"
+  },
+  {
+   "lemma": "volume",
+   "forms": [
+    "volume"
+   ],
+   "translation": "гучність, обсяг",
+   "transcription": "/ˈvɒljuːm/"
+  },
+  {
+   "lemma": "wait",
+   "forms": [
+    "wait",
+    "waited"
+   ],
+   "translation": "чекати",
+   "transcription": "/weɪt/"
+  },
+  {
+   "lemma": "walk",
+   "forms": [
+    "walk"
+   ],
+   "translation": "ходити, прогулянка; walk me through — докладно пояснити крок за кроком",
+   "transcription": "/wɔːk/"
+  },
+  {
+   "lemma": "want",
+   "forms": [
+    "wanted",
+    "wants"
+   ],
+   "translation": "хотіти",
+   "transcription": "/wɒnt/"
+  },
+  {
+   "lemma": "Warsaw",
+   "forms": [
+    "warsaw"
+   ],
+   "translation": "Варшава",
+   "transcription": "/ˈwɔːsɔː/"
+  },
+  {
+   "lemma": "way",
+   "forms": [
+    "way"
+   ],
+   "translation": "спосіб, шлях",
+   "transcription": "/weɪ/"
+  },
+  {
+   "lemma": "we",
+   "forms": [
+    "we"
+   ],
+   "translation": "ми",
+   "transcription": "/wiː/"
+  },
+  {
+   "lemma": "web",
+   "forms": [
+    "web"
+   ],
+   "translation": "вебмережа, павутина",
+   "transcription": "/web/"
+  },
+  {
+   "lemma": "website",
+   "forms": [
+    "website"
+   ],
+   "translation": "вебсайт",
+   "transcription": "/ˈwebsaɪt/"
+  },
+  {
+   "lemma": "Wednesday",
+   "forms": [
+    "wednesday"
+   ],
+   "translation": "середа",
+   "transcription": "/ˈwenzdeɪ/"
+  },
+  {
+   "lemma": "week",
+   "forms": [
+    "week",
+    "weeks"
+   ],
+   "translation": "тиждень",
+   "transcription": "/wiːk/"
+  },
+  {
+   "lemma": "weekend",
+   "forms": [
+    "weekend"
+   ],
+   "translation": "вихідні",
+   "transcription": "/ˌwiːkˈend/"
+  },
+  {
+   "lemma": "welcome",
+   "forms": [
+    "welcome"
+   ],
+   "translation": "ласкаво просимо, вітати; are welcome — бажані",
+   "transcription": "/ˈwelkəm/"
+  },
+  {
+   "lemma": "well",
+   "forms": [
+    "well"
+   ],
+   "translation": "добре, ну",
+   "transcription": "/wel/"
+  },
+  {
+   "lemma": "what",
+   "forms": [
+    "what"
+   ],
+   "translation": "що, який",
+   "transcription": "/wɒt/"
+  },
+  {
+   "lemma": "whatever",
+   "forms": [
+    "whatever"
+   ],
+   "translation": "що б не; що завгодно",
+   "transcription": "/wɒtˈevə/"
+  },
+  {
+   "lemma": "when",
+   "forms": [
+    "when"
+   ],
+   "translation": "коли",
+   "transcription": "/wen/"
+  },
+  {
+   "lemma": "where",
+   "forms": [
+    "where"
+   ],
+   "translation": "де, куди",
+   "transcription": "/weə/"
+  },
+  {
+   "lemma": "which",
+   "forms": [
+    "which"
+   ],
+   "translation": "який, котрий",
+   "transcription": "/wɪtʃ/"
+  },
+  {
+   "lemma": "whiteboard",
+   "forms": [
+    "whiteboard"
+   ],
+   "translation": "біла дошка",
+   "transcription": "/ˈwaɪtbɔːd/"
+  },
+  {
+   "lemma": "who",
+   "forms": [
+    "who"
+   ],
+   "translation": "хто",
+   "transcription": "/huː/"
+  },
+  {
+   "lemma": "whole",
+   "forms": [
+    "whole"
+   ],
+   "translation": "цілий",
+   "transcription": "/həʊl/"
+  },
+  {
+   "lemma": "why",
+   "forms": [
+    "why"
+   ],
+   "translation": "чому",
+   "transcription": "/waɪ/"
+  },
+  {
+   "lemma": "will",
+   "forms": [
+    "will"
+   ],
+   "translation": "буде (майбутній час), воля",
+   "transcription": "/wɪl/"
+  },
+  {
+   "lemma": "window",
+   "forms": [
+    "window"
+   ],
+   "translation": "вікно",
+   "transcription": "/ˈwɪndəʊ/"
+  },
+  {
+   "lemma": "winter",
+   "forms": [
+    "winter"
+   ],
+   "translation": "зима",
+   "transcription": "/ˈwɪntə/"
+  },
+  {
+   "lemma": "with",
+   "forms": [
+    "with"
+   ],
+   "translation": "з, разом із",
+   "transcription": "/wɪð/"
+  },
+  {
+   "lemma": "within",
+   "forms": [
+    "within"
+   ],
+   "translation": "в межах, протягом",
+   "transcription": "/wɪðˈɪn/"
+  },
+  {
+   "lemma": "without",
+   "forms": [
+    "without"
+   ],
+   "translation": "без",
+   "transcription": "/wɪðˈaʊt/"
+  },
+  {
+   "lemma": "word",
+   "forms": [
+    "word"
+   ],
+   "translation": "слово",
+   "transcription": "/wɜːd/"
+  },
+  {
+   "lemma": "work",
+   "forms": [
+    "work",
+    "worked",
+    "working"
+   ],
+   "translation": "працювати, робота",
+   "transcription": "/wɜːk/"
+  },
+  {
+   "lemma": "would",
+   "forms": [
+    "would"
+   ],
+   "translation": "б (умовний спосіб), колись",
+   "transcription": "/wʊd/"
+  },
+  {
+   "lemma": "write",
+   "forms": [
+    "write",
+    "writes",
+    "written",
+    "wrote"
+   ],
+   "translation": "писати",
+   "transcription": "/raɪt/"
+  },
+  {
+   "lemma": "wrong",
+   "forms": [
+    "wrong"
+   ],
+   "translation": "неправильний, помилковий",
+   "transcription": "/rɒŋ/"
+  },
+  {
+   "lemma": "year",
+   "forms": [
+    "years"
+   ],
+   "translation": "рік",
+   "transcription": "/jɪə/"
+  },
+  {
+   "lemma": "yesterday",
+   "forms": [
+    "yesterday"
+   ],
+   "translation": "вчора",
+   "transcription": "/ˈjestədeɪ/"
+  },
+  {
+   "lemma": "yet",
+   "forms": [
+    "yet"
+   ],
+   "translation": "ще, все ж",
+   "transcription": "/jet/"
+  },
+  {
+   "lemma": "you",
+   "forms": [
+    "you"
+   ],
+   "translation": "ти, ви",
+   "transcription": "/juː/"
+  },
+  {
+   "lemma": "young",
+   "forms": [
+    "young"
+   ],
+   "translation": "молодий",
+   "transcription": "/jʌŋ/"
+  },
+  {
+   "lemma": "your",
+   "forms": [
+    "your"
+   ],
+   "translation": "твій, ваш",
+   "transcription": "/jɔː/"
+  },
+  {
+   "lemma": "yourself",
+   "forms": [
+    "yourself"
+   ],
+   "translation": "ти сам, себе",
+   "transcription": "/jɔːˈself/"
+  },
+  {
+   "lemma": "try",
+   "forms": [
+    "try",
+    "tried"
+   ],
+   "translation": "пробувати, намагатися",
+   "transcription": "/traɪ/"
+  }
+ ],
+ "untranslated": [
+  "dan",
+  "marta",
+  "olek"
+ ]
+}
