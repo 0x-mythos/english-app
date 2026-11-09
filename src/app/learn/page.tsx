@@ -7,6 +7,7 @@ import { ArrowLeftIcon, SparkIcon, SpeakerIcon } from "@/components/icons";
 import type { DrillView } from "@/lib/grammar/drills";
 import { clozeMatches } from "@/lib/srs/session";
 import { api, tgInit } from "@/lib/tg-client";
+import { formatIpa } from "@/lib/ipa";
 
 type Grade = 1 | 2 | 3 | 4;
 type SessionCard = {
@@ -307,7 +308,7 @@ function WordLine({ card }: { card: SessionCard }) {
           <SpeakerIcon className="size-5" />
         </button>
       </div>
-      {card.transcription && <span className="font-mono text-[14px] text-muted">/{card.transcription}/</span>}
+      {card.transcription && <span className="text-[14px] text-muted">{formatIpa(card.transcription)}</span>}
     </div>
   );
 }

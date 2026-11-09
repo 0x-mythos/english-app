@@ -4,6 +4,7 @@ import { forwardRef, useState } from "react";
 import { PlusIcon } from "@/components/icons";
 import { OWN_WORD_LIMIT_MESSAGE } from "@/lib/own-word-limit";
 import { api } from "@/lib/tg-client";
+import { formatIpa } from "@/lib/ipa";
 
 export type Lookup =
   | { status: "loading" }
@@ -60,7 +61,7 @@ export const WordPanel = forwardRef<
       <div className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 flex-col gap-0.5">
           <span className="font-display text-[22px] font-semibold leading-tight">{word}</span>
-          {transcription && <span className="text-[14px] text-muted">[{transcription}]</span>}
+          {transcription && <span className="text-[14px] text-muted">{formatIpa(transcription)}</span>}
         </div>
         <button
           type="button"

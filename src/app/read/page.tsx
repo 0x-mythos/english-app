@@ -191,7 +191,7 @@ function Reader({ view, read, onToggleRead }: { view: View; read: boolean; onTog
                   key={t.start}
                   type="button"
                   onClick={(e) => tap(e.currentTarget, t.text, t.start)}
-                  className={`inline-block h-8 rounded-md px-0.5 align-baseline leading-8 transition-colors ${
+                  className={`-mx-0.5 inline-block h-8 rounded-md px-0.5 align-baseline leading-8 transition-colors ${
                     sel?.start === t.start
                       ? "bg-mint/30"
                       : "hover:bg-mint/15"

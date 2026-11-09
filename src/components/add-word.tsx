@@ -4,6 +4,7 @@ import { useState } from "react";
 import { PlusIcon } from "@/components/icons";
 import { OWN_WORD_LIMIT_MESSAGE } from "@/lib/own-word-limit";
 import { api } from "@/lib/tg-client";
+import { formatIpa } from "@/lib/ipa";
 
 type Card = { word: string; translation: string; transcription: string; example: string };
 type Result = { status: "added" | "exists"; card: Card };
@@ -102,7 +103,7 @@ export function AddWord({ onAdded }: { onAdded?: () => void }) {
           </span>
           <span className="flex flex-wrap items-baseline gap-x-2">
             <span className="font-display text-[18px] font-semibold">{result.card.word}</span>
-            {result.card.transcription && <span className="font-mono text-[13px] text-muted">[{result.card.transcription}]</span>}
+            {result.card.transcription && <span className="text-[13px] text-muted">{formatIpa(result.card.transcription)}</span>}
           </span>
           <span className="text-[15px]">{result.card.translation}</span>
           {result.card.example && <span className="text-[14px] italic leading-snug text-muted">{result.card.example}</span>}
