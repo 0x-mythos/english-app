@@ -53,6 +53,14 @@ npm run dev
 
 In development, opening the app outside Telegram signs you in as a test user, so use a separate Supabase project rather than one with real data.
 
+To use the bot, set `PUBLIC_URL` to the app's public https address and register the webhook with the same `CRON_SECRET`. The webhook is refused while the secret is missing.
+
+```bash
+curl "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/setWebhook"   -d "url=$PUBLIC_URL/api/bot" -d "secret_token=$CRON_SECRET"
+```
+
+Run the tests:
+
 ```bash
 npm test
 ```

@@ -68,7 +68,8 @@ export async function POST(req: Request) {
   const reading = scoreReading(readingText.level, readingAnswers);
   // Письмо оцінює Claude не частіше разу на добу; повторний тест за добу лишає попередню оцінку
   const { data: previous } = await db.from("skill_profile").select("tested_at, writing_level").eq("user_id", user.id).maybeSingle();
-  const writing = canAssessWriting(previous?.tested_at, new Date()) ? await assessWriting(writingText) : null;
+  // Обмежуємо лише після успішної оцінки: збій Claude не блокує повторну спробу
+  const writing = canAssessWriting(previous?.writing_level ? previous.tested_at : null, new Date()) ? await assessWriting(writingText) : null;
 
   const now = new Date().toISOString();
   const profile = {
