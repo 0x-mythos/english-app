@@ -1,4 +1,4 @@
-// Заливає data/words/*.json у таблицю words (upsert за word+set_name — можна запускати повторно). Запуск з app/:
+// Заливає data/words/*.json у таблицю words (upsert за word+set_name — можна запускати повторно). Запуск:
 //   node --env-file=.env.local scripts/seed-words.mjs
 import { createClient } from "@supabase/supabase-js";
 import { readFileSync } from "node:fs";

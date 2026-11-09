@@ -26,9 +26,9 @@ The interface is in Ukrainian, because that is who it is for. The content focuse
 
 - **The server does the scoring.** Test scores and answer checks run on the server from raw answers. The client never receives correct answers, and word IDs in the vocabulary test are hashes, so they can't reveal which words are fake.
 - **Telegram login is verified.** Each request carries Telegram `initData`, checked by HMAC. Bot, database and Anthropic keys stay on the server.
-- **AI output is treated as untrusted.** Claude responds through a JSON schema, and the parser drops any correction that quotes text the user didn't write. Conversation and own-word calls have daily limits per user.
+- **AI output is treated as untrusted.** Claude responds through a JSON schema, and the parser drops any correction that quotes text the user didn't write. Conversation, own-word and writing-assessment calls have per-user limits.
 - **AI is used only where it adds value at runtime.** Word sets, exercises and texts are generated once and stored as JSON files, with schema and coverage tests. Runtime calls are limited to conversation, the writing assessment and completing your own words.
-- **Pure logic, tested.** FSRS sessions, placement scoring, drill selection and tokenising are plain functions in `src/lib`, covered by 189 Vitest tests.
+- **Pure logic, tested.** FSRS sessions, placement scoring, drill selection and tokenising are plain functions in `src/lib`, covered by 194 Vitest tests.
 - **Evidence-based by design.** Personalisation uses measured level, weak skills, goals and time, not "learning styles". There are no hearts, leagues or paywalls, and the streak is forgiving, with freezes.
 
 ## Stack

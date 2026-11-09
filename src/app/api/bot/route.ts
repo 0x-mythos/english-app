@@ -1,14 +1,16 @@
 import { Bot, InlineKeyboard, webhookCallback } from "grammy";
 import { db } from "@/lib/supabase";
 import { parseTime } from "@/lib/srs/reminders";
+import { publicUrl } from "@/lib/srs/remind-runner";
 import { normalizeOwnWord } from "@/lib/own-word";
 import { addOwnWord } from "@/lib/own-word-server";
 import { OWN_WORD_LIMIT_MESSAGE } from "@/lib/own-word-limit";
 
 const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN!);
-let appUrl = "";
 
 bot.command("start", async (ctx) => {
+  // Адреса лише з конфігурації сервера: заголовки запиту може підробити будь-хто
+  const appUrl = publicUrl();
   const keyboard = appUrl ? new InlineKeyboard().webApp("Відкрити", appUrl) : undefined;
   await ctx.reply(
     "Привіт! Тут ти вчиш англійську під себе: короткий тест рівня, картки з інтервальним повторенням і розмова з AI. Тисни «Відкрити» або кнопку меню зліва від поля вводу.\n\nПобачив незнайоме слово — просто надішли його сюди, і я зроблю з нього картку.",
@@ -80,11 +82,11 @@ bot.on("message:text", async (ctx) => {
   return ctx.reply(lines.filter(Boolean).join("\n"));
 });
 
-const handle = webhookCallback(bot, "std/http", { secretToken: process.env.CRON_SECRET });
+// Без секрету grammY не перевіряє заголовок Telegram, тому такий webhook не обслуговуємо зовсім.
+const secret = process.env.CRON_SECRET;
+const handle = secret ? webhookCallback(bot, "std/http", { secretToken: secret }) : null;
 
 export async function POST(req: Request) {
-  // Telegram стукає через тунель → його хост і є публічна адреса застосунку (quick tunnel міняє її при рестарті)
-  const host = req.headers.get("x-forwarded-host") ?? req.headers.get("host");
-  if (host && !host.startsWith("127.0.0.1") && !host.startsWith("localhost")) appUrl = `https://${host}`;
+  if (!handle) return new Response("webhook secret is not configured", { status: 503 });
   return handle(req);
 }

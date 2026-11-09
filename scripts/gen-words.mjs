@@ -1,4 +1,4 @@
-// Генерує набори слів через Claude → data/words/{everyday,it}.json. Запуск з app/:
+// Генерує набори слів через Claude → data/words/{everyday,it}.json. Запуск:
 //   node --env-file=.env.local scripts/gen-words.mjs [everyday|it]
 // Батчі, які вже є у файлі, пропускає — можна перезапускати після збою.
 import Anthropic from "@anthropic-ai/sdk";

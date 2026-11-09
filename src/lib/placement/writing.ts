@@ -45,3 +45,12 @@ export function parseWritingResult(raw: string): WritingResult | null {
   }
   return { cefr: d.cefr as WritingCefr, errors };
 }
+
+const WRITING_COOLDOWN_MS = 24 * 60 * 60 * 1000;
+
+/** Claude оцінює письмо не частіше разу на добу. Без дати або з кривою датою попереднього тесту оцінка дозволена. */
+export function canAssessWriting(testedAt: string | null | undefined, now: Date): boolean {
+  if (!testedAt) return true;
+  const last = Date.parse(testedAt);
+  return Number.isNaN(last) || now.getTime() - last >= WRITING_COOLDOWN_MS;
+}

@@ -1,3 +1,4 @@
+import { canAssessWriting } from "./writing";
 import { describe, expect, it } from "vitest";
 import { publicVocabItems, scoreVocab, VOCAB_ITEMS, vocabCefr } from "./vocab";
 import {
@@ -152,5 +153,16 @@ describe("writing", () => {
     expect(parseWritingResult("no json")).toBeNull();
     expect(parseWritingResult('{"cefr":"X9","errors":[]}')).toBeNull();
     expect(parseWritingResult('{"cefr":"B2","errors":[{"original":"a"}, "str", null]}')).toEqual({ cefr: "B2", errors: [] });
+  });
+});
+
+describe("canAssessWriting", () => {
+  const now = new Date("2026-11-09T12:00:00Z");
+  it("allows the first test and a test after a day", () => {
+    expect(canAssessWriting(null, now)).toBe(true);
+    expect(canAssessWriting("2026-11-08T12:00:00Z", now)).toBe(true);
+  });
+  it("blocks a repeat within a day", () => {
+    expect(canAssessWriting("2026-11-09T01:00:00Z", now)).toBe(false);
   });
 });

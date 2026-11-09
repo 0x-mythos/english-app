@@ -6,7 +6,7 @@ import { GRAMMAR_QUESTIONS_TOTAL, scoreGrammar, validateHistory } from "@/lib/pl
 import { readingTextFor, scoreReading } from "@/lib/placement/reading";
 import { scoreVocab } from "@/lib/placement/vocab";
 import {
-  parseWritingResult, WRITING_MAX_CHARS, WRITING_MIN_CHARS, WRITING_SYSTEM, writingUserMessage, type WritingResult,
+  canAssessWriting, parseWritingResult, WRITING_MAX_CHARS, WRITING_MIN_CHARS, WRITING_SYSTEM, writingUserMessage, type WritingResult,
 } from "@/lib/placement/writing";
 
 const GOALS = ["it", "everyday"];
@@ -66,7 +66,9 @@ export async function POST(req: Request) {
   const grammar = scoreGrammar(body.grammar);
   const readingText = readingTextFor(grammar.level);
   const reading = scoreReading(readingText.level, readingAnswers);
-  const writing = await assessWriting(writingText);
+  // Письмо оцінює Claude не частіше разу на добу; повторний тест за добу лишає попередню оцінку
+  const { data: previous } = await db.from("skill_profile").select("tested_at, writing_level").eq("user_id", user.id).maybeSingle();
+  const writing = canAssessWriting(previous?.tested_at, new Date()) ? await assessWriting(writingText) : null;
 
   const now = new Date().toISOString();
   const profile = {
@@ -74,7 +76,7 @@ export async function POST(req: Request) {
     vocab_size_est: vocab.size,
     grammar_level: grammar.level,
     reading_level: reading.level,
-    writing_level: writing?.cefr ?? null,
+    writing_level: writing?.cefr ?? previous?.writing_level ?? null,
     weak_topics: grammar.weakTopics,
     tested_at: now,
     updated_at: now,
