@@ -79,4 +79,4 @@ scripts/          word generation and seeding
 
 ## Status
 
-A personal project that I use myself and still develop. There is no public instance, and no licence is granted yet: the code is here to read.
+A personal project that I use myself. This repository is a read-only snapshot, and development continues privately. There is no public instance, and no licence is granted: the code is here to read.
