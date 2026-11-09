@@ -1,4 +1,5 @@
 import "server-only";
+import { isAllowedUser } from "@/lib/access";
 import { db } from "@/lib/supabase";
 import { verifyInitData, type TelegramUser } from "@/lib/telegram-auth";
 
@@ -8,7 +9,7 @@ const DEV_USER: TelegramUser = { id: 1, first_name: "Dev" };
 export function resolveTgUser(initData: string): TelegramUser | null {
   if (!initData && process.env.NODE_ENV === "development") return DEV_USER;
   const r = verifyInitData(initData, process.env.TELEGRAM_BOT_TOKEN!);
-  return r.ok ? r.user : null;
+  return r.ok && isAllowedUser(r.user.id) ? r.user : null;
 }
 
 /** Користувач з заголовка `x-tg-init-data` → рядок `users` (створює, якщо нема). null = не автентифікований. */

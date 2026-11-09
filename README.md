@@ -26,9 +26,10 @@ The interface is in Ukrainian, because that is who it is for. The content focuse
 
 - **The server does the scoring.** Test scores and answer checks run on the server from raw answers. The client never receives correct answers, and word IDs in the vocabulary test are hashes, so they can't reveal which words are fake.
 - **Telegram login is verified.** Each request carries Telegram `initData`, checked by HMAC. Bot, database and Anthropic keys stay on the server.
+- **Private by default.** Only Telegram IDs in `ALLOWED_TELEGRAM_IDS` get in. Everyone else is refused before the database or Claude, and an empty list in production refuses everyone.
 - **AI output is treated as untrusted.** Claude responds through a JSON schema, and the parser drops any correction that quotes text the user didn't write. Conversation, own-word and writing-assessment calls have per-user limits.
 - **AI is used only where it adds value at runtime.** Word sets, exercises and texts are generated once and stored as JSON files, with schema and coverage tests. Runtime calls are limited to conversation, the writing assessment and completing your own words.
-- **Pure logic, tested.** FSRS sessions, placement scoring, drill selection and tokenising are plain functions in `src/lib`, covered by 194 Vitest tests.
+- **Pure logic, tested.** FSRS sessions, placement scoring, drill selection and tokenising are plain functions in `src/lib`, covered by 198 Vitest tests.
 - **Evidence-based by design.** Personalisation uses measured level, weak skills, goals and time, not "learning styles". There are no hearts, leagues or paywalls, and the streak is forgiving, with freezes.
 
 ## Stack
@@ -41,7 +42,7 @@ You need Node 22+, a Supabase project, a Telegram bot token and an Anthropic API
 
 ```bash
 npm ci
-cp .env.example .env.local   # fill in the keys
+cp .env.example .env.local   # fill in the keys and your Telegram ID
 ```
 
 Apply `supabase/migrations/` in order in the Supabase SQL Editor, then load the words and start the app:

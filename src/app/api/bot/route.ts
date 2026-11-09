@@ -1,4 +1,5 @@
 import { Bot, InlineKeyboard, webhookCallback } from "grammy";
+import { isAllowedUser } from "@/lib/access";
 import { db } from "@/lib/supabase";
 import { parseTime } from "@/lib/srs/reminders";
 import { publicUrl } from "@/lib/srs/remind-runner";
@@ -7,6 +8,12 @@ import { addOwnWord } from "@/lib/own-word-server";
 import { OWN_WORD_LIMIT_MESSAGE } from "@/lib/own-word-limit";
 
 const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN!);
+
+// Перший обробник: чужі апдейти не доходять ні до бази, ні до Claude
+bot.use(async (ctx, next) => {
+  if (ctx.from && isAllowedUser(ctx.from.id)) return next();
+  if (ctx.from && ctx.chat?.type === "private") await ctx.reply(`Це приватний бот. Твій Telegram ID: ${ctx.from.id}`);
+});
 
 bot.command("start", async (ctx) => {
   // Адреса лише з конфігурації сервера: заголовки запиту може підробити будь-хто
